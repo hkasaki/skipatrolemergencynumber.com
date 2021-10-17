@@ -1,6 +1,6 @@
 # Ski Patrol Emergency Number
 
-[Readme in English](./Readme.md)
+[Readme in English](https://github.com/hkasaki/skipatrolemergencynumber.com/blob/main/README.md)
 
 ## はじめに
 
