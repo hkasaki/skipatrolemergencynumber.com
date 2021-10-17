@@ -1,0 +1,209 @@
+
+body {
+    height: 100vh;
+    height: calc(var(--vh, 1vh) * 100);
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    overflow: hidden;
+    margin: 0;
+    font-family: 'Meiryo', sans-serif;
+    /*background-color: #0060F0;*/
+    /*background-color: #005050;*/
+    background: linear-gradient(to top right, #292E49, #536976);
+    color: #D0D0D0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+p {
+    padding-top: 0.75em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+p:last-child {
+    padding-bottom: 5em;
+}
+
+h3 {
+    padding-top: 0.75em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+header {
+    height: 3em;
+    background-color: #000000;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header-title {
+    margin-top: 0.8em;
+    margin-left: 0.8em;
+    margin-right: auto;
+    font-size: 1em;
+    /*
+    margin-top: 0.6em;
+    margin-left: 0.4em;
+    margin-right: auto;
+    font-size: 1.2em;
+    */
+}
+
+.header-menu {
+    margin-top: 0.2em;
+    margin-right: 0.4em;
+}
+
+.menu-image {
+    height: 2.6em;
+    width: 2.6em;
+}
+
+#main-content {
+}
+
+#mapview {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    height: 100%;
+}
+
+#mapview-list {
+    height: calc(50vh - 3em - 10px);
+    width: calc(100vw - 10px);
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    row-gap: 5px;
+    padding: 5px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.mapview-list-element {
+    width: calc(100vw - 10px);
+    background-color: #000000;
+}
+
+#mapview-map {
+    height: calc(50vh);
+    width: 100vw;
+}
+
+.mapview-list-element-resort-name {
+    padding: 5px;
+    font-size: 1.75em;
+}
+
+#resortview {
+    height: calc(100vh - 3em);
+    overflow-y: auto;
+}
+
+.common-content-wrap {
+    background-color: #000000;
+    width: 92vw;
+    margin-top: 4vw;
+    margin-left: 4vw;
+    margin-right: 4vw;
+}
+
+#resortview-title-name {
+    padding: 0.5em;
+    font-size: 1.75em;
+}
+
+#resortview-tel-list {
+    display: grid;
+    grid-template: calc(43vw + 3em) / 43vw 43vw;
+    column-gap: 6vw;
+    padding-top: 4vw;
+    padding-left: 4vw;
+    padding-right: 4vw;
+}
+
+.resortview-tel-list-element {
+    background-color: #000000;
+}
+
+.resortview-message {
+    padding: 0.5em;
+}
+
+.phone-image {
+    width: calc(43vw - 1em);
+    height: calc(43vw - 1em);
+    padding-left: 0.5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+.phone-title {
+    text-align: center;
+    text-decoration: none;
+}
+
+.phone-number {
+    text-align: center;
+    text-decoration: none;
+}
+
+#resortview-link-list {
+    display: grid;
+    grid-template: 3em / 43vw 43vw;
+    column-gap: 5vw;
+    padding-top: 4vw;
+    padding-left: 4vw;
+    padding-right: 4vw;
+}
+
+.resortview-link-list-element {
+    background-color: #000000;
+}
+
+.link-image {
+    width: 2em;
+    height: 2em;
+    padding-left: 0.5em;
+    padding-top: 0.5em;
+    padding-right: 0.5em;
+    float: left;
+}
+
+.link-title {
+    padding-top: 0.8em;
+}
+
+#resortview-tree-content {
+    padding: 0.5em;
+}
+
+.resortview-tree-link {
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 1em;
+}
+
+.listview {
+    height: calc(100vh - 3em);
+    overflow-y: auto;
+}
+
+select {
+    margin: 1em;
+    padding: 0.5em;
+    font-size: 1.2em;
+    max-width: calc(92vw - 2em);
+}
+
+#configview {
+    height: calc(100vh - 3em);
+    overflow-y: auto;
+}

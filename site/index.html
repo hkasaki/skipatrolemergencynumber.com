@@ -1,0 +1,102 @@
+<html prefix="og: https://ogp.me/ns#">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>Ski Patrol Emergency Number</title>
+        <meta name="description" content="Site to find ski patrol's emergency phone number. Currently Japanese ski resorts are supported.">
+        <meta property="og:title" content="Ski Patrol Emergency Number">
+        <meta property="og:locale" content="en_US">
+        <meta property="og:locale:alternate" content="ja_JP">
+        <meta property="og:description" content="Site to find ski patrol's emergency phone number. Currently Japanese ski resorts are supported.">
+        <meta property="og:url" content="https://skipatrolemergencyumber.com/">
+        <meta property="og:image" content="https://skipatrolemergencynumber.com/favicon180x180.png">
+        <meta property="og:type" content="website">
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:site" content="@skipatrolphones">
+        <link rel="icon" href="favicon.ico">
+        <link rel="apple-touch-icon" href="favicon180x180.png">        
+        <link rel="stylesheet" href="ol/ol.css">
+        <link rel="stylesheet" href="spen.css?v=4">
+
+        <!-- in fact we should build OpenLayers... -->
+        <script src="ol/ol.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/geolib@3.3.1/lib/index.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+        <script src="spen-i18n.js?v=4"></script>
+        <script src="spen-map.js?v=4"></script>
+        <script src="spen-datasource.js?v=4"></script>
+        <script src="spen-registry.js?v=4"></script>
+        <script src="spen-view-map.js?v=4"></script>
+        <script src="spen-view-list.js?v=4"></script>
+        <script src="spen-view-resort.js?v=4"></script>
+        <script src="spen-view-config.js?v=4"></script>
+        <script src="spen.js?v=4"></script>
+    </head>
+    <body>
+        <header>
+            <span class="header-title">Ski Patrol Emergency Number</span>
+            <span class="header-menu" id="menu-map"><img class="menu-image" src="image/icoon-mono-10986-marker-D0D0D0.svg"></span>
+            <span class="header-menu" id="menu-list"><img class="menu-image" src="image/icoon-mono-12586-menu-D0D0D0.svg"></span>
+            <span class="header-menu" id="menu-config"><img class="menu-image" src="image/icoon-mono-10194-gear-D0D0D0.svg"></span>
+        </header>
+        <div id="main-content">
+            <div id="mapview">
+                <div id="mapview-map"></div>
+                <div id="mapview-list"></div>
+            </div>
+            <div id="resortview" style="display: none;">
+                <div id="resortview-title" class="common-content-wrap">
+                    <div id="resortview-title-name"></div>
+                </div>
+                <div id="resortview-tel-list"></div>
+                <div id="resortview-tel-not-found" class="common-content-wrap">
+                    <div id="resortview-tel-not-found-message" class="resortview-message"></div>
+                </div>
+                <div id="resortview-link-list"></div>
+                <div id="resortview-link-not-found" class="common-content-wrap">
+                    <div id="resortview-link-not-found-message" class="resortview-message"></div>
+                </div>
+                <div id="resortview-tree" class="common-content-wrap">
+                    <div id="resortview-tree-content"></div>
+                </div>
+            </div>
+            <div id="listview">
+                <div id="listview-group" class="common-content-wrap">
+                    <select id="listview-group-select"></select>
+                </div>
+                <div id="listview-group-member" class="common-content-wrap">
+                    <select id="listview-group-member-select"></select>
+                </div>
+            </div>
+            <div id="configview">
+                <div id="configview-language" class="common-content-wrap">
+                    <select id="configview-language-select">
+                        <option value="#none">Select Language</option>
+                        <option value="ja">Japanese</option>
+                        <option value="en">English</option>
+                    </select>
+                </div>
+                <div id="configview-description-en" class="common-content-wrap">
+                    <h3>Non-urgent Read</h3>
+                    <p>If you are an experienced skier or snowboarder, you probably have had an opportunity to call patrols of the snow resort. At that time, did you prepare the emergency phone number in advance? Or could you find it easily and made a phone call to them?</p>
+                    <p>Yes, in fact, I had fallen into this situation several times. But I had not prepared it at all. At those times, I luckily found people who are willing to help the injured guy with me. Or that was when I enjoyed skiing with my friends so we cloud split up to care him and to go down the slope to call patrols.</p>
+                    <p>After struggling at the scenes of accidents several times, I found it difficult to find ski patrol's phone numbers quickly. I live in Japan and I ski only in Japan. Japanese snow resorts are very safety-oriented and I sometimes feel them even overprotective, but the accessibility to ski patrol is limited. Of course I know, I should have prepared the emergency phone number in the morning and start to get on the lift. And my friends of serious skiers make it a habit. But what if the ski patrol's phone number is not available? The printed piste map may not be found in your next ski trip. I dug so many Japanese ski resort's websites but only less than 10% of them clearly shows the patrol phone numbers.</p>
+                    <p>Some smartphone apps for skiers or snowboarders may have an SOS call button. If you are a kind of skibum of 50+ days like me, install them. This is so nice but not all the people will install them.</p>
+                    <p>So I started making a database to make the accessibility to ski patrols easier. You can find ski resorts phone numbers from your present location, beginners or experts. If those people who are not prepared for this kind of trouble face such a situation, they will google "ski patrol emergency number" with their smartphones. And I wish this database will help them.</p>
+                    <p>This database is public and free to use. Licensed under CC SA-BY. Reuse of this database is welcome. Cooperation is super-welcome.</p>
+                    <p>Hirotaka KASAKI</p>
+                </div>
+                <div id="configview-description-ja" class="common-content-wrap">
+                    <h3>急ぎでないときの読み物</h3>
+                    <p>スキーやスノーボードをよくする方なら、スキー場でパトロールに電話をかけたことがあると思います。その時、パトロールの電話番号は用意してあったでしょうか。または、その番号をすぐに見つけて電話をかけることができたでしょうか。</p>
+                    <p>自分には今まで何度かその機会がありましたが、正直なところ、全く用意していませんでした。そういう時は自分と一緒に、怪我をした人を助けようとしてくれる人がいたりしました。友人と一緒にスキーをしていた時には、救護とパトロールを呼びに行くのを手分けして対応したこともあります。</p>
+                    <p>こういう事故現場で慌てることが何度かあり、スキー場のパトロールの電話番号というのはすぐに見つけるのが難しいということがわかってきました。自分は日本に住んでいて、スキーに行くのも日本だけです。日本のスキー場は非常に安全志向で、時に過保護とさえ感じることがありますが、スキーパトロールへのアクセスがあまりいいとは言えません。もちろん本当は朝、パトロールの電話番号を電話帳に登録してからリフトに乗るべきです。自分の友人のちゃんとした人たちはそういう習慣があるものと思います。でも、もしスキーパトロールの電話番号がわからなかったらどうしましょうか。紙のゲレンデマップがいつも手に入るとは限りません。沢山の日本のスキー場のホームページをほじくり返しましたが、パトロールの電話番号を見つけられたのは10%以下でした。</p>
+                    <p>また、スキーヤーやスノーボーダー向けのスマートフォンアプリの中には、SOSコールボタンが付いているものもあります。自分のようにx0日以上スキーをしちゃったりする人は、ぜひインストールしてください。SOSコールボタンがあるのはとても素晴らしいことですが、すべての人がアプリをインストールするわけではないですよね。</p>
+                    <p>そこで、パトロールへのアクセスを容易にするためのデータベースを作り始めました。初心者だろうが上級者だろうが関係なく、現在地からスキー場の電話番号を探すことができます。事前に準備していなかった人がこういうトラブルに遭った場合、スマートフォンで "ski patrol emergency number" (「スキー パトロール 緊急 電話」)などと検索すると思います。そんな時、このデータベースが役に立ったらうれしく思います。</p>
+                    <p>このデータベースは公開されており、無料で利用できます。CC SA-BYでライセンスされています。このデータベースの再利用を歓迎します。協力は超歓迎です。</p>
+                    <p>笠木 宏隆</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

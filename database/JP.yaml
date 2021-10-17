@@ -1,0 +1,4567 @@
+
+# License: CC BY-SA
+# Copyright (c) Hirotaka KASAKI
+
+# Note about Japanese Copyright Act:
+# 日本の著作権法上、創造性のある著作物と認められるかは判断が分かれる
+# 可能性のある部分ではあるが、親子関係を用いたスキー場のツリー表示、
+# 連絡先にフォーカスしたDBの作り方など本DBには独自な部分があるため、
+# 一応上記の著作物としての主張をしておく。
+# この主張は、あくまで本DBを再利用するために必要なライセンス上の混乱が
+# 生じないよう配慮したものであり、オープンな利用を歓迎する。
+#
+# Note about the Format:
+#   Lng/Lat is WGS84(EPSG:4326)
+# 
+
+ResortGroups:
+
+  Hokkaido:
+    Name:
+      ja: 北海道のスキー場
+      en: Ski Resorts in Hokkaido
+
+  Aomori:
+    Name:
+      ja: 青森県のスキー場
+      en: Ski Resorts in Aomori
+
+  Iwate:
+    Name:
+      ja: 岩手県のスキー場
+      en: Ski Resorts in Iwate
+
+  Akita:
+    Name:
+      ja: 秋田県のスキー場
+      en: Ski Resorts in Akita
+
+  Miyagi:
+    Name:
+      ja: 宮城県のスキー場
+      en: Ski Resorts in Miyagi
+
+  Yamagata:
+    Name:
+      ja: 山形県のスキー場
+      en: Ski Resorts in Yamagata
+
+  Fukushima:
+    Name:
+      ja: 福島県のスキー場
+      en: Ski Resorts in Fukushima
+
+  Tochigi:
+    Name:
+      ja: 栃木県のスキー場
+      en: Ski Resorts in Tochigi
+
+  Gunma:
+    Name:
+      ja: 群馬県のスキー場
+      en: Ski Resorts in Gunma
+
+  Niigata:
+    Name:
+      ja: 新潟県のスキー場
+      en: Ski Resorts in Niigata
+
+  Nagano:
+    Name:
+      ja: 長野県のスキー場
+      en: Ski Resorts in Nagano
+
+  Yamanashi:
+    Name:
+      ja: 山梨県のスキー場
+      en: Ski Resorts in Yamanashi
+
+  Shizuoka:
+    Name:
+      ja: 静岡県のスキー場
+      en: Ski Resorts in Shizuoka
+
+  Aichi:
+    Name:
+      ja: 愛知県のスキー場
+      en: Ski Resorts in Aichi
+
+  Gifu:
+    Name:
+      ja: 岐阜県のスキー場
+      en: Ski Resorts in Gifu
+
+  Ishikawa:
+    Name:
+      ja: 石川県のスキー場
+      en: Ski Resorts in Ishikawa
+
+  Toyama:
+    Name:
+      ja: 富山県のスキー場
+      en: Ski Resorts in Toyama
+
+  Fukui:
+    Name:
+      ja: 福井県のスキー場
+      en: Ski Resorts in Fukui
+
+  Shiga:
+    Name:
+      ja: 滋賀県のスキー場
+      en: Ski Resorts in Shiga
+
+  Hyogo:
+    Name:
+      ja: 兵庫県のスキー場
+      en: Ski Resorts in Hyogo
+
+  Tottori:
+    Name:
+      ja: 鳥取県のスキー場
+      en: Ski Resorts in Tottori
+
+  Shimane:
+    Name:
+      ja: 島根県のスキー場
+      en: Ski Resorts in Shimane
+
+  Okayama:
+    Name:
+      ja: 岡山県のスキー場
+      en: Ski Resorts in Okayama
+
+  Hiroshima:
+    Name:
+      ja: 広島県のスキー場
+      en: Ski Resorts in Hiroshima
+
+  Tokushima:
+    Name:
+      ja: 徳島県のスキー場
+      en: Ski Resorts in Tokushima
+
+  Ehime:
+    Name:
+      ja: 愛媛県のスキー場
+      en: Ski Resorts in Ehime
+
+  Oita:
+    Name:
+      ja: 大分県のスキー場
+      en: Ski Resorts in Oita
+
+  Miyazaki:
+    Name:
+      ja: 宮崎県のスキー場
+      en: Ski Resorts in Miyazaki
+
+Resorts:
+
+  Rusutsu:
+    Name:
+      ja: ルスツリゾート
+      en: Rusutsu Resort
+    Website:
+      ja: https://rusutsu.com/
+      en: https://rusutsu.com/en/
+    Tel:
+      Info: +81-136-46-3111
+    Location:
+      Country: JP
+      ZipCode: 048-1711
+      Address:
+        ja: 北海道虻田郡留寿都村字泉川13番地
+      Geometry:
+        Point:
+          Lng: 140.910574
+          Lat: 42.73677
+    Groups:
+    - Hokkaido
+
+  NakayamaTouge:
+    Name:
+      ja: 中山峠スキー場
+      en: Nakayama Touge
+    Website:
+      ja: https://nakayama-ski.com/
+    Tel:
+      Info: 0136-33-3373
+    Location:
+      Country: JP
+      ZipCode: 044-0223
+      Address:
+        ja: 北海道虻田郡喜茂別町字川上345
+      Geometry:
+        Point:
+          Lng: 141.094795
+          Lat: 42.85057
+    Groups:
+    - Hokkaido
+
+  Moiwa:
+    Name:
+      ja: 札幌藻岩山スキー場
+      en: Moiwa
+    Website:
+      ja: https://www.rinyu.co.jp/moiwa/
+    Tel:
+      Info: 011-581-0914
+    Location:
+      Country: JP
+      ZipCode: 005-0040
+      Address:
+        ja: 北海道札幌市南区藻岩下1991
+      Geometry:
+        # リフト乗り場あたり
+        Point:
+          Lng: 141.332998
+          Lat: 43.013304
+    Groups:
+    - Hokkaido
+
+  Onze:
+    Name:
+      ja: スノークルーズオーンズ
+      en: Snow Cruise Onze
+    Website:
+      ja: https://onze.jp/
+    Tel:
+      Info: 0134-62-2228
+    Location:
+      Country: JP
+      ZipCode: 047-0265
+      Address:
+        ja: 北海道小樽市春香町357番地
+      Geometry:
+        Point:
+          Lng: 141.133029
+          Lat: 43.146161
+    Groups:
+    - Hokkaido
+
+  MountRacey:
+    Name:
+      ja: マウントレースイスキーリゾート
+      en: Mount Racey Ski Resort
+    Website:
+      ja: https://mountracey-resort.com/skiarea/
+      en: https://mountracey-resort.com/en/
+    Tel:
+      # サイトに書いてないし既存のものはあやしい
+      Info:
+    Location:
+      Country: JP
+      ZipCode: 068-0411
+      Address:
+        ja: 北海道夕張市末広2-4
+      Geometry:
+        # ふもとのあたり
+        Point:
+          Lng: 141.969775
+          Lat: 43.050842
+    Groups:
+    - Hokkaido
+
+  FusSnowArea:
+    Name:
+      ja: Fu's(フッズ)スノーエリア
+      en: Fu's Snow Area
+    Website:
+      ja: https://www.fujino-yagai-sports.jp/winter/
+      en: https://www.fujino-yagai-sports.jp/en/winter/
+    Tel:
+      Info: 011-591-8111
+    Location:
+      Country: JP
+      ZipCode: 061-2271
+      Address:
+        ja: 北海道札幌市南区藤野473-1
+      Geometry:
+        Point:
+          Lng: 141.278723
+          Lat: 42.95457
+    Groups:
+    - Hokkaido
+
+  Furano:
+    Name:
+      ja: 富良野スキー場
+      en: Furano Ski Area
+    Website:
+      ja: https://www.princehotels.co.jp/ski/furano/
+      en: https://www.princehotels.com/en/ski/furano/
+    Tel:
+      Info: +81-167-22-1111
+    Location:
+      Country: JP
+      ZipCode: 076-8511
+      Address:
+        ja: 北海道富良野市中御料
+      Geometry:
+        Point:
+          Lng: 142.334844
+          Lat: 43.324379
+    Groups:
+    - Hokkaido
+
+  Tomamu:
+    Name:
+      ja: 星野リゾート トマム
+      en: Hoshino Resorts Tomamu
+    Website:
+      ja: https://www.snowtomamu.jp/winter/
+      en: https://www.snowtomamu.jp/winter/en/
+    # どれが妥当か不明。gnavi は 2101を書いている
+    # https://www.snowtomamu.jp/winter/inquiry/
+    #Tel:
+    #  Info: 
+    Location:
+      Country: JP
+      ZipCode: 079-2204
+      Address:
+        ja: 北海道勇払郡占冠村中トマム
+      Geometry:
+        Point:
+          Lng: 142.611367
+          Lat: 43.052404
+    Groups:
+    - Hokkaido
+
+  NisekoUnited:
+    Name:
+      ja: ニセコユナイテッド
+      en: Niseko United
+    Location:
+      ZoomLevelThreshold: 11
+      Country: JP
+      Geometry:
+        # ひらふとビレッジの間、春の滝あたり
+        Point:
+          Lng: 140.683221
+          Lat: 42.860969
+
+  NisekoHirafu:
+    Parent: NisekoUnited
+    Name:
+      ja: ニセコマウンテンリゾート グラン・ヒラフ
+      en: Niseko Mt.Resort Grand Hirafu
+    Website:
+      ja: https://www.grand-hirafu.jp/winter/
+      en: https://www.grand-hirafu.jp/winter/en/
+    Tel:
+      Info: 0136-22-0109
+    Location:
+      Country: JP
+      ZipCode: 044-0081
+      Address:
+        ja: 北海道虻田郡倶知安町字山田204
+      Geometry:
+        Point:
+          Lng: 140.698942
+          Lat: 42.861083
+    Groups:
+    - Hokkaido
+
+  NisekoHanazono:
+    Parent: NisekoUnited
+    Name:
+      ja: ニセコHANAZONOリゾート
+      en: Hanazono Niseko
+    # 冬季でないと有効ではない？
+    Website:
+      ja: https://hanazononiseko.com/ja/winter/
+      en: https://hanazononiseko.com/en/winter/
+    # gnaviは0136-23-0103
+    Tel:
+      Info: 
+    Location:
+      Country: JP
+      ZipCode: 044-0082
+      Address:
+        ja: 北海道虻田郡倶知安町字岩尾別328-36
+      Geometry:
+        Point:
+          Lng: 140.700171
+          Lat: 42.89309
+    Groups:
+    - Hokkaido
+
+  NisekoAnnupuri:
+    Parent: NisekoUnited
+    Name:
+      ja: ニセコアンヌプリ国際スキー場
+      en: Niseko Annupuri
+    Website:
+      ja: https://annupuri.info/winter/
+      en: https://annupuri.info/winter/english/
+    Tel:
+      Info: 0136-58-2080
+    Location:
+      Country: JP
+      ZipCode: 048-1511
+      Address: 
+        ja: 北海道虻田郡ニセコ町字ニセコ485
+      Geometry:
+        Point:
+          Lng: 140.64804
+          Lat: 42.847502
+    Groups:
+    - Hokkaido
+
+  NisekoVillage:
+    Parent: NisekoUnited
+    Name:
+      ja: ニセコビレッジスキーリゾート
+      en: Niseko Village
+    Website:
+      ja: https://www.niseko-village.com/ja/white/mountain/
+      en: https://www.niseko-village.com/en/
+    Tel:
+      Info: 0136-44-2211
+    Location:
+      Country: JP
+      ZipCode: 048-1592
+      Address:
+        ja: 北海道虻田郡ニセコ町東山温泉
+      Geometry:
+        Point:
+          # 住所から検索できず付近の点
+          Lng: 140.67607
+          Lat: 42.846561
+    Groups:
+    - Hokkaido
+
+  Teine:
+    Name:
+      ja: サッポロテイネ
+      en: Sapporo Teine
+    Website:
+      ja: https://sapporo-teine.com/snow/
+      en: https://sapporo-teine.com/snow/lang/en/
+    Tel:
+      # 冬季代表電話
+      Info: 011-682-6000
+    Location:
+      Country: JP
+      ZipCode: 006-0029
+      Address:
+        ja: 北海道札幌市手稲区手稲本町593
+      Geometry:
+        Point:
+          Lng: 141.210458
+          Lat: 43.095715
+    Groups:
+    - Hokkaido
+
+  Kiroro:
+    Name:
+      ja: キロロスノーワールド
+      en: Kiroro Snow World
+    Website:
+      ja: https://www.kiroro.co.jp/ja/
+      en: https://www.kiroro.co.jp/
+    Tel:
+      Info: 0135-34-7111
+    Location:
+      Country: JP
+      ZipCode: 046-0593
+      Address:
+        ja: 北海道余市郡赤井川村常盤128番地1
+      Geometry:
+        Point:
+          Lng: 140.989031
+          Lat: 43.067437
+    Groups:
+    - Hokkaido
+
+  AsarigawaOnsen:
+    Name:
+      ja: 朝里川温泉スキー場
+      en: Asarigawaonsen ski resort
+    Website:
+      ja: https://asari-ski.com/
+      en: https://asari-ski.com/index_en/
+    Tel:
+      Info: 0134-54-0101
+    Location:
+      Country: JP
+      ZipCode: 047-0154
+      Address:
+        ja: 小樽市朝里川温泉1丁目394
+      Geometry:
+        Point:
+          Lng: 141.036753
+          Lat: 43.143456
+    Groups:
+    - Hokkaido
+
+  SapporoKokusai:
+    Name:
+      ja: 札幌国際スキー場
+      en: Sapporo Kokusai
+    Website:
+      ja: https://www.sapporo-kokusai.jp/
+      en: https://www.sapporo-kokusai.jp/en/
+    Tel:
+      Info: 011-598-4511
+    Location:
+      Country: JP
+      ZipCode: 061-2301
+      Address:
+        # これは定山渓にある事務所の住所？
+        ja: 札幌市南区定山渓937番地先
+      Geometry:
+        Point:
+          Lng: 141.08476
+          Lat: 43.072284
+    Groups:
+    - Hokkaido
+
+  TaisetsuKurodake:
+    Name:
+      ja: 大雪山 黒岳スキー場
+      # Daisetsu表記もあり
+      en: Taisetsu Kurodake
+    Website:
+      ja: https://www.rinyu.co.jp/kurodake/
+    Tel:
+      # 大雪山　層雲峡・黒岳ロープウェイ
+      # 緊急時表記をどうするべきかは問い合わせたほうがよさそう
+      Info: 01658-5-3031
+    Location:
+      Country: JP
+      ZipCode: 078-1701
+      Address:
+        ja: 北海道上川郡上川町層雲峡
+      Geometry:
+        Point:
+          Lng: 142.938853
+          Lat: 43.710705
+    Groups:
+    - Hokkaido
+
+  Sahoro:
+    Name:
+      ja: サホロリゾートスキー場
+      en: Sahoro Ski Resort
+    Website:
+      ja: https://sahoro.co.jp/winter/ski
+      en: https://sahoro.co.jp/winter/ski?lang=en
+    Tel:
+      Info: 0156-64-4121
+    Location:
+      Country: JP
+      ZipCode: 081-0039
+      Address:
+        ja: 北海道上川郡新得町狩勝高原
+      Geometry:
+        Point:
+          Lng: 142.807976
+          Lat: 43.174691
+    Groups:
+    - Hokkaido
+
+  KamuiSkiLinks:
+    Name:
+      ja: カムイスキーリンクス
+      en: Kamui Ski Links
+    Website:
+      ja: https://www.kamui-skilinks.com/
+      en: https://www.kamui-skilinks.com/en/
+    Tel:
+      Info: 0166-72-2311
+    Location:
+      Country: JP
+      ZipCode: 074-1181
+      Address:
+        ja: 北海道旭川市神居町西丘112
+      Geometry:
+        Point:
+          Lng: 142.187102
+          Lat: 43.704967
+    Groups:
+    - Hokkaido
+
+  SantaPresentPark:
+    Name:
+      ja: サンタプレゼントパーク マロースゲレンデ
+      en: Santa Present Park
+    Website:
+      ja: http://www.santapresentpark.com/
+    Tel:
+      # gnaviは運営会社の番号を載せてるようだがパンフレットとかはこちら
+      Info: 0166-63-3232
+    Location:
+      Country: JP
+      ZipCode: 070-8025
+      Address:
+        ja: 北海道旭川市神居町富岡555番地の2
+      Geometry:
+        Point:
+          Lng: 142.302595
+          Lat: 43.760937
+    Groups:
+    - Hokkaido
+
+  SapporoBankei:
+    Name:
+      ja: さっぽろばんけいスキー場
+      en: ban.K
+    Website:
+      ja: https://www.bankei.co.jp/
+      en: https://www.bankei.co.jp/home-english/
+    Tel:
+      Info: 011-641-0071
+    Location:
+      Country: JP
+      Address:
+        ja: 北海道札幌市中央区盤渓410
+      Geometry:
+        Point:
+          Lng: 141.27806
+          Lat: 43.030513
+    Groups:
+    - Hokkaido
+
+  Pippu:
+    Name:
+      ja: ぴっぷスキー場
+      en: Pippu
+    Website:
+      # HTTPS無し
+      ja: http://www.town.pippu.hokkaido.jp/ski/top.html
+    Tel:
+      Info: 0166-85-3056
+    Location:
+      Country: JP
+      ZipCode: 078-0327
+      Address:
+        ja: 北海道上川郡比布町北7線17号
+      Geometry:
+        Point:
+          Lng: 142.499831
+          Lat: 43.93311
+    Groups:
+    - Hokkaido
+
+  AomoriSpring:
+    Name:
+      ja: 青森スプリング・スキーリゾート
+      en: Aomori Spring Ski Resort
+    Website:
+      # デフォルト英語, 外資っぽい
+      ja: https://aomorispringski.com/?lang=ja
+      en: https://aomorispringski.com/
+    Tel:
+      Info: 0173-72-1011
+    Location:
+      Country: JP
+      ZipCode: 038-2793
+      Address:
+        ja: 青森県西津軽郡鯵ヶ沢町鯵ヶ沢高原
+      Geometry:
+        Point:
+          Lng: 140.2793
+          Lat: 40.693185
+    Groups:
+    - Aomori
+
+  Moyahills:
+    Name:
+      ja: モヤヒルズ
+      en: Moya Hills
+    Website:
+      # HTTPS無し
+      ja: http://www.moyahills.jp/winter/winter.html
+    Tel:
+      Info: 017-764-1110
+    Location:
+      Country: JP
+      ZipCode: 030-0133
+      Address:
+        ja: 青森市雲谷字梨野木63
+      Geometry:
+        Point:
+          Lng: 140.794087
+          Lat: 40.73662
+    Groups:
+    - Aomori
+
+  Appi:
+    Name:
+      ja: 安比高原スキー場
+      en: Appi
+    Website:
+      ja: https://www.appi.co.jp/ski/
+    Tel:
+      Info: 0195-73-5111
+    Location:
+      Country: JP
+      ZipCode: 028-7306
+      Address:
+        ja: 岩手県八幡平市安比高原117-1
+      Geometry:
+        # ホテル前の場所
+        Point:
+          Lng: 140.969728
+          Lat: 40.000859
+    Groups:
+    - Iwate
+
+  Getou:
+    Name:
+      ja: 夏油高原スキー場
+      en: Geto Kogen
+    Website:
+      ja: https://www.getokogen.com/winter/
+    Tel:
+      Info: 0197-65-9000
+    Location:
+      Country: JP
+      ZipCode: 024-0322
+      Address:
+        ja: 岩手県北上市和賀町岩崎新田
+      Geometry:
+        # センターハウスっぽいところ
+        Point:
+          Lng: 140.905969
+          Lat: 39.237084
+    Groups:
+    - Iwate
+
+  Shizukuishi:
+    Name:
+      ja: 雫石スキー場
+      en: Shizukuishi
+    Website:
+      ja: https://www.princehotels.co.jp/ski/shizukuishi/winter/
+    Tel:
+      Info: 019-693-1111
+    Location:
+      Country: JP
+      ZipCode: 020-0593
+      Address:
+        ja: 岩手県岩手郡雫石町高倉温泉
+      Geometry:
+        Point:
+          Lng: 140.930248
+          Lat: 39.775193
+    Groups:
+    - Iwate
+
+  IwateKogen:
+    Name:
+      ja: 岩手高原スノーパーク
+      en: Iwate Kogen Snowpark
+    Website:
+      ja: https://iwatekogen.jp/
+      en: https://iwatekogen.jp/english/
+    Tel:
+      Info: 019-693-4000
+    Location:
+      Country: JP
+      ZipCode: 020-0585
+      Address:
+        ja: 岩手県岩手郡雫石町長山岩手山
+      Geometry:
+        Point:
+          Lng: 140.96622
+          Lat: 39.813893
+    Groups:
+    - Iwate
+
+  AmihariOnsen:
+    Name:
+      ja: 網張温泉スキー場
+      en: Amihari Onsen
+    Website:
+      ja: https://www.qkamura.or.jp/iwate/ski/
+    Tel:
+      Info: 019-693-2211
+    Location:
+      Country: JP
+      Address:
+        ja: 岩手県岩手郡雫石町長山小松倉14-3
+      Geometry:
+        Point:
+          Lng: 140.93627
+          Lat: 39.821275
+    Groups:
+    - Iwate
+
+  HachimantaiPanoramaShimokura:
+    Name:
+      ja: 八幡平リゾート パノラマスキー場＆下倉スキー場
+      en: Hachimantai Resort Panorama and Shimokura
+    Website:
+      ja: https://www.hachimantai.co.jp/winter/
+    Location:
+      ZoomLevelThreshold: 11
+      Country: JP
+      ZipCode: 028-7302
+      Address:
+        ja: 岩手県八幡平市松尾寄木1-509-1
+      Geometry:
+        Point:
+          Lng: 140.964367
+          Lat: 39.895234
+    Groups:
+    - Iwate
+
+  HachimantaiPanorama:
+    Parent: HachimantaiPanoramaShimokura
+    Name:
+      ja: パノラマスキー場
+      en: Panorama
+    Website:
+      # URL難しい
+      ja: https://www.hachimantai.co.jp/panorama/course/
+    Tel:
+      Info: 0195-78-2577
+    Location:
+      Country: JP
+      Geometry:
+        Point:
+          Lng: 140.975381
+          Lat: 39.894376
+
+  HachimantaiShimokura:
+    Parent: HachimantaiPanoramaShimokura
+    Name:
+      ja: 下倉スキー場
+      en: Shimokura
+    Website:
+      # URL難しい
+      ja: https://www.hachimantai.co.jp/shimokura/shimokura-powder-station/
+    Tel:
+      Info: 0195-78-3456
+    Location:
+      Country: JP
+      Geometry:
+        Point:
+          Lng: 140.955827
+          Lat: 39.898793
+
+  OkunakayamaKogen:
+    Name:
+      ja: 奥中山高原スキー場
+      en: Okunakayama Kogen
+    Website:
+      ja: https://www.okunakayamakogen.jp/
+      en: https://www.okunakayamakogen.jp/en/
+    Tel:
+      Info: 0195-35-3131
+    Location:
+      Country: JP
+      ZipCode: 028-5134
+      Address:
+        ja: 岩手県二戸郡一戸町奥中山字西田子662-1
+      Geometry:
+        Point:
+          Lng: 141.190463
+          Lat: 40.083368
+    Groups:
+    - Iwate
+
+  Tazawako:
+    Name:
+      ja: たざわ湖スキー場
+      en: Tazawako Skiing Area
+    Website:
+      common: https://www.tazawako-ski.com/
+    Tel:
+      Info: 0187-46-2011
+    Location:
+      Country: JP
+      ZipCode: 014-1201
+      Address:
+        ja: 秋田県仙北市田沢湖水沢温泉郷
+      Geometry:
+        Point:
+          Lng: 140.752814
+          Lat: 39.764726
+    Groups:
+    - Akita
+
+  MiyagiZaoEboshi:
+    Name:
+      ja: みやぎ蔵王えぼしリゾート
+      en: Miyagi Zao Eboshi
+    Website:
+      # HTTPS無し
+      ja: http://www.eboshi.co.jp/
+    Tel:
+      Info: 0224-34-4001
+    Location:
+      Country: JP
+      ZipCode: 989-0998
+      Address:
+        ja: 宮城県蔵王町遠刈田温泉
+      Geometry:
+        Point:
+          Lng: 140.528747
+          Lat: 38.126681
+    Groups:
+    - Miyagi
+
+  MiyagiZaoStMary:
+    Name:
+      ja: みやぎ蔵王セントメリースキー場
+      en: Miyagi Zao St. Mary
+    Website:
+      ja: https://stmary-338.com/
+    Tel:
+      Info: 0224-84-5880
+    Location:
+      Country: JP
+      ZipCode: 989-1502
+      Address:
+        ja: 宮城県柴田郡川崎町大字今宿字猪ノ沢3-10
+      Geometry:
+        Point:
+          Lng: 140.52119
+          Lat: 38.218677
+    Groups:
+    - Miyagi
+  
+  MiyagiZaoShichikashuku:
+    Name:
+      ja: みやぎ蔵王七ヶ宿スキー場
+      en: Miyagi Zao Shichikashuku
+    Website:
+      ja: https://ski-shichikashuku.com/winter.html
+    Tel:
+      Info: 0224-37-3111
+    Location:
+      Country: JP
+      ZipCode: 989-0612
+      Address:
+        ja: 宮城県刈田郡七ヶ宿町侭ノ上129
+      Geometry:
+        Point:
+          Lng: 140.366767
+          Lat: 37.998654
+    Groups:
+    - Miyagi
+
+  MiyagiZaoShiroishi:
+    Name:
+      ja: みやぎ蔵王白石スキー場
+      en: Miyagi Zao Shiroishi
+    Website:
+      ja: http://nposki.com/
+    # NPO法人 不忘アザレア
+    Tel:
+      Info: 0224-24-8111
+    Location:
+      Country: JP
+      ZipCode: 989-0733
+      Address:
+        ja: 宮城県白石市福岡八宮字不忘山
+      Geometry:
+        Point:
+          Lng: 140.513347
+          Lat: 38.068397
+    Groups:
+    - Miyagi
+
+  MiyagiZaoSumikawa:
+    Name:
+      ja: すみかわスノーパーク
+      en: Miyagi Zao Sumikawa
+    Website:
+      ja: http://www.zao-sumikawa.jp/winter/
+    Tel:
+      Info: 0224-87-2610
+    Location:
+      Country: JP
+      ZipCode: 989-0916
+      Address:
+        ja: 宮城県刈田郡蔵王町遠刈田温泉字倉石岳国有林内ゲレンデハウス
+      Geometry:
+        Point:
+          Lng: 140.494838
+          Lat: 38.134919
+    Groups:
+    - Miyagi
+
+  Onikoube:
+    # 開いてる？
+    Name:
+      ja: オニコウベスキー場
+      en: Onikoube
+    Website:
+      ja: https://www.onikoube.com/winter/main/
+    ExtWebsite:
+      en: https://japan-skiguide.com/guide/htm/r0186ens.htm
+    Tel:
+      Info: 0229-86-2111
+    Location:
+      Country: JP
+      ZipCode: 989-6941
+      Address:
+        ja: 宮城県大崎市鳴子温泉鬼首字小向原9-55
+      Geometry:
+        Point:
+          Lng: 140.639405
+          Lat: 38.78689
+    Groups:
+    - Miyagi
+ 
+  ZaoOnsen:
+    Name:
+      ja: 蔵王温泉スキー場
+      en: Zao Onsen
+    Website:
+      # HTTPSのサイト無し
+      ja: http://www.zao-ski.or.jp/
+    Tel:
+      # 蔵王索道協会
+      Info: 023-694-9617
+      # サイトに書いてあった
+      Emergency: 023-694-9215
+    Location:
+      Country: JP
+      ZipCode: 990-2301
+      Address:
+        ja: 山形市蔵王温泉土合709−1
+      Geometry:
+        # ロープウェイ乗り場あたり
+        Point:
+          Lng: 140.395617
+          Lat: 38.164811
+    Groups:
+    - Yamagata
+
+  Gassan:
+    Name:
+      ja: 月山スキー場
+      en: Gassan
+    Website:
+      ja: https://gassankk.co.jp/gassan-ski/
+    Tel:
+      # 月山ペアリフト
+      Info: 0237-75-2025
+    Location:
+      Country: JP
+      ZipCode:
+      Address:
+        ja: 山形県西村山郡西川町月山スキー場
+      Geometry:
+        Point:
+          Lng: 140.006597
+          Lat: 38.518845
+    Groups:
+    - Yamagata
+
+  Grandeco:
+    Name:
+      ja: グランデコスノーリゾート
+      en: Grandeco Snow Resort
+    Website:
+      ja: https://www.grandeco.com/winter/
+    Tel:
+      Info: 0241-32-2530
+    Location:
+      Country: JP
+      ZipCode: 969-2701
+      Address:
+        ja: 福島県耶麻郡北塩原村桧原荒砂沢山
+      Geometry:
+        Point:
+          Lng: 140.126385
+          Lat: 37.691158
+    Groups:
+    - Yamagata
+
+  Yonezawa:
+    Name:
+      ja: 米沢スキー場
+      en: Yonezawa
+    Website:
+      ja: https://www.yonezawa-ski.co.jp/
+    Tel:
+      Info: 0238-28-2511
+    Location:
+      Country: JP
+      ZipCode: 992-1121
+      Address:
+        ja: 山形県米沢市万世町刈安栃平道下
+      Geometry:
+        Point:
+          Lng: 140.231858
+          Lat: 37.864651
+    Groups:
+    - Yamagata
+
+  Nekoma:
+    Name:
+      ja: 星野リゾート 猫魔スキー場
+      en: Hoshino Resorts Nekoma
+    Website:
+      ja: https://www.nekoma.co.jp/
+      en: https://www.nekoma.co.jp/en/
+    Tel:
+      Info: 0241-32-3001
+    Location:
+      Country: JP
+      ZipCode: 969-2701
+      Address:
+        ja: 福島県耶麻郡北塩原村大字桧原字猫魔山1163
+      Geometry:
+        Point:
+          Lng: 140.037977
+          Lat: 37.627181
+    Groups:
+    - Fukushima
+
+  AltsBandai:
+    Name:
+      ja: 星野リゾート アルツ磐梯
+      en: Hoshino Resorts Alts Bandai
+    Website:
+      ja: https://www.alts.co.jp/
+      en: https://www.alts.co.jp/en/
+    Tel:
+      # アクセスページからは消えている？
+      Info: 0242-74-5000
+    Location:
+      Country: JP
+      ZipCode: 969-3396
+      Address:
+        ja: 福島県耶麻郡磐梯町大字更科字清水平6838-68
+      Geometry:
+        Point:
+          Lng: 140.027637
+          Lat: 37.580214
+    Groups:
+    - Fukushima
+
+  Hatoriko:
+    Name:
+      ja: グランディ羽鳥湖スキーリゾート
+      en: Grandee Hatoriko Ski Resort
+    Website:
+      # HTTPSのサイト無し
+      ja: http://hatoriko.com/
+    Tel:
+      Info: 0248-85-2024
+    Location:
+      Country: JP
+      ZipCode: 962-0623
+      Address:
+        ja: 福島県岩瀬郡天栄村羽鳥湖高原
+      Geometry:
+        Point:
+          Lng: 140.026420
+          Lat: 37.217930
+    Groups:
+    - Fukushima
+
+  Inawashiro:
+    Name:
+      ja: 猪苗代スキー場
+      en: Inawashiro
+    Website:
+      ja: https://www.inawashiro-ski.com/
+    Tel:
+      Info: 0242-62-5100
+    Location:
+      Country: JP
+      ZipCode: 969-3102
+      Address:
+        ja: 福島県猪苗代町葉山7105
+      Geometry:
+        Point:
+          Lng: 140.094658
+          Lat: 37.575267
+    Groups:
+    - Fukushima
+
+  InawashiroResort:
+    Name:
+      ja: 猪苗代リゾートスキー場
+      en: Inawashiro Resort
+    Website:
+      ja: https://www.bandaisan.or.jp/fun/inawashiro-resort-hotel/
+    Tel:
+      Info: 0242-65-2131
+    Location:
+      Country: JP
+      ZipCode: 969-3288
+      Address:
+        ja: 福島県耶麻郡猪苗代町綿場7126
+      Geometry:
+        Point:
+          Lng: 140.061563
+          Lat: 37.578445
+    Groups:
+    - Fukushima
+
+  FamilySnowParkBandai:
+    Name:
+      # 2020-2021は休止
+      ja: ファミリースノーパーク ばんだい×2
+      en: Family Snow Park Bandai Bandai
+    Website:
+      # HTTPS無し
+      ja: http://www.bandai-bandai.jp/
+    Tel:
+      Info: 0242-93-8530
+    Location:
+      Country: JP
+      ZipCode: 969-3101
+      Address:
+        ja: 福島県耶麻郡猪苗代町ぐみ沢原7092-8
+      Geometry:
+        Point:
+          Lng: 140.118832
+          Lat: 37.592723
+    Groups:
+    - Fukushima
+
+  Takatsue:
+    Name:
+      ja: 会津高原たかつえスキー場
+      en: Aizu Kogen Takatsue
+    Website:
+      # HTTPS無し
+      ja: http://takatsue.jp/
+    Tel:
+      Info: 0241-78-2220
+      # 緊急連絡先、として同じ番号が指定されている
+      Emergency: 0241-78-2220
+    Location:
+      Country: JP
+      ZipCode: 967-0315
+      Address:
+        ja: 福島県南会津郡南会津町高杖原535
+      Geometry:
+        Point:
+          Lng: 139.616349
+          Lat: 37.109918
+    Groups:
+    - Fukushima
+
+  Taikura:
+    Name:
+      ja: 会津高原だいくらスキー場
+      en: Aizu Kogen Daikura
+    Website:
+      # HTTPS無し
+      ja: http://daikura.net/
+    Tel:
+      Info: 0241-64-2121
+    Location:
+      Country: JP
+      ZipCode: 967-0026
+      Address:
+        ja: 福島県南会津郡南会津町針生字昼滝山857-150
+      Geometry:
+        Point:
+          Lng: 139.637236
+          Lat: 37.181389
+    Groups:
+    - Fukushima
+
+  Nango:
+    Name:
+      ja: 会津高原南郷スキー場
+      en: Aizu Kogen Nango
+    Website:
+      # HTTPS無し
+      ja: http://www.nango-ski.com/
+    Tel:
+      Info: 0241-73-2111
+    Location:
+      Country: JP
+      ZipCode: 967-0631
+      Address:
+        ja: 福島県南会津郡南会津町界字湯の入293
+      Geometry:
+        Point:
+          Lng: 139.545773
+          Lat: 37.266838
+    Groups:
+    - Fukushima
+
+  Takahata:
+    Name:
+      ja: 会津高原高畑スキー場
+      en: Aizu Kogen Takahata
+    Website:
+      ja: https://www.takahata-ski.net/
+    Tel:
+      Info: 0241-76-2231
+    Location:
+      Country: JP
+      Address:
+        ja: 福島県南会津郡南会津町大桃字一の間々20の3
+      Geometry:
+        Point:
+          Lng: 139.449318
+          Lat: 37.100782
+    Groups:
+    - Fukushima
+
+  HunterMountainShiobara:
+    Name:
+      ja: ハンターマウンテン塩原
+      en: Hunter Mountain Shiobara
+    Website:
+      ja: https://www.hunter.co.jp/winter/
+    ExtWebsite:
+      en: https://japan-skiguide.com/guide/htm/r0067ens.htm
+    Tel:
+      Info: 0287-32-4580
+    Location:
+      Country: JP
+      ZipCode: 329-2922
+      Address:
+        ja: 栃木県那須塩原市湯本塩原字前黒
+      Geometry:
+        Point:
+          Lng: 139.753921
+          Lat: 36.938136
+    Groups:
+    - Tochigi
+
+  Edelweiss:
+    Name:
+      ja: エーデルワイススキーリゾート
+      en: Edelweiss Ski Resort
+    Website:
+      ja: https://edelsnow.com/
+    Tel:
+      Info: 0288-78-0786
+    Location:
+      Country: JP
+      ZipCode: 321-2612
+      Address:
+        ja: 栃木県日光市川治温泉高原鶏頂山
+      Geometry:
+        Point:
+          Lng: 139.748985
+          Lat: 36.925095
+    Groups:
+    - Tochigi
+
+  MtJeansNasu:
+    Name:
+      ja: マウントジーンズ那須
+      en: Mt. Jeans Nasu
+    Website:
+      ja: https://www.mtjeans.com/winter/
+    Tel:
+      Info: 0287-77-2300
+    Location:
+      Country: JP
+      ZipCode: 329-3223
+      Address:
+        ja: 栃木県那須郡那須町大字大島
+      Geometry:
+        Point:
+          Lng: 140.015148
+          Lat: 37.127617
+    Groups:
+    - Tochigi
+
+  OzeIwakura:
+    Name:
+      ja: ホワイトワールド尾瀬岩鞍
+      en: White World Oze Iwakura
+    Website:
+      # HTTPSのサイト無し
+      ja: http://www.oze-iwakura.co.jp/ski/
+      en: http://www.oze-iwakura.co.jp/ski/language/en/
+    Tel:
+      Info: 0278-58-7777
+    Location:
+      Country: JP
+      ZipCode: 378-0412
+      Address:
+        ja: 群馬県利根郡片品村土出2609
+      Geometry:
+        Point:
+          Lng: 139.218537
+          Lat: 36.814304
+    Groups:
+    - Gunma
+
+  Marunuma:
+    Name:
+      ja: 丸沼高原
+      en: Marunuma Kogen
+    Website:
+      ja: https://www.marunuma.jp/winter/
+    Tel:
+      Info: 0278-58-2211
+    Location:
+      Country: JP
+      ZipCode: 378-0414
+      Address:
+        ja: 群馬県利根郡片品村東小川4658-58
+      Geometry:
+        Point:
+          Lng: 139.330444
+          Lat: 36.813793
+    Groups:
+    - Gunma
+
+  Tambara:
+    Name:
+      ja: たんばらスキーパーク
+      en: Tambara
+    Website:
+      ja: https://www.tambara.co.jp/winter/
+    Tel:
+      Info: 0278-23-9311
+    Location:
+      Country: JP
+      ZipCode: 378-0071
+      Address:
+        ja: 群馬県沼田市玉原高原
+      Geometry:
+        Point:
+          Lng: 139.07271
+          Lat: 36.77846
+    Groups:
+    - Gunma
+
+  PalcallTsumagoi:
+    Name:
+      ja: パルコールつま恋スキーリゾート
+      en: Palcall Tsumagoi Resort
+    Website:
+      ja: https://tsumagoiskiresort.life/
+      en: https://tsumagoiskiresort.life/en/
+    Tel:
+      Info: 0279-96-1177
+    Location:
+      Country: JP
+      ZipCode: 377-1611
+      Address:
+        ja: 群馬県吾妻郡嬬恋村大字干俣バラギ高原
+      Geometry:
+        Point:
+          Lng: 138.463688
+          Lat: 36.555525
+    Groups:
+    - Gunma
+
+  Kazawa:
+    Name:
+      ja: 鹿沢スノーエリア
+      en: Kazawa Snow Area
+    Website:
+      # HTTPS無し
+      ja: http://www.kazawa.com/snow/
+    Tel:
+      Info: 0279-98-0611
+    Location:
+      Country: JP
+      ZipCode: 377-1614
+      Address:
+        ja: 群馬県吾妻郡嬬恋村田代1017
+      Geometry:
+        Point:
+          Lng: 138.429624
+          Lat: 36.47136
+    Groups:
+    - Gunma
+
+  Kawaba:
+    Name:
+      ja: 川場スキー場
+      en: Kawaba Ski Resort
+    Website:
+      ja: https://www.kawaba.co.jp/snow/
+    ExtWebsite:
+      en: https://japan-skiguide.com/guide/htm/r0210ens.htm
+    Tel:
+      # 外国語向けの電話番号が違いそう。↑のサイトにある
+      Info: 0278-52-3345
+    Location:
+      Country: JP
+      ZipCode: 378-0101
+      Address:
+        ja:  群馬県利根郡川場村谷地2755-2
+      Geometry:
+        Point:
+          Lng: 139.109920
+          Lat: 36.770624
+    Groups:
+    - Gunma
+
+  Okutone:
+    Name:
+      ja: 奥利根スノーパーク
+      en: Okutone Snowpark
+    Website:
+      ja: https://okutone.jp/
+    Tel:
+      Info: 0278-72-8101
+    Location:
+      Country: JP
+      ZipCode: 379-1724
+      Address:
+        ja: 群馬県利根郡みなかみ町向山
+      Geometry:
+        Point:
+          Lng: 139.009219
+          Lat: 36.799041
+    Groups:
+    - Gunma
+
+  MinakamiKogen:
+    Name:
+      ja: 水上高原スキーリゾート
+      en: Minakami Kogen Ski Resort
+    Website:
+      ja: https://www.minakami-ski.jp/
+    Tel:
+      Info: 0278-75-2222
+    Location:
+      Country: JP
+      ZipCode: 379-1721
+      Address:
+        ja: 群馬県利根郡みなかみ町藤原6152-1
+      Geometry:
+        Point:
+          Lng: 139.076548
+          Lat: 36.855499
+    Groups:
+    - Gunma
+
+  MinakamiHodaigi:
+    Name:
+      ja: 水上宝台樹スキー場
+      en: Minakami Hodaigi Resort
+    Website:
+      ja: https://hodaigi.jp/
+      en: https://en.hodaigi.jp/
+    Tel:
+      Info: 0278-75-2557
+    Location:
+      Country: JP
+      ZipCode: 379-1721
+      Address:
+        ja: 群馬県利根郡みなかみ町藤原3839-1
+      Geometry:
+        Point:
+          Lng: 139.078459
+          Lat: 36.837228
+    Groups:
+    - Gunma
+
+  NornMinakami:
+    Name:
+      ja: ノルン水上スキー場
+      en: Norm Minakami
+    Website:
+      ja: https://www.norn.co.jp/winter/
+    Tel:
+      Info: 0278-72-6688
+    Location:
+      Country: JP
+      ZipCode: 379-1614
+      Address:
+        ja: 群馬県利根郡みなかみ町寺間479-139
+      Geometry:
+        Point:
+          Lng: 138.942186
+          Lat: 36.743318
+    Groups:
+    - Gunma
+
+  ManzaOnsen:
+    Name:
+      ja: 万座温泉スキー場
+      en: Manza Onsen
+    Website:
+      ja: https://www.princehotels.co.jp/ski/manza/
+    Tel:
+      Info: 0279-97-3117　
+    Location:
+      Country: JP
+      ZipCode: 377-1595
+      Address:
+        ja: 群馬県吾妻郡嬬恋村万座温泉
+      Geometry:
+        Point:
+          Lng: 138.506221
+          Lat: 36.635762
+    Groups:
+    - Gunma
+
+  KatashinaKogen:
+    Name:
+      ja: かたしな高原スキー場
+      en: Katashina Kogen
+    Website:
+      ja: https://katashinakogen.co.jp/winter/
+    Tel:
+      Info: 0278-58-2161
+    Location:
+      Country: JP
+      ZipCode: 378-0413
+      Address:
+        ja: 群馬県利根郡片品村越本2990
+      Geometry:
+        Point:
+          Lng: 139.229802
+          Lat: 36.811192
+    Groups:
+    - Gunma
+
+  Kusatsu:
+    Name:
+      ja: 草津温泉スキー場
+      en: Kusatsu Onsen
+    Website:
+      ja: https://www.932-onsen.com/winter/index
+    Tel:
+      Info: 0279-88-8111
+    Location:
+      Country: JP
+      ZipCode: 377-1711
+      Address:
+        ja: 吾妻郡草津町大字草津字白根国有林158林班
+      Geometry:
+        Point:
+          Lng: 
+          Lat: 
+    Groups:
+    - Gunma
+
+  OzeTokura:
+    Name:
+      ja: スノーパーク尾瀬戸倉
+      en: Snow Park Oze Tokura
+    Website:
+      ja: https://ozetokura.co.jp/snowpark/
+    Tel:
+      Info: 0278-58-7511
+    Location:
+      Country: JP
+      ZipCode: 378-0411
+      Address:
+        ja: 群馬県利根郡片品村戸倉329
+      Geometry:
+        Point:
+          Lng: 139.238831
+          Lat: 36.851106
+    Groups:
+    - Gunma
+
+  TanigawadakeTenjindaira:
+    Name:
+      ja: 谷川岳天神平スキー場
+      en: Tenjindaira Ski Resort
+    Website:
+      ja: http://www.tanigawadake-rw.com/gelande/
+    Tel:
+      # 谷川岳ロープウエー株式会社
+      Info: 0278-72-3575
+    Location:
+      Country: JP
+      ZipCode: 379-1728
+      Address:
+        ja: 利根郡みなかみ町湯檜曽湯吹山国有林内
+      Geometry:
+        Point:
+          Lng: 
+          Lat: 
+    Groups:
+    - Gunma
+
+  Fujiten:
+    Name:
+      ja: ふじてんスノーリゾート
+      en: Fujiten Snow Resort
+    Website:
+      ja: https://www.fujiten.net/
+    Tel:
+      Info: 0555-85-2000
+    Location:
+      Country: JP
+      ZipCode: 401-0320
+      Address:
+        ja: 山梨県南都留郡鳴沢村字富士山8545-1
+      Geometry:
+        Point:
+          Lng: 138.687934
+          Lat: 35.442051
+    Groups:
+    - Yamanashi
+
+  SunMeadowsKiyosato:
+    Name:
+      ja: サンメドウズ清里スキー場
+      en: Sun Meadows Kiyosato Ski Resort
+    Website:
+      ja: https://www.sunmeadows.co.jp/winter/
+    ExtWebsite:
+      en: https://japan-skiguide.com/guide/htm/r0018ens.htm
+    Tel:
+      Info: 0551-48-4111
+    Location:
+      Country: JP
+      ZipCode: 407-0311
+      Address:
+        ja: 山梨県北杜市大泉町西井出8240-1
+      Geometry:
+        Point:
+          Lng: 138.414455
+          Lat: 35.947554
+    Groups:
+    - Yamanashi
+
+  KamuiMisaka:
+    Name:
+      ja: カムイみさかスキー場
+      en: Kamui Misaka
+    Website:
+      # HTTPS無し
+      ja: http://misaka.kamuisp.com/
+    Tel:
+      Info: 055-264-2614
+    Location:
+      Country: JP
+      ZipCode: 406-0813
+      Address:
+        ja: 山梨県笛吹市御坂町上黒駒5321-1
+      Geometry:
+        Point:
+          Lng: 138.753224
+          Lat: 35.582349
+    Groups:
+    - Yamanashi
+
+  Yeti:
+    Name:
+      ja: フジヤマ スノーリゾート イエティ
+      en: FUJIYAMA SNOW RESORT YETI
+    Website:
+      ja: https://www.yeti-resort.com/
+      en: https://www.yeti-resort.com/en/
+    Tel:
+      Info: 055-998-0636
+    Location:
+      Country: JP
+      ZipCode: 410-1231
+      Address:
+        ja: 静岡県裾野市須山字藤原2428
+      Geometry:
+        Point:
+          Lng: 138.768364
+          Lat: 35.300021
+    Groups:
+    - Shizuoka
+
+  ShigaKogen:
+    Name:
+      ja: 志賀高原スキー場
+      en: Shigakogen Mountain Resort
+    Website:
+      ja: https://www.shigakogen-ski.com/
+      en: https://www.shigakogen-ski.com/en/
+    Tel:
+      Info: 
+    Location:
+      ZoomLevelThreshold: 10
+      Country: JP
+      ZipCode:
+      Address:
+        ja:
+      Geometry:
+        # 蓮池の交差点あたり
+        Point:
+          Lng: 138.492593
+          Lat: 36.717675
+    Groups:
+    # 志賀高原は長野県のスキー場としてはまとめておく
+    - Nagano
+
+  ShigaKogenCentral:
+    Parent: ShigaKogen
+    Name:
+      ja: 志賀高原リゾート中央エリア（サンバレー～一の瀬）
+      en: Shiga Kogen Central Area
+    Website:
+      ja: https://www.shigakogen-ski.com/
+      en: https://www.shigakogen-ski.com/en/
+    Tel:
+      # 志賀高原リゾート開発株式会社　総務部　お客様係
+      Info: 0269-34-2301
+    Location:
+      Country: JP
+      ZipCode: 381-0401
+      # 志賀高原リゾート開発株式会社
+      Address:
+        ja: 長野県下高井郡山ノ内町大字平穏7149番地
+      Geometry:
+        # 高天ヶ原のリフト乗り場あたり
+        Point:
+          Lng: 138.508452
+          Lat: 36.731339
+
+  Okushiga:
+    Parent: ShigaKogen
+    Name:
+      ja: 奥志賀高原スキー場
+      en: Okushiga Kogen Ski Area
+    Website:
+      # HTTPSのサイト無し
+      ja: http://www.okushiga.jp/skiresort/
+      en: http://en.okushiga.jp/skiresort/
+    Tel:
+      Info: 0269-34-2225
+    Location:
+      Country: JP
+      ZipCode:
+      Address:
+        ja: 長野県下高井郡山ノ内町奥志賀高原
+      Geometry:
+        # ゴンドラとリフトの間の山の中
+        Point:
+          Lng: 138.524223
+          Lat: 36.771358
+
+  Yakebitaiyama:
+    Parent: ShigaKogen
+    Name:
+      ja: 志賀高原 焼額山スキー場
+      en: Shiga Kogen Yakebitaiyama
+    Website:
+      ja: https://www.princehotels.co.jp/ski/shiga/winter/
+      en: https://www.princehotels.com/en/ski/shiga_kogen/
+    Tel:
+      Info: 0269-34-3117
+    Location:
+      Country: JP
+      ZipCode: 381-0497
+      Address:
+        ja: 長野県下高井郡山ノ内町志賀高原焼額山
+      Geometry:
+        # スキー場の中央くらい
+        Point:
+          Lng: 138.517096
+          Lat: 36.752559
+
+  Kumanoyu:
+    Parent: ShigaKogen
+    Name:
+      ja: 熊の湯スキー場
+      en: Kumanoyu Ski Area
+    Website:
+      ja: https://www.kumanoyu.co.jp/lift/
+      en: https://www.kumanoyu.co.jp/lift/english/
+    Tel:
+      Info: 0269-34-2166
+    Location:
+      Country: JP
+      ZipCode: 381-0401
+      Address:
+        ja: 長野県下高井郡山ノ内町平穏7148
+      Geometry:
+        # ベースあたり
+        Point:
+          Lng: 138.496070
+          Lat: 36.683284
+
+  Yokoteyama:
+    Parent: ShigaKogen
+    Name:
+      ja: 横手山・渋峠スキー場
+      en: Shigakogen Yokoteyama Shibu-toge
+    Website:
+      ja: https://yokoteyama2307.com/
+    Tel:
+      Info: 0269-34-2600
+    Location:
+      Country: JP
+      ZipCode:
+      Address:
+        ja: 長野県下高井郡山ノ内町志賀高原横手
+      Geometry:
+        # 第二リフト乗り場あたり
+        Point:
+          Lng: 138.510186
+          Lat: 36.677626
+
+  HakubaValley:
+    Name:
+      ja: Hakuba Valley
+      en: Hakuba Valley
+    Website:
+      ja: https://www.hakubavalley.com/ja/
+      en: https://www.hakubavalley.com/en/
+    Location:
+      ZoomLevelThreshold: 10
+      Country: JP
+      ZipCode: 399-9301
+      Address:
+        ja: 長野県北安曇郡白馬村大字北城6329-1
+        en: 6329-1 Hokujo,Hakuba,Kitaazumi,Nagano
+      Geometry:
+        Point:
+          Lng: 137.862258
+          Lat: 36.696244
+    # 白馬は長野県のスキー場としては個別のスキー場を掲載する
+
+  Happo:
+    Parent: HakubaValley
+    Name:
+      ja: 白馬八方尾根スキー場
+      en: Hakuba Happo-One
+    Website:
+      ja: https://www.happo-one.jp/winter/
+      en: https://www.happo-one.jp/en/winter/
+    Tel:
+      Info: 0261-72-3280
+    Location:
+      Country: JP
+      ZipCode: 399-9301
+      Address:
+        # ゴンドラ アダムの住所
+        ja: 長野県北安曇郡白馬村大字北城八方4258
+      Geometry:
+        Point:
+          Lng: 137.836964
+          Lat: 36.701833
+    Groups:
+    - Nagano
+
+  Iwatake:
+    Parent: HakubaValley
+    Name:
+      ja: 白馬岩岳スノーフィールド
+      en: Hakuba Iwatake Snow Field
+    Website:
+      ja: https://iwatake-mountain-resort.com/winter/
+    Tel:
+      Info: 0261-72-2474
+    Location:
+      Country: JP
+      ZipCode: 399-9301
+      Address:
+        ja: 長野県北安曇郡白馬村北城12056
+      Geometry:
+        Point:
+          Lng: 137.858832
+          Lat: 36.716894
+    Groups:
+    - Nagano
+
+  Goryu:
+    Parent: HakubaValley
+    Name:
+      ja: エイブル白馬五竜
+      en: Able Hakuba Goryu Snow Resort
+    # 悩ましいところだがサイトはとおみのものにしておく
+    Website:
+      ja: https://www.hakubaescal.com/winter/
+      en: https://www.hakubaescal.com/winter-en/
+    Tel:
+      Info: 0261-75-2101
+    Location:
+      ZoomLevelThreshold: 11
+      Country: JP
+      ZipCode: 399-9211
+      Address:
+        # エスカルプラザ
+        ja: 長野県北安曇郡白馬村神城22184-10
+        en: 22184-10, Kamishiro, Hakuba Village, Kitaazumi-gun, Nagano
+      Geometry:
+        Point:
+          Lng: 137.814476
+          Lat: 36.663784
+    Groups:
+    - Nagano
+
+  GoryuToomi:
+    Parent: Goryu
+    # 正式名称不明、とおみ・アルプス平という記述が近そう
+    Name:
+      ja: エイブル白馬五竜とおみ
+      en: Able Hakuba Goryu Toomi
+    Website:
+      ja: https://www.hakubaescal.com/winter/
+      en: https://www.hakubaescal.com/winter-en/
+    Tel:
+      Info: 0261-75-2101
+    Location:
+      Country: JP
+      ZipCode: 399-9211
+      Address:
+        # エスカルプラザ
+        ja: 長野県北安曇郡白馬村神城22184-10
+        en: 22184-10, Kamishiro, Hakuba Village, Kitaazumi-gun, Nagano
+      Geometry:
+        Point:
+          Lng: 137.814476
+          Lat: 36.663784
+
+  GoryuIimori:
+    Parent: Goryu
+    Name:
+      ja: エイブル白馬五竜いいもり
+      en: Able Hakuba Goryu Iimori
+    Website:
+      ja: https://www.oito.co.jp/iimori/
+      en: https://oito.co.jp/iimori/english/
+    Tel:
+      Info: 0261-75-2636
+    Location:
+      Country: JP
+      ZipCode: 399-9211
+      Address: 
+        ja: 長野県北安曇郡白馬村神城26092
+        en: 26092 Kamishiro, Hakuba, Kitaazumi, Nagano
+      Geometry:
+        Point:
+          Lng: 137.836129
+          Lat: 36.669594
+
+  Hakuba47:
+    Parent: HakubaValley
+    Name:
+      ja: Hakuba47 ウインタースポーツパーク
+      en: Hakuba47 Winter Sports Park
+    Website:
+      ja: https://www.hakuba47.co.jp/winter/
+      en: https://www.hakuba47.co.jp/winter/en/
+    Tel:
+      Info: 0261-75-3533
+    Location:
+      Country: JP
+      ZipCode: 399-9211
+      Address:
+        ja: 長野県北安曇郡白馬村神城24196-47
+      Geometry:
+        Point:
+          Lng: 137.816304
+          Lat: 36.676439
+    Groups:
+    - Nagano
+
+  Tsugaike:
+    Parent: HakubaValley
+    Name:
+      ja: 栂池高原スキー場
+      en: Tsugaike Kogen Mountain Resort
+    Website:
+      # ページ内切り替え
+      common: https://www.tsugaike.gr.jp/
+    Tel:
+      # いくつか電話番号があるがgnaviに合わせて栂池高原観光協会
+      Info: 0261-83-2515
+    Location:
+      Country: JP
+      ZipCode: 399-9422
+      Address:
+        ja: 長野県北安曇郡小谷村千国乙12840-1
+        en: 12840-1 Chikuniotsu, Otari-mura, Kitaazumi-gun, Nagano
+      Geometry:
+        Point:
+          Lng: 137.871306
+          Lat: 36.747694
+    Groups:
+    - Nagano
+
+  HakubaNorikura:
+    Parent: HakubaValley
+    Name:
+      ja: 白馬乗鞍温泉スキー場
+      en: Hakuba Norikura Onsen Ski Resort
+    Website:
+      ja: https://www.hakunori.com/
+      en: https://www.hakunori.com/en/
+    Tel:
+      Info: 0261-82-2811
+    Location:
+      Country: JP
+      ZipCode: 399-9422
+      Address:
+        ja: 長野県北安曇郡小谷村白馬乗鞍高原
+        en: Hakuba-norikura-kogen, Otari-mura, Kitaazumi-gun, Nagano
+      Geometry:
+        Point:
+          Lng: 137.881644
+          Lat: 36.764653
+    Groups:
+    - Nagano
+
+  HakubaCortina:
+    Parent: HakubaValley
+    Name:
+      ja: 白馬コルチナスキー場
+      en: Hakuba Cortina Snow Resort
+    Website:
+      common: https://www.hgp.co.jp/cortina/ski/
+    Tel:
+      # ホテルグリーンプラザ白馬の番号
+      Info: 0570-097-489
+    Location:
+      Country: JP
+      ZipCode: 399-9422
+      Address:
+        ja: 長野県北安曇郡小谷村千国乙12860-1
+      Geometry:
+        Point:
+          Lng: 137.887212
+          Lat: 36.776483
+    Groups:
+    - Nagano
+
+  Kashimayari:
+    Parent: HakubaValley
+    Name:
+      ja: HakubaValley 鹿島槍スキー場
+      en: HakubaValley Kashimayari Ski Resort
+    Website:
+      ja: https://www.kashimayari.net/snow/
+    ExtWebsite:
+      en: https://japan-skiguide.com/guide/htm/r0196ens.htm
+    Tel:
+      Info: 0261-23-1231
+    Location:
+      Country: JP
+      ZipCode: 398-0001
+      Address:
+        ja: 長野県大町市平鹿島槍黒沢高原
+      Geometry:
+        Point:
+          Lng: 137.825456
+          Lat: 36.596943
+    Groups:
+    - Nagano
+
+  Jiigatake:
+    Parent: HakubaValley
+    Name:
+      ja: 爺ガ岳スキー場
+      en: Jiigatake Happy Snow Park
+    Website:
+      ja: https://jiigatake.com/
+    Tel:
+      Info: 0261-22-0551
+    Location:
+      Country: JP
+      ZipCode: 398-0001
+      Address:
+        ja: 長野県大町市平4819
+      Geometry:
+        Point:
+          Lng: 137.804013
+          Lat: 36.558663
+    Groups:
+    - Nagano
+
+  Asama2000:
+    Name:
+      ja: アサマ2000パーク
+      en: Asama 2000 Park
+    Website:
+      ja: https://asama2000.com/
+    Tel:
+      # リフト降り場に目立つようにパトロールの番号が書いてあったと思う
+      Info: 0267-23-1714
+    Location:
+      Country: JP
+      ZipCode: 384-0000
+      Address:
+        ja: 長野県小諸市高峰高原
+      Geometry:
+        Point:
+          Lng: 138.4696
+          Lat: 36.404419
+    Groups:
+    - Nagano
+
+  RyuooSkiPark:
+    Name:
+      ja: 竜王スキーパーク
+      en: Ryuoo Ski Park
+    Website:
+      ja: https://www.ryuoo.com/snow/
+    ExtWebsite:
+      en: https://japan-skiguide.com/guide/htm/r0112ens.htm
+    Tel:
+      Info: 0269-33-6345
+    Location:
+      Country: JP
+      ZipCode: 381-0405
+      Address:
+        ja: 長野県下高井郡山ノ内町夜間瀬11700
+      Geometry:
+        Point:
+          Lng: 138.456294
+          Lat: 36.783958
+    Groups:
+    - Nagano
+
+  FujimiPanorama:
+    Name:
+      ja: 富士見パノラマリゾート
+      en: Fujimi Panorama Resort
+    Website:
+      ja: https://www.fujimipanorama.com/snow/
+    ExtWebsite:
+      en: https://japan-skiguide.com/guide/htm/r0297ens.htm
+    Tel:
+      Info: 0266-62-5666
+    Location:
+      Country: JP
+      ZipCode: 399-0211
+      Address:
+        ja: 長野県諏訪郡富士見町富士見6666-703
+      Geometry:
+        Point:
+          Lng: 138.206987
+          Lat: 35.910645
+    Groups:
+    - Nagano
+
+  KaruizawaPrince:
+    Name:
+      ja: 軽井沢プリンスホテルスキー場
+      en: Prince Snow Resort Karuizawa
+    Website:
+      ja: https://www.princehotels.co.jp/ski/karuizawa/winter/
+    Tel:
+      Info: 0267-42-5588
+    Location:
+      Country: JP
+      ZipCode: 389-0102
+      Address:
+        ja: 長野県北佐久郡軽井沢町軽井沢
+      Geometry:
+        Point:
+          Lng: 138.643687
+          Lat: 36.340511
+    Groups:
+    - Nagano
+
+  Saku:
+    Name:
+      ja: 佐久スキーガーデン パラダ
+      en: Saku Ski Garden Parada
+    Website:
+      ja: https://www.saku-parada.jp/ski/
+    Tel:
+      Info: 0267-68-5116
+    Location:
+      Country: JP
+      ZipCode: 385-0002
+      Address:
+        ja: 長野県佐久市上平尾2066-1
+      Geometry:
+        Point:
+          Lng: 138.509988
+          Lat: 36.278414
+    Groups:
+    - Nagano
+
+  Yunomaru:
+    Name:
+      ja: 湯の丸スキー場
+      en: Yunomaru
+    Website:
+      ja: https://yunomaru.co.jp/gerende/
+    Tel:
+      Info: 0268-64-0400
+    Location:
+      Country: JP
+      ZipCode: 389-0501
+      Address:
+        # 湯の丸観光開発株式会社
+        ja: 東御市湯の丸高原1270
+      Geometry:
+        Point:
+          Lng: 138.420442
+          Lat: 36.428226
+    Groups:
+    - Nagano
+
+  Madarao:
+    Name:
+      ja: 斑尾高原スキー場
+      en: Madarao Mountain Resort
+    Website:
+      ja: https://www.madarao.jp/ski/
+    Tel:
+      Info: 0269-64-3214
+    Location:
+      Country: JP
+      ZipCode: 389-2257
+      Address:
+        ja: 長野県飯山市斑尾高原
+      Geometry:
+        Point:
+          # 隣接するタングラムを考慮
+          Lng: 138.285185
+          Lat: 36.851240
+    Groups:
+    - Nagano
+
+  Tangram:
+    Name:
+      ja: タングラムスキーサーカス
+      en: Tangram
+    Website:
+      ja: https://www.tangram.jp/ski/
+      en: https://www.tangram.jp/eng/outdoor/
+    Tel:
+      Info: 026-258-3511
+    Location:
+      Country: JP
+      ZipCode: 389-1302
+      Address:
+        ja: 長野県上水内郡信濃町古海3575-8
+      Geometry:
+        Point:
+          Lng: 138.262695
+          Lat: 36.853842
+    Groups:
+    - Nagano
+
+  Sugadaira:
+    Name:
+      ja: 菅平高原スノーリゾート
+      en: Sugadaira Kogen Snow Resort
+    Website:
+      ja: https://sugadaira-snowresort.com/
+    ExtWebsite:
+      en: https://japan-skiguide.com/guide/htm/r0108ens.htm
+    Tel:
+      Info: 0268-74-2137
+    Location:
+      Country: JP
+      ZipCode: 386-2204
+      Address:
+        ja: 長野県上田市菅平高原1223-146 株式会社ハーレスキーリゾート内
+      Geometry:
+        Point:
+          Lng: 138.330074
+          Lat: 36.532435
+    Groups:
+    - Nagano
+
+  SugadairaPineBeak:
+    Name:
+      ja: 菅平パインビークスキー場
+      en: Sugadaira Pine Beak
+    Website:
+      ja: https://pinebeak.jp/
+    Tel:
+      Info: 0268-74-2138
+    Location:
+      Country: JP
+      ZipCode: 386-2204
+      Address:
+        ja: 長野県上田市菅平高原1223-3433
+      Geometry:
+        Point:
+          Lng: 138.317961
+          Lat: 36.517453
+    Groups:
+    - Nagano
+
+  BlancheTakayama:
+    Name:
+      ja: ブランシュたかやまスキーリゾート
+      en: Blanche Takayama Ski Resort
+    Website:
+      ja: https://blanche-ski.com/
+    Tel:
+      Info: 0268-69-2232
+    Location:
+      Country: JP
+      ZipCode: 386-0601
+      Address:
+        ja: 長野県小県郡長和町大門鷹山3652
+      Geometry:
+        Point:
+          Lng: 138.205242
+          Lat: 36.148134
+    Groups:
+    - Nagano
+
+  KurumayamaKogen:
+    Name:
+      ja: 車山高原SKYPARKスキー場
+      en: Kurumayama Kogen Ski Resort
+    Website:
+      ja: https://www.kurumayama.co.jp/winter/
+      en: https://www.kurumayama.com/english/winter.html
+    Tel:
+      Info: 0266-68-2626
+    Location:
+      Country: JP
+      ZipCode: 391-0301
+      Address:
+        ja: 長野県茅野市北山3413
+      Geometry:
+        Point:
+          Lng: 138.208437
+          Lat: 36.102075
+    Groups:
+    - Nagano
+
+  KoumiReex:
+    Name:
+      ja: 小海リエックス・スキーバレー
+      en: Koumi RE-EX Ski Valley
+    Website:
+      ja: https://koumireex-skivalley.com/
+    Tel:
+      Info: 0267-93-2537
+    Location:
+      Country: JP
+      ZipCode: 384-1103
+      Address:
+        ja: 長野県南佐久郡小海町豊里5907
+      Geometry:
+        Point:
+          Lng: 138.413987
+          Lat: 36.055813
+    Groups:
+    - Nagano
+
+  MtKosha:
+    Name:
+      ja: Mt. KOSHA
+      en: Mt. KOSHA
+    Website:
+      ja: http://x-jam.jp/
+    Location:
+      ZoomLevelThreshold: 11
+      Country: JP
+      Geometry:
+        Point:
+          Lng: 138.417663
+          Lat: 36.794452
+    # よませ温泉、X-JAMをそれぞれ長野県のスキー場扱い
+
+  Yomase:
+    Parent: MtKosha
+    Name:
+      ja: よませ温泉スキー場
+      en: Yomase Onsen
+    Website:
+      ja: http://x-jam.jp/
+    Tel:
+      Info: 0269-33-2377
+    Location:
+      Country: JP
+      ZipCode: 381-0405
+      Address:
+        ja: 長野県下高井郡山ノ内町よませ7078
+      Geometry:
+        Point:
+          Lng: 138.415017
+          Lat: 36.78546
+    Groups:
+    - Nagano
+
+  XJam:
+    Parent: MtKosha
+    Name:
+      ja: X-JAM 高井富士
+      en: X-JAM Takaifuji
+    Website:
+      ja: http://x-jam.jp/
+    Tel:
+      Info: 0269-33-6252
+    Location:
+      Country: JP
+      ZipCode: 381-0405
+      Address:
+        ja: 長野県下高井郡山ノ内町北志賀高原12713-94
+      Geometry:
+        Point:
+          Lng: 138.42504
+          Lat: 36.799554
+    Groups:
+    - Nagano
+
+  Kijimadaira:
+    Name:
+      ja: 木島平スキー場
+      en: Kijimadaira Ski Resort
+    Website:
+      ja: https://kijimadaira-ski.com/
+    Tel:
+      Info: 0269-82-3434
+    Location:
+      Country: JP
+      ZipCode: 389-2303
+      Address:
+        ja: 長野県下高井郡木島平村大字上木島3876-2
+      Geometry:
+        Point:
+          Lng: 138.403319
+          Lat: 36.819864
+    Groups:
+    - Nagano
+
+  NomugiTouge:
+    Name:
+      ja: 野麦峠スキー場
+      en: Nomugi Touge
+    Website:
+      # HTTPS は適切に設定されていないようでエラー
+      ja: http://gakutoresort.jp/
+    Tel:
+      Info: 0263-79-2246
+    Location:
+      Country: JP
+      ZipCode: 390-1611
+      Address:
+        ja: 長野県松本市奈川1173-13
+      Geometry:
+        Point:
+          Lng: 137.709237
+          Lat: 36.04841
+    Groups:
+    - Nagano
+
+  Sonohara:
+    Name:
+      ja: ヘブンスそのはら Snow World
+      en: Heavens Sonohara Snow World
+    Website:
+      ja: https://mt-heavens.com/winter/
+    Tel:
+      Info: 0265-44-2311
+    Location:
+      Country: JP
+      ZipCode: 395-0304
+      Address:
+        ja: 長野県下伊那郡阿智村智里3731-4
+      Geometry:
+        Point:
+          # 上
+          Lng: 137.63863
+          Lat: 35.452611
+    Groups:
+    - Nagano
+
+  Nozawa:
+    Name:
+      ja: 野沢温泉スキー場
+      en: Nozawa Onsen
+    Website:
+      ja: https://nozawaski.com/winter/
+      en: https://en.nozawaski.com/
+    Tel:
+      Info: 0269-85-3166
+      # サイトにあった
+      Emergency: 0269-85-3456
+    Location:
+      Country: JP
+      ZipCode: 389-2502
+      Address:
+        ja: 長野県下高井郡野沢温泉村大字豊郷7653番地
+      Geometry:
+        Point:
+          Lng: 138.452323
+          Lat: 36.920678
+    Groups:
+    - Nagano
+
+  Togari:
+    Name:
+      ja: 戸狩温泉スキー場
+      en: Togari Onsen
+    Website:
+      ja: https://togari.jp/winter/
+      en: https://togari.jp/winter/en/
+    Tel:
+      Info: 0269-65-2359
+    Location:
+      Country: JP
+      ZipCode: 389-2411
+      Address:
+        ja: 長野県飯山市大字豊田6356-2
+      Geometry:
+        Point:
+          Lng: 138.387879
+          Lat: 36.932166
+    Groups:
+    - Nagano
+
+  Kaidakogen:
+    Name:
+      ja: 開田高原マイアスキー場
+      en: Kaidakogen MIA Ski Resort
+    Website:
+      ja: https://asumo-g.co.jp/mia-ski/
+    ExtWebsite:
+      en: https://japan-skiguide.com/guide/htm/r0849ens.htm
+    Tel:
+      Info: 0264-44-1111
+    Location:
+      Country: JP
+      ZipCode: 397-0302
+      Address:
+        # アスモグループ株式会社
+        ja: 長野県木曽郡木曽町開田高原西野5346-1
+      Geometry:
+        Point:
+          Lng: 137.530073
+          Lat: 35.930282
+    Groups:
+    - Nagano
+
+  Norikura:
+    Name:
+      ja: Mt．乗鞍スノーリゾート
+      en: Mt. Norikura Snow Resort
+    Website:
+      ja: https://www.brnorikura.jp/
+    Tel:
+      # BlueResort乗鞍
+      Info: 0263-93-2645
+      # サイトにあった
+      # パトロールの情報公開に積極的(公パト人数記載など)
+      Emergency: 0263-93-3171
+    Location:
+      Country: JP
+      ZipCode: 390-1520
+      Address:
+        ja: 長野県松本市安曇4294番地3
+      Geometry:
+        Point:
+          Lng: 137.616795
+          Lat: 36.120761
+    Groups:
+    - Nagano
+
+  Jibzaka:
+    Name:
+      ja: 治部坂高原スキー場
+      en: Jib Highland Ski Area
+    Website:
+      ja: https://jibuzaka.co.jp/
+    Tel:
+      Info: 0265-47-1111
+    Location:
+      Country: JP
+      # 治部坂観光株式会社
+      ZipCode: 395-0501
+      Address:
+        ja: 長野県阿智村浪合1192
+      Geometry:
+        Point:
+          Lng: 137.671641
+          Lat: 35.354523
+    Groups:
+    - Nagano
+
+  FujimiKogen:
+    Name:
+      ja: 富士見高原スキー場
+      en: Fujimi Kougen Resort
+    Website:
+      ja: http://fujimikogen-ski.jp/
+    Tel:
+      Info: 0266-66-2932
+    Location:
+      Country: JP
+      ZipCode: 399-0101
+      Address:
+        ja: 長野県諏訪郡富士見町境12067
+      Geometry:
+        Point:
+          Lng: 138.30827
+          Lat: 35.922727
+    Groups:
+    - Nagano
+
+  Iizuna:
+    Name:
+      ja: いいづなリゾートスキー場
+      en: Iizuna Resort
+    Website:
+      ja: https://iizunaresort.com/
+    Tel:
+      Info: 026-253-3911
+    Location:
+      Country: JP
+      # 飯綱東高原観光開発株式会社　
+      ZipCode: 389-1226
+      Address:
+        ja: 長野県上水内郡飯綱町川上2755-209
+      Geometry:
+        Point:
+          Lng: 138.170689
+          Lat: 36.737546
+    Groups:
+    - Nagano
+
+  Togakushi:
+    Name:
+      ja: 戸隠スキー場
+      en: Togakushi Ski Field
+    Website:
+      ja: https://www.togakusi.com/ski/
+    ExtWebsite:
+      en: https://japan-skiguide.com/guide/htm/r0034ens.htm
+    Tel:
+      Info: 026-254-2106
+    Location:
+      Country: JP
+      ZipCode: 381-4101
+      Address:
+        ja: 長野県長野市戸隠3682
+      Geometry:
+        Point:
+          Lng: 138.094631
+          Lat: 36.754361
+    Groups:
+    - Nagano
+
+  Shirakaba2in1:
+    Name:
+      ja: しらかば2in1スキー場
+      en: Shirakaba 2in1
+    Website:
+      # HTTPSのサイト無し
+      ja: http://www.2in1.jp/
+    Tel:
+      Info: 0267-55-6868
+    Location:
+      Country: JP
+      ZipCode: 384-2309
+      Address:
+        ja: 長野県北佐久郡立科町芦田八ケ野八子ケ峰2021-1
+      Geometry:
+        Point:
+          Lng: 138.263455
+          Lat: 36.095046
+    Groups:
+    - Nagano
+
+  ShirakabaKogen:
+    Name:
+      ja: 白樺高原国際スキー場
+      en: Shirakaba Kogen Kokusai
+    Website:
+      ja: https://shirakaba-ski.jp/
+    Tel:
+      Info: 0267-55-6000
+    Location:
+      Country: JP
+      ZipCode: 384-2309
+      Address:
+        # 白樺高原総合観光センター
+        ja: 長野県北佐久郡立科町蓼科牧場745
+      Geometry:
+        Point:
+          Lng: 138.275582
+          Lat: 36.128463
+    Groups:
+    - Nagano
+
+  Yamaboku:
+    Name:
+      ja: YAMABOKU ワイルドスノーパーク
+      en: YAMABOKU Wild Snow Park
+    Website:
+      ja: https://yamaboku.co.jp/
+    Tel:
+      # gnavi は026-242-2505 を案内しているが古い番号か？
+      Info: 026-274-5959
+    Location:
+      Country: JP
+      ZipCode: 382-0817
+      Address:
+        ja: 長野県上高井郡高山村山田牧場3681-35
+      Geometry:
+        Point:
+          Lng: 138.460691
+          Lat: 36.667634
+    Groups:
+    - Nagano
+
+  Ontake2240:
+    Name:
+      ja: おんたけ 2240
+      en: Ontake 2240
+    Website:
+      # メンテナンス中
+      # やる会社が決まった、という話だった (2021/10/10)
+      ja: https://ontake2240.jp/
+    Tel:
+      Info: 0264-48-2240
+    Location:
+      Country: JP
+      ZipCode: 397-0201
+      Address:
+        ja: 長野県木曽郡王滝村3162番
+      Geometry:
+        Point:
+          Lng: 137.528572
+          Lat: 35.862964
+    Groups:
+    - Nagano
+
+  Yabuhara:
+    Name:
+      ja: やぶはら高原スキー場
+      en: Yabuhara Kogen
+    Website:
+      ja: https://www.yabuhara-kogen.jp/
+    Tel:
+      Info: 0264-36-1622
+    Location:
+      Country: JP
+      ZipCode: 399-6202
+      Address:
+        ja: 長野県木曽郡木祖村菅2857-16
+      Geometry:
+        Point:
+          Lng: 137.739536
+          Lat: 35.965445
+    Groups:
+    - Nagano
+
+
+  Meiho:
+    Name:
+      ja: めいほうスキー場
+      en: Meiho Resort
+    Website:
+      ja: https://www.meihoski.co.jp/winter/
+    Tel:
+      Info: 0575-87-2811
+    Location:
+      Country: JP
+      ZipCode: 501-4304
+      Address:
+        ja: 岐阜県郡上市明宝奥住水沢上3447-1
+      Geometry:
+        Point:
+          Lng: 137.042953
+          Lat: 35.941763
+    Groups:
+    - Gifu
+
+# TAKASU MOUNTAINS
+# - Takasu
+# - Dynaland
+# - Washigatake
+# - Hirugano Kogen
+# - White PIA Takasu
+# 作るべき？
+
+  Takasu:
+    Name:
+      ja: 高鷲スノーパーク
+      en: Takasu Snow Park
+    Website:
+      ja: http://www.takasu.gr.jp/
+    Tel:
+      Info: 0575-72-7000
+    Location:
+      Country: JP
+      ZipCode: 〒501-5305
+      Address:
+        ja: 岐阜県郡上市高鷲町西洞3086-1
+      Geometry:
+        # ダイナランドとの判別のため中央あたりに
+        Point:
+          Lng: 136.865914
+          Lat: 36.000597
+    Groups:
+    - Gifu
+
+  Dynaland:
+    Name:
+      ja: ダイナランド
+      en: Dynaland
+    Website:
+      ja: https://www.dynaland.co.jp/
+    Tel:
+      Info: 0575-72-6636
+    Location:
+      Country: JP
+      ZipCode: 501-5305
+      Address:
+        ja: 岐阜県郡上市高鷲町西洞3035-2
+      Geometry:
+        Point:
+          Lng: 136.862009
+          Lat: 35.990295
+    Groups:
+    - Gifu
+
+  Washigatake:
+    Name:
+      ja: 鷲ヶ岳スキー場
+      en: Washigatake
+    Website:
+      ja: https://ski.washigatake.jp/
+    Tel:
+      Info: 0575-72-5105
+    Location:
+      Country: JP
+      Address:
+        ja: 岐阜県郡上市高鷲町大鷲3250
+      Geometry:
+        # ホワイトピアたかすとの判別のため中央あたりに
+        Point:
+          Lng: 136.928885
+          Lat: 35.944714
+    Groups:
+    - Gifu
+
+  WhitePiaTakasu:
+    Name:
+      ja: ホワイトピアたかす
+      en: White PIA Takasu
+    Website:
+      ja: http://www.whitepia.jp/
+    Tel:
+      Info: 0575-72-6311
+    Location:
+      Country: JP
+      ZipCode: 501-5302
+      Address:
+        ja: 岐阜県郡上市高鷲町鷲見512番地
+      Geometry:
+        Point:
+          Lng: 136.938564
+          Lat: 35.952484
+    Groups:
+    - Gifu
+
+  HiruganoKogen:
+    Name:
+      ja: ひるがの高原スキー場
+      en: Hirugano Kogen
+    Website:
+      ja: https://www.hiruganokogen.com/
+    Tel:
+      Info: 0575-73-2311
+    Location:
+      Country: JP
+      Address:
+        ja: 岐阜県郡上市高鷲町ひるがの4670-75
+      Geometry:
+        Point:
+          Lng: 136.912783
+          Lat: 36.005952
+    Groups:
+    - Gifu
+
+  WinghillsShiratori:
+    Name:
+      ja: ウイングヒルズ白鳥
+      en: Winghills Shiratori
+    Website:
+      ja: https://winghills.net/snow/
+    ExtWebsite:
+      en: https://japan-skiguide.com/guide/htm/r0199ens.htm
+    Tel:
+      Info: 
+    Location:
+      Country: JP
+      ZipCode: 501-5231
+      Address:
+        ja: 岐阜県郡上市白鳥町石徹白峠山1-1
+      Geometry:
+        Point:
+          Lng: 136.808634
+          Lat: 35.972017
+    Groups:
+    - Gifu
+
+  ShiratoriKogen:
+    Name:
+      ja: スノーウェーブパーク白鳥高原
+      en: Snow Wave Park Shiratori Kogen
+    Website:
+      # HTTPS無し
+      ja: http://www.siratori-k.jp/swp/
+    Tel:
+      Info: 0575-86-3111
+    Location:
+      Country: JP
+      ZipCode: 501-5231
+      Address:
+        ja: 岐阜県郡上市白鳥町石徹白檜峠
+      Geometry:
+        Point:
+          Lng: 136.800968
+          Lat: 35.955429
+    Groups:
+    - Gifu
+
+  HidaNagareha:
+    Name:
+      # スターシュプール緑風リゾートひだ流葉 だとつらい
+      ja: ひだ流葉
+      en: Hida Nagareha
+    Website:
+      ja: https://hida-nagareha.com/
+    Tel:
+      Info: 0578-82-091
+    Location:
+      Country: JP
+      ZipCode: 506-1154
+      Address:
+        ja: 岐阜県飛騨市神岡町伏方150
+      Geometry:
+        Point:
+          Lng: 137.240063
+          Lat: 36.310719
+    Groups:
+    - Gifu
+
+  Chausuyama:
+    Name:
+      ja: 茶臼山高原スキー場
+      en: Chausuyama Kogen
+    Website:
+      # HTTPS 無し
+      ja: http://www.chausuyama.jp/
+    Tel:
+      # 一般財団法人茶臼山高原協会
+      Info: 0536-87-2345
+    Location:
+      Country: JP
+      ZipCode: 449-0405
+      Address:
+        ja: 愛知県北設楽郡豊根村坂宇場字御所平70-185
+      Geometry:
+        Point:
+          Lng: 137.655034
+          Lat: 35.220117
+    Groups:
+    - Aichi
+
+  Naeba:
+    Name:
+      ja: 苗場スキー場
+      en: Naeba
+    Website:
+      ja: https://www.princehotels.co.jp/ski/naeba/winter/
+    Tel:
+      Info: 025-789-4117
+    Location:
+      Country: JP
+      ZipCode: 949-6292
+      # Webにあったのは三国、まで。山奥の場所になってしまうのでプリンスホテルの住所にした
+      Address:
+        ja: 新潟県南魚沼郡湯沢町三国202
+      Geometry:
+        Point:
+          Lng: 138.784545 
+          Lat: 36.793603
+    Groups:
+    - Niigata
+
+  Kagura:
+    Name:
+      ja: かぐらスキー場
+      en: Kagura
+    Website:
+      ja: https://www.princehotels.co.jp/ski/kagura/winter/
+    Tel:
+      # みつまたステーション
+      Info: 025-788-9221
+    Location:
+      Country: JP
+      ZipCode: 949-6211
+      Address:
+        # みつまたステーション
+        ja: 新潟県南魚沼郡湯沢町三俣742
+      Geometry:
+        Point:
+          Lng: 138.726501
+          Lat: 36.859852
+    Groups:
+    - Niigata
+
+  Kandatsu:
+    Name:
+      # よく変わるので注意
+      ja: 神立スノーリゾート
+      en: Kandatsu Snow Resort
+    Website:
+      ja: https://www.kandatsu.com/
+    Tel:
+      Info: 025-788-0111
+    Location:
+      Country: JP
+      ZipCode: 949-6102
+      Address:
+        ja: 新潟県南魚沼郡湯沢町神立4121-1
+      Geometry:
+        Point:
+          Lng: 138.81259
+          Lat: 36.911525
+    Groups:
+    - Niigata
+
+  Maiko:
+    Name:
+      ja: 舞子スノーリゾート
+      en: Maiko Snow Resort
+    Website:
+      ja: https://www.maiko-resort.com/
+    Tel:
+      Info: 025-783-4100
+    Location:
+      Country: JP
+      ZipCode: 949-6423
+      Address:
+        # 舞子日帰りスキーセンター
+        ja: 新潟県南魚沼市舞子1819-79
+      Geometry:
+        # 岩原、舞子の境界注意
+        Point:
+          Lng: 138.832182
+          Lat: 36.976278
+    Groups:
+    - Niigata
+
+  Iwappara:
+    Name:
+      ja: 岩原スキー場
+      en: Iwappara
+    Website:
+      ja: https://www.iwa-ppara.com/
+    Tel:
+      Info: 025-787-3211
+    Location:
+      Country: JP
+      ZipCode: 949-6103
+      Address:
+        ja: 新潟県南魚沼郡湯沢町土樽731-79
+      Geometry:
+        Point:
+          Lng: 138.842186
+          Lat: 36.944517
+    Groups:
+    - Niigata
+
+  IshiuchiMaruyama:
+    Name:
+      ja: 石打丸山スキー場
+      en: Ishiuchi Maruyama Ski Area
+    Website:
+      ja: https://ishiuchi.or.jp/
+      en: https://ishiuchi.or.jp/en/
+    Tel:
+      Info: 025-783-2222
+    Location:
+      Country: JP
+      ZipCode: 949-6372
+      Address:
+        ja: 新潟県南魚沼市石打1655
+      Geometry:
+        # 湯沢高原、石打丸山の近接に考慮
+        Point:
+          Lng: 138.792680
+          Lat: 36.974222
+    Groups:
+    - Niigata
+
+  Arai:
+    Name:
+      ja: ロッテアライリゾート
+      en: Lotte Arai Resort
+    Website:
+      ja: https://www.lottehotel.com/arai-resort/ja/ski-webzine.html
+    Tel:
+      Info: 0255-75-1177
+    Location:
+      Country: JP
+      Address:
+        ja: 新潟県妙高市両善寺1966
+      Geometry:
+        Point:
+          # ゴンドラ中間駅くらい
+          Lng: 138.161203
+          Lat: 36.990805
+    Groups:
+    - Niigata
+
+  GalaYuzawa:
+    Name:
+      ja: GALA湯沢スキー場
+      en: GALA Yuzawa
+    Website:
+      ja: https://gala.co.jp/
+    Tel:
+      # FAQの中に番号がある
+      Info: 025-785-6429
+    Location:
+      Country: JP
+      ZipCode: 949-6101
+      Address:
+        ja: 新潟県南魚沼郡湯沢町大字湯沢字茅平1039-2
+      Geometry:
+        # 湯沢高原、石打丸山の近接に考慮
+        Point:
+          Lng: 138.774344
+          Lat: 36.950811
+    Groups:
+    - Niigata
+
+  YuzawaKogen:
+    Name:
+      ja: 湯沢高原スキー場
+      en: Yuzawa Kogen
+    Website:
+      ja: https://www.yuzawakogen.com/winter/
+    Tel:
+      Info: 025-784-3326
+    Location:
+      Country: JP
+      ZipCode: 949-6101
+      Address:
+        ja: 新潟県南魚沼郡湯沢町大字湯沢490
+      Geometry:
+        Point:
+          Lng: 138.787722
+          Lat: 36.936602
+    Groups:
+    - Niigata
+
+  YuzawaPark:
+    Name:
+      ja: 湯沢パークスキー場
+      en: Yuzawa Park 
+    Website:
+      ja: https://www.park-resort.com/
+    Tel:
+      # 湯沢パークホテル
+      Info: 025-787-4111
+    Location:
+      Country: JP
+      ZipCode: 949-6103
+      Address:
+        ja: 新潟県南魚沼郡湯沢町土樽1613
+      Geometry:
+        Point:
+          Lng: 138.858765
+          Lat: 36.925517
+    Groups:
+    - Niigata
+
+  NaspaSkiGarden:
+    Name:
+      ja: NASPAスキーガーデン
+      en: NASPA Ski Garden
+    Website:
+      ja: https://naspa.co.jp/ski/
+    Tel:
+      Info: 025-780-6888
+    Location:
+      Country: JP
+      ZipCode: 949-6101
+      Address:
+        ja: 新潟県南魚沼郡湯沢町湯沢2117-9
+      Geometry:
+        Point:
+          Lng: 138.80631
+          Lat: 36.923896
+    Groups:
+    - Niigata
+
+  YuzawaNakazato:
+    Name:
+      ja: 湯沢中里スノーリゾート
+      en: Yuzawa Nakazato Snow Resort
+    Website:
+      ja: https://www.yuzawa-nakazato.com/
+    Tel:
+      Info: 025-787-3301
+    Location:
+      Country: JP
+      ZipCode: 949-6103
+      Address:
+        ja: 新潟県南魚沼郡湯沢町土樽5044-1
+      Geometry:
+        Point:
+          Lng: 138.849027
+          Lat: 36.914143
+    Groups:
+    - Niigata
+
+  JoetsuKokusai:
+    Name:
+      ja: 上越国際スキー場
+      en: Joetsu Kokusai
+    Website:
+      ja: https://www.jkokusai.co.jp/
+    Tel:
+      Info: 025-782-1028
+    Location:
+      # 株式会社 上越観光開発 ホテルグリーンプラザ上越 上越国際スキー場
+      Country: JP
+      ZipCode: 949-6431
+      Address:
+        ja: 新潟県南魚沼市樺野沢112番地1号
+      Geometry:
+        # 範囲的にだいぶ広いので中央あたり
+        Point:
+          Lng: 138.800837
+          Lat: 37.033149
+    Groups:
+    - Niigata
+
+  Kurohime:
+    Name:
+      ja: 黒姫高原スノーパーク
+      en: Kurohime Kogen
+    Website:
+      # HTTPS無し
+      ja: http://kurohime-kogen.co.jp/snow/
+    Tel:
+      Info: 026-255-3171
+    Location:
+      Country: JP
+      ZipCode: 389-1303
+      Address:
+        ja: 長野県上水内郡信濃町大字野尻3807
+      Geometry:
+        Point:
+          Lng: 138.161958
+          Lat: 36.8264
+    Groups:
+    - Nagano
+
+  MyokoSuginohara:
+    Name:
+      ja: 妙高杉ノ原スキー場
+      en: Myoko Suginohara
+    Website:
+      ja: https://www.princehotels.co.jp/ski/myoko/
+    Tel:
+      Info: 0255-86-6211　
+    Location:
+      Country: JP
+      ZipCode: 949-2113
+      Address:
+        ja: 新潟県妙高市杉野沢
+      Geometry:
+        Point:
+          Lng: 138.15507
+          Lat: 36.856923
+    Groups:
+    - Niigata
+
+  IkenotairaOnsen:
+    Name:
+      ja: 池の平温泉スキー場
+      en: Ikenotaira Onsen
+    Website:
+      ja: https://ikenotaira.info/
+    Tel:
+      Info: 0255-86-2370
+    Location:
+      Country: JP
+      ZipCode: 949-2112
+      Address:
+        ja: 新潟県妙高市池の平温泉2457-1
+      Geometry:
+        Point:
+          Lng: 138.158472
+          Lat: 36.872950
+    Groups:
+    - Niigata
+
+  AkakuraKanko:
+    Name:
+      ja: 赤倉観光リゾートスキー場
+      en: Akakura Kanko Resort
+    Website:
+      ja: https://akr-ski.com/
+    Tel:
+      Info: 0255-87-2503
+    Location:
+      Country: JP
+      ZipCode: 949-2102
+      Address:
+        ja: 新潟県妙高市田切216
+      Geometry:
+        # 赤倉温泉と近い
+        Point:
+          Lng: 138.162373
+          Lat: 36.886946
+    Groups:
+    - Niigata
+
+  AkakuraOnsen:
+    Name:
+      ja: 赤倉温泉スキー場
+      en: Akakura Onsen Ski Area
+    Website:
+      ja: https://akakura-ski.com/
+    Tel:
+      Info: 0255-87-2125
+    Location:
+      Country: JP
+      ZipCode: 949-2111
+      Address:
+        ja: 新潟県妙高市赤倉温泉
+      Geometry:
+        Point:
+          Lng: 138.163124
+          Lat: 36.896193
+    Groups:
+    - Niigata
+
+  SekiOnsen:
+    Name:
+      ja: 関温泉スキー場
+      en: Seki Onsen
+    Website:
+      # HTTPS無し
+      ja: http://www.sekionsen.com/
+    Tel:
+      Info: 0255-82-2316
+    Location:
+      Country: JP
+      ZipCode: 949-2235
+      Address:
+        ja: 新潟県妙高市関温泉
+      Geometry:
+        Point:
+          Lng: 138.159858
+          Lat: 36.906760
+    Groups:
+    - Niigata
+
+  Hakkaisan:
+    Name:
+      ja: 六日町八海山スキー場
+      en: Hakkaisan
+    Website:
+      ja: https://www.princehotels.co.jp/ski/hakkaisan/
+    Tel:
+      Info: 025-775-3311
+    Location:
+      Country: JP
+      ZipCode: 949-7121
+      Address:
+        ja: 新潟県南魚沼市山口1610
+      Geometry:
+        Point:
+          Lng: 138.977777
+          Lat: 37.107945
+    Groups:
+    - Niigata
+
+  Okutadami:
+    Name:
+      ja: 奥只見丸山スキー場
+      en: Okutadami
+    Website:
+      # HTTPS無し
+      ja: http://okutadami.co.jp/ski/
+    Tel:
+      Info: 025-795-2750
+    Location:
+      Country: JP
+      # 奥只見観光株式会社
+      ZipCode: 946-0082
+      Address:
+        ja: 新潟県魚沼市湯之谷芋川字大鳥1317-3
+      Geometry:
+        Point:
+          Lng: 139.245955
+          Lat: 37.162115
+    Groups:
+    - Niigata
+
+  CharmantHiuchi:
+    Name:
+      ja: シャルマン火打スキー場
+      en: Charmant Hiuchi
+    Website:
+      ja: https://charmant-hiuchi.jp/
+    Tel:
+      Info: 025-568-2244
+    Location:
+      Country: JP
+      ZipCode: 949-1322
+      Address:
+        ja: 新潟県糸魚川市西飛山1821
+      Geometry:
+        Point:
+          Lng: 138.069219
+          Lat: 36.999388
+    Groups:
+    - Niigata
+
+  ItoigawaSeasideValley:
+    Name:
+      ja: 糸魚川シーサイドバレースキー場
+      en: Itoigawa Seaside Valley
+    Website:
+      ja: https://seasidevalley.com/
+    Tel:
+      Info: 025-558-2244
+    Location:
+      Country: JP
+      Address:
+        ja: 新潟県糸魚川市大字山口151-1
+      Geometry:
+        Point:
+          Lng: 137.889552
+          Lat: 36.933438
+    Groups:
+    - Niigata
+
+  Suhara:
+    Name:
+      ja: 須原スキー場
+      en: Suhara
+    Website:
+      ja: https://www.suhara-ski.com/
+    Tel:
+      # サイトには 025-797-2059 / 025-797-2750 と併記してある
+      # とりあえずgnaviにあわせる
+      Info: 025-797-2059
+    Location:
+      Country: JP
+      ZipCode: 946-0216
+      Address:
+        ja: 新潟県魚沼市須原1846-13
+      Geometry:
+        Point:
+          Lng: 139.016157
+          Lat: 37.322725
+    Groups:
+    - Niigata
+
+  MatsunoyamaOnsen:
+    Name:
+      ja: 松之山温泉スキー場
+      en: Matsunoyama Onsen
+    Website:
+      # HTTPS無し
+      ja: http://www.matsunoyama-ski.com/
+    Tel:
+      Info: 025-596-3133
+    Location:
+      Country: JP
+      ZipCode: 942-1434
+      Address:
+        ja: 新潟県十日町市松之山天水島909番地
+      Geometry:
+        Point:
+          Lng: 138.597552
+          Lat: 37.05219
+    Groups:
+    - Niigata
+
+  Tainai:
+    Name:
+      ja: 胎内スキー場
+      en: Tainai Ski and Snowboard Area
+    Website:
+      ja: https://tainairesort.jp/
+    Tel:
+      Info: 0254-28-1717
+    Location:
+      Country: JP
+      ZipCode: 959-2823
+      Address:
+        ja: 新潟県胎内市熱田坂881-166
+      Geometry:
+        Point:
+          Lng: 139.502324
+          Lat: 38.016711
+    Groups:
+    - Niigata
+
+  Taira:
+    Name:
+      ja: たいらスキー場
+      en: Taira Snow Park
+    Website:
+      # HTTPS無し, レンタルサーバっぽい
+      ja: http://www1.tst.ne.jp/skitaira/
+    Tel:
+      Info: 0763-66-2911
+    Location:
+      Country: JP
+      ZipCode: 939-1927
+      Address:
+        ja: 富山県南砺市梨谷
+      Geometry:
+        Point:
+          Lng: 136.924698
+          Lat: 36.439979
+    Groups:
+    - Toyama
+
+  IoxArosa:
+    Name:
+      ja: イオックスアローザ
+      en: IOX-AROSA
+    Website:
+      ja: https://iox-arosa.jp/
+    Tel:
+      Info: 0763-55-1326
+    Location:
+      Country: JP
+      ZipCode: 939-1681
+      Address:
+        ja: 富山県南砺市才川七字ススケ原115
+      Geometry:
+        Point:
+          Lng: 136.816228
+          Lat: 36.514327
+    Groups:
+    - Toyama
+
+  TateyamaSanroku:
+    Name:
+      ja: 立山山麓スキー場
+      en: Tateyama Sanroku
+    Website:
+      # HTTPS無し
+      ja: http://www.tateyama36.co.jp/ski/
+    Tel:
+      # 大山観光開発株式会社
+      Info: 076-482-1311
+    Location:
+      Country: JP
+      Address:
+        ja: 富山県富山市原55番地
+      Geometry:
+        Point:
+          Lng: 137.41713
+          Lat: 36.574907
+    Groups:
+    - Toyama
+
+  HakusanIchirinoOnsen:
+    Name:
+      ja: 白山一里野温泉スキー場
+      en: Hakusan Ichirino Onsen Ski Resort
+    Website:
+      ja: http://sam-hakusan.com/ichirino/
+    Tel:
+      Info: 076-256-7412
+    Location:
+      Country: JP
+      ZipCode: 920-2333
+      Address:
+        ja: 石川県白山市尾添リ63
+      Geometry:
+        Point:
+          Lng: 136.71502
+          Lat: 36.268292
+    Groups:
+    - Ishikawa
+
+  SkiJamKatsuyama:
+    Name:
+      ja: スキージャム勝山
+      en: Ski Jam Katsuyama
+    Website:
+      ja: https://www.skijam.jp/winter/
+    ExtWebsite:
+      en: https://japan-skiguide.com/guide/htm/r0019ens.htm
+    Tel:
+      # スキー場・レストラン
+      Info: 0779-87-6109
+    Location:
+      Country: JP
+      ZipCode: 911-0000
+      Address:
+        # この住所、公式サイトにも書いてあってみんな書いてるのだけど合ってるの？
+        ja: 福井県勝山市170-70
+      Geometry:
+        Point:
+          Lng: 136.555717
+          Lat: 36.072672
+    Groups:
+    - Fukui
+
+  Imajo365:
+    # 2021シーズンは営業しない、とのこと
+    Status: Disabled
+    Name:
+      ja: 今庄365スキー場
+      en: Imajo 365
+    Website:
+      # HTTPS無し
+      ja: http://imajyo365.jp/
+    Tel:
+      Info: 0778-45-1115
+    Location:
+      Country: JP
+      ZipCode: 919-0128
+      Address:
+        ja: 福井県南条郡南越前町板取85-36
+      Geometry:
+        Point:
+          Lng: 136.148318
+          Lat: 35.723223
+    Groups:
+    - Fukui
+
+  FukuiIzumi:
+    Name:
+      ja: 福井和泉スキー場
+      en: Fukui Izumi Ski Resort
+    Website:
+      ja: https://fukuiizumi.com/
+    Tel:
+      # スキー場テレホンサービス(?)として 0779-78-2211 も掲載されている、どちらか不明
+      Info: 0779-78-2711
+    Location:
+      Country: JP
+      ZipCode: 912-0201
+      Address:
+        ja: 福井県大野市朝日前坂27
+      Geometry:
+        Point:
+          Lng: 136.692149
+          Lat: 35.939719
+    Groups:
+    - Fukui
+
+  Kuzuryu:
+    Name:
+      ja: 九頭竜スキー場
+      en: Kuzuryu Ski Land
+    Website:
+      ja: https://www.kuzuryu-skiland.com/
+    Tel:
+      Info: 0779-78-2651
+    Location:
+      Country: JP
+      ZipCode: 912-0092
+      Address:
+        ja: 福井県大野市角野14-3
+      Geometry:
+        Point:
+          Lng: 136.654575
+          Lat: 35.898298
+    Groups:
+    - Fukui
+
+  Okuibuki:
+    Name:
+      ja: グランスノー奥伊吹
+      en: Gransnow Okuibuki
+    Website:
+      ja: https://www.okuibuki.co.jp/
+      en: https://www.okuibuki.co.jp/en/
+    Tel:
+      Info: 0749-59-0322
+    Location:
+      Country: JP
+      ZipCode: 521-0301
+      Address:
+        ja: 滋賀県米原市甲津原奥伊吹
+      Geometry:
+        Point:
+          Lng: 136.386729
+          Lat: 35.521622
+    Groups:
+    - Shiga
+
+  BiwakoValley:
+    Name:
+      ja: びわ湖バレイ
+      en: Biwako Valley Ski Resort
+    Website:
+      ja: https://www.biwako-valley.com/winter/
+      en: https://www.biwako-valley.com/winter-season-activity/
+    Tel:
+      Info: 077-592-1155
+    Location:
+      Country: JP
+      ZipCode: 520-0514
+      Address:
+        ja: 滋賀県大津市木戸1547-1
+        en: 1547-1 Kido, Otsu Shiga
+      Geometry:
+        Point:
+          Lng: 135.895605
+          Lat: 35.213379
+    Groups:
+    - Shiga
+
+  YogoKogen:
+    Name:
+      ja: 余呉高原リゾート ヤップスキー場
+      en: Yogo Kogen Resort YAP
+    Website:
+      # HTTPS無し
+      ja: http://yogo45.co.jp/
+    Tel:
+      Info: 0749-86-3001
+    Location:
+      Country: JP
+      ZipCode: 529-0531
+      Address:
+        ja: 長浜市余呉町中河内373
+      Geometry:
+        Point:
+          Lng: 136.158116
+          Lat: 35.698294
+    Groups:
+    - Shiga
+
+  KunizakaiKogen:
+    Name:
+      ja: 国境高原スノーパーク
+      en: Kunizakai Kogen Snow Park
+    Website:
+      ja: https://www.kunizakai.com/
+    Tel:
+      Info: 0740-28-0303
+    Location:
+      Country: JP
+      ZipCode: 520-1802
+      Address:
+        ja: 滋賀県高島市マキノ町野口507
+      Geometry:
+        Point:
+          Lng: 136.092498
+          Lat: 35.535788
+    Groups:
+    - Shiga
+
+  BiwakoHakodateyama:
+    Name:
+      ja: びわこ箱館山スキー場
+      en: Biwako Hakodateyama
+    Website:
+      ja: https://www.hakodateyama.com/winter/
+    Tel:
+      Info: 0740-22-2486
+    Location:
+      Country: JP
+      ZipCode: 520-1655
+      Address:
+        ja: 滋賀県高島市今津町日置前
+      Geometry:
+        Point:
+          # ゴンドラ降り場にしておいた
+          Lng: 135.995904
+          Lat: 35.427632
+    Groups:
+    - Shiga
+    
+  Kutsuki:
+    Name:
+      ja: 朽木スキー場
+      en: Kutsuki Snow Park
+    Website:
+      ja: https://kutsuki-snowpark.com/
+    Tel:
+      Info: 0740-38-2323
+    Location:
+      Country: JP
+      Address:
+        ja: 滋賀県高島市朽木宮前坊180-1
+      Geometry:
+        Point:
+          Lng: 135.939766
+          Lat: 35.329046
+    Groups:
+    - Shiga
+
+  UpKannabe:
+    Name:
+      ja: アップかんなべ
+      en: Up Kannabe
+    Website:
+      ja: http://www.kannabe.co.jp/
+      en: http://www.kannabe.co.jp/en/
+    Tel:
+      # 中央ゲレンデ事務所
+      Info: 0796-45-1545
+    Location:
+      Country: JP
+      ZipCode: 669-5372
+      Address:
+        ja: 兵庫県豊岡市日高町栗栖野59-78
+      Geometry:
+        Point:
+          Lng: 134.678576
+          Lat: 35.504720
+    Groups:
+    - Hyogo
+
+  KannabeManba:
+    Name:
+      ja: 神鍋高原 万場スキー場
+      en: Kannabe Kogen Manba
+    Website:
+      ja: https://www.manba-ski.jp/
+    Tel:
+      Info: 0796-45-0191
+    Location:
+      Country: JP
+      ZipCode: 669-5378
+      Address:
+        ja: 兵庫県豊岡市日高町万場480
+      Geometry:
+        # 奥神鍋と接続している
+        Point:
+          Lng: 134.652511
+          Lat: 35.491932
+    Groups:
+    - Hyogo
+
+  Okukannabe:
+    Name:
+      ja: 奥神鍋スキー場
+      en: Okukan
+    Website:
+      ja: https://okukan.com/
+    Tel:
+      Info: 0796-45-0510
+    Location:
+      Country: JP
+      Address:
+        ja: 兵庫県豊岡市日高町山田710
+      Geometry:
+        Point:
+          Lng: 134.645544
+          Lat: 35.500104
+    Groups:
+    - Hyogo
+
+  # 氷ノ山、ハチハチ北、ミカタスノーパーク、東鉢、スカイバレイが近接
+  # ハチハチ北が南北に長いので一点だと無理があった
+  # サイトを見ると連絡先が分かれるようなのでハチ高原スキー場とハチ北高原スキー場で別に登録しておく
+  HachiHachikita:
+    Name:
+      ja: ハチ・ハチ北スキー場
+      en: Hachi Hachikita
+    Website:
+      ja: https://www.hachi-hachikita.co.jp/
+    Location:
+      ZoomLevelThreshold: 11
+      Country: JP
+      Geometry:
+        Point:
+          # 鉢伏山
+          Lng: 134.536099
+          Lat: 35.395183
+    Groups:
+    - Hyogo
+
+  HachiKogen:
+    Parent: HachiHachikita
+    Name:
+      ja: ハチ高原スキー場
+      en: Hachi Kogen
+    Website:
+      ja: https://www.hachi-hachikita.co.jp/hachi/
+    Tel:
+      # ゲレンデダイヤル
+      Info: 079-667-8037
+    Location:
+      Country: JP
+      ZipCode: 667-1124
+      Address:
+        ja: 兵庫県養父市丹戸字西横角909−1
+      Geometry:
+        Point:
+          Lng: 134.533997
+          Lat: 35.383726
+
+  HachikitaKogen:
+    Parent: HachiHachikita
+    Name:
+      ja: ハチ北高原スキー場
+      en: Hachikita Kogen
+    Website:
+      ja: https://www.hachi-hachikita.co.jp/hachikita/
+    Tel:
+      # ゲレンデダイヤル
+      Info: 0796-96-0202
+    Location:
+      Country: JP
+      ZipCode: 667-1344
+      Address:
+        ja: 兵庫県美方郡香美町村岡区大笹580−1
+      Geometry:
+        Point:
+          Lng: 134.546072
+          Lat: 35.404182
+
+  Hyounosen:
+    Name:
+      ja: 氷ノ山国際スキー場
+      en: Hyounosen Kokusai
+    Website:
+      ja: https://www.hyounosen.jp/
+    Tel:
+      Info: 079-667-7219
+    Location:
+      Country: JP
+      ZipCode: 667-1125
+      Address:
+        ja: 兵庫県養父市奈良尾509
+      Geometry:
+        Point:
+          Lng: 134.530168
+          Lat: 35.361214
+    Groups:
+    - Hyogo
+
+  Tohachi:
+    Name:
+      ja: ハイパーボウル東鉢
+      en: Tohachi
+    Website:
+      ja: https://tohachi.jp/
+    Tel:
+      Info: 079-667-8201
+    Location:
+      Country: JP
+      ZipCode: 667-1128
+      Address:
+        ja: 兵庫県養父市別宮284
+      Geometry:
+        Point:
+          Lng: 134.561523
+          Lat: 35.388165
+    Groups:
+    - Hyogo
+
+  Skyvalley:
+    Name:
+      ja: スカイバレイスキー場
+      en: Skyvalley
+    Website:
+      ja: https://skyvalley.jp/
+      en: https://skyvalley.jp/english/
+    Tel:
+      Info: 0796-96-0375
+    Location:
+      Country: JP
+      ZipCode: 667-1343
+      Address:
+        ja: 兵庫県美方郡香美町村岡区中大谷701
+      Geometry:
+        Point:
+          Lng: 134.561254
+          Lat: 35.395622
+    Groups:
+    - Hyogo
+
+  # 新しいスキー場
+  MineyamaKogen:
+    Name:
+      ja: 峰山高原リゾート
+      en: Mineyama Kogen Resort
+    Website:
+      ja: https://mineyama-kogen-resort.com/
+    Tel:
+      Info: 0790-34-1900
+    Location:
+      Country: JP
+      ZipCode: 679-3125
+      Address:
+        ja: 兵庫県神崎郡神河町上小田881-146
+      Geometry:
+        Point:
+          Lng: 134.667051
+          Lat: 35.133229
+    Groups:
+    - Hyogo
+
+  ChikusaKogen:
+    Name:
+      ja: ちくさ高原スキー場
+      en: Chikusa Kogen
+    Website:
+      ja: https://www.chikusakogen.com/
+    Tel:
+      Info: 0790-76-3555
+    Location:
+      Country: JP
+      Address:
+        ja: 兵庫県宍粟市千種町西河内1047-218
+      Geometry:
+        Point:
+          Lng: 134.389875
+          Lat: 35.220529
+    Groups:
+    - Hyogo
+
+  Ojiro:
+    Name:
+      ja: おじろスキー場
+      en: Ojiro
+    Website:
+      ja: https://www.ojiro.or.jp/
+    Tel:
+      Info: 0796-97-2717
+    Location:
+      Country: JP
+      Address:
+        ja: 兵庫県美方郡香美町小代区大谷463
+      Geometry:
+        Point:
+          Lng: 134.531273
+          Lat: 35.451899
+    Groups:
+    - Hyogo
+
+  WakasugiKogenOoya:
+    Name:
+      ja: 若杉高原おおやスキー場
+      en: Wakasugi Kogen Ooya
+    Website:
+      ja: https://ooyaski.com/
+    Tel:
+      # サイトで見つけられず、若杉高原開発企業組合の電話番号
+      Info: 079-669-1576
+    Location:
+      Country: JP
+      Address:
+        ja: 兵庫県養父市大屋町若杉
+      Geometry:
+        Point:
+          Lng: 134.587871
+          Lat: 35.283175
+    Groups:
+    - Hyogo
+
+  BanshuTokura:
+    Name:
+      ja: ばんしゅう戸倉スキー場
+      en: Banshu Tokura
+    Website:
+      # 近くのおおやスキー場の一部？
+      ja: https://ooyaski.com/bantoku/
+    Tel:
+      # 観光案内等では載っているがサイトに無し
+      Info: 0790-73-0324
+    Location:
+      Country: JP
+      ZipCode: 671-4201
+      Address:
+        ja: 兵庫県宍粟市波賀町戸倉207
+      Geometry:
+        Point:
+          Lng: 134.542631
+          Lat: 35.289213
+    Groups:
+    - Hyogo
+
+  Rokkosan:
+    Name:
+      ja: 六甲山スノーパーク
+      # こう表記されているので従う
+      en: Rokko Snow Park
+    Website:
+      ja: https://www.rokkosan.com/ski/
+      en: https://www.rokkosan.com/ski/en/
+    Tel:
+      Info: 078-891-0366
+    Location:
+      Country: JP
+      ZipCode: 657-0101
+      Address:
+        ja: 神戸市灘区六甲山町北六甲4512-98
+      Geometry:
+        Point:
+          Lng: 135.242607
+          Lat: 34.767907
+    Groups:
+    - Hyogo
+
+  Daisen:
+    Name:
+      ja: だいせんホワイトリゾート
+      en: Daisen White Resort
+    Website:
+      # 切り替えちょっとあやしいけど多分冬季なら大丈夫
+      ja: https://www.daisen-resort.jp/
+    Tel:
+      Info: 0859-52-2315
+    Location:
+      Country: JP
+      # パンフレットにあるもの
+      ZipCode: 689-3318
+      Address:
+        ja: 鳥取県西伯郡大山町大山96
+      Geometry:
+        Point:
+          Lng: 133.53408
+          Lat: 35.396955
+    Groups:
+    - Tottori
+
+  # 鳥取県だが兵庫のハチ方面に近い
+  WakasaHyounosen:
+    Name:
+      ja: わかさ氷ノ山スキー場
+      en: Wakasa Hyounosen Skiing Area
+    Website:
+      # HTTPS無し
+      ja: http://www.hyounosen.co.jp/
+    Tel:
+      # ゲレンデの問い合わせ先 http://www.hyounosen.or.jp/play/ski/guide/index.html
+      Info: 0858-82-0512
+    Location:
+      Country: JP
+      ZipCode: 〒680-0728
+      Address:
+        ja: 鳥取県八頭郡若桜町
+      Geometry:
+        Point:
+          Lng: 134.489048
+          Lat: 35.352662
+    Groups:
+    - Tottori
+
+  Kotobiki:
+    Name:
+      ja: 琴引フォレストパーク
+      en: Kotobiki Forest Park
+    Website:
+      # HTTPS無し
+      ja: http://ski.kotobiki.co.jp/
+    ExtWebsite:
+      en: https://japan-skiguide.com/guide/htm/r0015ens.htm
+    Tel:
+      Info: 0854-72-1021
+    Location:
+      Country: JP
+      ZipCode: 690-3204
+      Address:
+        ja: 島根県飯石郡飯南町佐見1151
+      Geometry:
+        Point:
+          Lng: 132.768207
+          Lat: 35.054868
+    Groups:
+    - Shimane
+
+  HiruzenBearValley:
+    Name:
+      ja: ひるぜんベアバレースキー場
+      en: Hiruzen Bear Valley
+    Website:
+      # HTTPS無し
+      ja: http://ww51.tiki.ne.jp/~bear-ski/
+    Tel:
+      # ゲレンデ情報 0867-66-5400 よりはこっち？
+      Info: 0867-66-5333
+    Location:
+      Country: JP
+      Address:
+        ja: 岡山県真庭市蒜山本茅部644-105
+      Geometry:
+        Point:
+          Lng: 133.596323
+          Lat: 35.261221
+    Groups:
+    - Okayama
+
+  Ibukinosato:
+    Name:
+      ja: いぶきの里スキー場
+      en: Ibukinosato
+    Website:
+      ja: https://www.ibukinosato.co.jp/
+    Tel:
+      Info: 0867-77-2266
+    Location:
+      Country: JP
+      ZipCode: 718-0104
+      Address:
+        ja: 岡山県新見市千屋花見1336-1
+      Geometry:
+        Point:
+          Lng: 133.409175
+          Lat: 35.169268
+    Groups:
+    - Okayama
+
+  OmbaraKogen:
+    Name:
+      ja: 恩原高原スキー場
+      en: Ombara Kogen
+    Website:
+      ja: https://www.ombara-kogen.com/ski/
+    Tel:
+      Info: 0868-44-2808
+    Location:
+      Country: JP
+      ZipCode: 708-0601
+      Address:
+        ja: 岡山県苫田郡鏡野町上齋原2037
+      Geometry:
+        Point:
+          # パノラマゲレンデのみ？
+          Lng: 133.980812
+          Lat: 35.312433
+    Groups:
+    - Okayama
+
+  Osorakan:
+    Name:
+      ja: 恐羅漢スノーパーク
+      en: Osorakan Snow Park
+    Website:
+      ja: https://www.osorakan.co.jp/winter/
+    Tel:
+      Info: 0826-28-7007
+    Location:
+      Country: JP
+      ZipCode: 731-3801
+      Address:
+        ja: 広島県山県郡安芸太田町大字横川740-1
+      Geometry:
+        Point:
+          Lng: 132.146635
+          Lat: 34.595713
+    Groups:
+    - Hiroshima
+
+  Nekoyama:
+    Name:
+      ja: スノーリゾート猫山
+      en: Snow Resort Nekoyama
+    Website:
+      # HTTPS無し
+      ja: http://nekoyama.net/win/
+    Tel:
+      # 代表電話
+      Info: 0824-84-2311
+    Location:
+      Country: JP
+      ZipCode: 729-5611
+      Address:
+        ja: 広島県庄原市西城町三坂5190-50
+      Geometry:
+        Point:
+          Lng: 133.199289
+          Lat: 35.04081
+    Groups:
+    - Hiroshima
+
+  DogoyamaKogen:
+    Name:
+      ja: 道後山高原スキー場
+      en: Dogoyama Kogen
+    Website:
+      # HTTPS無し
+      # i-modeサイトがあるのだが、必要な情報しかないので意外といいかもしれない(?)
+      ja: http://www.dogoyamakogen.server-shared.com/
+    Tel:
+      Info: 0824-84-2105
+    Location:
+      Country: JP
+      Address:
+        ja: 広島県庄原市西城町三坂　　TEL
+      Geometry:
+        Point:
+          Lng: 133.203575
+          Lat: 35.056467
+    Groups:
+    - Hiroshima
+
+  Megahira:
+    Name:
+      ja: めがひらスキー場
+      en: Megahira
+    Website:
+      # HTTPS無し
+      ja: http://www.megahira.co.jp/sp/skiing/
+    Tel:
+      # 営業時間内TEL 0829-40-3000, TEL 0829-40-3030
+      Info: 0829-40-3000
+    Location:
+      Country: JP
+      ZipCode: 738-0301
+      Address:
+        ja: 広島県廿日市市吉和4301
+      Geometry:
+        Point:
+          Lng: 132.143074
+          Lat: 34.497976
+    Groups:
+    - Hiroshima
+
+  Yawata:
+    Name:
+      ja: やわたハイランド191リゾート
+      en: Yawata Highland 191 Resort
+    Website:
+      ja: https://yawata191.com/
+    Tel:
+      Info: 0826-37-0341
+    Location:
+      Country: JP
+      ZipCode: 731-2552
+      Address:
+        ja: 広島県山県郡北広島町西八幡原
+      Geometry:
+        Point:
+          Lng: 132.159825
+          Lat: 34.69453
+    Groups:
+    - Hiroshima
+
+  Saioto:
+    Name:
+      ja: ユートピアサイオト
+      en: Saioto
+    Website:
+      ja: https://www.saioto.co.jp/
+    Tel:
+      Info: 0826-35-1234
+    Location:
+      Country: JP
+      ZipCode: 731-2314
+      Address:
+        ja: 広島県山県郡北広島町才乙144
+      Geometry:
+        Point:
+          Lng: 132.317343
+          Lat: 34.785863
+    Groups:
+    - Hiroshima
+
+  Osa:
+    Name:
+      ja: 大佐スキー場
+      en: Osa
+    Website:
+      ja: https://osaski.co.jp/
+    Tel:
+      Info: 0826-35-0038
+    Location:
+      Country: JP
+      ZipCode: 731-2431
+      Address:
+        ja: 広島県山県郡北広島町荒神原38-31
+      Geometry:
+        Point:
+          Lng: 132.219992
+          Lat: 34.747839
+    Groups:
+    - Hiroshima
+
+  IkawaKainayama:
+    Name:
+      ja: 井川スキー場 腕山
+      en: Ikawa Ski Resort Kainayama
+    Website:
+      ja: https://www.ikawaski.jp/
+    Tel:
+      Info: 0883-78-3003
+    Location:
+      Country: JP
+      ZipCode: 779-4805
+      Address:
+        ja: 徳島県三好市井川町井内西平山
+      Geometry:
+        Point:
+          Lng: 133.884858
+          Lat: 33.963209
+    Groups:
+    - Tokushima
+
+  Kuma:
+    Name:
+      ja: 久万スキーランド
+      en: Kuma
+    Website:
+      # HTTPS無し
+      ja: http://www.kumax.co.jp/
+      # 英語サイトはあるのだがアップデートされていないようだ
+      # 連絡先等のために載せておく
+      en: http://www.kumax.co.jp/en/
+    Tel:
+      Info: 0892-21-0100
+    Location:
+      Country: JP
+      ZipCode: 791-1204
+      Address:
+        ja: 愛媛県上浮穴郡久万高原町東明神乙754番地60
+      Geometry:
+        Point:
+          Lng: 132.874481
+          Lat: 33.718494
+    Groups:
+    - Ehime
+
+  Ishizuchi:
+    Name:
+      ja: 石鎚スキー場
+      en: Ishizuchi
+    Website:
+      ja: https://www.ishizuchi.com/ski/
+    Tel:
+      Info: 0897-59-0331
+    Location:
+      Country: JP
+      ZipCode: 793-0215
+      Address:
+        ja: 愛媛県西条市西之川下谷甲81番地
+      Geometry:
+        Point:
+          Lng: 133.127408
+          Lat: 33.793312
+    Groups:
+    - Ehime
+
+  Kuju:
+    Name:
+      ja: 九重森林公園スキー場
+      en: Kuju
+    Website:
+      ja: https://www.kujyuski.co.jp/
+    Tel:
+      Info: 0973-79-2200
+    Location:
+      Country: JP
+      ZipCode: 879-4912
+      Address:
+        ja: 大分県玖珠郡九重町大字湯坪612-1
+      Geometry:
+        Point:
+          Lng: 131.178388
+          Lat: 33.099444
+    Groups:
+    - Oita
+
+  Gokase:
+    Name:
+      ja: 五ヶ瀬ハイランドスキー場
+      en: Gokase Highland
+    Website:
+      # HTTPS無し
+      ja: http://www.gokase.co.jp/ski/
+    Tel:
+      Info: 0982-83-2144
+    Location:
+      Country: JP
+      ZipCode: 882-1201
+      Address:
+        ja: 宮崎県西臼杵郡五ケ瀬町大字鞍岡4647-171
+      Geometry:
+        Point:
+          Lng: 131.117745
+          Lat: 32.579031
+    Groups:
+    - Miyazaki
+
