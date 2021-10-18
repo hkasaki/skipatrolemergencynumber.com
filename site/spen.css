@@ -207,3 +207,7 @@ select {
     height: calc(100vh - 3em);
     overflow-y: auto;
 }
+
+.configview-link {
+    text-decoration: underline;
+}
