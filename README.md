@@ -6,7 +6,7 @@
 
 If you are an experienced skier or snowboarder, you probably have had an opportunity to call patrols of the snow resort. At that time, did you prepare the emergency phone number in advance? Or could you find it easily and made a phone call to them?
 
-Yes, in fact, I had fallen into this situation several times. But I had not prepared it at all. At those times, I luckily found people who are willing to help the injured guy with me. Or that was when I enjoyed skiing with my friends, so some of us could take care of him while others went down the slope to call patrols.
+Yes, in fact, I had fallen into this situation several times. But I had not prepared it at all. At those times, I luckily found people who are willing to help the injured guy with me. Or that was when I enjoyed skiing with my friends, so some of us could take care of him/her while others went down the slope to call patrols.
 
 After struggling at the scenes of accidents several times, I found it difficult to find ski patrol's phone numbers quickly. I live in Japan, and I ski only in Japan. Japanese snow resorts are very safety-oriented and I sometimes feel them even overprotective, but the accessibility to ski patrol is limited. Of course, I know, I should have prepared the emergency phone number in the morning and started to get on the lift. Quite serious skiers around me are doing it. But what if the ski patrol's phone number is not available? The printed piste map may not be found in your next ski trip. I dug so many Japanese ski resort's websites but only less than 10% of them clearly shows the patrol phone numbers.
 
