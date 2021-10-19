@@ -351,7 +351,7 @@
         "en": "https://www.princehotels.com/en/ski/furano/"
       },
       "Tel": {
-        "Info": "+81-167-22-1111"
+        "Info": "0167-22-1111"
       },
       "Location": {
         "Country": "JP",
@@ -571,7 +571,8 @@
         "en": "https://www.kiroro.co.jp/"
       },
       "Tel": {
-        "Info": "0135-34-7111"
+        "Info": "0135-34-7118",
+        "Emergency": "0135-34-7175"
       },
       "Location": {
         "Country": "JP",
@@ -2432,7 +2433,8 @@
         "en": "https://www.princehotels.com/en/ski/shiga_kogen/"
       },
       "Tel": {
-        "Info": "0269-34-3117"
+        "Info": "0269-34-3117",
+        "Emergency": "0269-34-3117"
       },
       "Location": {
         "Country": "JP",
@@ -2537,7 +2539,8 @@
         "en": "https://www.happo-one.jp/en/winter/"
       },
       "Tel": {
-        "Info": "0261-72-3280"
+        "Info": "0261-72-3280",
+        "Emergency": "0261-72-3704"
       },
       "Location": {
         "Country": "JP",
@@ -2628,7 +2631,8 @@
         "en": "https://www.hakubaescal.com/winter-en/"
       },
       "Tel": {
-        "Info": "0261-75-2101"
+        "Info": "0261-75-2101",
+        "Emergency": "0261-75-2101"
       },
       "Location": {
         "Country": "JP",
@@ -2656,7 +2660,8 @@
         "en": "https://oito.co.jp/iimori/english/"
       },
       "Tel": {
-        "Info": "0261-75-2636"
+        "Info": "0261-75-2636",
+        "Emergency": "0261-75-2636"
       },
       "Location": {
         "Country": "JP",
@@ -2684,7 +2689,8 @@
         "en": "https://www.hakuba47.co.jp/winter/en/"
       },
       "Tel": {
-        "Info": "0261-75-3533"
+        "Info": "0261-75-3533",
+        "Emergency": "0261-75-3533"
       },
       "Location": {
         "Country": "JP",
@@ -2774,7 +2780,8 @@
         "common": "https://www.hgp.co.jp/cortina/ski/"
       },
       "Tel": {
-        "Info": "0570-097-489"
+        "Info": "0570-097-489",
+        "Emergency": "0261-82-2236"
       },
       "Location": {
         "Country": "JP",
@@ -3125,7 +3132,8 @@
         "ja": "https://pinebeak.jp/"
       },
       "Tel": {
-        "Info": "0268-74-2138"
+        "Info": "0268-74-2138",
+        "Emergency": "0268-74-3314"
       },
       "Location": {
         "Country": "JP",
@@ -3661,7 +3669,8 @@
         "ja": "https://shirakaba-ski.jp/"
       },
       "Tel": {
-        "Info": "0267-55-6000"
+        "Info": "0267-55-6000",
+        "Emergency": "0267-55-7680"
       },
       "Location": {
         "Country": "JP",
@@ -4195,7 +4204,8 @@
         "en": "https://ishiuchi.or.jp/en/"
       },
       "Tel": {
-        "Info": "025-783-2222"
+        "Info": "025-783-2222",
+        "Emergency": "025-783-2177"
       },
       "Location": {
         "Country": "JP",
@@ -4446,7 +4456,8 @@
         "ja": "https://www.princehotels.co.jp/ski/myoko/"
       },
       "Tel": {
-        "Info": "0255-86-6211　"
+        "Info": "0255-86-6211",
+        "Emergency": "0255-86-6211"
       },
       "Location": {
         "Country": "JP",

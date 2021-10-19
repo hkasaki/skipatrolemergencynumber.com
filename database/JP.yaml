@@ -292,7 +292,10 @@ Resorts:
       ja: https://www.princehotels.co.jp/ski/furano/
       en: https://www.princehotels.com/en/ski/furano/
     Tel:
-      Info: +81-167-22-1111
+      Info: 0167-22-1111
+      # http://www.klu.jp/wp/wp-content/uploads/2019/01/%E5%AF%8C%E8%89%AF%E9%87%8E%E3%82%B9%E3%82%AD%E3%83%BC%E5%A0%B4MAP.pdf
+      # 携帯の番号なので確認してから掲載する
+      # Emergency: 090-3391-3340
     Location:
       Country: JP
       ZipCode: 076-8511
@@ -462,7 +465,10 @@ Resorts:
       ja: https://www.kiroro.co.jp/ja/
       en: https://www.kiroro.co.jp/
     Tel:
-      Info: 0135-34-7111
+      # https://www.kiroro.co.jp/test/wp-content/uploads/2017/12/kiroro-stay-guide-ja.pdf
+      # スキー場に関する問い合わせ先
+      Info: 0135-34-7118
+      Emergency: 0135-34-7175
     Location:
       Country: JP
       ZipCode: 046-0593
@@ -1839,6 +1845,8 @@ Resorts:
       en: https://www.princehotels.com/en/ski/shiga_kogen/
     Tel:
       Info: 0269-34-3117
+      # 村上さんより
+      Emergency: 0269-34-3117
     Location:
       Country: JP
       ZipCode: 381-0497
@@ -1921,6 +1929,7 @@ Resorts:
       en: https://www.happo-one.jp/en/winter/
     Tel:
       Info: 0261-72-3280
+      Emergency: 0261-72-3704
     Location:
       Country: JP
       ZipCode: 399-9301
@@ -1992,6 +2001,8 @@ Resorts:
       en: https://www.hakubaescal.com/winter-en/
     Tel:
       Info: 0261-75-2101
+      # https://www.hakubaescal.com/winter/gelande/patrol/#anc1
+      Emergency: 0261-75-2101
     Location:
       Country: JP
       ZipCode: 399-9211
@@ -2014,6 +2025,8 @@ Resorts:
       en: https://oito.co.jp/iimori/english/
     Tel:
       Info: 0261-75-2636
+      # https://www.hakubaescal.com/winter/gelande/patrol/#anc1
+      Emergency: 0261-75-2636
     Location:
       Country: JP
       ZipCode: 399-9211
@@ -2035,6 +2048,8 @@ Resorts:
       en: https://www.hakuba47.co.jp/winter/en/
     Tel:
       Info: 0261-75-3533
+      # https://www.hakubaescal.com/winter/gelande/patrol/#anc1
+      Emergency: 0261-75-3533
     Location:
       Country: JP
       ZipCode: 399-9211
@@ -2104,6 +2119,8 @@ Resorts:
     Tel:
       # ホテルグリーンプラザ白馬の番号
       Info: 0570-097-489
+      # https://mapfan.com/spots/SAYW,J,DFUU1
+      Emergency: 0261-82-2236
     Location:
       Country: JP
       ZipCode: 399-9422
@@ -2358,6 +2375,8 @@ Resorts:
       ja: https://pinebeak.jp/
     Tel:
       Info: 0268-74-2138
+      # https://www.jpnumber.com/numberinfo_0268_74_3314.html
+      Emergency: 0268-74-3314
     Location:
       Country: JP
       ZipCode: 386-2204
@@ -2754,6 +2773,8 @@ Resorts:
       ja: https://shirakaba-ski.jp/
     Tel:
       Info: 0267-55-6000
+      # https://townpage.goo.ne.jp/shopdetail.php?matomeid=208616888000000899
+      Emergency: 0267-55-7680
     Location:
       Country: JP
       ZipCode: 384-2309
@@ -3160,6 +3181,8 @@ Resorts:
       en: https://ishiuchi.or.jp/en/
     Tel:
       Info: 025-783-2222
+      # https://ishiuchi.or.jp/rule/
+      Emergency: 025-783-2177
     Location:
       Country: JP
       ZipCode: 949-6372
@@ -3346,7 +3369,8 @@ Resorts:
     Website:
       ja: https://www.princehotels.co.jp/ski/myoko/
     Tel:
-      Info: 0255-86-6211　
+      Info: 0255-86-6211
+      Emergency: 0255-86-6211
     Location:
       Country: JP
       ZipCode: 949-2113
