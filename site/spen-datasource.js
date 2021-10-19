@@ -20,7 +20,7 @@ SkiPatrolEmergencyNumber.DataSource = class DataSource {
         });
     }
 
-    async prmGetResortDatabase() {
+    async prmGetResortDatabase(version) {
         const testData = {
             "Ochanomizu": {
                 "Name": {
@@ -71,7 +71,7 @@ SkiPatrolEmergencyNumber.DataSource = class DataSource {
                 }
             }
         };
-        const ret = await (await fetch("./JP.json")).json();
+        const ret = await (await fetch(`./JP.json?v={version}`)).json();
         if(this.isDebug) {
             Object.assign(ret, testData);
         }

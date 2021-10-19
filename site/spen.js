@@ -22,10 +22,11 @@ $(async ()=>{
             .replace(/"/g, '&quot;')
             .replace(/'/g, '&#39;');
     }
+    const version = 5;
 
     const i18n = new SkiPatrolEmergencyNumber.I18n();
     const dataSource = new SkiPatrolEmergencyNumber.DataSource(true); // debug
-    const location = await dataSource.prmGetCurrentLocation();
+    const location = await dataSource.prmGetCurrentLocation(version);
     const registry = new SkiPatrolEmergencyNumber.Registry(dataSource);
 
     const viewResort = new SkiPatrolEmergencyNumber.ViewResort(i18n, registry);
