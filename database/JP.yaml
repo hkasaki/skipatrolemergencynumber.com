@@ -199,6 +199,8 @@ Resorts:
     Groups:
     - Hokkaido
 
+# TODO: ウィンザースノービレッジ まだある？
+
   Moiwa:
     Name:
       ja: 札幌藻岩山スキー場
@@ -239,6 +241,8 @@ Resorts:
           Lat: 43.146161
     Groups:
     - Hokkaido
+
+# ダイナスティスキーリゾート
 
   MountRacey:
     Name:
@@ -457,6 +461,8 @@ Resorts:
     Groups:
     - Hokkaido
 
+# TODO: ニセコモイワスキーリゾート
+
   Kiroro:
     Name:
       ja: キロロスノーワールド
@@ -480,6 +486,8 @@ Resorts:
           Lat: 43.067437
     Groups:
     - Hokkaido
+
+# TODO: 小樽天狗山スキー場
 
   AsarigawaOnsen:
     Name:
@@ -610,6 +618,8 @@ Resorts:
     Groups:
     - Hokkaido
 
+# TODO: キャンモアスキービレッジ
+
   SapporoBankei:
     Name:
       ja: さっぽろばんけいスキー場
@@ -650,6 +660,12 @@ Resorts:
           Lat: 43.93311
     Groups:
     - Hokkaido
+
+# TODO: 函館七飯スノーパーク
+# https://hakodate-nanae.jp/winter/
+
+# TODO: 和寒町東山スキー場
+# TODO: 長沼スキー場
 
   AomoriSpring:
     Name:
@@ -1952,6 +1968,8 @@ Resorts:
       ja: https://iwatake-mountain-resort.com/winter/
     Tel:
       Info: 0261-72-2474
+      # https://www.hakunori.com/cms/wp-content/themes/hakunori/pdf/20201121_HAKUBAVALLEY-Safety-Tips_JP_vf-1.pdf
+      Emergency: 0261-72-2080
     Location:
       Country: JP
       ZipCode: 399-9301
@@ -2073,6 +2091,8 @@ Resorts:
     Tel:
       # いくつか電話番号があるがgnaviに合わせて栂池高原観光協会
       Info: 0261-83-2515
+      # https://www.tsugaike.gr.jp/faq
+      Emergency: 0261-83-2427
     Location:
       Country: JP
       ZipCode: 399-9422
@@ -2096,6 +2116,8 @@ Resorts:
       en: https://www.hakunori.com/en/
     Tel:
       Info: 0261-82-2811
+      # https://www.hakunori.com/cms/wp-content/themes/hakunori/pdf/20201121_HAKUBAVALLEY-Safety-Tips_JP_vf-1.pdf
+      Emergency: 0261-82-3923
     Location:
       Country: JP
       ZipCode: 399-9422
@@ -2120,7 +2142,9 @@ Resorts:
       # ホテルグリーンプラザ白馬の番号
       Info: 0570-097-489
       # https://mapfan.com/spots/SAYW,J,DFUU1
-      Emergency: 0261-82-2236
+      # Emergency: 0261-82-2236
+      # https://www.hakunori.com/cms/wp-content/themes/hakunori/pdf/20201121_HAKUBAVALLEY-Safety-Tips_JP_vf-1.pdf
+      Emergency: 0261-82-2650
     Location:
       Country: JP
       ZipCode: 399-9422
@@ -2144,6 +2168,8 @@ Resorts:
       en: https://japan-skiguide.com/guide/htm/r0196ens.htm
     Tel:
       Info: 0261-23-1231
+      # https://www.hakunori.com/cms/wp-content/themes/hakunori/pdf/20201121_HAKUBAVALLEY-Safety-Tips_JP_vf-1.pdf
+      Emergency: 0261-23-1707
     Location:
       Country: JP
       ZipCode: 398-0001
@@ -2165,6 +2191,8 @@ Resorts:
       ja: https://jiigatake.com/
     Tel:
       Info: 0261-22-0551
+      # https://www.hakunori.com/cms/wp-content/themes/hakunori/pdf/20201121_HAKUBAVALLEY-Safety-Tips_JP_vf-1.pdf
+      Emergency: 0261-22-0551
     Location:
       Country: JP
       ZipCode: 398-0001
@@ -2186,6 +2214,10 @@ Resorts:
     Tel:
       # リフト降り場に目立つようにパトロールの番号が書いてあったと思う
       Info: 0267-23-1714
+      # https://asama2000.com/slope.html
+      # Emergency: 0267-23-1714
+      # ↑にあるパトロール直通の番号
+      Emergency: 080-5894-6398
     Location:
       Country: JP
       ZipCode: 384-0000

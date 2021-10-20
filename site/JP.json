@@ -2569,7 +2569,8 @@
         "ja": "https://iwatake-mountain-resort.com/winter/"
       },
       "Tel": {
-        "Info": "0261-72-2474"
+        "Info": "0261-72-2474",
+        "Emergency": "0261-72-2080"
       },
       "Location": {
         "Country": "JP",
@@ -2719,7 +2720,8 @@
         "common": "https://www.tsugaike.gr.jp/"
       },
       "Tel": {
-        "Info": "0261-83-2515"
+        "Info": "0261-83-2515",
+        "Emergency": "0261-83-2427"
       },
       "Location": {
         "Country": "JP",
@@ -2750,7 +2752,8 @@
         "en": "https://www.hakunori.com/en/"
       },
       "Tel": {
-        "Info": "0261-82-2811"
+        "Info": "0261-82-2811",
+        "Emergency": "0261-82-3923"
       },
       "Location": {
         "Country": "JP",
@@ -2781,7 +2784,7 @@
       },
       "Tel": {
         "Info": "0570-097-489",
-        "Emergency": "0261-82-2236"
+        "Emergency": "0261-82-2650"
       },
       "Location": {
         "Country": "JP",
@@ -2813,7 +2816,8 @@
         "en": "https://japan-skiguide.com/guide/htm/r0196ens.htm"
       },
       "Tel": {
-        "Info": "0261-23-1231"
+        "Info": "0261-23-1231",
+        "Emergency": "0261-23-1707"
       },
       "Location": {
         "Country": "JP",
@@ -2842,7 +2846,8 @@
         "ja": "https://jiigatake.com/"
       },
       "Tel": {
-        "Info": "0261-22-0551"
+        "Info": "0261-22-0551",
+        "Emergency": "0261-22-0551"
       },
       "Location": {
         "Country": "JP",
@@ -2870,7 +2875,8 @@
         "ja": "https://asama2000.com/"
       },
       "Tel": {
-        "Info": "0267-23-1714"
+        "Info": "0267-23-1714",
+        "Emergency": "080-5894-6398"
       },
       "Location": {
         "Country": "JP",
