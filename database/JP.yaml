@@ -166,7 +166,9 @@ Resorts:
       ja: https://rusutsu.com/
       en: https://rusutsu.com/en/
     Tel:
-      Info: +81-136-46-3111
+      Info: 0136-46-3111
+      # 2021/10/20 フォームで緊急時連絡先を問い合わせ, 同じという回答を頂いた
+      Emergency: 0136-46-3111
     Location:
       Country: JP
       ZipCode: 048-1711
@@ -187,6 +189,7 @@ Resorts:
       ja: https://nakayama-ski.com/
     Tel:
       Info: 0136-33-3373
+      # 2021/10/20 フォームで緊急時連絡先を問い合わせ
     Location:
       Country: JP
       ZipCode: 044-0223
@@ -209,6 +212,7 @@ Resorts:
       ja: https://www.rinyu.co.jp/moiwa/
     Tel:
       Info: 011-581-0914
+      # 2021/10/20 フォームで緊急時連絡先を問い合わせ
     Location:
       Country: JP
       ZipCode: 005-0040
@@ -230,6 +234,8 @@ Resorts:
       ja: https://onze.jp/
     Tel:
       Info: 0134-62-2228
+      # https://onze.jp/course/
+      Emergency: 0134-62-2228
     Location:
       Country: JP
       ZipCode: 047-0265
@@ -276,6 +282,7 @@ Resorts:
       en: https://www.fujino-yagai-sports.jp/en/winter/
     Tel:
       Info: 011-591-8111
+      # 電話しか問い合わせ先がない
     Location:
       Country: JP
       ZipCode: 061-2271
@@ -297,9 +304,8 @@ Resorts:
       en: https://www.princehotels.com/en/ski/furano/
     Tel:
       Info: 0167-22-1111
-      # http://www.klu.jp/wp/wp-content/uploads/2019/01/%E5%AF%8C%E8%89%AF%E9%87%8E%E3%82%B9%E3%82%AD%E3%83%BC%E5%A0%B4MAP.pdf
-      # 携帯の番号なので確認してから掲載する
-      # Emergency: 090-3391-3340
+      # https://www.princehotels.co.jp/ski/furano/winter/coursemap/
+      Emergency: 090-3391-3340
     Location:
       Country: JP
       ZipCode: 076-8511
@@ -319,10 +325,12 @@ Resorts:
     Website:
       ja: https://www.snowtomamu.jp/winter/
       en: https://www.snowtomamu.jp/winter/en/
-    # どれが妥当か不明。gnavi は 2101を書いている
-    # https://www.snowtomamu.jp/winter/inquiry/
-    #Tel:
-    #  Info: 
+    Tel:
+      # どれが妥当か不明。gnavi は 2101を書いている
+      # https://www.snowtomamu.jp/winter/inquiry/
+      # Info: 
+      # https://www.snowtomamu.jp/winter/ski/guide/map.php
+      Emergency: 0167-58-1220
     Location:
       Country: JP
       ZipCode: 079-2204
@@ -358,6 +366,8 @@ Resorts:
       en: https://www.grand-hirafu.jp/winter/en/
     Tel:
       Info: 0136-22-0109
+      # https://www.niseko.ne.jp/ja/niseko-rules/
+      Emergency: 0136-22-3760
     Location:
       Country: JP
       ZipCode: 044-0081
@@ -379,9 +389,10 @@ Resorts:
     Website:
       ja: https://hanazononiseko.com/ja/winter/
       en: https://hanazononiseko.com/en/winter/
-    # gnaviは0136-23-0103
     Tel:
-      Info: 
+      Info: 0136-23-0103
+      # https://www.niseko.ne.jp/ja/niseko-rules/
+      Emergency: 0136-23-0104
     Location:
       Country: JP
       ZipCode: 044-0082
@@ -404,6 +415,8 @@ Resorts:
       en: https://annupuri.info/winter/english/
     Tel:
       Info: 0136-58-2080
+      # https://www.niseko.ne.jp/ja/niseko-rules/
+      Emergency: 0136-58-2080
     Location:
       Country: JP
       ZipCode: 048-1511
@@ -426,6 +439,8 @@ Resorts:
       en: https://www.niseko-village.com/en/
     Tel:
       Info: 0136-44-2211
+      # https://www.niseko.ne.jp/ja/niseko-rules/
+      Emergency: 0136-44-2211
     Location:
       Country: JP
       ZipCode: 048-1592
@@ -439,6 +454,31 @@ Resorts:
     Groups:
     - Hokkaido
 
+  NisekoMoiwa:
+    # ニセコユナイテッドの中には入っていない
+    Name:
+      ja: ニセコモイワスキーリゾート
+      en: Niseko Moiwa Ski Resort
+    Website:
+      ja: https://niseko-moiwa.jp/ja/
+      en: https://niseko-moiwa.jp/
+    Tel:
+      # モイワリゾーツオペレーション合同会社
+      Info: 0136−59−2511
+      # https://www.niseko.ne.jp/ja/niseko-rules/
+      Emergency: 0136-59-2511
+    Location:
+      Country: JP
+      ZipCode: 048-1511
+      Address:
+        ja: 北海道虻田郡ニセコ町字ニセコ448
+      Geometry:
+        Point:
+          Lng: 140.631781
+          Lat: 42.854021
+    Groups:
+    - Hokkaido
+
   Teine:
     Name:
       ja: サッポロテイネ
@@ -449,6 +489,7 @@ Resorts:
     Tel:
       # 冬季代表電話
       Info: 011-682-6000
+      # フォーム、メールアドレス等無し。要電話？
     Location:
       Country: JP
       ZipCode: 006-0029
@@ -460,8 +501,6 @@ Resorts:
           Lat: 43.095715
     Groups:
     - Hokkaido
-
-# TODO: ニセコモイワスキーリゾート
 
   Kiroro:
     Name:
@@ -498,6 +537,8 @@ Resorts:
       en: https://asari-ski.com/index_en/
     Tel:
       Info: 0134-54-0101
+      # 2021/10/20 フォームで緊急時連絡先を問い合わせ, 同じという回答を頂いた
+      Emergency: 0134-54-0101
     Location:
       Country: JP
       ZipCode: 047-0154
@@ -519,6 +560,7 @@ Resorts:
       en: https://www.sapporo-kokusai.jp/en/
     Tel:
       Info: 011-598-4511
+      # 要電話問い合わせ
     Location:
       Country: JP
       ZipCode: 061-2301
@@ -564,6 +606,7 @@ Resorts:
       en: https://sahoro.co.jp/winter/ski?lang=en
     Tel:
       Info: 0156-64-4121
+      # 2021/10/20 フォームで緊急時連絡先を問い合わせ
     Location:
       Country: JP
       ZipCode: 081-0039
@@ -585,6 +628,8 @@ Resorts:
       en: https://www.kamui-skilinks.com/en/
     Tel:
       Info: 0166-72-2311
+      # https://www.kamui-skilinks.com/pdf_data/coursemap-v2018-2019.pdf
+      Emergency: 0166-72-2311
     Location:
       Country: JP
       ZipCode: 074-1181
@@ -606,6 +651,7 @@ Resorts:
     Tel:
       # gnaviは運営会社の番号を載せてるようだがパンフレットとかはこちら
       Info: 0166-63-3232
+      # 要電話？FB, Twitter等はあり
     Location:
       Country: JP
       ZipCode: 070-8025
@@ -629,6 +675,7 @@ Resorts:
       en: https://www.bankei.co.jp/home-english/
     Tel:
       Info: 011-641-0071
+      # 2021/10/20 フォームで緊急時連絡先を問い合わせ
     Location:
       Country: JP
       Address:
@@ -649,6 +696,7 @@ Resorts:
       ja: http://www.town.pippu.hokkaido.jp/ski/top.html
     Tel:
       Info: 0166-85-3056
+      # Facebookページあり
     Location:
       Country: JP
       ZipCode: 078-0327
@@ -677,6 +725,7 @@ Resorts:
       en: https://aomorispringski.com/
     Tel:
       Info: 0173-72-1011
+      # 2021/10/21 メールで問い合わせ
     Location:
       Country: JP
       ZipCode: 038-2793
@@ -698,6 +747,7 @@ Resorts:
       ja: http://www.moyahills.jp/winter/winter.html
     Tel:
       Info: 017-764-1110
+      # 2021/10/21 フォームで問い合わせ
     Location:
       Country: JP
       ZipCode: 030-0133
@@ -718,6 +768,7 @@ Resorts:
       ja: https://www.appi.co.jp/ski/
     Tel:
       Info: 0195-73-5111
+      # 2021/10/21 フォームで問い合わせ
     Location:
       Country: JP
       ZipCode: 028-7306
@@ -739,6 +790,7 @@ Resorts:
       ja: https://www.getokogen.com/winter/
     Tel:
       Info: 0197-65-9000
+      # 2021/10/21 フォームで問い合わせ (BC配慮混み)
     Location:
       Country: JP
       ZipCode: 024-0322

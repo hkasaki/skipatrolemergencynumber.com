@@ -180,7 +180,8 @@
         "en": "https://rusutsu.com/en/"
       },
       "Tel": {
-        "Info": "+81-136-46-3111"
+        "Info": "0136-46-3111",
+        "Emergency": "0136-46-3111"
       },
       "Location": {
         "Country": "JP",
@@ -264,7 +265,8 @@
         "ja": "https://onze.jp/"
       },
       "Tel": {
-        "Info": "0134-62-2228"
+        "Info": "0134-62-2228",
+        "Emergency": "0134-62-2228"
       },
       "Location": {
         "Country": "JP",
@@ -351,7 +353,8 @@
         "en": "https://www.princehotels.com/en/ski/furano/"
       },
       "Tel": {
-        "Info": "0167-22-1111"
+        "Info": "0167-22-1111",
+        "Emergency": "090-3391-3340"
       },
       "Location": {
         "Country": "JP",
@@ -378,6 +381,9 @@
       "Website": {
         "ja": "https://www.snowtomamu.jp/winter/",
         "en": "https://www.snowtomamu.jp/winter/en/"
+      },
+      "Tel": {
+        "Emergency": "0167-58-1220"
       },
       "Location": {
         "Country": "JP",
@@ -423,7 +429,8 @@
         "en": "https://www.grand-hirafu.jp/winter/en/"
       },
       "Tel": {
-        "Info": "0136-22-0109"
+        "Info": "0136-22-0109",
+        "Emergency": "0136-22-3760"
       },
       "Location": {
         "Country": "JP",
@@ -453,7 +460,8 @@
         "en": "https://hanazononiseko.com/en/winter/"
       },
       "Tel": {
-        "Info": null
+        "Info": "0136-23-0103",
+        "Emergency": "0136-23-0104"
       },
       "Location": {
         "Country": "JP",
@@ -483,7 +491,8 @@
         "en": "https://annupuri.info/winter/english/"
       },
       "Tel": {
-        "Info": "0136-58-2080"
+        "Info": "0136-58-2080",
+        "Emergency": "0136-58-2080"
       },
       "Location": {
         "Country": "JP",
@@ -513,7 +522,8 @@
         "en": "https://www.niseko-village.com/en/"
       },
       "Tel": {
-        "Info": "0136-44-2211"
+        "Info": "0136-44-2211",
+        "Emergency": "0136-44-2211"
       },
       "Location": {
         "Country": "JP",
@@ -525,6 +535,36 @@
           "Point": {
             "Lng": 140.67607,
             "Lat": 42.846561
+          }
+        }
+      },
+      "Groups": [
+        "Hokkaido"
+      ]
+    },
+    "NisekoMoiwa": {
+      "Name": {
+        "ja": "ニセコモイワスキーリゾート",
+        "en": "Niseko Moiwa Ski Resort"
+      },
+      "Website": {
+        "ja": "https://niseko-moiwa.jp/ja/",
+        "en": "https://niseko-moiwa.jp/"
+      },
+      "Tel": {
+        "Info": "0136−59−2511",
+        "Emergency": "0136-59-2511"
+      },
+      "Location": {
+        "Country": "JP",
+        "ZipCode": "048-1511",
+        "Address": {
+          "ja": "北海道虻田郡ニセコ町字ニセコ448"
+        },
+        "Geometry": {
+          "Point": {
+            "Lng": 140.631781,
+            "Lat": 42.854021
           }
         }
       },
@@ -601,7 +641,8 @@
         "en": "https://asari-ski.com/index_en/"
       },
       "Tel": {
-        "Info": "0134-54-0101"
+        "Info": "0134-54-0101",
+        "Emergency": "0134-54-0101"
       },
       "Location": {
         "Country": "JP",
@@ -716,7 +757,8 @@
         "en": "https://www.kamui-skilinks.com/en/"
       },
       "Tel": {
-        "Info": "0166-72-2311"
+        "Info": "0166-72-2311",
+        "Emergency": "0166-72-2311"
       },
       "Location": {
         "Country": "JP",
