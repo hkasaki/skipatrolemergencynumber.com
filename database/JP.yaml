@@ -725,7 +725,8 @@ Resorts:
       en: https://aomorispringski.com/
     Tel:
       Info: 0173-72-1011
-      # 2021/10/21 メールで問い合わせ
+      # 2021/10/21 メールで問い合わせ, 同じという回答を頂いた
+      Emergency: 0173-72-1011
     Location:
       Country: JP
       ZipCode: 038-2793
@@ -812,6 +813,8 @@ Resorts:
       ja: https://www.princehotels.co.jp/ski/shizukuishi/winter/
     Tel:
       Info: 019-693-1111
+      # https://www.princehotels.co.jp/ski/shizukuishi/winter/coursemap/
+      Emergency: 019-693-1133
     Location:
       Country: JP
       ZipCode: 020-0593
@@ -833,6 +836,7 @@ Resorts:
       en: https://iwatekogen.jp/english/
     Tel:
       Info: 019-693-4000
+      # 2021/10/22 フォームで問い合わせ 
     Location:
       Country: JP
       ZipCode: 020-0585
@@ -851,6 +855,7 @@ Resorts:
       en: Amihari Onsen
     Website:
       ja: https://www.qkamura.or.jp/iwate/ski/
+      # 要電話っぽい
     Tel:
       Info: 019-693-2211
     Location:
@@ -893,6 +898,7 @@ Resorts:
       ja: https://www.hachimantai.co.jp/panorama/course/
     Tel:
       Info: 0195-78-2577
+      # 2021/10/22 フォームで問い合わせ 
     Location:
       Country: JP
       Geometry:
@@ -926,6 +932,7 @@ Resorts:
       en: https://www.okunakayamakogen.jp/en/
     Tel:
       Info: 0195-35-3131
+      # 2021/10/22 フォームで問い合わせ 
     Location:
       Country: JP
       ZipCode: 028-5134
@@ -1656,7 +1663,9 @@ Resorts:
     Website:
       ja: https://www.princehotels.co.jp/ski/manza/
     Tel:
-      Info: 0279-97-3117　
+      Info: 0279-97-3117
+      # https://www.princehotels.co.jp/ski/manza/winter/coursemap/
+      Emergency: 0279-97-3117
     Location:
       Country: JP
       ZipCode: 377-1595
@@ -1913,7 +1922,7 @@ Resorts:
       en: https://www.princehotels.com/en/ski/shiga_kogen/
     Tel:
       Info: 0269-34-3117
-      # 村上さんより
+      # https://www.princehotels.co.jp/ski/shiga/winter/coursemap/
       Emergency: 0269-34-3117
     Location:
       Country: JP
@@ -2334,6 +2343,7 @@ Resorts:
       ja: https://www.princehotels.co.jp/ski/karuizawa/winter/
     Tel:
       Info: 0267-42-5588
+      # プリンスなのにコースマップに無い
     Location:
       Country: JP
       ZipCode: 389-0102
@@ -3095,6 +3105,8 @@ Resorts:
       ja: http://www.siratori-k.jp/swp/
     Tel:
       Info: 0575-86-3111
+      # ゴルフに行った森川さんから
+      Emergency: 0575-86-3111
     Location:
       Country: JP
       ZipCode: 501-5231
@@ -3158,6 +3170,8 @@ Resorts:
       ja: https://www.princehotels.co.jp/ski/naeba/winter/
     Tel:
       Info: 025-789-4117
+      # https://www.princehotels.co.jp/ski/naeba/winter/coursemap/
+      Emergency: 025-789-4117
     Location:
       Country: JP
       ZipCode: 949-6292
@@ -3180,6 +3194,8 @@ Resorts:
     Tel:
       # みつまたステーション
       Info: 025-788-9221
+      # https://www.princehotels.co.jp/ski/kagura/winter/coursemap/
+      Emergency: 025-788-9221
     Location:
       Country: JP
       ZipCode: 949-6211
@@ -3454,6 +3470,7 @@ Resorts:
       ja: https://www.princehotels.co.jp/ski/myoko/
     Tel:
       Info: 0255-86-6211
+      # https://www.princehotels.co.jp/ski/myoko/winter/coursemap/#menu02
       Emergency: 0255-86-6211
     Location:
       Country: JP
@@ -3557,6 +3574,8 @@ Resorts:
       ja: https://www.princehotels.co.jp/ski/hakkaisan/
     Tel:
       Info: 025-775-3311
+      # https://www.princehotels.co.jp/ski/hakkaisan/winter/coursemap/
+      Emergency: 025-775-3311
     Location:
       Country: JP
       ZipCode: 949-7121
