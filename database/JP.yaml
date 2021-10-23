@@ -898,7 +898,8 @@ Resorts:
       ja: https://www.hachimantai.co.jp/panorama/course/
     Tel:
       Info: 0195-78-2577
-      # 2021/10/22 フォームで問い合わせ 
+      # 2021/10/22 フォームで問い合わせ, 同じという回答を頂いた
+      Emergency: 0195-78-2577
     Location:
       Country: JP
       Geometry:
@@ -916,6 +917,8 @@ Resorts:
       ja: https://www.hachimantai.co.jp/shimokura/shimokura-powder-station/
     Tel:
       Info: 0195-78-3456
+      # 2021/10/22 フォームで問い合わせ, 同じという回答を頂いた
+      Emergency: 0195-78-3456
     Location:
       Country: JP
       Geometry:
@@ -1831,6 +1834,8 @@ Resorts:
       en: https://www.yeti-resort.com/en/
     Tel:
       Info: 055-998-0636
+      # 実地調査, 同じ
+      Emergency: 055-998-0636
     Location:
       Country: JP
       ZipCode: 410-1231

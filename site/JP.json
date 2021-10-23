@@ -1096,7 +1096,8 @@
         "ja": "https://www.hachimantai.co.jp/panorama/course/"
       },
       "Tel": {
-        "Info": "0195-78-2577"
+        "Info": "0195-78-2577",
+        "Emergency": "0195-78-2577"
       },
       "Location": {
         "Country": "JP",
@@ -1118,7 +1119,8 @@
         "ja": "https://www.hachimantai.co.jp/shimokura/shimokura-powder-station/"
       },
       "Tel": {
-        "Info": "0195-78-3456"
+        "Info": "0195-78-3456",
+        "Emergency": "0195-78-3456"
       },
       "Location": {
         "Country": "JP",
@@ -2364,7 +2366,8 @@
         "en": "https://www.yeti-resort.com/en/"
       },
       "Tel": {
-        "Info": "055-998-0636"
+        "Info": "055-998-0636",
+        "Emergency": "055-998-0636"
       },
       "Location": {
         "Country": "JP",
