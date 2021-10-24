@@ -237,7 +237,8 @@
         "ja": "https://www.rinyu.co.jp/moiwa/"
       },
       "Tel": {
-        "Info": "011-581-0914"
+        "Info": "011-581-0914",
+        "Emergency": "011-581-0914"
       },
       "Location": {
         "Country": "JP",
@@ -1170,7 +1171,8 @@
         "common": "https://www.tazawako-ski.com/"
       },
       "Tel": {
-        "Info": "0187-46-2011"
+        "Info": "0187-46-2011",
+        "Emergency": "0187-46-2011"
       },
       "Location": {
         "Country": "JP",
@@ -1426,7 +1428,8 @@
         "ja": "https://www.grandeco.com/winter/"
       },
       "Tel": {
-        "Info": "0241-32-2530"
+        "Info": "0241-32-2530",
+        "Emergency": "0241-32-2530"
       },
       "Location": {
         "Country": "JP",
@@ -1587,34 +1590,6 @@
         "Fukushima"
       ]
     },
-    "InawashiroResort": {
-      "Name": {
-        "ja": "猪苗代リゾートスキー場",
-        "en": "Inawashiro Resort"
-      },
-      "Website": {
-        "ja": "https://www.bandaisan.or.jp/fun/inawashiro-resort-hotel/"
-      },
-      "Tel": {
-        "Info": "0242-65-2131"
-      },
-      "Location": {
-        "Country": "JP",
-        "ZipCode": "969-3288",
-        "Address": {
-          "ja": "福島県耶麻郡猪苗代町綿場7126"
-        },
-        "Geometry": {
-          "Point": {
-            "Lng": 140.061563,
-            "Lat": 37.578445
-          }
-        }
-      },
-      "Groups": [
-        "Fukushima"
-      ]
-    },
     "FamilySnowParkBandai": {
       "Name": {
         "ja": "ファミリースノーパーク ばんだい×2",
@@ -1681,7 +1656,8 @@
         "ja": "http://daikura.net/"
       },
       "Tel": {
-        "Info": "0241-64-2121"
+        "Info": "0241-64-2121",
+        "Emergency": "0241-64-2121"
       },
       "Location": {
         "Country": "JP",
@@ -1822,6 +1798,9 @@
       "Website": {
         "ja": "https://www.mtjeans.com/winter/"
       },
+      "ExtWebsite": {
+        "en": "https://japan-skiguide.com/guide/htm/r0075ens.htm"
+      },
       "Tel": {
         "Info": "0287-77-2300"
       },
@@ -1906,6 +1885,9 @@
       },
       "Website": {
         "ja": "https://www.tambara.co.jp/winter/"
+      },
+      "ExtWebsite": {
+        "en": "https://japan-skiguide.com/guide/htm/r0170ens.htm"
       },
       "Tel": {
         "Info": "0278-23-9311"

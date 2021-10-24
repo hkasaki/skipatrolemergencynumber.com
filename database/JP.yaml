@@ -212,7 +212,8 @@ Resorts:
       ja: https://www.rinyu.co.jp/moiwa/
     Tel:
       Info: 011-581-0914
-      # 2021/10/20 フォームで緊急時連絡先を問い合わせ
+      # 2021/10/20 フォームで緊急時連絡先を問い合わせ, 同じと回答あり
+      Emergency: 011-581-0914
     Location:
       Country: JP
       ZipCode: 005-0040
@@ -956,6 +957,8 @@ Resorts:
       common: https://www.tazawako-ski.com/
     Tel:
       Info: 0187-46-2011
+      # 2021/10/24 メールで問い合わせ, 回答あり
+      Emergency: 0187-46-2011
     Location:
       Country: JP
       ZipCode: 014-1201
@@ -977,6 +980,7 @@ Resorts:
       ja: http://www.eboshi.co.jp/
     Tel:
       Info: 0224-34-4001
+      # 2021/10/24 フォームで問い合わせ
     Location:
       Country: JP
       ZipCode: 989-0998
@@ -997,6 +1001,7 @@ Resorts:
       ja: https://stmary-338.com/
     Tel:
       Info: 0224-84-5880
+      # 電話のみ。受付時間はシーズン中営業日、ということなのでシーズンが始まったら問い合わせする
     Location:
       Country: JP
       ZipCode: 989-1502
@@ -1017,6 +1022,7 @@ Resorts:
       ja: https://ski-shichikashuku.com/winter.html
     Tel:
       Info: 0224-37-3111
+      # 電話のみ
     Location:
       Country: JP
       ZipCode: 989-0612
@@ -1038,6 +1044,7 @@ Resorts:
     # NPO法人 不忘アザレア
     Tel:
       Info: 0224-24-8111
+      # 電話のみ
     Location:
       Country: JP
       ZipCode: 989-0733
@@ -1052,12 +1059,15 @@ Resorts:
 
   MiyagiZaoSumikawa:
     Name:
+      # http://www.zao-sumikawa.jp/ の winter へのリンクは「すみかわスノーパーク」
+      # それ以外で名前が出ている場所はある？
       ja: すみかわスノーパーク
       en: Miyagi Zao Sumikawa
     Website:
       ja: http://www.zao-sumikawa.jp/winter/
     Tel:
       Info: 0224-87-2610
+      # 2021/10/24 メールで問い合わせ
     Location:
       Country: JP
       ZipCode: 989-0916
@@ -1071,7 +1081,6 @@ Resorts:
     - Miyagi
 
   Onikoube:
-    # 開いてる？
     Name:
       ja: オニコウベスキー場
       en: Onikoube
@@ -1081,6 +1090,7 @@ Resorts:
       en: https://japan-skiguide.com/guide/htm/r0186ens.htm
     Tel:
       Info: 0229-86-2111
+      # 2021/10/24 フォームで問い合わせ
     Location:
       Country: JP
       ZipCode: 989-6941
@@ -1127,6 +1137,7 @@ Resorts:
     Tel:
       # 月山ペアリフト
       Info: 0237-75-2025
+      # ↑でいいと思うけど、月山シーズンが始まったら確認する
     Location:
       Country: JP
       ZipCode:
@@ -1147,6 +1158,11 @@ Resorts:
       ja: https://www.grandeco.com/winter/
     Tel:
       Info: 0241-32-2530
+      # 2018年の情報だが、総合受付と同じなのは多分変わらない
+      # https://rough-log.com/612
+      # https://rough-log.com/wp-content/uploads/yoshitaka_blog/imgs/2/f/2fd7576a.png
+      # 公式サイトはオフシーズンはコースガイドを載せないようだ
+      Emergency: 0241-32-2530
     Location:
       Country: JP
       ZipCode: 969-2701
@@ -1167,6 +1183,7 @@ Resorts:
       ja: https://www.yonezawa-ski.co.jp/
     Tel:
       Info: 0238-28-2511
+      # 電話以外なさそう
     Location:
       Country: JP
       ZipCode: 992-1121
@@ -1188,6 +1205,7 @@ Resorts:
       en: https://www.nekoma.co.jp/en/
     Tel:
       Info: 0241-32-3001
+      # 問い合わせ先不明, TwitterとかあるからDMしてみる？
     Location:
       Country: JP
       ZipCode: 969-2701
@@ -1210,6 +1228,7 @@ Resorts:
     Tel:
       # アクセスページからは消えている？
       Info: 0242-74-5000
+      # 問い合わせ先不明, TwitterとかあるからDMしてみる？
     Location:
       Country: JP
       ZipCode: 969-3396
@@ -1231,6 +1250,7 @@ Resorts:
       ja: http://hatoriko.com/
     Tel:
       Info: 0248-85-2024
+      # 2021/10/24 メールで問い合わせ
     Location:
       Country: JP
       ZipCode: 962-0623
@@ -1251,6 +1271,7 @@ Resorts:
       ja: https://www.inawashiro-ski.com/
     Tel:
       Info: 0242-62-5100
+      # 2021/10/24 フォームで問い合わせ
     Location:
       Country: JP
       ZipCode: 969-3102
@@ -1264,6 +1285,8 @@ Resorts:
     - Fukushima
 
   InawashiroResort:
+    # 休業中のようだ
+    Status: Disabled
     Name:
       ja: 猪苗代リゾートスキー場
       en: Inawashiro Resort
@@ -1337,6 +1360,10 @@ Resorts:
       ja: http://daikura.net/
     Tel:
       Info: 0241-64-2121
+      # http://daikura.net/others/
+      # ※直通の電話はございませんので、事故、怪我の場合のご連絡はスキー場事務所までお願いします。内線でお繋ぎします。
+      # とのこと
+      Emergency: 0241-64-2121
     Location:
       Country: JP
       ZipCode: 967-0026
@@ -1358,6 +1385,7 @@ Resorts:
       ja: http://www.nango-ski.com/
     Tel:
       Info: 0241-73-2111
+      # メール・フォーム等無し。Twitterあるのでそちら？
     Location:
       Country: JP
       ZipCode: 967-0631
@@ -1378,6 +1406,7 @@ Resorts:
       ja: https://www.takahata-ski.net/
     Tel:
       Info: 0241-76-2231
+      # 2021/10/24 フォームで問い合わせ
     Location:
       Country: JP
       Address:
@@ -1399,6 +1428,8 @@ Resorts:
       en: https://japan-skiguide.com/guide/htm/r0067ens.htm
     Tel:
       Info: 0287-32-4580
+      # mapはシーズン中のみ？
+      # FB, twitter, lineなどあり
     Location:
       Country: JP
       ZipCode: 329-2922
@@ -1419,6 +1450,7 @@ Resorts:
       ja: https://edelsnow.com/
     Tel:
       Info: 0288-78-0786
+      # 2021/10/24 フォームで問い合わせ
     Location:
       Country: JP
       ZipCode: 321-2612
@@ -1437,8 +1469,11 @@ Resorts:
       en: Mt. Jeans Nasu
     Website:
       ja: https://www.mtjeans.com/winter/
+    ExtWebsite:
+      en: https://japan-skiguide.com/guide/htm/r0075ens.htm
     Tel:
       Info: 0287-77-2300
+      # メール、フォーム無し、Twitter等あるのであとで
     Location:
       Country: JP
       ZipCode: 329-3223
@@ -1461,6 +1496,7 @@ Resorts:
       en: http://www.oze-iwakura.co.jp/ski/language/en/
     Tel:
       Info: 0278-58-7777
+      # 2021/10/24 英語版サイトにあったメールアドレスに質問
     Location:
       Country: JP
       ZipCode: 378-0412
@@ -1481,6 +1517,7 @@ Resorts:
       ja: https://www.marunuma.jp/winter/
     Tel:
       Info: 0278-58-2211
+      # 2021/10/24 フォームから問い合わせ
     Location:
       Country: JP
       ZipCode: 378-0414
@@ -1499,8 +1536,11 @@ Resorts:
       en: Tambara
     Website:
       ja: https://www.tambara.co.jp/winter/
+    ExtWebsite:
+      en: https://japan-skiguide.com/guide/htm/r0170ens.htm
     Tel:
       Info: 0278-23-9311
+      # 東急系、Twitter等あり、メール無し
     Location:
       Country: JP
       ZipCode: 378-0071
@@ -1522,6 +1562,7 @@ Resorts:
       en: https://tsumagoiskiresort.life/en/
     Tel:
       Info: 0279-96-1177
+      # FB, twitter等はあり、メール、フォームなど無し
     Location:
       Country: JP
       ZipCode: 377-1611
@@ -1543,6 +1584,7 @@ Resorts:
       ja: http://www.kazawa.com/snow/
     Tel:
       Info: 0279-98-0611
+      # 2021/10/24 フォームから問い合わせ
     Location:
       Country: JP
       ZipCode: 377-1614
@@ -1564,8 +1606,8 @@ Resorts:
     ExtWebsite:
       en: https://japan-skiguide.com/guide/htm/r0210ens.htm
     Tel:
-      # 外国語向けの電話番号が違いそう。↑のサイトにある
       Info: 0278-52-3345
+      # 2021/10/24 メールで問い合わせ
     Location:
       Country: JP
       ZipCode: 378-0101
@@ -1578,6 +1620,7 @@ Resorts:
     Groups:
     - Gunma
 
+  # 2021/10/24 ここから
   Okutone:
     Name:
       ja: 奥利根スノーパーク
