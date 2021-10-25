@@ -729,7 +729,8 @@
         "en": "https://sahoro.co.jp/winter/ski?lang=en"
       },
       "Tel": {
-        "Info": "0156-64-4121"
+        "Info": "0156-64-4121",
+        "Emergency": "0156-64-4121"
       },
       "Location": {
         "Country": "JP",
@@ -1200,7 +1201,8 @@
         "ja": "http://www.eboshi.co.jp/"
       },
       "Tel": {
-        "Info": "0224-34-4001"
+        "Info": "0224-34-4001",
+        "Emergency": "0224-34-4001"
       },
       "Location": {
         "Country": "JP",
@@ -1343,7 +1345,8 @@
         "en": "https://japan-skiguide.com/guide/htm/r0186ens.htm"
       },
       "Tel": {
-        "Info": "0229-86-2111"
+        "Info": "0229-86-2111",
+        "Emergency": "0229-86-2111"
       },
       "Location": {
         "Country": "JP",
@@ -1831,7 +1834,8 @@
         "en": "http://www.oze-iwakura.co.jp/ski/language/en/"
       },
       "Tel": {
-        "Info": "0278-58-7777"
+        "Info": "0278-58-7777",
+        "Emergency": "0278-58-7777"
       },
       "Location": {
         "Country": "JP",
@@ -1978,7 +1982,8 @@
         "en": "https://japan-skiguide.com/guide/htm/r0210ens.htm"
       },
       "Tel": {
-        "Info": "0278-52-3345"
+        "Info": "0278-52-3345",
+        "Emergency": "0278-52-3345"
       },
       "Location": {
         "Country": "JP",
@@ -2031,7 +2036,8 @@
         "en": "Minakami Kogen Ski Resort"
       },
       "Website": {
-        "ja": "https://www.minakami-ski.jp/"
+        "ja": "https://www.minakami-ski.jp/",
+        "en": "https://www.minakamikogen200.jp/en/winter/"
       },
       "Tel": {
         "Info": "0278-75-2222"

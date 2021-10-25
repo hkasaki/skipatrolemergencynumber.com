@@ -607,7 +607,8 @@ Resorts:
       en: https://sahoro.co.jp/winter/ski?lang=en
     Tel:
       Info: 0156-64-4121
-      # 2021/10/20 フォームで緊急時連絡先を問い合わせ
+      # 2021/10/20 フォームで緊急時連絡先を問い合わせ, 回答あり
+      Emergency: 0156-64-4121
     Location:
       Country: JP
       ZipCode: 081-0039
@@ -980,7 +981,8 @@ Resorts:
       ja: http://www.eboshi.co.jp/
     Tel:
       Info: 0224-34-4001
-      # 2021/10/24 フォームで問い合わせ
+      # 2021/10/24 フォームで問い合わせ, 回答あり
+      Emergency: 0224-34-4001
     Location:
       Country: JP
       ZipCode: 989-0998
@@ -1090,7 +1092,8 @@ Resorts:
       en: https://japan-skiguide.com/guide/htm/r0186ens.htm
     Tel:
       Info: 0229-86-2111
-      # 2021/10/24 フォームで問い合わせ
+      # 2021/10/24 フォームで問い合わせ, 回答あり
+      Emergency: 0229-86-2111
     Location:
       Country: JP
       ZipCode: 989-6941
@@ -1496,7 +1499,8 @@ Resorts:
       en: http://www.oze-iwakura.co.jp/ski/language/en/
     Tel:
       Info: 0278-58-7777
-      # 2021/10/24 英語版サイトにあったメールアドレスに質問
+      # 2021/10/24 英語版サイトにあったメールアドレスに質問, 回答あり
+      Emergency: 0278-58-7777
     Location:
       Country: JP
       ZipCode: 378-0412
@@ -1607,7 +1611,8 @@ Resorts:
       en: https://japan-skiguide.com/guide/htm/r0210ens.htm
     Tel:
       Info: 0278-52-3345
-      # 2021/10/24 メールで問い合わせ
+      # 2021/10/24 メールで問い合わせ, 回答あり
+      Emergency: 0278-52-3345
     Location:
       Country: JP
       ZipCode: 378-0101
@@ -1629,6 +1634,7 @@ Resorts:
       ja: https://okutone.jp/
     Tel:
       Info: 0278-72-8101
+      # 2021/10/25 フォームで問い合わせ
     Location:
       Country: JP
       ZipCode: 379-1724
@@ -1647,7 +1653,10 @@ Resorts:
       en: Minakami Kogen Ski Resort
     Website:
       ja: https://www.minakami-ski.jp/
+      en: https://www.minakamikogen200.jp/en/winter/
     Tel:
+      # 水上高原ホテル200(トゥーハンドレッド) の電話番号しかサイトに無い
+      # シーズン中に電話するしかない？
       Info: 0278-75-2222
     Location:
       Country: JP
@@ -1670,6 +1679,7 @@ Resorts:
       en: https://en.hodaigi.jp/
     Tel:
       Info: 0278-75-2557
+      # 2021/10/25 フォームで問い合わせ
     Location:
       Country: JP
       ZipCode: 379-1721
@@ -1690,6 +1700,7 @@ Resorts:
       ja: https://www.norn.co.jp/winter/
     Tel:
       Info: 0278-72-6688
+      # 2021/10/25 フォームで問い合わせ
     Location:
       Country: JP
       ZipCode: 379-1614
@@ -1732,6 +1743,7 @@ Resorts:
       ja: https://katashinakogen.co.jp/winter/
     Tel:
       Info: 0278-58-2161
+      # 2021/10/25 メールで問い合わせ
     Location:
       Country: JP
       ZipCode: 378-0413
@@ -1752,6 +1764,7 @@ Resorts:
       ja: https://www.932-onsen.com/winter/index
     Tel:
       Info: 0279-88-8111
+      # メールリンクが開けず, SNSあり あとでそちらで聞く
     Location:
       Country: JP
       ZipCode: 377-1711
@@ -1772,6 +1785,7 @@ Resorts:
       ja: https://ozetokura.co.jp/snowpark/
     Tel:
       Info: 0278-58-7511
+      # 2021/10/25 メールで問い合わせ
     Location:
       Country: JP
       ZipCode: 378-0411
@@ -1793,6 +1807,7 @@ Resorts:
     Tel:
       # 谷川岳ロープウエー株式会社
       Info: 0278-72-3575
+      # 2021/10/25 メールで問い合わせ
     Location:
       Country: JP
       ZipCode: 379-1728
