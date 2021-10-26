@@ -2069,7 +2069,8 @@
         "en": "https://en.hodaigi.jp/"
       },
       "Tel": {
-        "Info": "0278-75-2557"
+        "Info": "0278-75-2557",
+        "Emergency": "0278-75-2557"
       },
       "Location": {
         "Country": "JP",
@@ -2097,7 +2098,8 @@
         "ja": "https://www.norn.co.jp/winter/"
       },
       "Tel": {
-        "Info": "0278-72-6688"
+        "Info": "0278-72-6688",
+        "Emergency": "0278-72-6688"
       },
       "Location": {
         "Country": "JP",
@@ -2188,7 +2190,7 @@
         "Country": "JP",
         "ZipCode": "377-1711",
         "Address": {
-          "ja": "吾妻郡草津町大字草津字白根国有林158林班"
+          "ja": "群馬県吾妻郡草津町大字草津字白根国有林158林班"
         },
         "Geometry": {
           "Point": {
@@ -2244,7 +2246,7 @@
         "Country": "JP",
         "ZipCode": "379-1728",
         "Address": {
-          "ja": "利根郡みなかみ町湯檜曽湯吹山国有林内"
+          "ja": "群馬県利根郡みなかみ町湯檜曽湯吹山国有林内"
         },
         "Geometry": {
           "Point": {

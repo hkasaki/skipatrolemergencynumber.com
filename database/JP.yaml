@@ -1679,7 +1679,8 @@ Resorts:
       en: https://en.hodaigi.jp/
     Tel:
       Info: 0278-75-2557
-      # 2021/10/25 フォームで問い合わせ
+      # 2021/10/25 フォームで問い合わせ, 回答あり
+      Emergency: 0278-75-2557
     Location:
       Country: JP
       ZipCode: 379-1721
@@ -1700,7 +1701,8 @@ Resorts:
       ja: https://www.norn.co.jp/winter/
     Tel:
       Info: 0278-72-6688
-      # 2021/10/25 フォームで問い合わせ
+      # 2021/10/25 フォームで問い合わせ, 回答あり
+      Emergency: 0278-72-6688
     Location:
       Country: JP
       ZipCode: 379-1614
@@ -1769,7 +1771,7 @@ Resorts:
       Country: JP
       ZipCode: 377-1711
       Address:
-        ja: 吾妻郡草津町大字草津字白根国有林158林班
+        ja: 群馬県吾妻郡草津町大字草津字白根国有林158林班
       Geometry:
         Point:
           Lng: 
@@ -1812,7 +1814,7 @@ Resorts:
       Country: JP
       ZipCode: 379-1728
       Address:
-        ja: 利根郡みなかみ町湯檜曽湯吹山国有林内
+        ja: 群馬県利根郡みなかみ町湯檜曽湯吹山国有林内
       Geometry:
         Point:
           Lng: 
@@ -1850,6 +1852,7 @@ Resorts:
       en: https://japan-skiguide.com/guide/htm/r0018ens.htm
     Tel:
       Info: 0551-48-4111
+      # 電話しかなさそう
     Location:
       Country: JP
       ZipCode: 407-0311
@@ -1871,6 +1874,7 @@ Resorts:
       ja: http://misaka.kamuisp.com/
     Tel:
       Info: 055-264-2614
+      # 電話しかなさそう
     Location:
       Country: JP
       ZipCode: 406-0813
@@ -1964,6 +1968,7 @@ Resorts:
       en: http://en.okushiga.jp/skiresort/
     Tel:
       Info: 0269-34-2225
+      # 電話しかなさそう
     Location:
       Country: JP
       ZipCode:
@@ -2008,6 +2013,7 @@ Resorts:
       en: https://www.kumanoyu.co.jp/lift/english/
     Tel:
       Info: 0269-34-2166
+      # 電話しかなさそう
     Location:
       Country: JP
       ZipCode: 381-0401
@@ -2028,6 +2034,7 @@ Resorts:
       ja: https://yokoteyama2307.com/
     Tel:
       Info: 0269-34-2600
+      # 電話しかなさそう
     Location:
       Country: JP
       ZipCode:
@@ -2364,6 +2371,7 @@ Resorts:
       en: https://japan-skiguide.com/guide/htm/r0112ens.htm
     Tel:
       Info: 0269-33-6345
+      # 電話しか無さそう
     Location:
       Country: JP
       ZipCode: 381-0405
@@ -2386,6 +2394,7 @@ Resorts:
       en: https://japan-skiguide.com/guide/htm/r0297ens.htm
     Tel:
       Info: 0266-62-5666
+      # FBあった。それ以外には電話しか無さそう
     Location:
       Country: JP
       ZipCode: 399-0211
@@ -2427,6 +2436,7 @@ Resorts:
       ja: https://www.saku-parada.jp/ski/
     Tel:
       Info: 0267-68-5116
+      # 電話か FB, Twitterなどあり
     Location:
       Country: JP
       ZipCode: 385-0002
@@ -2447,6 +2457,7 @@ Resorts:
       ja: https://yunomaru.co.jp/gerende/
     Tel:
       Info: 0268-64-0400
+      # 2021/10/26 フォームで問い合わせ この一般の番号もあやしい
     Location:
       Country: JP
       ZipCode: 389-0501
@@ -2468,6 +2479,7 @@ Resorts:
       ja: https://www.madarao.jp/ski/
     Tel:
       Info: 0269-64-3214
+      # 2021/10/26 フォームで問い合わせ
     Location:
       Country: JP
       ZipCode: 389-2257
@@ -2490,6 +2502,7 @@ Resorts:
       en: https://www.tangram.jp/eng/outdoor/
     Tel:
       Info: 026-258-3511
+      # 東急系、FBありそう。あとは電話
     Location:
       Country: JP
       ZipCode: 389-1302
@@ -2502,6 +2515,7 @@ Resorts:
     Groups:
     - Nagano
 
+  # ここから
   Sugadaira:
     Name:
       ja: 菅平高原スノーリゾート
