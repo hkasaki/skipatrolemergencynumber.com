@@ -1787,7 +1787,8 @@ Resorts:
       ja: https://ozetokura.co.jp/snowpark/
     Tel:
       Info: 0278-58-7511
-      # 2021/10/25 メールで問い合わせ
+      # 2021/10/25 メールで問い合わせ, 回答あり
+      Emergency: 0278-58-7511
     Location:
       Country: JP
       ZipCode: 378-0411
@@ -2515,7 +2516,6 @@ Resorts:
     Groups:
     - Nagano
 
-  # ここから
   Sugadaira:
     Name:
       ja: 菅平高原スノーリゾート
@@ -2526,17 +2526,51 @@ Resorts:
       en: https://japan-skiguide.com/guide/htm/r0108ens.htm
     Tel:
       Info: 0268-74-2137
+      # https://sugadaira-snowresort.com/application/files/2515/0949/7345/sugadaira_map.pdf
     Location:
+      ZoomLevelThreshold: 11
       Country: JP
       ZipCode: 386-2204
       Address:
         ja: 長野県上田市菅平高原1223-146 株式会社ハーレスキーリゾート内
       Geometry:
         Point:
-          Lng: 138.330074
-          Lat: 36.532435
+          Lng: 138.339797
+          Lat: 36.539114
     Groups:
     - Nagano
+
+  SugadairaTaroArea:
+    Parent: Sugadaira
+    Name:
+      ja: 菅平高原太郎エリア
+      en: Sugadaira Kogen Taro Area
+    Tel:
+      # https://sugadaira-snowresort.com/application/files/2515/0949/7345/sugadaira_map.pdf
+      Info: 0268-74-3620
+      Emergency: 0268-74-3429
+    Location:
+      Country: JP
+      Geometry:
+        Point:
+          Lng: 138.333975
+          Lat: 36.535699
+
+  SugadairaDavosArea:
+    Parent: Sugadaira
+    Name:
+      ja: 菅平高原ダボスエリア
+      en: Sugadaira Kogen Davos Area
+    Tel:
+      # https://sugadaira-snowresort.com/application/files/2515/0949/7345/sugadaira_map.pdf
+      Info: 0268-74-3009
+      Emergency: 0268-74-3115
+    Location:
+      Country: JP
+      Geometry:
+        Point:
+          Lng: 138.347083
+          Lat: 36.539458
 
   SugadairaPineBeak:
     Name:
@@ -2546,19 +2580,48 @@ Resorts:
       ja: https://pinebeak.jp/
     Tel:
       Info: 0268-74-2138
-      # https://www.jpnumber.com/numberinfo_0268_74_3314.html
-      Emergency: 0268-74-3314
     Location:
+      ZoomLevelThreshold: 11
       Country: JP
       ZipCode: 386-2204
       Address:
         ja: 長野県上田市菅平高原1223-3433
       Geometry:
         Point:
-          Lng: 138.317961
-          Lat: 36.517453
+          Lng: 138.311223
+          Lat: 36.523616
     Groups:
     - Nagano
+
+  SugadairaPineBeakTsubakuro:
+    Parent: SugadairaPineBeak
+    Name:
+      ja: 菅平パインビーク ツバクロゲレンデ
+      en: Sugadaira Pine Beak Tsubakuro
+    Tel:
+      # https://sugadaira-snowresort.com/application/files/2515/0949/7345/sugadaira_map.pdf
+      Emergency: 0268-74-3314
+    Location:
+      Country: JP
+      Geometry:
+        Point:
+          Lng: 138.307187
+          Lat: 36.529988
+
+  SugadairaPineBeakOmatsu:
+    Parent: SugadairaPineBeak
+    Name:
+      ja: 菅平パインビーク オオマツゲレンデ
+      en: Sugadaira Pine Beak Omatsu
+    Tel:
+      # https://sugadaira-snowresort.com/application/files/2515/0949/7345/sugadaira_map.pdf
+      Emergency: 0268-74-2138
+    Location:
+      Country: JP
+      Geometry:
+        Point:
+          Lng: 138.315688
+          Lat: 36.516526
 
   BlancheTakayama:
     Name:
@@ -2568,6 +2631,7 @@ Resorts:
       ja: https://blanche-ski.com/
     Tel:
       Info: 0268-69-2232
+      # 電話しか無さそう
     Location:
       Country: JP
       ZipCode: 386-0601
@@ -2589,6 +2653,7 @@ Resorts:
       en: https://www.kurumayama.com/english/winter.html
     Tel:
       Info: 0266-68-2626
+      # 2021/10/27 メールで問い合わせ
     Location:
       Country: JP
       ZipCode: 391-0301
@@ -2609,6 +2674,8 @@ Resorts:
       ja: https://koumireex-skivalley.com/
     Tel:
       Info: 0267-93-2537
+      # 2021/10/27 フォームから問い合わせようとしたが500 Internal Server Error, FB, Twitterあり
+      # FBのメッセージでお知らせした
     Location:
       Country: JP
       ZipCode: 384-1103
@@ -2645,6 +2712,8 @@ Resorts:
       ja: http://x-jam.jp/
     Tel:
       Info: 0269-33-2377
+      # 2021/10/28 フォームから問い合わせ。X-JAM高井富士も同時, 同じとの回答あり
+      Emergency: 0269-33-2377
     Location:
       Country: JP
       ZipCode: 381-0405
@@ -2666,6 +2735,8 @@ Resorts:
       ja: http://x-jam.jp/
     Tel:
       Info: 0269-33-6252
+      # よませ温泉に相乗りして質問
+      Emergency: 0269-33-6252
     Location:
       Country: JP
       ZipCode: 381-0405
@@ -2686,6 +2757,7 @@ Resorts:
       ja: https://kijimadaira-ski.com/
     Tel:
       Info: 0269-82-3434
+      # メール無し、FBあり
     Location:
       Country: JP
       ZipCode: 389-2303
@@ -2707,6 +2779,7 @@ Resorts:
       ja: http://gakutoresort.jp/
     Tel:
       Info: 0263-79-2246
+      # 2021/10/28 フォームから問い合わせ
     Location:
       Country: JP
       ZipCode: 390-1611
@@ -2727,6 +2800,8 @@ Resorts:
       ja: https://mt-heavens.com/winter/
     Tel:
       Info: 0265-44-2311
+      # 2021/10/28 フォームから問い合わせ, 回答あり
+      Emergency: 0265-44-2311
     Location:
       Country: JP
       ZipCode: 395-0304
@@ -2772,6 +2847,8 @@ Resorts:
       en: https://togari.jp/winter/en/
     Tel:
       Info: 0269-65-2359
+      # ゲレンデマップに緊急連絡先が書いてあった https://togari.jp/winter/gelande/
+      Emergency: 0269-65-2359
     Location:
       Country: JP
       ZipCode: 389-2411
@@ -2794,6 +2871,7 @@ Resorts:
       en: https://japan-skiguide.com/guide/htm/r0849ens.htm
     Tel:
       Info: 0264-44-1111
+      # 2021/10/28 フォームから問い合わせ
     Location:
       Country: JP
       ZipCode: 397-0302
@@ -2831,6 +2909,7 @@ Resorts:
     Groups:
     - Nagano
 
+# ここから
   Jibzaka:
     Name:
       ja: 治部坂高原スキー場

@@ -1,5 +1,11 @@
 # Changelog
 
+## 2021-10-28
+- Sugadaira devided into 4 ski resorts and 7 emergency phone numbers added
+
+## 2021-10-27
+- 2 emergency phone numbers added
+
 ## 2021-10-26
 - 2 emergency phone numbers added
 

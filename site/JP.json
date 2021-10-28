@@ -2212,7 +2212,8 @@
         "ja": "https://ozetokura.co.jp/snowpark/"
       },
       "Tel": {
-        "Info": "0278-58-7511"
+        "Info": "0278-58-7511",
+        "Emergency": "0278-58-7511"
       },
       "Location": {
         "Country": "JP",
@@ -3151,6 +3152,7 @@
         "Info": "0268-74-2137"
       },
       "Location": {
+        "ZoomLevelThreshold": 11,
         "Country": "JP",
         "ZipCode": "386-2204",
         "Address": {
@@ -3158,14 +3160,54 @@
         },
         "Geometry": {
           "Point": {
-            "Lng": 138.330074,
-            "Lat": 36.532435
+            "Lng": 138.339797,
+            "Lat": 36.539114
           }
         }
       },
       "Groups": [
         "Nagano"
       ]
+    },
+    "SugadairaTaroArea": {
+      "Parent": "Sugadaira",
+      "Name": {
+        "ja": "菅平高原太郎エリア",
+        "en": "Sugadaira Kogen Taro Area"
+      },
+      "Tel": {
+        "Info": "0268-74-3620",
+        "Emergency": "0268-74-3429"
+      },
+      "Location": {
+        "Country": "JP",
+        "Geometry": {
+          "Point": {
+            "Lng": 138.333975,
+            "Lat": 36.535699
+          }
+        }
+      }
+    },
+    "SugadairaDavosArea": {
+      "Parent": "Sugadaira",
+      "Name": {
+        "ja": "菅平高原ダボスエリア",
+        "en": "Sugadaira Kogen Davos Area"
+      },
+      "Tel": {
+        "Info": "0268-74-3009",
+        "Emergency": "0268-74-3115"
+      },
+      "Location": {
+        "Country": "JP",
+        "Geometry": {
+          "Point": {
+            "Lng": 138.347083,
+            "Lat": 36.539458
+          }
+        }
+      }
     },
     "SugadairaPineBeak": {
       "Name": {
@@ -3176,10 +3218,10 @@
         "ja": "https://pinebeak.jp/"
       },
       "Tel": {
-        "Info": "0268-74-2138",
-        "Emergency": "0268-74-3314"
+        "Info": "0268-74-2138"
       },
       "Location": {
+        "ZoomLevelThreshold": 11,
         "Country": "JP",
         "ZipCode": "386-2204",
         "Address": {
@@ -3187,14 +3229,52 @@
         },
         "Geometry": {
           "Point": {
-            "Lng": 138.317961,
-            "Lat": 36.517453
+            "Lng": 138.311223,
+            "Lat": 36.523616
           }
         }
       },
       "Groups": [
         "Nagano"
       ]
+    },
+    "SugadairaPineBeakTsubakuro": {
+      "Parent": "SugadairaPineBeak",
+      "Name": {
+        "ja": "菅平パインビーク ツバクロゲレンデ",
+        "en": "Sugadaira Pine Beak Tsubakuro"
+      },
+      "Tel": {
+        "Emergency": "0268-74-3314"
+      },
+      "Location": {
+        "Country": "JP",
+        "Geometry": {
+          "Point": {
+            "Lng": 138.307187,
+            "Lat": 36.529988
+          }
+        }
+      }
+    },
+    "SugadairaPineBeakOmatsu": {
+      "Parent": "SugadairaPineBeak",
+      "Name": {
+        "ja": "菅平パインビーク オオマツゲレンデ",
+        "en": "Sugadaira Pine Beak Omatsu"
+      },
+      "Tel": {
+        "Emergency": "0268-74-2138"
+      },
+      "Location": {
+        "Country": "JP",
+        "Geometry": {
+          "Point": {
+            "Lng": 138.315688,
+            "Lat": 36.516526
+          }
+        }
+      }
     },
     "BlancheTakayama": {
       "Name": {
@@ -3310,7 +3390,8 @@
         "ja": "http://x-jam.jp/"
       },
       "Tel": {
-        "Info": "0269-33-2377"
+        "Info": "0269-33-2377",
+        "Emergency": "0269-33-2377"
       },
       "Location": {
         "Country": "JP",
@@ -3339,7 +3420,8 @@
         "ja": "http://x-jam.jp/"
       },
       "Tel": {
-        "Info": "0269-33-6252"
+        "Info": "0269-33-6252",
+        "Emergency": "0269-33-6252"
       },
       "Location": {
         "Country": "JP",
@@ -3423,7 +3505,8 @@
         "ja": "https://mt-heavens.com/winter/"
       },
       "Tel": {
-        "Info": "0265-44-2311"
+        "Info": "0265-44-2311",
+        "Emergency": "0265-44-2311"
       },
       "Location": {
         "Country": "JP",
@@ -3482,7 +3565,8 @@
         "en": "https://togari.jp/winter/en/"
       },
       "Tel": {
-        "Info": "0269-65-2359"
+        "Info": "0269-65-2359",
+        "Emergency": "0269-65-2359"
       },
       "Location": {
         "Country": "JP",
