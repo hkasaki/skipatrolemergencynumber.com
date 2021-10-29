@@ -3882,7 +3882,8 @@
         "ja": "https://www.yabuhara-kogen.jp/"
       },
       "Tel": {
-        "Info": "0264-36-1622"
+        "Info": "0264-36-1622",
+        "Emergency": "0264-36-2537"
       },
       "Location": {
         "Country": "JP",
@@ -3894,6 +3895,34 @@
           "Point": {
             "Lng": 137.739536,
             "Lat": 35.965445
+          }
+        }
+      },
+      "Groups": [
+        "Nagano"
+      ]
+    },
+    "Kurohime": {
+      "Name": {
+        "ja": "黒姫高原スノーパーク",
+        "en": "Kurohime Kogen"
+      },
+      "Website": {
+        "ja": "http://kurohime-kogen.co.jp/snow/"
+      },
+      "Tel": {
+        "Info": "026-255-3171"
+      },
+      "Location": {
+        "Country": "JP",
+        "ZipCode": "389-1303",
+        "Address": {
+          "ja": "長野県上水内郡信濃町大字野尻3807"
+        },
+        "Geometry": {
+          "Point": {
+            "Lng": 138.161958,
+            "Lat": 36.8264
           }
         }
       },
@@ -4548,34 +4577,6 @@
       },
       "Groups": [
         "Niigata"
-      ]
-    },
-    "Kurohime": {
-      "Name": {
-        "ja": "黒姫高原スノーパーク",
-        "en": "Kurohime Kogen"
-      },
-      "Website": {
-        "ja": "http://kurohime-kogen.co.jp/snow/"
-      },
-      "Tel": {
-        "Info": "026-255-3171"
-      },
-      "Location": {
-        "Country": "JP",
-        "ZipCode": "389-1303",
-        "Address": {
-          "ja": "長野県上水内郡信濃町大字野尻3807"
-        },
-        "Geometry": {
-          "Point": {
-            "Lng": 138.161958,
-            "Lat": 36.8264
-          }
-        }
-      },
-      "Groups": [
-        "Nagano"
       ]
     },
     "MyokoSuginohara": {

@@ -2909,7 +2909,6 @@ Resorts:
     Groups:
     - Nagano
 
-# ここから
   Jibzaka:
     Name:
       ja: 治部坂高原スキー場
@@ -2918,6 +2917,7 @@ Resorts:
       ja: https://jibuzaka.co.jp/
     Tel:
       Info: 0265-47-1111
+      # 2021/10/29 フォームで問い合わせ
     Location:
       Country: JP
       # 治部坂観光株式会社
@@ -2939,6 +2939,7 @@ Resorts:
       ja: http://fujimikogen-ski.jp/
     Tel:
       Info: 0266-66-2932
+      # SNSあり、あとで
     Location:
       Country: JP
       ZipCode: 399-0101
@@ -2959,6 +2960,7 @@ Resorts:
       ja: https://iizunaresort.com/
     Tel:
       Info: 026-253-3911
+      # 2021/10/29 フォームで問い合わせ
     Location:
       Country: JP
       # 飯綱東高原観光開発株式会社　
@@ -2982,6 +2984,7 @@ Resorts:
       en: https://japan-skiguide.com/guide/htm/r0034ens.htm
     Tel:
       Info: 026-254-2106
+      # お問い合わせ、というページに何も出ないので電話しか無さそう
     Location:
       Country: JP
       ZipCode: 381-4101
@@ -3003,6 +3006,7 @@ Resorts:
       ja: http://www.2in1.jp/
     Tel:
       Info: 0267-55-6868
+      # 2021/10/29 フォームで問い合わせ
     Location:
       Country: JP
       ZipCode: 384-2309
@@ -3024,6 +3028,7 @@ Resorts:
     Tel:
       Info: 0267-55-6000
       # https://townpage.goo.ne.jp/shopdetail.php?matomeid=208616888000000899
+      # 2021/10/29 この番号でいいのかフォームで問い合わせ
       Emergency: 0267-55-7680
     Location:
       Country: JP
@@ -3047,6 +3052,7 @@ Resorts:
     Tel:
       # gnavi は026-242-2505 を案内しているが古い番号か？
       Info: 026-274-5959
+      # 2021/10/29 フォームで問い合わせ
     Location:
       Country: JP
       ZipCode: 382-0817
@@ -3089,6 +3095,8 @@ Resorts:
       ja: https://www.yabuhara-kogen.jp/
     Tel:
       Info: 0264-36-1622
+      # https://www.yabuhara-kogen.jp/slope-guide/slope-map/
+      Emergency: 0264-36-2537
     Location:
       Country: JP
       ZipCode: 399-6202
@@ -3101,7 +3109,30 @@ Resorts:
     Groups:
     - Nagano
 
+  Kurohime:
+    Name:
+      ja: 黒姫高原スノーパーク
+      en: Kurohime Kogen
+    Website:
+      # HTTPS無し
+      ja: http://kurohime-kogen.co.jp/snow/
+    Tel:
+      Info: 026-255-3171
+      # 2021/10/29 フォームで問い合わせ
+    Location:
+      Country: JP
+      ZipCode: 389-1303
+      Address:
+        ja: 長野県上水内郡信濃町大字野尻3807
+      Geometry:
+        Point:
+          Lng: 138.161958
+          Lat: 36.8264
+    Groups:
+    - Nagano
 
+
+# ここから
   Meiho:
     Name:
       ja: めいほうスキー場
@@ -3596,27 +3627,6 @@ Resorts:
           Lat: 37.033149
     Groups:
     - Niigata
-
-  Kurohime:
-    Name:
-      ja: 黒姫高原スノーパーク
-      en: Kurohime Kogen
-    Website:
-      # HTTPS無し
-      ja: http://kurohime-kogen.co.jp/snow/
-    Tel:
-      Info: 026-255-3171
-    Location:
-      Country: JP
-      ZipCode: 389-1303
-      Address:
-        ja: 長野県上水内郡信濃町大字野尻3807
-      Geometry:
-        Point:
-          Lng: 138.161958
-          Lat: 36.8264
-    Groups:
-    - Nagano
 
   MyokoSuginohara:
     Name:
