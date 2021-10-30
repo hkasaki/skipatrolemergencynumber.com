@@ -3006,7 +3006,8 @@ Resorts:
       ja: http://www.2in1.jp/
     Tel:
       Info: 0267-55-6868
-      # 2021/10/29 フォームで問い合わせ
+      # 2021/10/29 フォームで問い合わせ, 回答あり
+      Emergency: 0267-55-6868
     Location:
       Country: JP
       ZipCode: 384-2309
@@ -3052,7 +3053,8 @@ Resorts:
     Tel:
       # gnavi は026-242-2505 を案内しているが古い番号か？
       Info: 026-274-5959
-      # 2021/10/29 フォームで問い合わせ
+      # 2021/10/29 フォームで問い合わせ, 回答あり
+      Emergency: 026-274-5961
     Location:
       Country: JP
       ZipCode: 382-0817
@@ -3131,8 +3133,6 @@ Resorts:
     Groups:
     - Nagano
 
-
-# ここから
   Meiho:
     Name:
       ja: めいほうスキー場
@@ -3141,6 +3141,7 @@ Resorts:
       ja: https://www.meihoski.co.jp/winter/
     Tel:
       Info: 0575-87-2811
+      # 2021/10/30 フォームで問い合わせ
     Location:
       Country: JP
       ZipCode: 501-4304
@@ -3169,6 +3170,7 @@ Resorts:
       ja: http://www.takasu.gr.jp/
     Tel:
       Info: 0575-72-7000
+      # 2021/10/30 ダイナランドと合わせてフォームで問い合わせ
     Location:
       Country: JP
       ZipCode: 〒501-5305
@@ -3190,6 +3192,7 @@ Resorts:
       ja: https://www.dynaland.co.jp/
     Tel:
       Info: 0575-72-6636
+      # 高鷲スノーパークで合わせて問い合わせ
     Location:
       Country: JP
       ZipCode: 501-5305
@@ -3210,6 +3213,7 @@ Resorts:
       ja: https://ski.washigatake.jp/
     Tel:
       Info: 0575-72-5105
+      # 2021/10/30 フォームで問い合わせ
     Location:
       Country: JP
       Address:
@@ -3230,6 +3234,7 @@ Resorts:
       ja: http://www.whitepia.jp/
     Tel:
       Info: 0575-72-6311
+      # フォームなし、SNSあり
     Location:
       Country: JP
       ZipCode: 501-5302
@@ -3250,6 +3255,7 @@ Resorts:
       ja: https://www.hiruganokogen.com/
     Tel:
       Info: 0575-73-2311
+      # 2021/10/30 フォームで問い合わせ
     Location:
       Country: JP
       Address:
@@ -3270,7 +3276,9 @@ Resorts:
     ExtWebsite:
       en: https://japan-skiguide.com/guide/htm/r0199ens.htm
     Tel:
-      Info: 
+      Info: 0575-86-3518
+      # https://winghills.net/faq/
+      Emergency: 0575-86-3518
     Location:
       Country: JP
       ZipCode: 501-5231
@@ -3314,7 +3322,8 @@ Resorts:
     Website:
       ja: https://hida-nagareha.com/
     Tel:
-      Info: 0578-82-091
+      Info: 0578-82-0916
+      # 2021/10/30 フォームで問い合わせ
     Location:
       Country: JP
       ZipCode: 506-1154
@@ -3337,6 +3346,7 @@ Resorts:
     Tel:
       # 一般財団法人茶臼山高原協会
       Info: 0536-87-2345
+      # 電話しか無さそう
     Location:
       Country: JP
       ZipCode: 449-0405
@@ -3396,6 +3406,7 @@ Resorts:
     Groups:
     - Niigata
 
+# ここから
   Kandatsu:
     Name:
       # よく変わるので注意

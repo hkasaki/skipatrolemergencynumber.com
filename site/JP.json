@@ -3769,7 +3769,8 @@
         "ja": "http://www.2in1.jp/"
       },
       "Tel": {
-        "Info": "0267-55-6868"
+        "Info": "0267-55-6868",
+        "Emergency": "0267-55-6868"
       },
       "Location": {
         "Country": "JP",
@@ -3826,7 +3827,8 @@
         "ja": "https://yamaboku.co.jp/"
       },
       "Tel": {
-        "Info": "026-274-5959"
+        "Info": "026-274-5959",
+        "Emergency": "026-274-5961"
       },
       "Location": {
         "Country": "JP",
@@ -4108,7 +4110,8 @@
         "en": "https://japan-skiguide.com/guide/htm/r0199ens.htm"
       },
       "Tel": {
-        "Info": null
+        "Info": "0575-86-3518",
+        "Emergency": "0575-86-3518"
       },
       "Location": {
         "Country": "JP",
@@ -4165,7 +4168,7 @@
         "ja": "https://hida-nagareha.com/"
       },
       "Tel": {
-        "Info": "0578-82-091"
+        "Info": "0578-82-0916"
       },
       "Location": {
         "Country": "JP",
