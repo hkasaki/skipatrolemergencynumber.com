@@ -4025,7 +4025,8 @@
         "ja": "https://ski.washigatake.jp/"
       },
       "Tel": {
-        "Info": "0575-72-5105"
+        "Info": "0575-72-5105",
+        "Emergency": "0575-72-5105"
       },
       "Location": {
         "Country": "JP",
@@ -4168,7 +4169,8 @@
         "ja": "https://hida-nagareha.com/"
       },
       "Tel": {
-        "Info": "0578-82-0916"
+        "Info": "0578-82-0916",
+        "Emergency": "0578-82-0916"
       },
       "Location": {
         "Country": "JP",
@@ -4279,7 +4281,8 @@
         "en": "Kandatsu Snow Resort"
       },
       "Website": {
-        "ja": "https://www.kandatsu.com/"
+        "ja": "https://www.kandatsu.com/",
+        "en": "https://www.kandatsu.com/languages/english/"
       },
       "Tel": {
         "Info": "025-788-0111"

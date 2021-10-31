@@ -3213,7 +3213,8 @@ Resorts:
       ja: https://ski.washigatake.jp/
     Tel:
       Info: 0575-72-5105
-      # 2021/10/30 フォームで問い合わせ
+      # 2021/10/30 フォームで問い合わせ, 回答あり
+      Emergency: 0575-72-5105
     Location:
       Country: JP
       Address:
@@ -3323,7 +3324,8 @@ Resorts:
       ja: https://hida-nagareha.com/
     Tel:
       Info: 0578-82-0916
-      # 2021/10/30 フォームで問い合わせ
+      # 2021/10/30 フォームで問い合わせ, 電話で回答あり
+      Emergency: 0578-82-0916
     Location:
       Country: JP
       ZipCode: 506-1154
@@ -3406,7 +3408,6 @@ Resorts:
     Groups:
     - Niigata
 
-# ここから
   Kandatsu:
     Name:
       # よく変わるので注意
@@ -3414,8 +3415,10 @@ Resorts:
       en: Kandatsu Snow Resort
     Website:
       ja: https://www.kandatsu.com/
+      en: https://www.kandatsu.com/languages/english/
     Tel:
       Info: 025-788-0111
+      # 2021/10/31 フォームから問い合わせ
     Location:
       Country: JP
       ZipCode: 949-6102
@@ -3436,6 +3439,7 @@ Resorts:
       ja: https://www.maiko-resort.com/
     Tel:
       Info: 025-783-4100
+      # 電話しか無さそう
     Location:
       Country: JP
       ZipCode: 949-6423
@@ -3458,6 +3462,7 @@ Resorts:
       ja: https://www.iwa-ppara.com/
     Tel:
       Info: 025-787-3211
+      # 2021/10/31 メールで問い合わせ
     Location:
       Country: JP
       ZipCode: 949-6103
@@ -3470,6 +3475,7 @@ Resorts:
     Groups:
     - Niigata
 
+# ここから
   IshiuchiMaruyama:
     Name:
       ja: 石打丸山スキー場
