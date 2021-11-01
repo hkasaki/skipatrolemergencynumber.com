@@ -4399,7 +4399,8 @@
         "ja": "https://www.lottehotel.com/arai-resort/ja/ski-webzine.html"
       },
       "Tel": {
-        "Info": "0255-75-1177"
+        "Info": "0255-75-1177",
+        "Emergency": "0255-75-1165"
       },
       "Location": {
         "Country": "JP",
@@ -4426,7 +4427,8 @@
         "ja": "https://gala.co.jp/"
       },
       "Tel": {
-        "Info": "025-785-6429"
+        "Info": "025-785-6543",
+        "Emergency": "025-785-6444"
       },
       "Location": {
         "Country": "JP",
@@ -4454,7 +4456,8 @@
         "ja": "https://www.yuzawakogen.com/winter/"
       },
       "Tel": {
-        "Info": "025-784-3326"
+        "Info": "025-784-3326",
+        "Emergency": "025-784-3326"
       },
       "Location": {
         "Country": "JP",
@@ -4507,7 +4510,8 @@
         "en": "NASPA Ski Garden"
       },
       "Website": {
-        "ja": "https://naspa.co.jp/ski/"
+        "ja": "https://naspa.co.jp/ski/",
+        "en": "https://www.naspanewotani.com/ski-introduction"
       },
       "Tel": {
         "Info": "025-780-6888"
@@ -4563,7 +4567,7 @@
         "en": "Joetsu Kokusai"
       },
       "Website": {
-        "ja": "https://www.jkokusai.co.jp/"
+        "ja": "https://www.jkokusai.co.jp/ski/"
       },
       "Tel": {
         "Info": "025-782-1028"
@@ -4623,7 +4627,8 @@
         "ja": "https://ikenotaira.info/"
       },
       "Tel": {
-        "Info": "0255-86-2370"
+        "Info": "0255-86-2370",
+        "Emergency": "0255-86-2370"
       },
       "Location": {
         "Country": "JP",
@@ -4648,7 +4653,8 @@
         "en": "Akakura Kanko Resort"
       },
       "Website": {
-        "ja": "https://akr-ski.com/"
+        "ja": "https://akr-ski.com/",
+        "en": "https://www.snowjapan.com/japan-ski-resorts/akakura-kanko-resort"
       },
       "Tel": {
         "Info": "0255-87-2503"
@@ -4903,7 +4909,8 @@
         "ja": "https://tainairesort.jp/"
       },
       "Tel": {
-        "Info": "0254-28-1717"
+        "Info": "0254-28-1717",
+        "Emergency": "0254-28-1717"
       },
       "Location": {
         "Country": "JP",

@@ -3475,7 +3475,6 @@ Resorts:
     Groups:
     - Niigata
 
-# ここから
   IshiuchiMaruyama:
     Name:
       ja: 石打丸山スキー場
@@ -3508,6 +3507,8 @@ Resorts:
       ja: https://www.lottehotel.com/arai-resort/ja/ski-webzine.html
     Tel:
       Info: 0255-75-1177
+      # https://www.lottehotel.com/arai-resort/ja/ski/terms-conditions-2019.html
+      Emergency: 0255-75-1165
     Location:
       Country: JP
       Address:
@@ -3528,7 +3529,9 @@ Resorts:
       ja: https://gala.co.jp/
     Tel:
       # FAQの中に番号がある
-      Info: 025-785-6429
+      Info: 025-785-6543
+      # https://gala.co.jp/winter/gelande/
+      Emergency: 025-785-6444
     Location:
       Country: JP
       ZipCode: 949-6101
@@ -3550,6 +3553,8 @@ Resorts:
       ja: https://www.yuzawakogen.com/winter/
     Tel:
       Info: 025-784-3326
+      # https://www.yuzawakogen.com/winter_hours_fare/rule_manner/
+      Emergency: 025-784-3326
     Location:
       Country: JP
       ZipCode: 949-6101
@@ -3569,8 +3574,8 @@ Resorts:
     Website:
       ja: https://www.park-resort.com/
     Tel:
-      # 湯沢パークホテル
       Info: 025-787-4111
+      # 2021/11/01 フォームで問い合わせ
     Location:
       Country: JP
       ZipCode: 949-6103
@@ -3589,8 +3594,10 @@ Resorts:
       en: NASPA Ski Garden
     Website:
       ja: https://naspa.co.jp/ski/
+      en: https://www.naspanewotani.com/ski-introduction
     Tel:
       Info: 025-780-6888
+      # 2021/11/01 フォームで問い合わせ
     Location:
       Country: JP
       ZipCode: 949-6101
@@ -3609,6 +3616,7 @@ Resorts:
       en: Yuzawa Nakazato Snow Resort
     Website:
       ja: https://www.yuzawa-nakazato.com/
+      # 電話しか無さそう
     Tel:
       Info: 025-787-3301
     Location:
@@ -3628,9 +3636,10 @@ Resorts:
       ja: 上越国際スキー場
       en: Joetsu Kokusai
     Website:
-      ja: https://www.jkokusai.co.jp/
+      ja: https://www.jkokusai.co.jp/ski/
     Tel:
       Info: 025-782-1028
+      # 2021/11/01 フォームで問い合わせ
     Location:
       # 株式会社 上越観光開発 ホテルグリーンプラザ上越 上越国際スキー場
       Country: JP
@@ -3672,9 +3681,12 @@ Resorts:
       ja: 池の平温泉スキー場
       en: Ikenotaira Onsen
     Website:
+      # シーズンになると公式サイトの下部メニューがパトロールへの連絡、になる？
       ja: https://ikenotaira.info/
     Tel:
       Info: 0255-86-2370
+      # https://ikenotaira.info/guide/
+      Emergency: 0255-86-2370
     Location:
       Country: JP
       ZipCode: 949-2112
@@ -3693,8 +3705,10 @@ Resorts:
       en: Akakura Kanko Resort
     Website:
       ja: https://akr-ski.com/
+      en: https://www.snowjapan.com/japan-ski-resorts/akakura-kanko-resort
     Tel:
       Info: 0255-87-2503
+      # FBあり
     Location:
       Country: JP
       ZipCode: 949-2102
@@ -3716,6 +3730,7 @@ Resorts:
       ja: https://akakura-ski.com/
     Tel:
       Info: 0255-87-2125
+      # 2021/11/01 フォームで問い合わせ
     Location:
       Country: JP
       ZipCode: 949-2111
@@ -3737,6 +3752,7 @@ Resorts:
       ja: http://www.sekionsen.com/
     Tel:
       Info: 0255-82-2316
+      # 電話しか無さそう
     Location:
       Country: JP
       ZipCode: 949-2235
@@ -3780,6 +3796,7 @@ Resorts:
       ja: http://okutadami.co.jp/ski/
     Tel:
       Info: 025-795-2750
+      # 2021/11/01 メールで問い合わせ
     Location:
       Country: JP
       # 奥只見観光株式会社
@@ -3801,6 +3818,7 @@ Resorts:
       ja: https://charmant-hiuchi.jp/
     Tel:
       Info: 025-568-2244
+      # 2021/11/01 フォームで問い合わせ
     Location:
       Country: JP
       ZipCode: 949-1322
@@ -3821,6 +3839,7 @@ Resorts:
       ja: https://seasidevalley.com/
     Tel:
       Info: 025-558-2244
+      # 2021/11/01 フォームで問い合わせ
     Location:
       Country: JP
       Address:
@@ -3842,6 +3861,7 @@ Resorts:
       # サイトには 025-797-2059 / 025-797-2750 と併記してある
       # とりあえずgnaviにあわせる
       Info: 025-797-2059
+      # 2021/11/01 フォームで問い合わせ
     Location:
       Country: JP
       ZipCode: 946-0216
@@ -3863,6 +3883,7 @@ Resorts:
       ja: http://www.matsunoyama-ski.com/
     Tel:
       Info: 025-596-3133
+      # 電話しか無さそう、その前に友人に聞くのがよさそう
     Location:
       Country: JP
       ZipCode: 942-1434
@@ -3883,6 +3904,8 @@ Resorts:
       ja: https://tainairesort.jp/
     Tel:
       Info: 0254-28-1717
+      # https://tainairesort.jp/gelande/
+      Emergency: 0254-28-1717
     Location:
       Country: JP
       ZipCode: 959-2823
@@ -3895,6 +3918,7 @@ Resorts:
     Groups:
     - Niigata
 
+# ここから
   Taira:
     Name:
       ja: たいらスキー場
