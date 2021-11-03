@@ -189,7 +189,8 @@ Resorts:
       ja: https://nakayama-ski.com/
     Tel:
       Info: 0136-33-3373
-      # 2021/10/20 フォームで緊急時連絡先を問い合わせ
+      # 2021/10/20 フォームで緊急時連絡先を問い合わせ, 回答あり
+      Emergency: 0136-33-3373
     Location:
       Country: JP
       ZipCode: 044-0223
@@ -3170,7 +3171,8 @@ Resorts:
       ja: http://www.takasu.gr.jp/
     Tel:
       Info: 0575-72-7000
-      # 2021/10/30 ダイナランドと合わせてフォームで問い合わせ
+      # 2021/10/30 ダイナランドと合わせてフォームで問い合わせ, 回答あり
+      Emergency: 0575-72-7000
     Location:
       Country: JP
       ZipCode: 〒501-5305
@@ -3192,7 +3194,7 @@ Resorts:
       ja: https://www.dynaland.co.jp/
     Tel:
       Info: 0575-72-6636
-      # 高鷲スノーパークで合わせて問い合わせ
+      # 高鷲スノーパークで合わせて問い合わせ, 別途問い合わせが必要とのことで 2021/11/02 フォームで問い合わせ
     Location:
       Country: JP
       ZipCode: 501-5305
@@ -3418,7 +3420,8 @@ Resorts:
       en: https://www.kandatsu.com/languages/english/
     Tel:
       Info: 025-788-0111
-      # 2021/10/31 フォームから問い合わせ
+      # 2021/10/31 フォームから問い合わせ, 回答あり
+      Emergency: 025-788-0111
     Location:
       Country: JP
       ZipCode: 949-6102
@@ -3462,7 +3465,8 @@ Resorts:
       ja: https://www.iwa-ppara.com/
     Tel:
       Info: 025-787-3211
-      # 2021/10/31 メールで問い合わせ
+      # 2021/10/31 メールで問い合わせ, 回答あり
+      Emergency: 025-787-3211
     Location:
       Country: JP
       ZipCode: 949-6103
@@ -3575,7 +3579,8 @@ Resorts:
       ja: https://www.park-resort.com/
     Tel:
       Info: 025-787-4111
-      # 2021/11/01 フォームで問い合わせ
+      # 2021/11/01 フォームで問い合わせ, 回答あり
+      Emergency: 025-787-4111
     Location:
       Country: JP
       ZipCode: 949-6103
@@ -3918,7 +3923,6 @@ Resorts:
     Groups:
     - Niigata
 
-# ここから
   Taira:
     Name:
       ja: たいらスキー場
@@ -3928,6 +3932,7 @@ Resorts:
       ja: http://www1.tst.ne.jp/skitaira/
     Tel:
       Info: 0763-66-2911
+      # 2021/11/03 メールで問い合わせ
     Location:
       Country: JP
       ZipCode: 939-1927
@@ -3948,6 +3953,7 @@ Resorts:
       ja: https://iox-arosa.jp/
     Tel:
       Info: 0763-55-1326
+      # 2021/11/03 フォームで問い合わせ
     Location:
       Country: JP
       ZipCode: 939-1681
@@ -3968,8 +3974,9 @@ Resorts:
       # HTTPS無し
       ja: http://www.tateyama36.co.jp/ski/
     Tel:
-      # 大山観光開発株式会社
+      # 大山観光開発株式会社, 立山山麓スキーセンター
       Info: 076-482-1311
+      # 2021/11/03 メールで問い合わせ
     Location:
       Country: JP
       Address:
@@ -3987,6 +3994,7 @@ Resorts:
       en: Hakusan Ichirino Onsen Ski Resort
     Website:
       ja: http://sam-hakusan.com/ichirino/
+      # 電話しか無さそう
     Tel:
       Info: 076-256-7412
     Location:
@@ -4012,6 +4020,7 @@ Resorts:
     Tel:
       # スキー場・レストラン
       Info: 0779-87-6109
+      # フォームで問い合わせ
     Location:
       Country: JP
       ZipCode: 911-0000
@@ -4057,6 +4066,7 @@ Resorts:
     Tel:
       # スキー場テレホンサービス(?)として 0779-78-2211 も掲載されている、どちらか不明
       Info: 0779-78-2711
+      # 2021/11/03 ↑の電話番号の事情を含めてフォームで問い合わせ
     Location:
       Country: JP
       ZipCode: 912-0201
@@ -4077,6 +4087,7 @@ Resorts:
       ja: https://www.kuzuryu-skiland.com/
     Tel:
       Info: 0779-78-2651
+      # 2021/11/03 フォームで問い合わせ
     Location:
       Country: JP
       ZipCode: 912-0092
@@ -4089,6 +4100,7 @@ Resorts:
     Groups:
     - Fukui
 
+# ここから
   Okuibuki:
     Name:
       ja: グランスノー奥伊吹

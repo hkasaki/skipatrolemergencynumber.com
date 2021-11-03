@@ -209,7 +209,8 @@
         "ja": "https://nakayama-ski.com/"
       },
       "Tel": {
-        "Info": "0136-33-3373"
+        "Info": "0136-33-3373",
+        "Emergency": "0136-33-3373"
       },
       "Location": {
         "Country": "JP",
@@ -3969,7 +3970,8 @@
         "ja": "http://www.takasu.gr.jp/"
       },
       "Tel": {
-        "Info": "0575-72-7000"
+        "Info": "0575-72-7000",
+        "Emergency": "0575-72-7000"
       },
       "Location": {
         "Country": "JP",
@@ -4285,7 +4287,8 @@
         "en": "https://www.kandatsu.com/languages/english/"
       },
       "Tel": {
-        "Info": "025-788-0111"
+        "Info": "025-788-0111",
+        "Emergency": "025-788-0111"
       },
       "Location": {
         "Country": "JP",
@@ -4341,7 +4344,8 @@
         "ja": "https://www.iwa-ppara.com/"
       },
       "Tel": {
-        "Info": "025-787-3211"
+        "Info": "025-787-3211",
+        "Emergency": "025-787-3211"
       },
       "Location": {
         "Country": "JP",
@@ -4485,7 +4489,8 @@
         "ja": "https://www.park-resort.com/"
       },
       "Tel": {
-        "Info": "025-787-4111"
+        "Info": "025-787-4111",
+        "Emergency": "025-787-4111"
       },
       "Location": {
         "Country": "JP",
