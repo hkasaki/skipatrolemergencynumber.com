@@ -3999,7 +3999,8 @@
         "ja": "https://www.dynaland.co.jp/"
       },
       "Tel": {
-        "Info": "0575-72-6636"
+        "Info": "0575-72-6636",
+        "Emergency": "0575-72-6636"
       },
       "Location": {
         "Country": "JP",
@@ -4943,7 +4944,8 @@
         "ja": "http://www1.tst.ne.jp/skitaira/"
       },
       "Tel": {
-        "Info": "0763-66-2911"
+        "Info": "0763-66-2911",
+        "Emergency": "0763-66-2911"
       },
       "Location": {
         "Country": "JP",
@@ -4999,7 +5001,8 @@
         "ja": "http://www.tateyama36.co.jp/ski/"
       },
       "Tel": {
-        "Info": "076-482-1311"
+        "Info": "076-482-1311",
+        "Emergency": "076-482-1311"
       },
       "Location": {
         "Country": "JP",
@@ -5340,7 +5343,8 @@
         "ja": "https://www.manba-ski.jp/"
       },
       "Tel": {
-        "Info": "0796-45-0191"
+        "Info": "0796-45-0191",
+        "Emergency": "0796-45-0704"
       },
       "Location": {
         "Country": "JP",

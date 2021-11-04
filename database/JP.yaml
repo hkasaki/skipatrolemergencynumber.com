@@ -3194,7 +3194,8 @@ Resorts:
       ja: https://www.dynaland.co.jp/
     Tel:
       Info: 0575-72-6636
-      # 高鷲スノーパークで合わせて問い合わせ, 別途問い合わせが必要とのことで 2021/11/02 フォームで問い合わせ
+      # 高鷲スノーパークで合わせて問い合わせ, 別途問い合わせが必要とのことで 2021/11/02 フォームで問い合わせ, 回答あり
+      Emergency: 0575-72-6636
     Location:
       Country: JP
       ZipCode: 501-5305
@@ -3932,7 +3933,8 @@ Resorts:
       ja: http://www1.tst.ne.jp/skitaira/
     Tel:
       Info: 0763-66-2911
-      # 2021/11/03 メールで問い合わせ
+      # 2021/11/03 メールで問い合わせ, 回答あり
+      Emergency: 0763-66-2911
     Location:
       Country: JP
       ZipCode: 939-1927
@@ -3976,7 +3978,8 @@ Resorts:
     Tel:
       # 大山観光開発株式会社, 立山山麓スキーセンター
       Info: 076-482-1311
-      # 2021/11/03 メールで問い合わせ
+      # 2021/11/03 メールで問い合わせ, 回答あり
+      Emergency: 076-482-1311
     Location:
       Country: JP
       Address:
@@ -4100,7 +4103,6 @@ Resorts:
     Groups:
     - Fukui
 
-# ここから
   Okuibuki:
     Name:
       ja: グランスノー奥伊吹
@@ -4110,6 +4112,7 @@ Resorts:
       en: https://www.okuibuki.co.jp/en/
     Tel:
       Info: 0749-59-0322
+      # SNSあり
     Location:
       Country: JP
       ZipCode: 521-0301
@@ -4131,6 +4134,7 @@ Resorts:
       en: https://www.biwako-valley.com/winter-season-activity/
     Tel:
       Info: 077-592-1155
+      # 2021/11/04 フォームで問い合わせ
     Location:
       Country: JP
       ZipCode: 520-0514
@@ -4153,6 +4157,7 @@ Resorts:
       ja: http://yogo45.co.jp/
     Tel:
       Info: 0749-86-3001
+      # 2021/11/04 メールで問い合わせ
     Location:
       Country: JP
       ZipCode: 529-0531
@@ -4173,6 +4178,7 @@ Resorts:
       ja: https://www.kunizakai.com/
     Tel:
       Info: 0740-28-0303
+      # 2021/11/04 フォームで問い合わせ
     Location:
       Country: JP
       ZipCode: 520-1802
@@ -4193,6 +4199,8 @@ Resorts:
       ja: https://www.hakodateyama.com/winter/
     Tel:
       Info: 0740-22-2486
+      # 2021/11/04 フォームで問い合わせ
+      # フォームの姓が性になっていたのでついでにお知らせした
     Location:
       Country: JP
       ZipCode: 520-1655
@@ -4214,6 +4222,7 @@ Resorts:
       ja: https://kutsuki-snowpark.com/
     Tel:
       Info: 0740-38-2323
+      # 2021/11/04 フォームで問い合わせ
     Location:
       Country: JP
       Address:
@@ -4235,6 +4244,7 @@ Resorts:
     Tel:
       # 中央ゲレンデ事務所
       Info: 0796-45-1545
+      # 2021/11/04 フォームで問い合わせ
     Location:
       Country: JP
       ZipCode: 669-5372
@@ -4255,6 +4265,8 @@ Resorts:
       ja: https://www.manba-ski.jp/
     Tel:
       Info: 0796-45-0191
+      # https://www.manba-ski.jp/gelande/#gelandemap
+      Emergency: 0796-45-0704
     Location:
       Country: JP
       ZipCode: 669-5378
@@ -4276,6 +4288,7 @@ Resorts:
       ja: https://okukan.com/
     Tel:
       Info: 0796-45-0510
+      # 2021/11/04 フォームで問い合わせ
     Location:
       Country: JP
       Address:
@@ -4317,6 +4330,7 @@ Resorts:
     Tel:
       # ゲレンデダイヤル
       Info: 079-667-8037
+      # 2021/11/04 フォームで問い合わせ ハチ北と同時
     Location:
       Country: JP
       ZipCode: 667-1124
@@ -4355,6 +4369,7 @@ Resorts:
       ja: https://www.hyounosen.jp/
     Tel:
       Info: 079-667-7219
+      # 2021/11/04 フォームで問い合わせ
     Location:
       Country: JP
       ZipCode: 667-1125
@@ -4375,6 +4390,7 @@ Resorts:
       ja: https://tohachi.jp/
     Tel:
       Info: 079-667-8201
+      # 2021/11/04 フォームで問い合わせ
     Location:
       Country: JP
       ZipCode: 667-1128
@@ -4396,6 +4412,7 @@ Resorts:
       en: https://skyvalley.jp/english/
     Tel:
       Info: 0796-96-0375
+      # 2021/11/04 フォームで問い合わせ
     Location:
       Country: JP
       ZipCode: 667-1343
@@ -4417,6 +4434,7 @@ Resorts:
       ja: https://mineyama-kogen-resort.com/
     Tel:
       Info: 0790-34-1900
+      # 2021/11/04 フォームで問い合わせ
     Location:
       Country: JP
       ZipCode: 679-3125
@@ -4437,6 +4455,7 @@ Resorts:
       ja: https://www.chikusakogen.com/
     Tel:
       Info: 0790-76-3555
+      # 2021/11/04 フォームで問い合わせ
     Location:
       Country: JP
       Address:
@@ -4456,6 +4475,7 @@ Resorts:
       ja: https://www.ojiro.or.jp/
     Tel:
       Info: 0796-97-2717
+      # 2021/11/04 フォームで問い合わせ
     Location:
       Country: JP
       Address:
@@ -4476,6 +4496,7 @@ Resorts:
     Tel:
       # サイトで見つけられず、若杉高原開発企業組合の電話番号
       Info: 079-669-1576
+      # 2021/11/04 フォームで問い合わせ, 一般の電話番号も合わせて質問
     Location:
       Country: JP
       Address:
@@ -4496,6 +4517,7 @@ Resorts:
       ja: https://ooyaski.com/bantoku/
     Tel:
       # 観光案内等では載っているがサイトに無し
+      # とりあえずおおやスキー場の回答待ち
       Info: 0790-73-0324
     Location:
       Country: JP
@@ -4519,6 +4541,8 @@ Resorts:
       en: https://www.rokkosan.com/ski/en/
     Tel:
       Info: 078-891-0366
+      # 電話しかなさそう
+      # 規模的にも見通せそうなので後回し
     Location:
       Country: JP
       ZipCode: 657-0101
@@ -4531,6 +4555,7 @@ Resorts:
     Groups:
     - Hyogo
 
+# ここから
   Daisen:
     Name:
       ja: だいせんホワイトリゾート
