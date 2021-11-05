@@ -5060,7 +5060,8 @@
         "en": "https://japan-skiguide.com/guide/htm/r0019ens.htm"
       },
       "Tel": {
-        "Info": "0779-87-6109"
+        "Info": "0779-87-6109",
+        "Emergency": "0779-87-6109"
       },
       "Location": {
         "Country": "JP",
@@ -5315,7 +5316,8 @@
         "en": "http://www.kannabe.co.jp/en/"
       },
       "Tel": {
-        "Info": "0796-45-1545"
+        "Info": "0796-45-1545",
+        "Emergency": "0796-45-1545"
       },
       "Location": {
         "Country": "JP",
@@ -5422,7 +5424,8 @@
         "ja": "https://www.hachi-hachikita.co.jp/hachi/"
       },
       "Tel": {
-        "Info": "079-667-8037"
+        "Info": "079-667-8037",
+        "Emergency": "079-667-8036"
       },
       "Location": {
         "Country": "JP",
@@ -5448,7 +5451,8 @@
         "ja": "https://www.hachi-hachikita.co.jp/hachikita/"
       },
       "Tel": {
-        "Info": "0796-96-0202"
+        "Info": "0796-96-0202",
+        "Emergency": "0796-96-0201"
       },
       "Location": {
         "Country": "JP",
@@ -5530,7 +5534,8 @@
         "en": "https://skyvalley.jp/english/"
       },
       "Tel": {
-        "Info": "0796-96-0375"
+        "Info": "0796-96-0375",
+        "Emergency": "0796-96-0375"
       },
       "Location": {
         "Country": "JP",

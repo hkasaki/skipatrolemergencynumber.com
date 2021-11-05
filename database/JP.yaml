@@ -4023,7 +4023,8 @@ Resorts:
     Tel:
       # スキー場・レストラン
       Info: 0779-87-6109
-      # フォームで問い合わせ
+      # フォームで問い合わせ, 回答あり
+      Emergency: 0779-87-6109
     Location:
       Country: JP
       ZipCode: 911-0000
@@ -4244,7 +4245,8 @@ Resorts:
     Tel:
       # 中央ゲレンデ事務所
       Info: 0796-45-1545
-      # 2021/11/04 フォームで問い合わせ
+      # 2021/11/04 フォームで問い合わせ, 回答あり
+      Emergency: 0796-45-1545
     Location:
       Country: JP
       ZipCode: 669-5372
@@ -4330,7 +4332,8 @@ Resorts:
     Tel:
       # ゲレンデダイヤル
       Info: 079-667-8037
-      # 2021/11/04 フォームで問い合わせ ハチ北と同時
+      # 2021/11/04 フォームで問い合わせ ハチ北と同時, 回答あり
+      Emergency: 079-667-8036
     Location:
       Country: JP
       ZipCode: 667-1124
@@ -4351,6 +4354,8 @@ Resorts:
     Tel:
       # ゲレンデダイヤル
       Info: 0796-96-0202
+      # ハチ高原から回答あり, 確認中
+      Emergency: 0796-96-0201
     Location:
       Country: JP
       ZipCode: 667-1344
@@ -4412,7 +4417,8 @@ Resorts:
       en: https://skyvalley.jp/english/
     Tel:
       Info: 0796-96-0375
-      # 2021/11/04 フォームで問い合わせ
+      # 2021/11/04 フォームで問い合わせ, 回答あり
+      Emergency: 0796-96-0375
     Location:
       Country: JP
       ZipCode: 667-1343
