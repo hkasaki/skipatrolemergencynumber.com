@@ -4561,7 +4561,6 @@ Resorts:
     Groups:
     - Hyogo
 
-# ここから
   Daisen:
     Name:
       ja: だいせんホワイトリゾート
@@ -4571,6 +4570,7 @@ Resorts:
       ja: https://www.daisen-resort.jp/
     Tel:
       Info: 0859-52-2315
+      # 2021/11/06 フォームで問い合わせ 短縮版
     Location:
       Country: JP
       # パンフレットにあるもの
@@ -4595,6 +4595,7 @@ Resorts:
     Tel:
       # ゲレンデの問い合わせ先 http://www.hyounosen.or.jp/play/ski/guide/index.html
       Info: 0858-82-0512
+      # 2021/11/06 メールで問い合わせ
     Location:
       Country: JP
       ZipCode: 〒680-0728
@@ -4618,6 +4619,7 @@ Resorts:
       en: https://japan-skiguide.com/guide/htm/r0015ens.htm
     Tel:
       Info: 0854-72-1021
+      # 2021/11/06 フォームで問い合わせ
     Location:
       Country: JP
       ZipCode: 690-3204
@@ -4640,6 +4642,7 @@ Resorts:
     Tel:
       # ゲレンデ情報 0867-66-5400 よりはこっち？
       Info: 0867-66-5333
+      # Twitterあり、メール無し
     Location:
       Country: JP
       Address:
@@ -4657,8 +4660,10 @@ Resorts:
       en: Ibukinosato
     Website:
       ja: https://www.ibukinosato.co.jp/
+      # 英語サイトあるのだが20-21と入っていてリンクしていいものか悩ましい
     Tel:
       Info: 0867-77-2266
+      # 2021/11/06 メールで問い合わせ
     Location:
       Country: JP
       ZipCode: 718-0104
@@ -4679,6 +4684,7 @@ Resorts:
       ja: https://www.ombara-kogen.com/ski/
     Tel:
       Info: 0868-44-2808
+      # 電話しかなさそう
     Location:
       Country: JP
       ZipCode: 708-0601
@@ -4700,6 +4706,7 @@ Resorts:
       ja: https://www.osorakan.co.jp/winter/
     Tel:
       Info: 0826-28-7007
+      # 2021/11/06 メールで問い合わせ
     Location:
       Country: JP
       ZipCode: 731-3801
@@ -4722,6 +4729,7 @@ Resorts:
     Tel:
       # 代表電話
       Info: 0824-84-2311
+      # 2021/11/06 メールで問い合わせ
     Location:
       Country: JP
       ZipCode: 729-5611
@@ -4744,6 +4752,7 @@ Resorts:
       ja: http://www.dogoyamakogen.server-shared.com/
     Tel:
       Info: 0824-84-2105
+      # 2021/11/06 メールで問い合わせしたがエラーメールが返ってきた
     Location:
       Country: JP
       Address:
@@ -4765,6 +4774,7 @@ Resorts:
     Tel:
       # 営業時間内TEL 0829-40-3000, TEL 0829-40-3030
       Info: 0829-40-3000
+      # 2021/11/06 フォームで問い合わせ
     Location:
       Country: JP
       ZipCode: 738-0301
@@ -4785,6 +4795,7 @@ Resorts:
       ja: https://yawata191.com/
     Tel:
       Info: 0826-37-0341
+      # 電話しかなさそう
     Location:
       Country: JP
       ZipCode: 731-2552
@@ -4805,6 +4816,7 @@ Resorts:
       ja: https://www.saioto.co.jp/
     Tel:
       Info: 0826-35-1234
+      # SNSあり
     Location:
       Country: JP
       ZipCode: 731-2314
@@ -4825,6 +4837,7 @@ Resorts:
       ja: https://osaski.co.jp/
     Tel:
       Info: 0826-35-0038
+      # 2021/11/06 フォームで問い合わせ
     Location:
       Country: JP
       ZipCode: 731-2431
@@ -4845,6 +4858,7 @@ Resorts:
       ja: https://www.ikawaski.jp/
     Tel:
       Info: 0883-78-3003
+      # 2021/11/06 フォームで問い合わせ
     Location:
       Country: JP
       ZipCode: 779-4805
@@ -4869,6 +4883,7 @@ Resorts:
       en: http://www.kumax.co.jp/en/
     Tel:
       Info: 0892-21-0100
+      # 2021/11/06 メールで問い合わせ
     Location:
       Country: JP
       ZipCode: 791-1204
@@ -4889,6 +4904,7 @@ Resorts:
       ja: https://www.ishizuchi.com/ski/
     Tel:
       Info: 0897-59-0331
+      # 2021/11/06 フォームで問い合わせ
     Location:
       Country: JP
       ZipCode: 793-0215
@@ -4909,6 +4925,7 @@ Resorts:
       ja: https://www.kujyuski.co.jp/
     Tel:
       Info: 0973-79-2200
+      # 2021/11/06 メールで問い合わせ
     Location:
       Country: JP
       ZipCode: 879-4912
@@ -4930,6 +4947,7 @@ Resorts:
       ja: http://www.gokase.co.jp/ski/
     Tel:
       Info: 0982-83-2144
+      # 2021/11/06 フォームで問い合わせ
     Location:
       Country: JP
       ZipCode: 882-1201
