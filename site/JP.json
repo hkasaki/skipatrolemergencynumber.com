@@ -297,7 +297,7 @@
         "en": "https://mountracey-resort.com/en/"
       },
       "Tel": {
-        "Info": null
+        "Info": "0123-52-5151"
       },
       "Location": {
         "Country": "JP",
@@ -5505,7 +5505,8 @@
         "ja": "https://tohachi.jp/"
       },
       "Tel": {
-        "Info": "079-667-8201"
+        "Info": "079-667-8201",
+        "Emergency": "079-667-8201"
       },
       "Location": {
         "Country": "JP",
@@ -5618,7 +5619,8 @@
         "ja": "https://www.ojiro.or.jp/"
       },
       "Tel": {
-        "Info": "0796-97-2717"
+        "Info": "0796-97-2717",
+        "Emergency": "0796-97-2717"
       },
       "Location": {
         "Country": "JP",

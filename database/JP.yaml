@@ -260,8 +260,9 @@ Resorts:
       ja: https://mountracey-resort.com/skiarea/
       en: https://mountracey-resort.com/en/
     Tel:
-      # サイトに書いてないし既存のものはあやしい
-      Info:
+      # サイトに記載があった
+      Info: 0123-52-5151
+      # TODO: tel
     Location:
       Country: JP
       ZipCode: 068-0411
@@ -284,7 +285,7 @@ Resorts:
       en: https://www.fujino-yagai-sports.jp/en/winter/
     Tel:
       Info: 011-591-8111
-      # 電話しか問い合わせ先がない
+      # TODO: tel
     Location:
       Country: JP
       ZipCode: 061-2271
@@ -328,7 +329,7 @@ Resorts:
       ja: https://www.snowtomamu.jp/winter/
       en: https://www.snowtomamu.jp/winter/en/
     Tel:
-      # どれが妥当か不明。gnavi は 2101を書いている
+      # TODO: どれが妥当か不明。gnavi は 2101を書いている
       # https://www.snowtomamu.jp/winter/inquiry/
       # Info: 
       # https://www.snowtomamu.jp/winter/ski/guide/map.php
@@ -491,7 +492,7 @@ Resorts:
     Tel:
       # 冬季代表電話
       Info: 011-682-6000
-      # フォーム、メールアドレス等無し。要電話？
+      # TODO: SNS, tel
     Location:
       Country: JP
       ZipCode: 006-0029
@@ -562,7 +563,7 @@ Resorts:
       en: https://www.sapporo-kokusai.jp/en/
     Tel:
       Info: 011-598-4511
-      # 要電話問い合わせ
+      # TODO: SNS, tel
     Location:
       Country: JP
       ZipCode: 061-2301
@@ -587,6 +588,7 @@ Resorts:
       # 大雪山　層雲峡・黒岳ロープウェイ
       # 緊急時表記をどうするべきかは問い合わせたほうがよさそう
       Info: 01658-5-3031
+      # TODO: tel
     Location:
       Country: JP
       ZipCode: 078-1701
@@ -654,7 +656,7 @@ Resorts:
     Tel:
       # gnaviは運営会社の番号を載せてるようだがパンフレットとかはこちら
       Info: 0166-63-3232
-      # 要電話？FB, Twitter等はあり
+      # TODO: SNS, tel
     Location:
       Country: JP
       ZipCode: 070-8025
@@ -679,6 +681,7 @@ Resorts:
     Tel:
       Info: 011-641-0071
       # 2021/10/20 フォームで緊急時連絡先を問い合わせ
+      # TODO: 待ち
     Location:
       Country: JP
       Address:
@@ -699,7 +702,7 @@ Resorts:
       ja: http://www.town.pippu.hokkaido.jp/ski/top.html
     Tel:
       Info: 0166-85-3056
-      # Facebookページあり
+      # TODO: SNS, tel
     Location:
       Country: JP
       ZipCode: 078-0327
@@ -752,6 +755,7 @@ Resorts:
     Tel:
       Info: 017-764-1110
       # 2021/10/21 フォームで問い合わせ
+      # TODO: 待ち（独特のメッセージシステムで、たまに見に行く必要がありそう）
     Location:
       Country: JP
       ZipCode: 030-0133
@@ -772,7 +776,8 @@ Resorts:
       ja: https://www.appi.co.jp/ski/
     Tel:
       Info: 0195-73-5111
-      # 2021/10/21 フォームで問い合わせ
+      # 2021/10/21 フォームで問い合わせ, 教えてくれなかったが直通ダイヤルはあるっぽい
+      # TODO: あとまわし
     Location:
       Country: JP
       ZipCode: 028-7306
@@ -795,6 +800,7 @@ Resorts:
     Tel:
       Info: 0197-65-9000
       # 2021/10/21 フォームで問い合わせ (BC配慮混み)
+      # TODO: 待ち
     Location:
       Country: JP
       ZipCode: 024-0322
@@ -840,6 +846,7 @@ Resorts:
     Tel:
       Info: 019-693-4000
       # 2021/10/22 フォームで問い合わせ 
+      # TODO: 待ち
     Location:
       Country: JP
       ZipCode: 020-0585
@@ -858,7 +865,7 @@ Resorts:
       en: Amihari Onsen
     Website:
       ja: https://www.qkamura.or.jp/iwate/ski/
-      # 要電話っぽい
+      # TODO: tel
     Tel:
       Info: 019-693-2211
     Location:
@@ -939,6 +946,7 @@ Resorts:
     Tel:
       Info: 0195-35-3131
       # 2021/10/22 フォームで問い合わせ 
+      # TODO: 待ち
     Location:
       Country: JP
       ZipCode: 028-5134
@@ -1005,6 +1013,7 @@ Resorts:
     Tel:
       Info: 0224-84-5880
       # 電話のみ。受付時間はシーズン中営業日、ということなのでシーズンが始まったら問い合わせする
+      # TODO: tel（シーズン開始後）
     Location:
       Country: JP
       ZipCode: 989-1502
@@ -1025,7 +1034,7 @@ Resorts:
       ja: https://ski-shichikashuku.com/winter.html
     Tel:
       Info: 0224-37-3111
-      # 電話のみ
+      # TODO: tel
     Location:
       Country: JP
       ZipCode: 989-0612
@@ -1047,7 +1056,7 @@ Resorts:
     # NPO法人 不忘アザレア
     Tel:
       Info: 0224-24-8111
-      # 電話のみ
+      # TODO: tel
     Location:
       Country: JP
       ZipCode: 989-0733
@@ -1071,6 +1080,7 @@ Resorts:
     Tel:
       Info: 0224-87-2610
       # 2021/10/24 メールで問い合わせ
+      # TODO: 待ち
     Location:
       Country: JP
       ZipCode: 989-0916
@@ -1142,6 +1152,7 @@ Resorts:
       # 月山ペアリフト
       Info: 0237-75-2025
       # ↑でいいと思うけど、月山シーズンが始まったら確認する
+      # TODO: tel（春に）
     Location:
       Country: JP
       ZipCode:
@@ -1187,7 +1198,7 @@ Resorts:
       ja: https://www.yonezawa-ski.co.jp/
     Tel:
       Info: 0238-28-2511
-      # 電話以外なさそう
+      # TODO: tel
     Location:
       Country: JP
       ZipCode: 992-1121
@@ -1209,7 +1220,7 @@ Resorts:
       en: https://www.nekoma.co.jp/en/
     Tel:
       Info: 0241-32-3001
-      # 問い合わせ先不明, TwitterとかあるからDMしてみる？
+      # TODO: SNS
     Location:
       Country: JP
       ZipCode: 969-2701
@@ -1232,7 +1243,7 @@ Resorts:
     Tel:
       # アクセスページからは消えている？
       Info: 0242-74-5000
-      # 問い合わせ先不明, TwitterとかあるからDMしてみる？
+      # TODO: SNS
     Location:
       Country: JP
       ZipCode: 969-3396
@@ -1255,6 +1266,7 @@ Resorts:
     Tel:
       Info: 0248-85-2024
       # 2021/10/24 メールで問い合わせ
+      # TODO: 待ち
     Location:
       Country: JP
       ZipCode: 962-0623
@@ -1276,6 +1288,7 @@ Resorts:
     Tel:
       Info: 0242-62-5100
       # 2021/10/24 フォームで問い合わせ
+      # TODO: 待ち
     Location:
       Country: JP
       ZipCode: 969-3102
@@ -1320,6 +1333,7 @@ Resorts:
       ja: http://www.bandai-bandai.jp/
     Tel:
       Info: 0242-93-8530
+      # TODO: 営業するのかチェック
     Location:
       Country: JP
       ZipCode: 969-3101
@@ -1389,7 +1403,7 @@ Resorts:
       ja: http://www.nango-ski.com/
     Tel:
       Info: 0241-73-2111
-      # メール・フォーム等無し。Twitterあるのでそちら？
+      # TODO: SNS
     Location:
       Country: JP
       ZipCode: 967-0631
@@ -1411,6 +1425,7 @@ Resorts:
     Tel:
       Info: 0241-76-2231
       # 2021/10/24 フォームで問い合わせ
+      # TODO: 待ち
     Location:
       Country: JP
       Address:
@@ -1433,7 +1448,7 @@ Resorts:
     Tel:
       Info: 0287-32-4580
       # mapはシーズン中のみ？
-      # FB, twitter, lineなどあり
+      # TODO: SNS, tel
     Location:
       Country: JP
       ZipCode: 329-2922
@@ -1455,6 +1470,7 @@ Resorts:
     Tel:
       Info: 0288-78-0786
       # 2021/10/24 フォームで問い合わせ
+      # TODO: 待ち
     Location:
       Country: JP
       ZipCode: 321-2612
@@ -1477,7 +1493,7 @@ Resorts:
       en: https://japan-skiguide.com/guide/htm/r0075ens.htm
     Tel:
       Info: 0287-77-2300
-      # メール、フォーム無し、Twitter等あるのであとで
+      # TODO: SNS, tel
     Location:
       Country: JP
       ZipCode: 329-3223
@@ -1523,6 +1539,7 @@ Resorts:
     Tel:
       Info: 0278-58-2211
       # 2021/10/24 フォームから問い合わせ
+      # TODO: 待ち
     Location:
       Country: JP
       ZipCode: 378-0414
@@ -1546,6 +1563,7 @@ Resorts:
     Tel:
       Info: 0278-23-9311
       # 東急系、Twitter等あり、メール無し
+      # TODO: SNS
     Location:
       Country: JP
       ZipCode: 378-0071
@@ -1568,6 +1586,7 @@ Resorts:
     Tel:
       Info: 0279-96-1177
       # FB, twitter等はあり、メール、フォームなど無し
+      # TODO: SNS
     Location:
       Country: JP
       ZipCode: 377-1611
@@ -1590,6 +1609,7 @@ Resorts:
     Tel:
       Info: 0279-98-0611
       # 2021/10/24 フォームから問い合わせ
+      # TODO: 待ち
     Location:
       Country: JP
       ZipCode: 377-1614
@@ -1636,6 +1656,7 @@ Resorts:
     Tel:
       Info: 0278-72-8101
       # 2021/10/25 フォームで問い合わせ
+      # TODO: 待ち
     Location:
       Country: JP
       ZipCode: 379-1724
@@ -1659,6 +1680,7 @@ Resorts:
       # 水上高原ホテル200(トゥーハンドレッド) の電話番号しかサイトに無い
       # シーズン中に電話するしかない？
       Info: 0278-75-2222
+      # TODO: tel(シーズン中)
     Location:
       Country: JP
       ZipCode: 379-1721
@@ -1747,6 +1769,7 @@ Resorts:
     Tel:
       Info: 0278-58-2161
       # 2021/10/25 メールで問い合わせ
+      # TODO: 待ち
     Location:
       Country: JP
       ZipCode: 378-0413
@@ -1768,6 +1791,7 @@ Resorts:
     Tel:
       Info: 0279-88-8111
       # メールリンクが開けず, SNSあり あとでそちらで聞く
+      # TODO: SNS
     Location:
       Country: JP
       ZipCode: 377-1711
@@ -1812,6 +1836,7 @@ Resorts:
       # 谷川岳ロープウエー株式会社
       Info: 0278-72-3575
       # 2021/10/25 メールで問い合わせ
+      # TODO: 待ち
     Location:
       Country: JP
       ZipCode: 379-1728
@@ -1832,6 +1857,8 @@ Resorts:
       ja: https://www.fujiten.net/
     Tel:
       Info: 0555-85-2000
+      # 2021/10/26 メールで問い合わせ
+      # TODO: 待ち
     Location:
       Country: JP
       ZipCode: 401-0320
@@ -1854,7 +1881,7 @@ Resorts:
       en: https://japan-skiguide.com/guide/htm/r0018ens.htm
     Tel:
       Info: 0551-48-4111
-      # 電話しかなさそう
+      # TODO: tel
     Location:
       Country: JP
       ZipCode: 407-0311
@@ -1876,7 +1903,7 @@ Resorts:
       ja: http://misaka.kamuisp.com/
     Tel:
       Info: 055-264-2614
-      # 電話しかなさそう
+      # TODO: tel
     Location:
       Country: JP
       ZipCode: 406-0813
@@ -1947,6 +1974,7 @@ Resorts:
     Tel:
       # 志賀高原リゾート開発株式会社　総務部　お客様係
       Info: 0269-34-2301
+      # TODO: tel
     Location:
       Country: JP
       ZipCode: 381-0401
@@ -1970,7 +1998,7 @@ Resorts:
       en: http://en.okushiga.jp/skiresort/
     Tel:
       Info: 0269-34-2225
-      # 電話しかなさそう
+      # TODO: tel
     Location:
       Country: JP
       ZipCode:
@@ -2015,7 +2043,7 @@ Resorts:
       en: https://www.kumanoyu.co.jp/lift/english/
     Tel:
       Info: 0269-34-2166
-      # 電話しかなさそう
+      # TODO: tel
     Location:
       Country: JP
       ZipCode: 381-0401
@@ -2036,7 +2064,7 @@ Resorts:
       ja: https://yokoteyama2307.com/
     Tel:
       Info: 0269-34-2600
-      # 電話しかなさそう
+      # TODO: tel
     Location:
       Country: JP
       ZipCode:
@@ -2078,6 +2106,7 @@ Resorts:
       en: https://www.happo-one.jp/en/winter/
     Tel:
       Info: 0261-72-3280
+      # TODO: 行って確認
       Emergency: 0261-72-3704
     Location:
       Country: JP
@@ -2274,8 +2303,6 @@ Resorts:
     Tel:
       # ホテルグリーンプラザ白馬の番号
       Info: 0570-097-489
-      # https://mapfan.com/spots/SAYW,J,DFUU1
-      # Emergency: 0261-82-2236
       # https://www.hakunori.com/cms/wp-content/themes/hakunori/pdf/20201121_HAKUBAVALLEY-Safety-Tips_JP_vf-1.pdf
       Emergency: 0261-82-2650
     Location:
@@ -2345,11 +2372,8 @@ Resorts:
     Website:
       ja: https://asama2000.com/
     Tel:
-      # リフト降り場に目立つようにパトロールの番号が書いてあったと思う
       Info: 0267-23-1714
       # https://asama2000.com/slope.html
-      # Emergency: 0267-23-1714
-      # ↑にあるパトロール直通の番号
       Emergency: 080-5894-6398
     Location:
       Country: JP
@@ -2373,7 +2397,7 @@ Resorts:
       en: https://japan-skiguide.com/guide/htm/r0112ens.htm
     Tel:
       Info: 0269-33-6345
-      # 電話しか無さそう
+      # TODO: tel
     Location:
       Country: JP
       ZipCode: 381-0405
@@ -2396,7 +2420,7 @@ Resorts:
       en: https://japan-skiguide.com/guide/htm/r0297ens.htm
     Tel:
       Info: 0266-62-5666
-      # FBあった。それ以外には電話しか無さそう
+      # TODO: SNS, tel
     Location:
       Country: JP
       ZipCode: 399-0211
@@ -2418,6 +2442,7 @@ Resorts:
     Tel:
       Info: 0267-42-5588
       # プリンスなのにコースマップに無い
+      # TODO: tel
     Location:
       Country: JP
       ZipCode: 389-0102
@@ -2438,7 +2463,7 @@ Resorts:
       ja: https://www.saku-parada.jp/ski/
     Tel:
       Info: 0267-68-5116
-      # 電話か FB, Twitterなどあり
+      # TODO: SNS, tel
     Location:
       Country: JP
       ZipCode: 385-0002
@@ -2460,6 +2485,7 @@ Resorts:
     Tel:
       Info: 0268-64-0400
       # 2021/10/26 フォームで問い合わせ この一般の番号もあやしい
+      # TODO: 待ち
     Location:
       Country: JP
       ZipCode: 389-0501
@@ -2482,6 +2508,7 @@ Resorts:
     Tel:
       Info: 0269-64-3214
       # 2021/10/26 フォームで問い合わせ
+      # TODO: 待ち
     Location:
       Country: JP
       ZipCode: 389-2257
@@ -2505,6 +2532,7 @@ Resorts:
     Tel:
       Info: 026-258-3511
       # 東急系、FBありそう。あとは電話
+      # TODO: SNS, tel
     Location:
       Country: JP
       ZipCode: 389-1302
@@ -2632,7 +2660,7 @@ Resorts:
       ja: https://blanche-ski.com/
     Tel:
       Info: 0268-69-2232
-      # 電話しか無さそう
+      # TODO: tel
     Location:
       Country: JP
       ZipCode: 386-0601
@@ -2655,6 +2683,7 @@ Resorts:
     Tel:
       Info: 0266-68-2626
       # 2021/10/27 メールで問い合わせ
+      # TODO: 待ち
     Location:
       Country: JP
       ZipCode: 391-0301
@@ -2676,7 +2705,8 @@ Resorts:
     Tel:
       Info: 0267-93-2537
       # 2021/10/27 フォームから問い合わせようとしたが500 Internal Server Error, FB, Twitterあり
-      # FBのメッセージでお知らせした
+      # FBのメッセージでお知らせした, 返事無し
+      # TODO: SNS (Twitter)
     Location:
       Country: JP
       ZipCode: 384-1103
@@ -2758,7 +2788,7 @@ Resorts:
       ja: https://kijimadaira-ski.com/
     Tel:
       Info: 0269-82-3434
-      # メール無し、FBあり
+      # TODO: SNS, tel
     Location:
       Country: JP
       ZipCode: 389-2303
@@ -2781,6 +2811,7 @@ Resorts:
     Tel:
       Info: 0263-79-2246
       # 2021/10/28 フォームから問い合わせ
+      # TODO: 待ち
     Location:
       Country: JP
       ZipCode: 390-1611
@@ -2873,6 +2904,7 @@ Resorts:
     Tel:
       Info: 0264-44-1111
       # 2021/10/28 フォームから問い合わせ
+      # TODO: 待ち
     Location:
       Country: JP
       ZipCode: 397-0302
@@ -2919,6 +2951,7 @@ Resorts:
     Tel:
       Info: 0265-47-1111
       # 2021/10/29 フォームで問い合わせ
+      # TODO: 待ち
     Location:
       Country: JP
       # 治部坂観光株式会社
@@ -2940,7 +2973,7 @@ Resorts:
       ja: http://fujimikogen-ski.jp/
     Tel:
       Info: 0266-66-2932
-      # SNSあり、あとで
+      # TODO: SNS, tel
     Location:
       Country: JP
       ZipCode: 399-0101
@@ -2962,6 +2995,7 @@ Resorts:
     Tel:
       Info: 026-253-3911
       # 2021/10/29 フォームで問い合わせ
+      # TODO: 待ち
     Location:
       Country: JP
       # 飯綱東高原観光開発株式会社　
@@ -2986,6 +3020,7 @@ Resorts:
     Tel:
       Info: 026-254-2106
       # お問い合わせ、というページに何も出ないので電話しか無さそう
+      # TODO: tel
     Location:
       Country: JP
       ZipCode: 381-4101
@@ -3031,6 +3066,7 @@ Resorts:
       Info: 0267-55-6000
       # https://townpage.goo.ne.jp/shopdetail.php?matomeid=208616888000000899
       # 2021/10/29 この番号でいいのかフォームで問い合わせ
+      # TODO: 待ち、あとで確認
       Emergency: 0267-55-7680
     Location:
       Country: JP
@@ -3078,6 +3114,7 @@ Resorts:
       ja: https://ontake2240.jp/
     Tel:
       Info: 0264-48-2240
+      # TODO: サイトできるの待ち
     Location:
       Country: JP
       ZipCode: 397-0201
@@ -3122,6 +3159,7 @@ Resorts:
     Tel:
       Info: 026-255-3171
       # 2021/10/29 フォームで問い合わせ
+      # TODO: 待ち
     Location:
       Country: JP
       ZipCode: 389-1303
@@ -3143,6 +3181,7 @@ Resorts:
     Tel:
       Info: 0575-87-2811
       # 2021/10/30 フォームで問い合わせ
+      # TODO: 待ち
     Location:
       Country: JP
       ZipCode: 501-4304
@@ -3238,7 +3277,7 @@ Resorts:
       ja: http://www.whitepia.jp/
     Tel:
       Info: 0575-72-6311
-      # フォームなし、SNSあり
+      # TODO: SNS, tel
     Location:
       Country: JP
       ZipCode: 501-5302
@@ -3260,6 +3299,7 @@ Resorts:
     Tel:
       Info: 0575-73-2311
       # 2021/10/30 フォームで問い合わせ
+      # TODO: 待ち
     Location:
       Country: JP
       Address:
@@ -3351,7 +3391,7 @@ Resorts:
     Tel:
       # 一般財団法人茶臼山高原協会
       Info: 0536-87-2345
-      # 電話しか無さそう
+      # TODO: tel
     Location:
       Country: JP
       ZipCode: 449-0405
@@ -3443,7 +3483,7 @@ Resorts:
       ja: https://www.maiko-resort.com/
     Tel:
       Info: 025-783-4100
-      # 電話しか無さそう
+      # TODO: tel
     Location:
       Country: JP
       ZipCode: 949-6423
@@ -3604,6 +3644,7 @@ Resorts:
     Tel:
       Info: 025-780-6888
       # 2021/11/01 フォームで問い合わせ
+      # TODO: 待ち
     Location:
       Country: JP
       ZipCode: 949-6101
@@ -3622,9 +3663,9 @@ Resorts:
       en: Yuzawa Nakazato Snow Resort
     Website:
       ja: https://www.yuzawa-nakazato.com/
-      # 電話しか無さそう
     Tel:
       Info: 025-787-3301
+      # TODO: tel
     Location:
       Country: JP
       ZipCode: 949-6103
@@ -3646,6 +3687,7 @@ Resorts:
     Tel:
       Info: 025-782-1028
       # 2021/11/01 フォームで問い合わせ
+      # TODO: 待ち
     Location:
       # 株式会社 上越観光開発 ホテルグリーンプラザ上越 上越国際スキー場
       Country: JP
@@ -3714,7 +3756,7 @@ Resorts:
       en: https://www.snowjapan.com/japan-ski-resorts/akakura-kanko-resort
     Tel:
       Info: 0255-87-2503
-      # FBあり
+      # TODO: SNS, tel
     Location:
       Country: JP
       ZipCode: 949-2102
@@ -3737,6 +3779,7 @@ Resorts:
     Tel:
       Info: 0255-87-2125
       # 2021/11/01 フォームで問い合わせ
+      # TODO: 待ち
     Location:
       Country: JP
       ZipCode: 949-2111
@@ -3758,7 +3801,7 @@ Resorts:
       ja: http://www.sekionsen.com/
     Tel:
       Info: 0255-82-2316
-      # 電話しか無さそう
+      # TODO: tel
     Location:
       Country: JP
       ZipCode: 949-2235
@@ -3803,6 +3846,7 @@ Resorts:
     Tel:
       Info: 025-795-2750
       # 2021/11/01 メールで問い合わせ
+      # TODO: 待ち
     Location:
       Country: JP
       # 奥只見観光株式会社
@@ -3825,6 +3869,7 @@ Resorts:
     Tel:
       Info: 025-568-2244
       # 2021/11/01 フォームで問い合わせ
+      # TODO: 待ち
     Location:
       Country: JP
       ZipCode: 949-1322
@@ -3846,6 +3891,7 @@ Resorts:
     Tel:
       Info: 025-558-2244
       # 2021/11/01 フォームで問い合わせ
+      # TODO: 待ち
     Location:
       Country: JP
       Address:
@@ -3868,6 +3914,7 @@ Resorts:
       # とりあえずgnaviにあわせる
       Info: 025-797-2059
       # 2021/11/01 フォームで問い合わせ
+      # TODO: 待ち
     Location:
       Country: JP
       ZipCode: 946-0216
@@ -3889,7 +3936,7 @@ Resorts:
       ja: http://www.matsunoyama-ski.com/
     Tel:
       Info: 025-596-3133
-      # 電話しか無さそう、その前に友人に聞くのがよさそう
+      # TODO: 個別に聞く, tel
     Location:
       Country: JP
       ZipCode: 942-1434
@@ -3956,6 +4003,7 @@ Resorts:
     Tel:
       Info: 0763-55-1326
       # 2021/11/03 フォームで問い合わせ
+      # TODO: 待ち
     Location:
       Country: JP
       ZipCode: 939-1681
@@ -3997,9 +4045,9 @@ Resorts:
       en: Hakusan Ichirino Onsen Ski Resort
     Website:
       ja: http://sam-hakusan.com/ichirino/
-      # 電話しか無さそう
     Tel:
       Info: 076-256-7412
+      # TODO: tel
     Location:
       Country: JP
       ZipCode: 920-2333
@@ -4071,6 +4119,7 @@ Resorts:
       # スキー場テレホンサービス(?)として 0779-78-2211 も掲載されている、どちらか不明
       Info: 0779-78-2711
       # 2021/11/03 ↑の電話番号の事情を含めてフォームで問い合わせ
+      # TODO: 待ち
     Location:
       Country: JP
       ZipCode: 912-0201
@@ -4092,6 +4141,7 @@ Resorts:
     Tel:
       Info: 0779-78-2651
       # 2021/11/03 フォームで問い合わせ
+      # TODO: 待ち
     Location:
       Country: JP
       ZipCode: 912-0092
@@ -4113,7 +4163,7 @@ Resorts:
       en: https://www.okuibuki.co.jp/en/
     Tel:
       Info: 0749-59-0322
-      # SNSあり
+      # TODO: SNS, tel
     Location:
       Country: JP
       ZipCode: 521-0301
@@ -4136,6 +4186,7 @@ Resorts:
     Tel:
       Info: 077-592-1155
       # 2021/11/04 フォームで問い合わせ
+      # TODO: 待ち
     Location:
       Country: JP
       ZipCode: 520-0514
@@ -4159,6 +4210,7 @@ Resorts:
     Tel:
       Info: 0749-86-3001
       # 2021/11/04 メールで問い合わせ
+      # TODO: 待ち
     Location:
       Country: JP
       ZipCode: 529-0531
@@ -4180,6 +4232,7 @@ Resorts:
     Tel:
       Info: 0740-28-0303
       # 2021/11/04 フォームで問い合わせ
+      # TODO: 待ち
     Location:
       Country: JP
       ZipCode: 520-1802
@@ -4202,6 +4255,7 @@ Resorts:
       Info: 0740-22-2486
       # 2021/11/04 フォームで問い合わせ
       # フォームの姓が性になっていたのでついでにお知らせした
+      # TODO: 待ち
     Location:
       Country: JP
       ZipCode: 520-1655
@@ -4224,6 +4278,7 @@ Resorts:
     Tel:
       Info: 0740-38-2323
       # 2021/11/04 フォームで問い合わせ
+      # TODO: 待ち
     Location:
       Country: JP
       Address:
@@ -4291,6 +4346,7 @@ Resorts:
     Tel:
       Info: 0796-45-0510
       # 2021/11/04 フォームで問い合わせ
+      # TODO: 待ち
     Location:
       Country: JP
       Address:
@@ -4375,6 +4431,7 @@ Resorts:
     Tel:
       Info: 079-667-7219
       # 2021/11/04 フォームで問い合わせ
+      # TODO: 待ち
     Location:
       Country: JP
       ZipCode: 667-1125
@@ -4395,7 +4452,8 @@ Resorts:
       ja: https://tohachi.jp/
     Tel:
       Info: 079-667-8201
-      # 2021/11/04 フォームで問い合わせ
+      # 2021/11/04 フォームで問い合わせ, 回答あり
+      Emergency: 079-667-8201
     Location:
       Country: JP
       ZipCode: 667-1128
@@ -4441,6 +4499,7 @@ Resorts:
     Tel:
       Info: 0790-34-1900
       # 2021/11/04 フォームで問い合わせ
+      # TODO: 待ち
     Location:
       Country: JP
       ZipCode: 679-3125
@@ -4462,6 +4521,7 @@ Resorts:
     Tel:
       Info: 0790-76-3555
       # 2021/11/04 フォームで問い合わせ
+      # TODO: 待ち
     Location:
       Country: JP
       Address:
@@ -4481,7 +4541,8 @@ Resorts:
       ja: https://www.ojiro.or.jp/
     Tel:
       Info: 0796-97-2717
-      # 2021/11/04 フォームで問い合わせ
+      # 2021/11/04 フォームで問い合わせ, 回答あり
+      Emergency: 0796-97-2717
     Location:
       Country: JP
       Address:
@@ -4503,6 +4564,7 @@ Resorts:
       # サイトで見つけられず、若杉高原開発企業組合の電話番号
       Info: 079-669-1576
       # 2021/11/04 フォームで問い合わせ, 一般の電話番号も合わせて質問
+      # TODO: 待ち
     Location:
       Country: JP
       Address:
@@ -4547,8 +4609,7 @@ Resorts:
       en: https://www.rokkosan.com/ski/en/
     Tel:
       Info: 078-891-0366
-      # 電話しかなさそう
-      # 規模的にも見通せそうなので後回し
+      # TODO: 後回し(規模的にも見通せそう), tel
     Location:
       Country: JP
       ZipCode: 657-0101
@@ -4571,6 +4632,7 @@ Resorts:
     Tel:
       Info: 0859-52-2315
       # 2021/11/06 フォームで問い合わせ 短縮版
+      # TODO: 待ち
     Location:
       Country: JP
       # パンフレットにあるもの
@@ -4596,6 +4658,7 @@ Resorts:
       # ゲレンデの問い合わせ先 http://www.hyounosen.or.jp/play/ski/guide/index.html
       Info: 0858-82-0512
       # 2021/11/06 メールで問い合わせ
+      # TODO: 待ち
     Location:
       Country: JP
       ZipCode: 〒680-0728
@@ -4620,6 +4683,7 @@ Resorts:
     Tel:
       Info: 0854-72-1021
       # 2021/11/06 フォームで問い合わせ
+      # TODO: 待ち
     Location:
       Country: JP
       ZipCode: 690-3204
@@ -4642,7 +4706,7 @@ Resorts:
     Tel:
       # ゲレンデ情報 0867-66-5400 よりはこっち？
       Info: 0867-66-5333
-      # Twitterあり、メール無し
+      # TODO: SNS(Twitter), tel
     Location:
       Country: JP
       Address:
@@ -4664,6 +4728,7 @@ Resorts:
     Tel:
       Info: 0867-77-2266
       # 2021/11/06 メールで問い合わせ
+      # TODO: 待ち
     Location:
       Country: JP
       ZipCode: 718-0104
@@ -4684,7 +4749,7 @@ Resorts:
       ja: https://www.ombara-kogen.com/ski/
     Tel:
       Info: 0868-44-2808
-      # 電話しかなさそう
+      # TODO: tel
     Location:
       Country: JP
       ZipCode: 708-0601
@@ -4707,6 +4772,7 @@ Resorts:
     Tel:
       Info: 0826-28-7007
       # 2021/11/06 メールで問い合わせ
+      # TODO: 待ち
     Location:
       Country: JP
       ZipCode: 731-3801
@@ -4730,6 +4796,7 @@ Resorts:
       # 代表電話
       Info: 0824-84-2311
       # 2021/11/06 メールで問い合わせ
+      # TODO: 待ち
     Location:
       Country: JP
       ZipCode: 729-5611
@@ -4753,6 +4820,7 @@ Resorts:
     Tel:
       Info: 0824-84-2105
       # 2021/11/06 メールで問い合わせしたがエラーメールが返ってきた
+      # TODO: tel
     Location:
       Country: JP
       Address:
@@ -4775,6 +4843,7 @@ Resorts:
       # 営業時間内TEL 0829-40-3000, TEL 0829-40-3030
       Info: 0829-40-3000
       # 2021/11/06 フォームで問い合わせ
+      # TODO: 待ち
     Location:
       Country: JP
       ZipCode: 738-0301
@@ -4795,7 +4864,7 @@ Resorts:
       ja: https://yawata191.com/
     Tel:
       Info: 0826-37-0341
-      # 電話しかなさそう
+      # TODO: tel
     Location:
       Country: JP
       ZipCode: 731-2552
@@ -4816,7 +4885,7 @@ Resorts:
       ja: https://www.saioto.co.jp/
     Tel:
       Info: 0826-35-1234
-      # SNSあり
+      # TODO: SNS, tel
     Location:
       Country: JP
       ZipCode: 731-2314
@@ -4838,6 +4907,7 @@ Resorts:
     Tel:
       Info: 0826-35-0038
       # 2021/11/06 フォームで問い合わせ
+      # TODO: 待ち
     Location:
       Country: JP
       ZipCode: 731-2431
@@ -4859,6 +4929,7 @@ Resorts:
     Tel:
       Info: 0883-78-3003
       # 2021/11/06 フォームで問い合わせ
+      # TODO: 待ち
     Location:
       Country: JP
       ZipCode: 779-4805
@@ -4884,6 +4955,7 @@ Resorts:
     Tel:
       Info: 0892-21-0100
       # 2021/11/06 メールで問い合わせ
+      # TODO: 待ち
     Location:
       Country: JP
       ZipCode: 791-1204
@@ -4905,6 +4977,7 @@ Resorts:
     Tel:
       Info: 0897-59-0331
       # 2021/11/06 フォームで問い合わせ
+      # TODO: 待ち
     Location:
       Country: JP
       ZipCode: 793-0215
@@ -4926,6 +4999,7 @@ Resorts:
     Tel:
       Info: 0973-79-2200
       # 2021/11/06 メールで問い合わせ
+      # TODO: 待ち
     Location:
       Country: JP
       ZipCode: 879-4912
@@ -4948,6 +5022,7 @@ Resorts:
     Tel:
       Info: 0982-83-2144
       # 2021/11/06 フォームで問い合わせ
+      # TODO: 待ち
     Location:
       Country: JP
       ZipCode: 882-1201
