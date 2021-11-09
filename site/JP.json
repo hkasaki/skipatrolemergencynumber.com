@@ -4887,7 +4887,8 @@
         "ja": "http://www.matsunoyama-ski.com/"
       },
       "Tel": {
-        "Info": "025-596-3133"
+        "Info": "025-596-3133",
+        "Emergency": "025-596-3133"
       },
       "Location": {
         "Country": "JP",
@@ -5424,7 +5425,7 @@
         "ja": "https://www.hachi-hachikita.co.jp/hachi/"
       },
       "Tel": {
-        "Info": "079-667-8037",
+        "Info": "079-667-8036",
         "Emergency": "079-667-8036"
       },
       "Location": {
@@ -5451,7 +5452,7 @@
         "ja": "https://www.hachi-hachikita.co.jp/hachikita/"
       },
       "Tel": {
-        "Info": "0796-96-0202",
+        "Info": "0796-96-0201",
         "Emergency": "0796-96-0201"
       },
       "Location": {
@@ -5731,7 +5732,8 @@
         "ja": "https://www.daisen-resort.jp/"
       },
       "Tel": {
-        "Info": "0859-52-2315"
+        "Info": "0859-52-2315",
+        "Emergency": "0859-52-2315"
       },
       "Location": {
         "Country": "JP",
@@ -5984,7 +5986,8 @@
         "ja": "http://www.megahira.co.jp/sp/skiing/"
       },
       "Tel": {
-        "Info": "0829-40-3000"
+        "Info": "0829-40-3000",
+        "Emergency": "0829-40-3000"
       },
       "Location": {
         "Country": "JP",
@@ -6096,7 +6099,8 @@
         "ja": "https://www.ikawaski.jp/"
       },
       "Tel": {
-        "Info": "0883-78-3003"
+        "Info": "0883-78-3003",
+        "Emergency": "0883-78-3003"
       },
       "Location": {
         "Country": "JP",
@@ -6153,7 +6157,8 @@
         "ja": "https://www.ishizuchi.com/ski/"
       },
       "Tel": {
-        "Info": "0897-59-0331"
+        "Info": "0897-59-0331",
+        "Emergency": "0897-59-0331"
       },
       "Location": {
         "Country": "JP",

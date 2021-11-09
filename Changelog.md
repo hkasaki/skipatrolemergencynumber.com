@@ -1,5 +1,11 @@
 # Changelog
 
+## 2021-11-09
+- 2 emergency phone numbers added
+
+## 2021-11-08
+- 3 emergency phone numbers added
+
 ## 2021-11-07
 - 2 emergency phone numbers added
 

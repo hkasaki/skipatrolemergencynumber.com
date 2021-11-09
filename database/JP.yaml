@@ -3936,7 +3936,8 @@ Resorts:
       ja: http://www.matsunoyama-ski.com/
     Tel:
       Info: 025-596-3133
-      # TODO: 個別に聞く, tel
+      # 2021/11/09 中の人に直接メッセンジャーで確認
+      Emergency: 025-596-3133
     Location:
       Country: JP
       ZipCode: 942-1434
@@ -4386,9 +4387,8 @@ Resorts:
     Website:
       ja: https://www.hachi-hachikita.co.jp/hachi/
     Tel:
-      # ゲレンデダイヤル
-      Info: 079-667-8037
       # 2021/11/04 フォームで問い合わせ ハチ北と同時, 回答あり
+      Info: 079-667-8036
       Emergency: 079-667-8036
     Location:
       Country: JP
@@ -4408,9 +4408,8 @@ Resorts:
     Website:
       ja: https://www.hachi-hachikita.co.jp/hachikita/
     Tel:
-      # ゲレンデダイヤル
-      Info: 0796-96-0202
       # ハチ高原から回答あり, 確認中
+      Info: 0796-96-0201
       Emergency: 0796-96-0201
     Location:
       Country: JP
@@ -4631,8 +4630,8 @@ Resorts:
       ja: https://www.daisen-resort.jp/
     Tel:
       Info: 0859-52-2315
-      # 2021/11/06 フォームで問い合わせ 短縮版
-      # TODO: 待ち
+      # 2021/11/06 フォームで問い合わせ 短縮版, 回答あり
+      Emergency: 0859-52-2315
     Location:
       Country: JP
       # パンフレットにあるもの
@@ -4842,8 +4841,8 @@ Resorts:
     Tel:
       # 営業時間内TEL 0829-40-3000, TEL 0829-40-3030
       Info: 0829-40-3000
-      # 2021/11/06 フォームで問い合わせ
-      # TODO: 待ち
+      # 2021/11/06 フォームで問い合わせ, 回答あり
+      Emergency: 0829-40-3000
     Location:
       Country: JP
       ZipCode: 738-0301
@@ -4928,8 +4927,8 @@ Resorts:
       ja: https://www.ikawaski.jp/
     Tel:
       Info: 0883-78-3003
-      # 2021/11/06 フォームで問い合わせ
-      # TODO: 待ち
+      # 2021/11/06 フォームで問い合わせ, 回答あり
+      Emergency: 0883-78-3003
     Location:
       Country: JP
       ZipCode: 779-4805
@@ -4976,8 +4975,8 @@ Resorts:
       ja: https://www.ishizuchi.com/ski/
     Tel:
       Info: 0897-59-0331
-      # 2021/11/06 フォームで問い合わせ
-      # TODO: 待ち
+      # 2021/11/06 フォームで問い合わせ, 回答あり
+      Emergency: 0897-59-0331
     Location:
       Country: JP
       ZipCode: 793-0215
