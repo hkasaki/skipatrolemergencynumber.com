@@ -203,8 +203,6 @@ Resorts:
     Groups:
     - Hokkaido
 
-# TODO: ウィンザースノービレッジ まだある？
-
   Moiwa:
     Name:
       ja: 札幌藻岩山スキー場
@@ -250,7 +248,28 @@ Resorts:
     Groups:
     - Hokkaido
 
-# ダイナスティスキーリゾート
+  Dynasty:
+    Name:
+      ja: ダイナスティスキーリゾート
+      en: Dynasty Resort
+    Website:
+      # HTTPS無し
+      ja: http://www.dynasty-resort.jp/
+    Tel:
+      Info: 011-376-2611
+      # 2021/11/10 フォームで問い合わせ
+      # TODO: wait
+    Location:
+      Country: JP
+      ZipCode: 061-1267
+      Address:
+        ja:  北海道北広島市仁別82番4
+      Geometry:
+        Point:
+          Lng: 141.451572
+          Lat: 42.931506
+    Groups:
+    - Hokkaido
 
   MountRacey:
     Name:
@@ -273,6 +292,48 @@ Resorts:
         Point:
           Lng: 141.969775
           Lat: 43.050842
+    Groups:
+    - Hokkaido
+
+  Kitanaganuma:
+    Name:
+      ja: 北長沼スキー場
+      en: Kitanaganuma Ski Area
+    Website:
+      ja: https://www.kitanaganuma-ski.com/
+    Tel:
+      Info: 0123-89-2915
+      # TODO: tel(シーズン中のみ)
+    Location:
+      Country: JP
+      ZipCode: 069-1301
+      Address:
+        ja: 北海道夕張郡長沼町東6線北12番地
+      Geometry:
+        Point:
+          Lng: 141.744097
+          Lat: 43.039303
+    Groups:
+    - Hokkaido
+
+  CanMore:
+    Name:
+      ja: キャンモアスキービレッジ
+      en: Canmore Ski Village
+    Website:
+      ja: https://www.canmore-ski.jp/
+    Tel:
+      Info: 0166-82-5001
+      # TODO: tel
+    Location:
+      Country: JP
+      ZipCode: 071-1405
+      Address:
+        ja: 北海道上川郡東川町西５号北44番地
+      Geometry:
+        Point:
+          Lng: 142.538856
+          Lat: 43.730394
     Groups:
     - Hokkaido
 
@@ -529,7 +590,26 @@ Resorts:
     Groups:
     - Hokkaido
 
-# TODO: 小樽天狗山スキー場
+  OtaruTenguyama:
+    Name:
+      ja: 小樽天狗山スキー場
+      en: Otaru Tenguyama
+    Website:
+      ja: https://tenguyama.ckk.chuo-bus.co.jp/ski/
+    Tel:
+      Info: 0134-33-7381
+      # TODO: tel
+    Location:
+      Country: JP
+      ZipCode: 047-0023
+      Address:
+        ja: 北海道小樽市最上2丁目16-15
+      Geometry:
+        Point:
+          Lng: 140.97524
+          Lat: 43.177608
+    Groups:
+    - Hokkaido
 
   AsarigawaOnsen:
     Name:
@@ -598,6 +678,28 @@ Resorts:
         Point:
           Lng: 142.938853
           Lat: 43.710705
+    Groups:
+    - Hokkaido
+
+  Wassamu:
+    Name:
+      ja: 和寒町東山スキー場
+      en: Wassamu Higashiyama Ski Resort
+    Website:
+      ja: https://www.town.wassamu.hokkaido.jp/school-board/facility/ski-resort/
+    Tel:
+      # スキー場ロッジ 0165-32-4387, 券売所 0165-32-4385
+      Info: 0165-32-4387
+      # この規模なら後回しでよいと思う
+    Location:
+      Country: JP
+      ZipCode: 098-0101
+      Address:
+        ja: 北海道上川郡和寒町日ノ出
+      Geometry:
+        Point:
+          Lng: 142.413696
+          Lat: 44.034142
     Groups:
     - Hokkaido
 
@@ -715,11 +817,28 @@ Resorts:
     Groups:
     - Hokkaido
 
-# TODO: 函館七飯スノーパーク
-# https://hakodate-nanae.jp/winter/
-
-# TODO: 和寒町東山スキー場
-# TODO: 長沼スキー場
+  HakodateNanae:
+    Name:
+      ja: 函館七飯スノーパーク
+      en: Hakodate Nanae Snowpark
+    Website:
+      ja: https://hakodate-nanae.jp/winter/
+      en: https://hakodate-nanae.jp/winter/english/
+    Tel:
+      Info: 0138-67-3355
+      # 2021/11/10 フォームで問い合わせ
+      # TODO: wait
+    Location:
+      Country: JP
+      ZipCode: 041-1351
+      Address:
+        ja: 北海道亀田郡七飯町東大沼666
+      Geometry:
+        Point:
+          Lng: 140.747379
+          Lat: 41.98693
+    Groups:
+    - Hokkaido
 
   AomoriSpring:
     Name:
@@ -2766,7 +2885,7 @@ Resorts:
       ja: http://x-jam.jp/
     Tel:
       Info: 0269-33-6252
-      # よませ温泉に相乗りして質問
+      # よませ温泉に相乗りして質問, 回答あり
       Emergency: 0269-33-6252
     Location:
       Country: JP
