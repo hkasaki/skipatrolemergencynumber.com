@@ -429,6 +429,33 @@
         "Hokkaido"
       ]
     },
+    "IshikariHeigen": {
+      "Name": {
+        "ja": "石狩平原スキー場",
+        "en": "Ishikari Heigen"
+      },
+      "Website": {
+        "ja": "https://www.ishikari-heigen-ski.net/"
+      },
+      "Tel": {
+        "Info": "0133-23-1101"
+      },
+      "Location": {
+        "Country": "JP",
+        "Address": {
+          "ja": "北海道石狩郡当別町弁華別3002"
+        },
+        "Geometry": {
+          "Point": {
+            "Lng": 141.507702,
+            "Lat": 43.262076
+          }
+        }
+      },
+      "Groups": [
+        "Hokkaido"
+      ]
+    },
     "Furano": {
       "Name": {
         "ja": "富良野スキー場",
@@ -452,6 +479,34 @@
           "Point": {
             "Lng": 142.334844,
             "Lat": 43.324379
+          }
+        }
+      },
+      "Groups": [
+        "Hokkaido"
+      ]
+    },
+    "MinamiFurano": {
+      "Name": {
+        "ja": "南ふらのスキー場",
+        "en": "Minami Furano"
+      },
+      "Website": {
+        "ja": "https://www.town.minamifurano.hokkaido.jp/all-facility/%E5%9B%BD%E8%A8%AD%E5%8D%97%E3%81%B5%E3%82%89%E3%81%AE%E3%82%B9%E3%82%AD%E3%83%BC%E5%A0%B4/"
+      },
+      "Tel": {
+        "Info": "0167-52-2143"
+      },
+      "Location": {
+        "Country": "JP",
+        "ZipCode": "079-2402",
+        "Address": {
+          "ja": "北海道空知郡南富良野町幾寅"
+        },
+        "Geometry": {
+          "Point": {
+            "Lng": 142.558712,
+            "Lat": 43.159816
           }
         }
       },
@@ -976,6 +1031,34 @@
         "Hokkaido"
       ]
     },
+    "GreenlandWhitePark": {
+      "Name": {
+        "ja": "グリーンランドホワイトパーク",
+        "en": "Greenland Whitepark"
+      },
+      "Website": {
+        "ja": "https://h-greenland.com/"
+      },
+      "Tel": {
+        "Info": "0126-22-2121"
+      },
+      "Location": {
+        "Country": "JP",
+        "ZipCode": "068-0833",
+        "Address": {
+          "ja": "北海道岩見沢市志文町1056"
+        },
+        "Geometry": {
+          "Point": {
+            "Lng": 141.782348,
+            "Lat": 43.169205
+          }
+        }
+      },
+      "Groups": [
+        "Hokkaido"
+      ]
+    },
     "Pippu": {
       "Name": {
         "ja": "ぴっぷスキー場",
@@ -1110,6 +1193,89 @@
           "Point": {
             "Lng": 140.747379,
             "Lat": 41.98693
+          }
+        }
+      },
+      "Groups": [
+        "Hokkaido"
+      ]
+    },
+    "NiyamaKogen": {
+      "Name": {
+        "ja": "ニヤマ高原スキー場",
+        "en": "Niyama Kogen"
+      },
+      "Website": {
+        "ja": "http://niyama.grow8.com/ski/"
+      },
+      "Tel": {
+        "Info": "0138-65-2000"
+      },
+      "Location": {
+        "Country": "JP",
+        "ZipCode": "041-1101",
+        "Address": {
+          "ja": "北海道亀田郡七飯町字仁山670"
+        },
+        "Geometry": {
+          "Point": {
+            "Lng": 140.634213,
+            "Lat": 41.933263
+          }
+        }
+      },
+      "Groups": [
+        "Hokkaido"
+      ]
+    },
+    "GreenpiaOnuma": {
+      "Name": {
+        "ja": "グリーンピア大沼スキー場",
+        "en": "Greenpia Onuma"
+      },
+      "Website": {
+        "ja": "https://www.gp-onuma.com/ski/info/"
+      },
+      "Tel": {
+        "Info": "01374-5-2277"
+      },
+      "Location": {
+        "Country": "JP",
+        "ZipCode": "049-2142",
+        "Address": {
+          "ja": "北海道茅部郡森町赤井川229"
+        },
+        "Geometry": {
+          "Point": {
+            "Lng": 140.601524,
+            "Lat": 42.000996
+          }
+        }
+      },
+      "Groups": [
+        "Hokkaido"
+      ]
+    },
+    "Sanlaiva": {
+      "Name": {
+        "ja": "カルルス温泉サンライバスキー場",
+        "en": "Karurusu Onsen Sanlaiva"
+      },
+      "Website": {
+        "ja": "https://sanlaiva.com/gerende"
+      },
+      "Tel": {
+        "Info": "0143-84-2872"
+      },
+      "Location": {
+        "Country": "JP",
+        "Address": {
+          "ja": "北海道登別市カルルス町27"
+        },
+        "Geometry": {
+          "Point": {
+            "Lng": 141.104647,
+            "Lat": 42.521627
           }
         }
       },
@@ -6436,7 +6602,8 @@
         "ja": "https://osaski.co.jp/"
       },
       "Tel": {
-        "Info": "0826-35-0038"
+        "Info": "0826-35-0038",
+        "Emergency": "0826-35-0038"
       },
       "Location": {
         "Country": "JP",
