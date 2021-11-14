@@ -1395,6 +1395,61 @@
         "Hokkaido"
       ]
     },
+    "MutsuKamafuseyama": {
+      "Name": {
+        "ja": "むつ市釜臥山スキー場",
+        "en": "Mutsu Kamafuseyama"
+      },
+      "Website": {
+        "ja": "http://mutsu-taikyo.jp/ski.html"
+      },
+      "Tel": {
+        "Info": "0175-24-1881"
+      },
+      "Location": {
+        "Country": "JP",
+        "Address": {
+          "ja": "青森県むつ市大字大湊字大川守44-5"
+        },
+        "Geometry": {
+          "Point": {
+            "Lng": 141.138254,
+            "Lat": 41.262718
+          }
+        }
+      },
+      "Groups": [
+        "Aomori"
+      ]
+    },
+    "NohejiMakadoOnsen": {
+      "Name": {
+        "ja": "野辺地まかど温泉スキー場",
+        "en": "Noheji Makado Onsen"
+      },
+      "Website": {
+        "ja": "http://www.toutetsu.co.jp/ski.html"
+      },
+      "Tel": {
+        "Info": "0175-64-3138"
+      },
+      "Location": {
+        "Country": "JP",
+        "ZipCode": "039-3175",
+        "Address": {
+          "ja": "青森県上北郡野辺地町地続山1-1"
+        },
+        "Geometry": {
+          "Point": {
+            "Lng": 141.070759,
+            "Lat": 40.875297
+          }
+        }
+      },
+      "Groups": [
+        "Aomori"
+      ]
+    },
     "AomoriSpring": {
       "Name": {
         "ja": "青森スプリング・スキーリゾート",
@@ -1425,6 +1480,90 @@
         "Aomori"
       ]
     },
+    "IwakisanHyakuzawa": {
+      "Name": {
+        "ja": "岩木山百沢スキー場",
+        "en": "Iwakisan Hyakuzawa"
+      },
+      "Website": {
+        "ja": "https://www.hyakuzawa-ski.com/"
+      },
+      "Tel": {
+        "Info": "0172-83-2224"
+      },
+      "Location": {
+        "Country": "JP",
+        "ZipCode": "036-1343",
+        "Address": {
+          "ja": "青森県弘前市百沢字東岩木山国有林32林班"
+        },
+        "Geometry": {
+          "Point": {
+            "Lng": 140.33048,
+            "Lat": 40.627403
+          }
+        }
+      },
+      "Groups": [
+        "Aomori"
+      ]
+    },
+    "OwaniOnsen": {
+      "Name": {
+        "ja": "大鰐温泉スキー場",
+        "en": "Owani Onsen"
+      },
+      "Website": {
+        "ja": "http://www.owani-ski.com/"
+      },
+      "Tel": {
+        "Info": "0172-49-1023"
+      },
+      "Location": {
+        "Country": "JP",
+        "ZipCode": "038-0211",
+        "Address": {
+          "ja": "青森県南津軽郡大鰐町虹貝清川48-1"
+        },
+        "Geometry": {
+          "Point": {
+            "Lng": 140.57175,
+            "Lat": 40.504093
+          }
+        }
+      },
+      "Groups": [
+        "Aomori"
+      ]
+    },
+    "Hakkouda": {
+      "Name": {
+        "ja": "八甲田国際スキー場",
+        "en": "Hakkouda Kokusai Ski Area"
+      },
+      "Website": {
+        "ja": "http://www.hakkouda-p.com/cn21/pg110.html"
+      },
+      "Tel": {
+        "Info": "017-738-0343"
+      },
+      "Location": {
+        "Country": "JP",
+        "ZipCode": "030-0111",
+        "Address": {
+          "ja": "青森県青森市荒川寒水沢1-34"
+        },
+        "Geometry": {
+          "Point": {
+            "Lng": 140.832652,
+            "Lat": 40.679361
+          }
+        }
+      },
+      "Groups": [
+        "Aomori"
+      ]
+    },
     "Moyahills": {
       "Name": {
         "ja": "モヤヒルズ",
@@ -1440,12 +1579,40 @@
         "Country": "JP",
         "ZipCode": "030-0133",
         "Address": {
-          "ja": "青森市雲谷字梨野木63"
+          "ja": "青森県青森市雲谷字梨野木63"
         },
         "Geometry": {
           "Point": {
             "Lng": 140.794087,
             "Lat": 40.73662
+          }
+        }
+      },
+      "Groups": [
+        "Aomori"
+      ]
+    },
+    "TowadakoOnsen": {
+      "Name": {
+        "ja": "十和田湖奥入瀬渓流温泉スキー場",
+        "en": "Towadako Oirase Gorge Onsen Ski Area"
+      },
+      "Website": {
+        "ja": "http://www.oirase.or.jp/ski/ski.htm"
+      },
+      "Tel": {
+        "Info": "0176-74-2008"
+      },
+      "Location": {
+        "Country": "JP",
+        "ZipCode": "034-0303",
+        "Address": {
+          "ja": "青森県十和田市大字法量字焼山64-122"
+        },
+        "Geometry": {
+          "Point": {
+            "Lng": 140.993255,
+            "Lat": 40.579275
           }
         }
       },
@@ -1474,6 +1641,34 @@
           "Point": {
             "Lng": 140.969728,
             "Lat": 40.000859
+          }
+        }
+      },
+      "Groups": [
+        "Iwate"
+      ]
+    },
+    "HachimantaiTayama": {
+      "Name": {
+        "ja": "八幡平田山スキー場",
+        "en": "Hachimantai Tayama"
+      },
+      "Website": {
+        "ja": "https://www.city.hachimantai.lg.jp/soshiki/shisho-a/2021.html"
+      },
+      "Tel": {
+        "Info": "0195-73-2650"
+      },
+      "Location": {
+        "Country": "JP",
+        "ZipCode": "028-7603",
+        "Address": {
+          "ja": "岩手県八幡平市矢神8番地1"
+        },
+        "Geometry": {
+          "Point": {
+            "Lng": 140.95182,
+            "Lat": 40.134661
           }
         }
       },
@@ -1695,6 +1890,117 @@
         "Iwate"
       ]
     },
+    "Himekayu": {
+      "Name": {
+        "ja": "ひめかゆスキー場",
+        "en": "Himekayu"
+      },
+      "Website": {
+        "ja": "https://www.city.oshu.iwate.jp/site/kanko/39973.html"
+      },
+      "Tel": {
+        "Info": "0197-49-2105"
+      },
+      "Location": {
+        "Country": "JP",
+        "ZipCode": "023-0403",
+        "Address": {
+          "ja": "岩手県奥州市胆沢若柳字天沢17時番地"
+        },
+        "Geometry": {
+          "Point": {
+            "Lng": 140.9375,
+            "Lat": 39.118056
+          }
+        }
+      },
+      "Groups": [
+        "Iwate"
+      ]
+    },
+    "HiraniwaKogen": {
+      "Name": {
+        "ja": "平庭高原スキー場",
+        "en": "Hiraniwa Kogen"
+      },
+      "Website": {
+        "ja": "http://hiraniwa.com/resort/ski/"
+      },
+      "Tel": {
+        "Info": "0194-72-2944"
+      },
+      "Location": {
+        "Country": "JP",
+        "Address": {
+          "ja": "岩手県久慈市山形町来内20-13-1"
+        },
+        "Geometry": {
+          "Point": {
+            "Lng": 141.503062,
+            "Lat": 40.082882
+          }
+        }
+      },
+      "Groups": [
+        "Iwate"
+      ]
+    },
+    "Akabane": {
+      "Name": {
+        "ja": "赤羽根スキー場",
+        "en": "Akabane"
+      },
+      "Website": {
+        "ja": "https://tono-sks.com/akabane-ski/"
+      },
+      "Tel": {
+        "Info": "0198-65-3343"
+      },
+      "Location": {
+        "Country": "JP",
+        "ZipCode": "028-0775",
+        "Address": {
+          "ja": "岩手県遠野市上郷町平倉41-47"
+        },
+        "Geometry": {
+          "Point": {
+            "Lng": 141.596557,
+            "Lat": 39.247585
+          }
+        }
+      },
+      "Groups": [
+        "Iwate"
+      ]
+    },
+    "NamariOnsen": {
+      "Name": {
+        "ja": "鉛温泉スキー場",
+        "en": "Namari Onsen"
+      },
+      "Website": {
+        "ja": "https://www.city.hanamaki.iwate.jp/ski/"
+      },
+      "Tel": {
+        "Info": "0198-25-2711"
+      },
+      "Location": {
+        "Country": "JP",
+        "ZipCode": "025-0252",
+        "Address": {
+          "ja": "岩手県花巻市鉛字中平36番地1"
+        },
+        "Geometry": {
+          "Point": {
+            "Lng": 140.993353,
+            "Lat": 39.463034
+          }
+        }
+      },
+      "Groups": [
+        "Iwate"
+      ]
+    },
     "Tazawako": {
       "Name": {
         "ja": "たざわ湖スキー場",
@@ -1717,6 +2023,90 @@
           "Point": {
             "Lng": 140.752814,
             "Lat": 39.764726
+          }
+        }
+      },
+      "Groups": [
+        "Akita"
+      ]
+    },
+    "TaiheizanOpas": {
+      "Name": {
+        "ja": "太平山スキー場 オーパス",
+        "en": "Taiheizan Opas"
+      },
+      "Website": {
+        "ja": "http://www.theboon.net/opas/"
+      },
+      "Tel": {
+        "Info": "018-827-2221"
+      },
+      "Location": {
+        "Country": "JP",
+        "ZipCode": "010-0824",
+        "Address": {
+          "ja": "秋田県秋田市仁別字蛇馬目沢111"
+        },
+        "Geometry": {
+          "Point": {
+            "Lng": 140.219706,
+            "Lat": 39.787416
+          }
+        }
+      },
+      "Groups": [
+        "Akita"
+      ]
+    },
+    "DaisenKyowa": {
+      "Name": {
+        "ja": "大仙市営協和スキー場",
+        "en": "Kyowa Snow Park"
+      },
+      "Website": {
+        "ja": "http://kyowasnow.net/ski/",
+        "en": "http://kyowasnow.net/ski/english.html"
+      },
+      "Tel": {
+        "Info": "018-893-2050"
+      },
+      "Location": {
+        "Country": "JP",
+        "ZipCode": "019-2401",
+        "Address": {
+          "ja": "秋田県大仙市協和船岡字上庄内71-1"
+        },
+        "Geometry": {
+          "Point": {
+            "Lng": 140.393056,
+            "Lat": 39.680841
+          }
+        }
+      },
+      "Groups": [
+        "Akita"
+      ]
+    },
+    "Hanawa": {
+      "Name": {
+        "ja": "花輪スキー場",
+        "en": "Hanawa"
+      },
+      "Website": {
+        "ja": "http://www.alpas.jp/facility/ski/"
+      },
+      "Tel": {
+        "Info": "0186-23-8000"
+      },
+      "Location": {
+        "Country": "JP",
+        "Address": {
+          "ja": "秋田県鹿角市花輪字百合沢81-1"
+        },
+        "Geometry": {
+          "Point": {
+            "Lng": 140.82269,
+            "Lat": 40.187974
           }
         }
       },
@@ -1890,6 +2280,61 @@
           "Point": {
             "Lng": 140.639405,
             "Lat": 38.78689
+          }
+        }
+      },
+      "Groups": [
+        "Miyagi"
+      ]
+    },
+    "SpringValleySendaiIzumi": {
+      "Name": {
+        "ja": "スプリングバレー仙台泉スキー場",
+        "en": "Spring Valley Sendai Izumi"
+      },
+      "Website": {
+        "ja": "https://www.springvalley.co.jp/"
+      },
+      "Tel": {
+        "Info": "022-379-3755"
+      },
+      "Location": {
+        "Country": "JP",
+        "ZipCode": "981-3225",
+        "Address": {
+          "ja": "宮城県仙台市泉区福岡字岳山14-2"
+        },
+        "Geometry": {
+          "Point": {
+            "Lng": 140.723035,
+            "Lat": 38.418773
+          }
+        }
+      },
+      "Groups": [
+        "Miyagi"
+      ]
+    },
+    "Izumigatake": {
+      "Name": {
+        "ja": "泉ヶ岳スキー場",
+        "en": "Izumigatake"
+      },
+      "Website": {
+        "ja": "http://www.izumigatake.net/"
+      },
+      "Tel": {
+        "Info": "022-379-1250"
+      },
+      "Location": {
+        "Country": "JP",
+        "Address": {
+          "ja": "宮城県仙台市泉区福岡字岳山9-4"
+        },
+        "Geometry": {
+          "Point": {
+            "Lng": 140.721839,
+            "Lat": 38.39096
           }
         }
       },
@@ -3537,7 +3982,8 @@
         "ja": "https://www.princehotels.co.jp/ski/karuizawa/winter/"
       },
       "Tel": {
-        "Info": "0267-42-5588"
+        "Info": "0267-42-5588",
+        "Emergency": "0267-42-5588"
       },
       "Location": {
         "Country": "JP",
