@@ -1545,7 +1545,7 @@
         "ja": "http://www.hakkouda-p.com/cn21/pg110.html"
       },
       "Tel": {
-        "Info": "017-738-0343"
+        "Info": "017-738-8591"
       },
       "Location": {
         "Country": "JP",
@@ -2030,6 +2030,37 @@
         "Akita"
       ]
     },
+    "Ani": {
+      "Name": {
+        "ja": "阿仁スキー場",
+        "en": "Ani Ski Resort"
+      },
+      "Website": {
+        "ja": "https://www.aniski.jp/ski/"
+      },
+      "ExtWebsite": {
+        "en": "https://japansnowaccommodation.com/hidden-gems/hidden-gems-ani-ski-resort/"
+      },
+      "Tel": {
+        "Info": "0186-82-3311"
+      },
+      "Location": {
+        "Country": "JP",
+        "ZipCode": "018-4624",
+        "Address": {
+          "ja": "秋田県北秋田市阿仁鍵ノ滝79-5"
+        },
+        "Geometry": {
+          "Point": {
+            "Lng": 140.490889,
+            "Lat": 39.954873
+          }
+        }
+      },
+      "Groups": [
+        "Akita"
+      ]
+    },
     "TaiheizanOpas": {
       "Name": {
         "ja": "太平山スキー場 オーパス",
@@ -2087,6 +2118,34 @@
         "Akita"
       ]
     },
+    "DaisenOhdai": {
+      "Name": {
+        "ja": "大仙市営大台スキー場",
+        "en": "Ohdai Ski Resort"
+      },
+      "Website": {
+        "ja": "https://ohdai.omagari-sc.com/"
+      },
+      "Tel": {
+        "Info": "0187-89-1788"
+      },
+      "Location": {
+        "Country": "JP",
+        "ZipCode": "014-1413",
+        "Address": {
+          "ja": "秋田県大仙市太田町川口字大台1-2"
+        },
+        "Geometry": {
+          "Point": {
+            "Lng": 140.655198,
+            "Lat": 39.519164
+          }
+        }
+      },
+      "Groups": [
+        "Akita"
+      ]
+    },
     "Hanawa": {
       "Name": {
         "ja": "花輪スキー場",
@@ -2107,6 +2166,34 @@
           "Point": {
             "Lng": 140.82269,
             "Lat": 40.187974
+          }
+        }
+      },
+      "Groups": [
+        "Akita"
+      ]
+    },
+    "JeunesseKurikoma": {
+      "Name": {
+        "ja": "ジュネス栗駒スキー場",
+        "en": "Jeunesse Kurikoma"
+      },
+      "Website": {
+        "ja": "http://www.jeunesse-ski.com/"
+      },
+      "Tel": {
+        "Info": "0182-47-3101"
+      },
+      "Location": {
+        "Country": "JP",
+        "ZipCode": "019-0803",
+        "Address": {
+          "ja": "秋田県雄勝郡東成瀬村椿川字柳沢39-7"
+        },
+        "Geometry": {
+          "Point": {
+            "Lng": 140.726222,
+            "Lat": 39.15896
           }
         }
       },
@@ -2324,7 +2411,8 @@
         "ja": "http://www.izumigatake.net/"
       },
       "Tel": {
-        "Info": "022-379-1250"
+        "Info": "022-379-1250",
+        "Emergency": "022-379-1250"
       },
       "Location": {
         "Country": "JP",
@@ -2371,6 +2459,90 @@
         "Yamagata"
       ]
     },
+    "ZaoSarukura": {
+      "Name": {
+        "ja": "蔵王猿倉スキー場",
+        "en": "Zao Sarukura"
+      },
+      "Website": {
+        "ja": "http://www.zao-sarukura.co.jp/index.htm"
+      },
+      "Tel": {
+        "Info": "023-679-2211"
+      },
+      "Location": {
+        "Country": "JP",
+        "ZipCode": "999-3113",
+        "Address": {
+          "ja": "山形県上山市蔵王字蔵王山 2843-1"
+        },
+        "Geometry": {
+          "Point": {
+            "Lng": 140.376505,
+            "Lat": 38.128328
+          }
+        }
+      },
+      "Groups": [
+        "Yamagata"
+      ]
+    },
+    "ZaoLiza": {
+      "Name": {
+        "ja": "蔵王ライザワールド",
+        "en": "Zao Liza"
+      },
+      "Website": {
+        "ja": "http://www.zaoliza.co.jp/wntr/slope/"
+      },
+      "Tel": {
+        "Info": "023-679-2311"
+      },
+      "Location": {
+        "Country": "JP",
+        "ZipCode": "999-3113",
+        "Address": {
+          "ja": "山形県上山市蔵王坊平高原"
+        },
+        "Geometry": {
+          "Point": {
+            "Lng": 140.405301,
+            "Lat": 38.124012
+          }
+        }
+      },
+      "Groups": [
+        "Yamagata"
+      ]
+    },
+    "YamagataMogamiAkakura": {
+      "Name": {
+        "ja": "山形県最上町赤倉温泉スキー場",
+        "en": "Yamagata Mogami Akakura Onsen"
+      },
+      "Website": {
+        "ja": "https://mogami-portal.net/ski/"
+      },
+      "Tel": {
+        "Info": "0233-45-2901"
+      },
+      "Location": {
+        "Country": "JP",
+        "ZipCode": "999-6105",
+        "Address": {
+          "ja": "山形県最上郡最上町大字富沢3480-1"
+        },
+        "Geometry": {
+          "Point": {
+            "Lng": 140.545657,
+            "Lat": 38.705239
+          }
+        }
+      },
+      "Groups": [
+        "Yamagata"
+      ]
+    },
     "Gassan": {
       "Name": {
         "ja": "月山スキー場",
@@ -2399,28 +2571,171 @@
         "Yamagata"
       ]
     },
-    "Grandeco": {
+    "Haguroyama": {
       "Name": {
-        "ja": "グランデコスノーリゾート",
-        "en": "Grandeco Snow Resort"
+        "ja": "羽黒山スキー場",
+        "en": "Haguroyama Ski Resort"
       },
       "Website": {
-        "ja": "https://www.grandeco.com/winter/"
+        "ja": "https://www.qkamura.or.jp/haguro/ski/"
       },
       "Tel": {
-        "Info": "0241-32-2530",
-        "Emergency": "0241-32-2530"
+        "Info": "0235-62-4270"
       },
       "Location": {
         "Country": "JP",
-        "ZipCode": "969-2701",
+        "ZipCode": "997-0211",
         "Address": {
-          "ja": "福島県耶麻郡北塩原村桧原荒砂沢山"
+          "ja": "山形県鶴岡市羽黒町手向字羽黒山8番地"
         },
         "Geometry": {
           "Point": {
-            "Lng": 140.126385,
-            "Lat": 37.691158
+            "Lng": 139.9848,
+            "Lat": 38.692758
+          }
+        }
+      },
+      "Groups": [
+        "Yamagata"
+      ]
+    },
+    "Yudonosan": {
+      "Name": {
+        "ja": "湯殿山スキー場",
+        "en": "Yudonosan Ski Area"
+      },
+      "Website": {
+        "ja": "https://yudonosan.com/"
+      },
+      "Tel": {
+        "Info": "0235-54-6450"
+      },
+      "Location": {
+        "Country": "JP",
+        "ZipCode": "997-0532",
+        "Address": {
+          "ja": "山形県鶴岡市田麦俣字六十里山104-5"
+        },
+        "Geometry": {
+          "Point": {
+            "Lng": 139.942014,
+            "Lat": 38.572213
+          }
+        }
+      },
+      "Groups": [
+        "Yamagata"
+      ]
+    },
+    "KurobushiKogen": {
+      "Name": {
+        "ja": "黒伏高原スノーパーク ジャングル・ジャングル",
+        "en": "Kurobushi Kogen Snowpark Jangle Jungle"
+      },
+      "Website": {
+        "ja": "https://jxj.co.jp/",
+        "en": "https://jxj.co.jp/english/"
+      },
+      "Tel": {
+        "Info": "0237-41-5555"
+      },
+      "Location": {
+        "Country": "JP",
+        "ZipCode": "999-3723",
+        "Address": {
+          "ja": "山形県東根市大字観音寺水無山3170-164"
+        },
+        "Geometry": {
+          "Point": {
+            "Lng": 140.543504,
+            "Lat": 38.435976
+          }
+        }
+      },
+      "Groups": [
+        "Yamagata"
+      ]
+    },
+    "TendoKogen": {
+      "Name": {
+        "ja": "天童高原スキー場",
+        "en": "Tendo Kogen"
+      },
+      "Website": {
+        "ja": "http://tendokogen.or.jp/winter/"
+      },
+      "Tel": {
+        "Info": "023-657-3628"
+      },
+      "Location": {
+        "Country": "JP",
+        "ZipCode": "994-0104",
+        "Address": {
+          "ja": "山形県天童市田麦野1321"
+        },
+        "Geometry": {
+          "Point": {
+            "Lng": 140.481808,
+            "Lat": 38.346616
+          }
+        }
+      },
+      "Groups": [
+        "Yamagata"
+      ]
+    },
+    "AsahiShizenkanSnowPark": {
+      "Name": {
+        "ja": "Asahi自然観スノーパーク",
+        "en": "Asahi Shizenkan Snow Park"
+      },
+      "Website": {
+        "ja": "http://www.shizenkan.jp/snowpark.php"
+      },
+      "Tel": {
+        "Info": "0237-83-7111"
+      },
+      "Location": {
+        "Country": "JP",
+        "ZipCode": "990-1574",
+        "Address": {
+          "ja": "山形県西村山郡朝日町白倉745-1"
+        },
+        "Geometry": {
+          "Point": {
+            "Lng": 140.058493,
+            "Lat": 38.305013
+          }
+        }
+      },
+      "Groups": [
+        "Yamagata"
+      ]
+    },
+    "TengendaiKogen": {
+      "Name": {
+        "ja": "天元台高原",
+        "en": "Tengendai Kogen"
+      },
+      "Website": {
+        "ja": "https://www.tengendai.jp/"
+      },
+      "ExtWebsite": {
+        "en": "https://japan-skiguide.com/guide/htm/r0211ens.htm"
+      },
+      "Tel": {
+        "Info": "0238-55-2236"
+      },
+      "Location": {
+        "Country": "JP",
+        "ZipCode": "992-1461",
+        "Address": {
+          "ja": "山形県米沢市白布温泉天元台"
+        },
+        "Geometry": {
+          "Point": {
+            "Lng": 140.13391,
+            "Lat": 37.775328
           }
         }
       },
@@ -2454,6 +2769,35 @@
       },
       "Groups": [
         "Yamagata"
+      ]
+    },
+    "Grandeco": {
+      "Name": {
+        "ja": "グランデコスノーリゾート",
+        "en": "Grandeco Snow Resort"
+      },
+      "Website": {
+        "ja": "https://www.grandeco.com/winter/"
+      },
+      "Tel": {
+        "Info": "0241-32-2530",
+        "Emergency": "0241-32-2530"
+      },
+      "Location": {
+        "Country": "JP",
+        "ZipCode": "969-2701",
+        "Address": {
+          "ja": "福島県耶麻郡北塩原村桧原荒砂沢山"
+        },
+        "Geometry": {
+          "Point": {
+            "Lng": 140.126385,
+            "Lat": 37.691158
+          }
+        }
+      },
+      "Groups": [
+        "Fukushima"
       ]
     },
     "Nekoma": {
