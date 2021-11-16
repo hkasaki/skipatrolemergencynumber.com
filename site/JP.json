@@ -2608,7 +2608,8 @@
         "ja": "https://yudonosan.com/"
       },
       "Tel": {
-        "Info": "0235-54-6450"
+        "Info": "0235-54-6450",
+        "Emergency": "0235-54-6450"
       },
       "Location": {
         "Country": "JP",
@@ -2858,6 +2859,143 @@
         "Fukushima"
       ]
     },
+    "Urabandai": {
+      "Name": {
+        "ja": "裏磐梯スキー場",
+        "en": "Urabandai Ski Resort"
+      },
+      "Website": {
+        "ja": "https://www.urabandai-ski.jp/"
+      },
+      "Tel": {
+        "Info": "0241-32-2177"
+      },
+      "Location": {
+        "Country": "JP",
+        "Address": {
+          "ja": "福島県北塩原村大字桧原"
+        },
+        "Geometry": {
+          "Point": {
+            "Lng": 140.067628,
+            "Lat": 37.632009
+          }
+        }
+      },
+      "Groups": [
+        "Fukushima"
+      ]
+    },
+    "Minowa": {
+      "Name": {
+        "ja": "箕輪スキー場",
+        "en": "Blue Resort Minowa"
+      },
+      "Website": {
+        "ja": "https://www.ski-minowa.jp/"
+      },
+      "Tel": {
+        "Info": "0242-64-3377"
+      },
+      "Location": {
+        "Country": "JP",
+        "ZipCode": "969-2751",
+        "Address": {
+          "ja": "福島県耶麻郡猪苗代町若宮 字吾妻山"
+        },
+        "Geometry": {
+          "Point": {
+            "Lng": 140.253073,
+            "Lat": 37.652446
+          }
+        }
+      },
+      "Groups": [
+        "Fukushima"
+      ]
+    },
+    "Numajiri": {
+      "Name": {
+        "ja": "沼尻スキー場",
+        "en": "Numajiri"
+      },
+      "Website": {
+        "ja": "https://www.numajiri-ski.jp/"
+      },
+      "Tel": {
+        "Info": "0242-67-1250"
+      },
+      "Location": {
+        "Country": "JP",
+        "Address": {
+          "ja": "福島県耶麻郡猪苗代町大字蚕養字沼尻山甲2855-434"
+        },
+        "Geometry": {
+          "Point": {
+            "Lng": 140.227972,
+            "Lat": 37.622596
+          }
+        }
+      },
+      "Groups": [
+        "Fukushima"
+      ]
+    },
+    "AdataraKogen": {
+      "Name": {
+        "ja": "あだたら高原スキー場",
+        "en": "Adatara Kogen"
+      },
+      "Website": {
+        "ja": "http://www.adatara-resort.com/ski/"
+      },
+      "Tel": {
+        "Info": "0243-24-2141"
+      },
+      "Location": {
+        "Country": "JP",
+        "ZipCode": "964-0075",
+        "Address": {
+          "ja": "福島県二本松市永田字長坂国有林"
+        },
+        "Geometry": {
+          "Point": {
+            "Lng": 140.324427,
+            "Lat": 37.622532
+          }
+        }
+      },
+      "Groups": [
+        "Fukushima"
+      ]
+    },
+    "NihonmatsuShiozawa": {
+      "Name": {
+        "ja": "二本松塩沢スキー場",
+        "en": "Nihonmatsu Shiozawa"
+      },
+      "Website": {
+        "ja": "http://tohoku-safaripark.co.jp/ski/"
+      },
+      "Tel": {
+        "Info": "0243-24-2845"
+      },
+      "Location": {
+        "Country": "JP",
+        "Address": {
+          "ja": "福島県二本松市塩沢字茱黄塚山"
+        },
+        "Geometry": {
+          "Point": {
+            "Lng": 140.330947,
+            "Lat": 37.640424
+          }
+        }
+      },
+      "Groups": [
+        "Fukushima"
+      ]
+    },
     "Hatoriko": {
       "Name": {
         "ja": "グランディ羽鳥湖スキーリゾート",
@@ -2935,6 +3073,34 @@
           "Point": {
             "Lng": 140.118832,
             "Lat": 37.592723
+          }
+        }
+      },
+      "Groups": [
+        "Fukushima"
+      ]
+    },
+    "ListelInawashiro": {
+      "Name": {
+        "ja": "リステルスキーファンタジア",
+        "en": "Listel Inawashiro"
+      },
+      "Website": {
+        "ja": "https://www.listel-inawashiro.jp/snow_season/"
+      },
+      "Tel": {
+        "Info": "0242-66-4111"
+      },
+      "Location": {
+        "Country": "JP",
+        "ZipCode": "969-2696",
+        "Address": {
+          "ja": "福島県耶麻郡猪苗代町大字川桁リステルパーク"
+        },
+        "Geometry": {
+          "Point": {
+            "Lng": 140.149721,
+            "Lat": 37.543026
           }
         }
       },
@@ -3048,6 +3214,89 @@
           "Point": {
             "Lng": 139.449318,
             "Lat": 37.100782
+          }
+        }
+      },
+      "Groups": [
+        "Fukushima"
+      ]
+    },
+    "OzeHinoemata": {
+      "Name": {
+        "ja": "尾瀬檜枝岐温泉スキー場",
+        "en": "Oze Hinoemata"
+      },
+      "Website": {
+        "ja": "http://www.oze-info.jp/facility/skiing/"
+      },
+      "Tel": {
+        "Info": "0241-75-2351"
+      },
+      "Location": {
+        "Country": "JP",
+        "Address": {
+          "ja": "福島県南会津郡檜枝岐村字見通"
+        },
+        "Geometry": {
+          "Point": {
+            "Lng": 139.397077,
+            "Lat": 37.032883
+          }
+        }
+      },
+      "Groups": [
+        "Fukushima"
+      ]
+    },
+    "KitakataSannokura": {
+      "Name": {
+        "ja": "喜多方市三ノ倉スキー場",
+        "en": "Kitakata Sannokura"
+      },
+      "Website": {
+        "ja": "https://www.city.kitakata.fukushima.jp/soshiki/sangyo-a/22906.html"
+      },
+      "Tel": {
+        "Info": "0241-36-2071"
+      },
+      "Location": {
+        "Country": "JP",
+        "ZipCode": "966-0108",
+        "Address": {
+          "ja": "福島県喜多方市熱塩加納町相田字北権現森甲857-6"
+        },
+        "Geometry": {
+          "Point": {
+            "Lng": 139.86731,
+            "Lat": 37.749272
+          }
+        }
+      },
+      "Groups": [
+        "Fukushima"
+      ]
+    },
+    "FairyLandKaneyama": {
+      "Name": {
+        "ja": "フェアリーランドかねやまスキー場",
+        "en": "Fairy Land Kaneyama"
+      },
+      "Website": {
+        "ja": "http://www.aizukaneyama.co.jp/ski/skitop.html"
+      },
+      "Tel": {
+        "Info": "0241-54-2022"
+      },
+      "Location": {
+        "Country": "JP",
+        "ZipCode": "968-0012",
+        "Address": {
+          "ja": "福島県大沼郡金山町大字小栗山字上野"
+        },
+        "Geometry": {
+          "Point": {
+            "Lng": 139.535114,
+            "Lat": 37.444747
           }
         }
       },

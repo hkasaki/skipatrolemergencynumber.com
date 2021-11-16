@@ -1,5 +1,8 @@
 # Changelog
 
+## 2021-11-16
+- 9 ski resorts and 1 emergency phone number added
+
 ## 2021-11-15
 - 12 ski resorts and 1 emergency phone number added
 
