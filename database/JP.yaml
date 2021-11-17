@@ -1226,10 +1226,14 @@ Resorts:
     Website:
       ja: http://www.hakkouda-p.com/cn21/pg110.html
     Tel:
-      # 八甲田パーク株式会社が運営会社で、八甲田ロープウェーではない、とのこと
+      # 2021/11/14 八甲田ロープウェーにメールで問い合わせ, 八甲田パークのほうが運営会社とのことで11/15 問い合わせ, 回答あり
+      # 回答
+      # > 八甲田のパトロールは八甲田ロープウェイの中にあります。
+      # > 当スキー場も同じです。
+      # > 017-738-0343です。また、日中でゲレンデ内であれば017-738-8591でも可能です。
+      # とのことなので、017-738-0343は八甲田ロープウェーの番号なのだが、この内容で記載する
       Info: 017-738-8591
-      # 2021/11/14 八甲田ロープウェーにメールで問い合わせ, 八甲田パークのほうが運営会社とのことで11/15 問い合わせ
-      # TODO: wait
+      Emergency: 017-738-0343
     Location:
       Country: JP
       ZipCode: 030-0111
@@ -2267,10 +2271,11 @@ Resorts:
     Website:
       ja: https://www.urabandai-ski.jp/
     Tel:
-      # 公式サイトに見当たらない、Googleには出てくる
       Info: 0241-32-2177
-      # 2021/11/16 まとめてフォームで問い合わせ
-      # TODO: wait
+      Emergency: 0241-32-2177
+      # 代表電話番号は公式サイトに見当たらない、Googleには出てくる
+      # 2021/11/16 まとめてフォームで問い合わせ, 回答あり
+      # 代表電話番号はこれでよい、緊急時連絡先も同じとのこと
     Location:
       Country: JP
       Address:
@@ -2312,8 +2317,8 @@ Resorts:
       ja: https://www.numajiri-ski.jp/
     Tel:
       Info: 0242-67-1250
-      # 2021/11/16 フォームで問い合わせ
-      # TODO: wait
+      # 2021/11/16 フォームで問い合わせ, 回答あり
+      Emergency: 0242-67-1250
     Location:
       Country: JP
       Address:
@@ -2356,8 +2361,8 @@ Resorts:
       ja: http://tohoku-safaripark.co.jp/ski/
     Tel:
       Info: 0243-24-2845
-      # 2021/11/16 フォームで問い合わせ
-      # TODO: wait
+      # 2021/11/16 フォームで問い合わせ, 回答あり
+      Emergency: 0243-24-2845
     Location:
       Country: JP
       Address:
@@ -2705,6 +2710,50 @@ Resorts:
     Groups:
     - Tochigi
 
+  NasuOnsenFamily:
+    Name:
+      ja: 那須温泉ファミリースキー場
+      en: Nasu Onsen Family Ski Resort
+    Website:
+      ja: https://familyskiresort-nasu.com/
+    Tel:
+      Info: 0287-76-2567
+      # 2021/11/17 フォームで問い合わせ
+      # TODO: wait
+    Location:
+      Country: JP
+      ZipCode: 325-0301
+      Address:
+        ja: 那須郡那須町大字湯本字那須岳国有林内
+      Geometry:
+        Point:
+          Lng: 139.982881
+          Lat: 37.118794
+    Groups:
+    - Tochigi
+
+  NikkoYumoto:
+    Name:
+      ja: 日光湯元温泉スキー場
+      en: Nikko Yumoto
+    Website:
+      # HTTPS無し
+      ja: http://www.nikkoyumoto-ski.com/
+    Tel:
+      Info: 0288-62-2532
+      # TODO: tel(後回し)
+    Location:
+      Country: JP
+      ZipCode: 321-1662
+      Address:
+        ja: 栃木県日光市湯元温泉
+      Geometry:
+        Point:
+          Lng: 139.419524
+          Lat: 36.803516
+    Groups:
+    - Tochigi
+
   OzeIwakura:
     Name:
       ja: ホワイトワールド尾瀬岩鞍
@@ -2821,6 +2870,28 @@ Resorts:
     Groups:
     - Gunma
 
+  KaruizawaSnowPark:
+    Name:
+      ja: 軽井沢スノーパーク
+      en: Karuizawa Snow Park
+    Website:
+      ja: https://www.presidentresort.jp/snowpark/
+    Tel:
+      Info: 0279-84-1227
+      # 2021/11/18 フォームで問い合わせ
+      # TODO: wait
+    Location:
+      Country: JP
+      ZipCode: 377-1412
+      Address:
+        ja: 群馬県吾妻郡長野原町北軽井沢2032-16
+      Geometry:
+        Point:
+          Lng: 138.627022
+          Lat: 36.423111
+    Groups:
+    - Gunma
+
   Kawaba:
     Name:
       ja: 川場スキー場
@@ -2845,7 +2916,6 @@ Resorts:
     Groups:
     - Gunma
 
-  # 2021/10/24 ここから
   Okutone:
     Name:
       ja: 奥利根スノーパーク
@@ -2892,6 +2962,28 @@ Resorts:
     Groups:
     - Gunma
 
+  MinakamiKogenFujiwara:
+    Name:
+      ja: 藤原スキー場
+      en: Fujiwara Snow & Spa Resort
+    Website:
+      ja: https://fujiwaraski.com/
+    Tel:
+      Info: 0278-75-2321
+      # 2021/11/18 フォームで問い合わせ
+      # TODO: wait
+    Location:
+      Country: JP
+      ZipCode: 379-1721
+      Address:
+        ja: 群馬県利根郡みなかみ町藤原4957
+      Geometry:
+        Point:
+          Lng: 139.068987
+          Lat: 36.850880
+    Groups:
+    - Gunma
+
   MinakamiHodaigi:
     Name:
       ja: 水上宝台樹スキー場
@@ -2934,6 +3026,49 @@ Resorts:
         Point:
           Lng: 138.942186
           Lat: 36.743318
+    Groups:
+    - Gunma
+
+  MinakamiWhiteValley:
+    Name:
+      ja: ホワイトバレースキー場
+      en: White Valley
+    Website:
+      ja: https://www.whitevalley.jp/
+      en: https://www.whitevalley.jp/free/english
+    Tel:
+      Info: 0278-72-5094
+      # 2021/11/17 フォームで問い合わせ
+      # TODO: wait
+    Location:
+      Country: JP
+      ZipCode: 379-1619
+      Address:
+        ja: 群馬県利根郡みなかみ町谷川温泉国有林内 ロッヂホワイトバレー
+      Geometry:
+        Point:
+          Lng: 138.957334
+          Lat: 36.794800
+    Groups:
+    - Gunma
+
+  MinakamiAkasawa:
+    Name:
+      ja: 赤沢スキー場
+      en: Akasawa
+    Website:
+      ja: https://akasawa.biz/
+    Tel:
+      Info: 0278-66-1254
+      # TODO: tel(後回し)
+    Location:
+      Country: JP
+      Address:
+        ja: 群馬県利根郡みなかみ町永井620
+      Geometry:
+        Point:
+          Lng: 138.830078
+          Lat: 36.733021
     Groups:
     - Gunma
 

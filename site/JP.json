@@ -1545,7 +1545,8 @@
         "ja": "http://www.hakkouda-p.com/cn21/pg110.html"
       },
       "Tel": {
-        "Info": "017-738-8591"
+        "Info": "017-738-8591",
+        "Emergency": "017-738-0343"
       },
       "Location": {
         "Country": "JP",
@@ -2868,7 +2869,8 @@
         "ja": "https://www.urabandai-ski.jp/"
       },
       "Tel": {
-        "Info": "0241-32-2177"
+        "Info": "0241-32-2177",
+        "Emergency": "0241-32-2177"
       },
       "Location": {
         "Country": "JP",
@@ -2923,7 +2925,8 @@
         "ja": "https://www.numajiri-ski.jp/"
       },
       "Tel": {
-        "Info": "0242-67-1250"
+        "Info": "0242-67-1250",
+        "Emergency": "0242-67-1250"
       },
       "Location": {
         "Country": "JP",
@@ -2978,7 +2981,8 @@
         "ja": "http://tohoku-safaripark.co.jp/ski/"
       },
       "Tel": {
-        "Info": "0243-24-2845"
+        "Info": "0243-24-2845",
+        "Emergency": "0243-24-2845"
       },
       "Location": {
         "Country": "JP",
@@ -3394,6 +3398,62 @@
         "Tochigi"
       ]
     },
+    "NasuOnsenFamily": {
+      "Name": {
+        "ja": "那須温泉ファミリースキー場",
+        "en": "Nasu Onsen Family Ski Resort"
+      },
+      "Website": {
+        "ja": "https://familyskiresort-nasu.com/"
+      },
+      "Tel": {
+        "Info": "0287-76-2567"
+      },
+      "Location": {
+        "Country": "JP",
+        "ZipCode": "325-0301",
+        "Address": {
+          "ja": "那須郡那須町大字湯本字那須岳国有林内"
+        },
+        "Geometry": {
+          "Point": {
+            "Lng": 139.982881,
+            "Lat": 37.118794
+          }
+        }
+      },
+      "Groups": [
+        "Tochigi"
+      ]
+    },
+    "NikkoYumoto": {
+      "Name": {
+        "ja": "日光湯元温泉スキー場",
+        "en": "Nikko Yumoto"
+      },
+      "Website": {
+        "ja": "http://www.nikkoyumoto-ski.com/"
+      },
+      "Tel": {
+        "Info": "0288-62-2532"
+      },
+      "Location": {
+        "Country": "JP",
+        "ZipCode": "321-1662",
+        "Address": {
+          "ja": "栃木県日光市湯元温泉"
+        },
+        "Geometry": {
+          "Point": {
+            "Lng": 139.419524,
+            "Lat": 36.803516
+          }
+        }
+      },
+      "Groups": [
+        "Tochigi"
+      ]
+    },
     "OzeIwakura": {
       "Name": {
         "ja": "ホワイトワールド尾瀬岩鞍",
@@ -3540,6 +3600,34 @@
         "Gunma"
       ]
     },
+    "KaruizawaSnowPark": {
+      "Name": {
+        "ja": "軽井沢スノーパーク",
+        "en": "Karuizawa Snow Park"
+      },
+      "Website": {
+        "ja": "https://www.presidentresort.jp/snowpark/"
+      },
+      "Tel": {
+        "Info": "0279-84-1227"
+      },
+      "Location": {
+        "Country": "JP",
+        "ZipCode": "377-1412",
+        "Address": {
+          "ja": "群馬県吾妻郡長野原町北軽井沢2032-16"
+        },
+        "Geometry": {
+          "Point": {
+            "Lng": 138.627022,
+            "Lat": 36.423111
+          }
+        }
+      },
+      "Groups": [
+        "Gunma"
+      ]
+    },
     "Kawaba": {
       "Name": {
         "ja": "川場スキー場",
@@ -3629,6 +3717,34 @@
         "Gunma"
       ]
     },
+    "MinakamiKogenFujiwara": {
+      "Name": {
+        "ja": "藤原スキー場",
+        "en": "Fujiwara Snow & Spa Resort"
+      },
+      "Website": {
+        "ja": "https://fujiwaraski.com/"
+      },
+      "Tel": {
+        "Info": "0278-75-2321"
+      },
+      "Location": {
+        "Country": "JP",
+        "ZipCode": "379-1721",
+        "Address": {
+          "ja": "群馬県利根郡みなかみ町藤原4957"
+        },
+        "Geometry": {
+          "Point": {
+            "Lng": 139.068987,
+            "Lat": 36.85088
+          }
+        }
+      },
+      "Groups": [
+        "Gunma"
+      ]
+    },
     "MinakamiHodaigi": {
       "Name": {
         "ja": "水上宝台樹スキー場",
@@ -3681,6 +3797,62 @@
           "Point": {
             "Lng": 138.942186,
             "Lat": 36.743318
+          }
+        }
+      },
+      "Groups": [
+        "Gunma"
+      ]
+    },
+    "MinakamiWhiteValley": {
+      "Name": {
+        "ja": "ホワイトバレースキー場",
+        "en": "White Valley"
+      },
+      "Website": {
+        "ja": "https://www.whitevalley.jp/",
+        "en": "https://www.whitevalley.jp/free/english"
+      },
+      "Tel": {
+        "Info": "0278-72-5094"
+      },
+      "Location": {
+        "Country": "JP",
+        "ZipCode": "379-1619",
+        "Address": {
+          "ja": "群馬県利根郡みなかみ町谷川温泉国有林内 ロッヂホワイトバレー"
+        },
+        "Geometry": {
+          "Point": {
+            "Lng": 138.957334,
+            "Lat": 36.7948
+          }
+        }
+      },
+      "Groups": [
+        "Gunma"
+      ]
+    },
+    "MinakamiAkasawa": {
+      "Name": {
+        "ja": "赤沢スキー場",
+        "en": "Akasawa"
+      },
+      "Website": {
+        "ja": "https://akasawa.biz/"
+      },
+      "Tel": {
+        "Info": "0278-66-1254"
+      },
+      "Location": {
+        "Country": "JP",
+        "Address": {
+          "ja": "群馬県利根郡みなかみ町永井620"
+        },
+        "Geometry": {
+          "Point": {
+            "Lng": 138.830078,
+            "Lat": 36.733021
           }
         }
       },
