@@ -3093,7 +3093,8 @@
         "ja": "https://www.listel-inawashiro.jp/snow_season/"
       },
       "Tel": {
-        "Info": "0242-66-4111"
+        "Info": "0242-66-4111",
+        "Emergency": "0242-66-4111"
       },
       "Location": {
         "Country": "JP",
@@ -3234,7 +3235,8 @@
         "ja": "http://www.oze-info.jp/facility/skiing/"
       },
       "Tel": {
-        "Info": "0241-75-2351"
+        "Info": "0241-75-2351",
+        "Emergency": "0241-75-2351"
       },
       "Location": {
         "Country": "JP",
@@ -3609,7 +3611,8 @@
         "ja": "https://www.presidentresort.jp/snowpark/"
       },
       "Tel": {
-        "Info": "0279-84-1227"
+        "Info": "0279-84-1227",
+        "Emergency": "0279-84-1227"
       },
       "Location": {
         "Country": "JP",
@@ -5019,6 +5022,34 @@
         }
       }
     },
+    "Minenohara": {
+      "Name": {
+        "ja": "リワイルド ニンジャ スノー ハイランド",
+        "en": "Ninja Snow Highland"
+      },
+      "Website": {
+        "ja": "https://rewild-ninja-snow-highland.com/"
+      },
+      "Tel": {
+        "Info": "0268-71-0464"
+      },
+      "Location": {
+        "Country": "JP",
+        "ZipCode": "386-2211",
+        "Address": {
+          "ja": "長野県須坂市大字仁礼字峰の原3153-50"
+        },
+        "Geometry": {
+          "Point": {
+            "Lng": 138.350977,
+            "Lat": 36.556823
+          }
+        }
+      },
+      "Groups": [
+        "Nagano"
+      ]
+    },
     "BlancheTakayama": {
       "Name": {
         "ja": "ブランシュたかやまスキーリゾート",
@@ -5097,6 +5128,65 @@
           "Point": {
             "Lng": 138.413987,
             "Lat": 36.055813
+          }
+        }
+      },
+      "Groups": [
+        "Nagano"
+      ]
+    },
+    "YachihoKogen": {
+      "Name": {
+        "ja": "八千穂高原スキー場",
+        "en": "Yachiho Kogen Ski Resort"
+      },
+      "Website": {
+        "ja": "https://yachiho-kogen.com/ski/"
+      },
+      "ExtWebsite": {
+        "en": "https://japan-skiguide.com/guide/htm/r0840ens.htm"
+      },
+      "Tel": {
+        "Info": "0267-88-3866"
+      },
+      "Location": {
+        "Country": "JP",
+        "ZipCode": "384-0703",
+        "Address": {
+          "ja": "長野県南佐久郡佐久穂町大字千代里2093"
+        },
+        "Geometry": {
+          "Point": {
+            "Lng": 138.380818,
+            "Lat": 36.069858
+          }
+        }
+      },
+      "Groups": [
+        "Nagano"
+      ]
+    },
+    "YatsugatakeGoshodaira": {
+      "Name": {
+        "ja": "シャトレーゼスキーリゾート八ケ岳",
+        "en": "Chateraise Ski Resort Yatsugatake"
+      },
+      "Website": {
+        "ja": "https://chateraise-skiresort.com/"
+      },
+      "Tel": {
+        "Info": "0267-91-1001"
+      },
+      "Location": {
+        "Country": "JP",
+        "ZipCode": "384-1407",
+        "Address": {
+          "ja": "長野県南佐久郡川上村御所平1841"
+        },
+        "Geometry": {
+          "Point": {
+            "Lng": 138.495451,
+            "Lat": 35.930251
           }
         }
       },
@@ -5261,6 +5351,34 @@
           "Point": {
             "Lng": 137.63863,
             "Lat": 35.452611
+          }
+        }
+      },
+      "Groups": [
+        "Nagano"
+      ]
+    },
+    "Ina": {
+      "Name": {
+        "ja": "伊那スキーリゾート",
+        "en": "Ina Ski Resort"
+      },
+      "Website": {
+        "ja": "https://inaski.com/"
+      },
+      "Tel": {
+        "Info": "0265-73-8855"
+      },
+      "Location": {
+        "Country": "JP",
+        "ZipCode": "399-4431",
+        "Address": {
+          "ja": "長野県伊那市西春近3390"
+        },
+        "Geometry": {
+          "Point": {
+            "Lng": 137.916665,
+            "Lat": 35.81545
           }
         }
       },
@@ -5554,6 +5672,34 @@
           "Point": {
             "Lng": 138.275582,
             "Lat": 36.128463
+          }
+        }
+      },
+      "Groups": [
+        "Nagano"
+      ]
+    },
+    "ShirakabakoRoyalHill": {
+      "Name": {
+        "ja": "白樺湖ロイヤルヒル",
+        "en": "Shirakabako Royal Hill"
+      },
+      "Website": {
+        "ja": "https://royalhill.co.jp/"
+      },
+      "Tel": {
+        "Info": "0266-68-2120"
+      },
+      "Location": {
+        "Country": "JP",
+        "ZipCode": "391-0301",
+        "Address": {
+          "ja": "長野県茅野市北山3419"
+        },
+        "Geometry": {
+          "Point": {
+            "Lng": 138.234357,
+            "Lat": 36.101986
           }
         }
       },
