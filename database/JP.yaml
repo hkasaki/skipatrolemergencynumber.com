@@ -2295,8 +2295,8 @@ Resorts:
       ja: https://www.ski-minowa.jp/
     Tel:
       Info: 0242-64-3377
-      # 2021/11/16 メールで問い合わせ
-      # TODO: wait
+      # 2021/11/16 メールで問い合わせ, 回答あり
+      Emergency: 0242-64-3377
     Location:
       Country: JP
       ZipCode: 969-2751
@@ -3133,8 +3133,8 @@ Resorts:
         ja: 群馬県吾妻郡草津町大字草津字白根国有林158林班
       Geometry:
         Point:
-          Lng: 
-          Lat: 
+          Lng: 138.585760
+          Lat: 36.629110
     Groups:
     - Gunma
 
@@ -3398,7 +3398,8 @@ Resorts:
       ja: https://yokoteyama2307.com/
     Tel:
       Info: 0269-34-2600
-      # TODO: tel
+      # 実地調査
+      Emergency: 0269-34-2600
     Location:
       Country: JP
       ZipCode:

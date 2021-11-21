@@ -2897,7 +2897,8 @@
         "ja": "https://www.ski-minowa.jp/"
       },
       "Tel": {
-        "Info": "0242-64-3377"
+        "Info": "0242-64-3377",
+        "Emergency": "0242-64-3377"
       },
       "Location": {
         "Country": "JP",
@@ -3939,8 +3940,8 @@
         },
         "Geometry": {
           "Point": {
-            "Lng": null,
-            "Lat": null
+            "Lng": 138.58576,
+            "Lat": 36.62911
           }
         }
       },
@@ -4271,7 +4272,8 @@
         "ja": "https://yokoteyama2307.com/"
       },
       "Tel": {
-        "Info": "0269-34-2600"
+        "Info": "0269-34-2600",
+        "Emergency": "0269-34-2600"
       },
       "Location": {
         "Country": "JP",
