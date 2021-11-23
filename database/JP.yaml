@@ -3038,8 +3038,8 @@ Resorts:
       en: https://www.whitevalley.jp/free/english
     Tel:
       Info: 0278-72-5094
-      # 2021/11/17 フォームで問い合わせ
-      # TODO: wait
+      # 2021/11/17 フォームで問い合わせ, 回答あり
+      Emergency: 0278-72-5094
     Location:
       Country: JP
       ZipCode: 379-1619
@@ -3745,6 +3745,27 @@ Resorts:
     Groups:
     - Nagano
 
+  KitashigaKomaruyama:
+    Name:
+      ja: 北志賀小丸山スキー場
+      en: Kitashiga Komaruyama Ski Area
+    Website:
+      ja: https://www.komaruyama.jp/komaruyama/
+    Tel:
+      Info: 0269-33-6621
+      # TODO: SNS, tel(後回し)
+    Location:
+      Country: JP
+      ZipCode: 381-0405
+      Address:
+        ja: 長野県下高井郡山ノ内町夜間瀬北志賀高原小丸山
+      Geometry:
+        Point:
+          Lng: 138.448638
+          Lat: 36.794799
+    Groups:
+    - Nagano
+
   FujimiPanorama:
     Name:
       ja: 富士見パノラマリゾート
@@ -4054,6 +4075,48 @@ Resorts:
     Groups:
     - Nagano
 
+  TakeshiBanshogahara:
+    Name:
+      ja: 武石番所ヶ原スキー場
+      en: Takeshi Banshogahara
+    Website:
+      # HTTPS無し
+      ja: http://www.unkeiso.com/bansyogahara/
+    Tel:
+      Info: 0268-86-2213
+      # TODO: tel(後回し)
+    Location:
+      Country: JP
+      Address:
+        ja: 上田市武石上本入2386-1
+      Geometry:
+        Point:
+          Lng: 138.112450
+          Lat: 36.260237
+    Groups:
+    - Nagano
+
+  SuwaKirigamine:
+    Name:
+      ja: 諏訪市霧ヶ峰スキー場
+      en: Suwa Kirigamine
+    Website:
+      ja: https://www.city.suwa.lg.jp/site/enjoy/4445.html
+    Tel:
+      Info: 0266-53-1664
+      # TODO: tel(後回し)
+    Location:
+      Country: JP
+      ZipCode: 392-0003
+      Address:
+        ja: 長野県諏訪市上諏訪13338-41
+      Geometry:
+        Point:
+          Lng: 138.160571
+          Lat: 36.097694
+    Groups:
+    - Nagano
+
   KoumiReex:
     Name:
       ja: 小海リエックス・スキーバレー
@@ -4272,6 +4335,29 @@ Resorts:
     Groups:
     - Nagano
 
+  AsahiPrime:
+    Name:
+      ja: あさひプライムスキー場
+      en: Asahi Prime
+    Website:
+      # HTTPS無し
+      ja: http://asahivalley.jp/
+    Tel:
+      Info: 0263-99-3700
+      # 2021/11/23 フォームで問い合わせ
+      # TODO: wait
+    Location:
+      Country: JP
+      ZipCode: 390-1104
+      Address:
+        ja: 長野県東筑摩郡朝日村大字古見306-1
+      Geometry:
+        Point:
+          Lng: 137.834472
+          Lat: 36.115726
+    Groups:
+    - Nagano
+
   Nozawa:
     Name:
       ja: 野沢温泉スキー場
@@ -4292,6 +4378,29 @@ Resorts:
         Point:
           Lng: 138.452323
           Lat: 36.920678
+    Groups:
+    - Nagano
+
+  SakaeClub:
+    Name:
+      ja: さかえ倶楽部スキー場
+      en: Sakae Club
+    Website:
+      # HTTPS無し
+      ja: http://www.sakaeclub.jp/
+    Tel:
+      Info: 0269-87-3355
+      # 2021/11/23 メールで問い合わせ
+      # TODO: wait
+    Location:
+      Country: JP
+      ZipCode: 389-2702
+      Address:
+        ja: 長野県下水内郡栄村大字北信2903
+      Geometry:
+        Point:
+          Lng: 138.565093
+          Lat: 36.996105
     Groups:
     - Nagano
 
@@ -4387,6 +4496,27 @@ Resorts:
         Point:
           Lng: 137.671641
           Lat: 35.354523
+    Groups:
+    - Nagano
+
+  HirayaKogen:
+    Name:
+      ja: ひらや高原スキー場
+      en: Hiraya Kogen
+    Website:
+      ja: https://hiraya-kougen.com/
+    Tel:
+      Info: 0265-48-2100
+      # 2021/11/23 フォームで問い合わせ
+      # TODO: wait
+    Location:
+      Country: JP
+      Address:
+        ja: 長野県下伊那郡平谷村1511
+      Geometry:
+        Point:
+          Lng: 137.624334
+          Lat: 35.306147
     Groups:
     - Nagano
 
@@ -4528,6 +4658,70 @@ Resorts:
     Groups:
     - Nagano
 
+  ShirakabakoIkenotaira:
+    Name:
+      ja: 白樺湖 池の平スノーパーク
+      en: Shirakabako Ikenotaira Snow Park
+    Website:
+      ja: https://hotel.ikenotaira-resort.co.jp/snowpark/
+    Tel:
+      Info: 0266-68-2100
+      # TODO: tel(後回し)
+    Location:
+      Country: JP
+      ZipCode: 391-0392
+      Address:
+        ja: 長野県北佐久郡立科町芦田八ケ野1596
+      Geometry:
+        Point:
+          Lng: 138.244671
+          Lat: 36.109205
+    Groups:
+    - Nagano
+
+  PilatusTateshina:
+    Name:
+      ja: ピラタス蓼科スノーリゾート
+      en: Pilatus Tateshina Snow Resort
+    Website:
+      ja: https://www.pilatus.jp/
+    Tel:
+      Info: 0266-67-2009
+      # TODO: SNS, tel
+    Location:
+      Country: JP
+      ZipCode: 391-0301
+      Address:
+        ja: 長野県茅野市北山4035-2541
+      Geometry:
+        Point:
+          Lng: 138.301437
+          Lat: 36.068014
+    Groups:
+    - Nagano
+
+  TateshinaTokyo:
+    Name:
+      ja: 蓼科東急スキー場
+      en: Tateshina Tokyu Ski Resort
+    Website:
+      ja: https://www.tateshina-tokyu.com/ski/
+    Tel:
+      Info: 0266-69-3245
+      # 2021/11/22 メールで問い合わせ
+      # TODO: wait
+    Location:
+      Country: JP
+      ZipCode: 391-0301
+      Address:
+        ja: 長野県茅野市北山字鹿山4026-2
+      Geometry:
+        Point:
+          Lng: 138.256929
+          Lat: 36.069777
+    Groups:
+    - Nagano
+
   Yamaboku:
     Name:
       ja: YAMABOKU ワイルドスノーパーク
@@ -4593,6 +4787,28 @@ Resorts:
         Point:
           Lng: 137.739536
           Lat: 35.965445
+    Groups:
+    - Nagano
+
+  KisoFukushima:
+    Name:
+      ja: 木曽福島スキー場
+      en: Kiso Fukushima Ski Resort
+    Website:
+      ja: https://kisofukushima-ski.com/
+    Tel:
+      Info: 0264-27-6021
+      # 2021/11/23 フォームで問い合わせ
+      # TODO: wait
+    Location:
+      Country: JP
+      ZipCode: 397-0002
+      Address:
+        ja: 長野県木曽郡木曽町新開10034番地
+      Geometry:
+        Point:
+          Lng: 137.667568
+          Lat: 35.940802
     Groups:
     - Nagano
 
@@ -5171,10 +5387,10 @@ Resorts:
     Groups:
     - Niigata
 
-  IkenotairaOnsen:
+  MyokoIkenotairaOnsen:
     Name:
-      ja: 池の平温泉スキー場
-      en: Ikenotaira Onsen
+      ja: 妙高池の平温泉スキー場
+      en: Myoko Ikenotaira Onsen
     Website:
       # シーズンになると公式サイトの下部メニューがパトロールへの連絡、になる？
       ja: https://ikenotaira.info/
