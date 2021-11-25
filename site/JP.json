@@ -5685,7 +5685,8 @@
         "ja": "https://hiraya-kougen.com/"
       },
       "Tel": {
-        "Info": "0265-48-2100"
+        "Info": "0265-48-2100",
+        "Emergency": "0265-48-2100"
       },
       "Location": {
         "Country": "JP",
@@ -6486,7 +6487,8 @@
         "ja": "https://hidakawai.com/"
       },
       "Tel": {
-        "Info": "0577-65-2903"
+        "Info": "0577-65-2903",
+        "Emergency": "0577-65-2903"
       },
       "Location": {
         "Country": "JP",

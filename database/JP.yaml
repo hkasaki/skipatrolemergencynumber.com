@@ -4507,8 +4507,8 @@ Resorts:
       ja: https://hiraya-kougen.com/
     Tel:
       Info: 0265-48-2100
-      # 2021/11/23 フォームで問い合わせ
-      # TODO: wait
+      # 2021/11/23 フォームで問い合わせ, 回答あり
+      Emergency: 0265-48-2100
     Location:
       Country: JP
       Address:
@@ -5142,7 +5142,8 @@ Resorts:
       ja: https://hidakawai.com/
     Tel:
       Info: 0577-65-2903
-      # 2021/11/24 フォームで問い合わせ
+      # 2021/11/24 フォームで問い合わせ, 回答あり
+      Emergency: 0577-65-2903
     Location:
       Country: JP
       ZipCode: 509-4312
