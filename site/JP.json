@@ -1872,7 +1872,8 @@
         "en": "https://www.okunakayamakogen.jp/en/"
       },
       "Tel": {
-        "Info": "0195-35-3131"
+        "Info": "0195-35-3131",
+        "Emergency": "0195-35-3131"
       },
       "Location": {
         "Country": "JP",
@@ -1900,7 +1901,7 @@
         "ja": "https://www.city.oshu.iwate.jp/site/kanko/39973.html"
       },
       "Tel": {
-        "Info": "0197-49-2105"
+        "Info": "0197-49-2106"
       },
       "Location": {
         "Country": "JP",
@@ -1912,6 +1913,34 @@
           "Point": {
             "Lng": 140.9375,
             "Lat": 39.118056
+          }
+        }
+      },
+      "Groups": [
+        "Iwate"
+      ]
+    },
+    "Kunimidaira": {
+      "Name": {
+        "ja": "国見平スキー場",
+        "en": "Kunimidaira"
+      },
+      "Website": {
+        "ja": "https://www.city.oshu.iwate.jp/soshiki/195/"
+      },
+      "Tel": {
+        "Info": "0197-52-6611"
+      },
+      "Location": {
+        "Country": "JP",
+        "ZipCode": "029-4300",
+        "Address": {
+          "ja": "岩手県奥州市衣川長塚303"
+        },
+        "Geometry": {
+          "Point": {
+            "Lng": 140.968514,
+            "Lat": 39.052272
           }
         }
       },
@@ -5539,7 +5568,8 @@
         "ja": "http://www.sakaeclub.jp/"
       },
       "Tel": {
-        "Info": "0269-87-3355"
+        "Info": "0269-87-3355",
+        "Emergency": "0269-87-3355"
       },
       "Location": {
         "Country": "JP",
@@ -7103,6 +7133,62 @@
           "Point": {
             "Lng": 138.977777,
             "Lat": 37.107945
+          }
+        }
+      },
+      "Groups": [
+        "Niigata"
+      ]
+    },
+    "MuikaSnowResort": {
+      "Name": {
+        "ja": "ムイカスノーリゾート",
+        "en": "Muica Snow Resort"
+      },
+      "Website": {
+        "ja": "https://www.muikamachi.com/ski/"
+      },
+      "Tel": {
+        "Info": "025-773-3311"
+      },
+      "Location": {
+        "Country": "JP",
+        "ZipCode": "949-6636",
+        "Address": {
+          "ja": "新潟県南魚沼市小栗山2910-114"
+        },
+        "Geometry": {
+          "Point": {
+            "Lng": 138.846014,
+            "Lat": 37.071413
+          }
+        }
+      },
+      "Groups": [
+        "Niigata"
+      ]
+    },
+    "ChateauShiozawa": {
+      "Name": {
+        "ja": "シャトー塩沢",
+        "en": "Chateau Shiozawa"
+      },
+      "Website": {
+        "ja": "http://www.chateau-shiozawa.jp/"
+      },
+      "Tel": {
+        "Info": "025-782-1191"
+      },
+      "Location": {
+        "Country": "JP",
+        "ZipCode": "949-6408",
+        "Address": {
+          "ja": "新潟県南魚沼市塩沢2071"
+        },
+        "Geometry": {
+          "Point": {
+            "Lng": 138.838439,
+            "Lat": 37.050817
           }
         }
       },
