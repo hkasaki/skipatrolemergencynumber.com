@@ -5498,6 +5498,27 @@ Resorts:
     Groups:
     - Niigata
 
+  NakazatoSnowWood:
+    Name:
+      ja: 中里スノーウッドスキー場
+      en: Nakazato Snow Wood
+    #Website:
+      # Webサイト無さそう
+    Tel:
+      Info: 025-787-3511
+      # TODO: 後回し
+    Location:
+      Country: JP
+      ZipCode: 949-6103
+      Address:
+        ja: 新潟県南魚沼郡湯沢町土樽4731-2
+      Geometry:
+        Point:
+          Lng: 138.850213
+          Lat: 36.905262
+    Groups:
+    - Niigata
+
   JoetsuKokusai:
     Name:
       ja: 上越国際スキー場
@@ -5519,6 +5540,28 @@ Resorts:
         Point:
           Lng: 138.800837
           Lat: 37.033149
+    Groups:
+    - Niigata
+
+  MtGranView:
+    Name:
+      ja: Mt. グランビュー
+      en: Mt. GranView
+    Website:
+      # HTTPS無し
+      ja: http://www.niigata-ski.com/
+    Tel:
+      Info: 025-783-2633
+      # TODO: tel(後回し)
+    Location:
+      Country: JP
+      ZipCode: 949-6365
+      Address:
+        ja: 新潟県南魚沼市宮野下359-1
+      Geometry:
+        Point:
+          Lng: 138.805263
+          Lat: 37.000035
     Groups:
     - Niigata
 
@@ -5653,6 +5696,73 @@ Resorts:
         Point:
           Lng: 138.977777
           Lat: 37.107945
+    Groups:
+    - Niigata
+
+  Hakkaisanroku:
+    Name:
+      ja: 八海山麓スキー場
+      en: Hakkaisanroku Aki Area
+    Website:
+      # HTTPS 無し
+      ja: http://hakkai36.com/
+    Tel:
+      Info: 025-779-3103
+      # 2021/11/30 フォームで問い合わせ
+      # TODO: wait
+    Location:
+      Country: JP
+      ZipCode: 949-7235
+      Address:
+        ja: 新潟県南魚沼市荒金
+      Geometry:
+        Point:
+          Lng: 138.973943
+          Lat: 37.154601
+    Groups:
+    - Niigata
+
+  Koide:
+    Name:
+      ja: 小出スキー場
+      en: Koide Ski Area
+    Website:
+      ja: https://www.sp-koide.org/
+    Tel:
+      Info: 025-792-5320
+      # 2021/11/30 フォームで問い合わせ, 回答あり
+      Emergency: 025-792-5320
+    Location:
+      Country: JP
+      ZipCode: 946-0043
+      Address:
+        ja: 新潟県魚沼市青島1609
+      Geometry:
+        Point:
+          Lng: 138.955271
+          Lat: 37.228187
+    Groups:
+    - Niigata
+
+  Nagaoka:
+    Name:
+      ja: 長岡市営スキー場
+      en: Nagaoka City
+    Website:
+      # HTTPS無し
+      ja: http://www.shiei-ski.com/ski/
+    Tel:
+      Info: 0258-34-2225
+      # TODO: tel(後回し)
+    Location:
+      Country: JP
+      ZipCode: 940-0821
+      Address:
+        ja: 新潟県長岡市栖吉町3300番地
+      Geometry:
+        Point:
+          Lng: 138.890064
+          Lat: 37.415230
     Groups:
     - Niigata
 
@@ -5792,6 +5902,28 @@ Resorts:
     Groups:
     - Niigata
 
+  CupidValley:
+    Name:
+      ja: キューピットバレイ
+      en: Cupid Valley
+    Website:
+      ja: https://www.yukidaruma-kogen.com/winter.html
+    Tel:
+      Info: 025-593-2041
+      # 2021/11/30 フォームで問い合わせ
+      # TODO: wait
+    Location:
+      Country: JP
+      ZipCode: 942-0534
+      Address:
+        ja: 新潟県上越市安塚区須川4820
+      Geometry:
+        Point:
+          Lng: 138.484504
+          Lat: 37.055035
+    Groups:
+    - Niigata
+
   MatsunoyamaOnsen:
     Name:
       ja: 松之山温泉スキー場
@@ -5815,6 +5947,48 @@ Resorts:
     Groups:
     - Niigata
 
+  NewGreenpiaTsunan:
+    Name:
+      ja: ニュー・グリーンピア津南スキー場
+      en: New Greenpia Tsunan
+    Website:
+      ja: https://new-greenpia.com/category/ski/
+    Tel:
+      Info: 025-765-4611
+      # TODO: tel
+    Location:
+      Country: JP
+      ZipCode: 949-8313
+      Address:
+        ja: 新潟県中魚沼郡津南町秋成12300番地
+      Geometry:
+        Point:
+          Lng: 138.686926
+          Lat: 36.960082
+    Groups:
+    - Niigata
+
+  Matsudai:
+    Name:
+      ja: 松代ファミリースキー場
+      en: Matsudai Family
+    Website:
+      ja: https://www.tokamachishikankou.jp/matudai/cgi-bin/ski/index.cgi
+    Tel:
+      Info: 025-597-3330
+      # TODO: tel(後回し)
+    Location:
+      Country: JP
+      ZipCode: 
+      Address:
+        ja: 新潟県十日町市松代5265
+      Geometry:
+        Point:
+          Lng: 138.605577
+          Lat: 37.126625
+    Groups:
+    - Niigata
+
   Tainai:
     Name:
       ja: 胎内スキー場
@@ -5834,6 +6008,72 @@ Resorts:
         Point:
           Lng: 139.502324
           Lat: 38.016711
+    Groups:
+    - Niigata
+
+  Ninox:
+    Name:
+      ja: ニノックススノーパーク
+      en: Ninox Snow Park
+    Website:
+      ja: https://www.ninox.co.jp/
+    Tel:
+      Info: 0254-29-3315
+      # 2021/11/30 メールで問い合わせ
+      # TODO: wait
+    Location:
+      Country: JP
+      ZipCode: 957-0331
+      Address:
+        ja: 新潟県新発田市上三光大平国有林無番地
+      Geometry:
+        Point:
+          Lng: 139.467903
+          Lat: 37.926816
+    Groups:
+    - Niigata
+
+  MikawaOnsen:
+    Name:
+      ja: 三川温泉スキー場
+      en: Mikawa Onsen Skiing Ground
+    Website:
+      ja: https://www.town.aga.niigata.jp/kanko_rekishi/mikawa_onsenski/index.html
+    Tel:
+      Info: 0254-99-3738
+      # 2021/11/30 フォームで問い合わせ
+      # TODO: wait
+    Location:
+      Country: JP
+      ZipCode: 959-4618
+      Address:
+        ja: 新潟県東蒲原郡阿賀町川口堤ノ下
+      Geometry:
+        Point:
+          Lng: 139.393373
+          Lat: 37.720678
+    Groups:
+    - Niigata
+
+  MurakamiBudoh:
+    Name:
+      ja: 村上市ぶどうスキー場
+      en: Murakami Budoh Ski Resort
+    Website:
+      # HTTPS無し
+      ja: http://www.city.murakami.niigata.jp/asahi/budoh/
+    Tel:
+      Info: 0254-73-0126
+      # TODO: tel(後回し)
+    Location:
+      Country: JP
+      ZipCode: 958-0201
+      Address:
+        ja: 新潟県村上市蒲萄338-1
+      Geometry:
+        Point:
+          Lng: 139.554562
+          Lat: 38.389940
     Groups:
     - Niigata
 
