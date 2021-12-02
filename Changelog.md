@@ -1,6 +1,10 @@
 # Changelog
 
 ## 2021-12-01
+- 6 ski resorts added
+- Reviewing is not yet, but all the Japanese ski resorts with two lifts are registered
+
+## 2021-12-01
 - 4 ski resorts and 1 emergency phone number added
 
 ## 2021-11-30

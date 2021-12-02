@@ -6145,15 +6145,87 @@ Resorts:
     Groups:
     - Toyama
 
+  Unazuki:
+    Name:
+      # 宇奈月スノーパーク ?
+      ja: 宇奈月温泉スキー場
+      en: Unazuki
+    Website:
+      ja: https://www.unazuki-snowpark.com/
+    Tel:
+      # https://www.unazuki-snowpark.com/ 宇奈月温泉スキー場 リフト管理事務所
+      Info: 0765-62-1757
+      # TODO: tel(後回し)
+    Location:
+      Country: JP
+      ZipCode: 938-0282
+      Address:
+        ja: 富山県黒部市宇奈月温泉5738
+      Geometry:
+        Point:
+          Lng: 137.584550
+          Lat: 36.812244
+    Groups:
+    - Toyama
+
+  UshidakeOnsen:
+    Name:
+      ja: 牛岳温泉スキー場
+      en: Ushidake Ski-Board & Spa Resort
+    Website:
+      ja: https://ushidake.com/ski/
+    Tel:
+      # 牛岳温泉スキー場 スキーセンター
+      Info: 076-457-2044
+      # 2021/12/02 フォームで問い合わせ
+      # TODO: wait
+    Location:
+      Country: JP
+      ZipCode: 930-2116
+      Address:
+        ja: 富山県富山市山田小谷中根2
+      Geometry:
+        Point:
+          Lng: 137.057041
+          Lat: 36.573076
+    Groups:
+    - Toyama
+
+  Takanbo:
+    Name:
+      ja: タカンボースキー場
+      en: Takanbo
+    Website:
+      # HTTPS無し
+      # あってる？
+      ja: http://www.gokayama-kankou.com/contents2.html
+    Tel:
+      Info: 0763-67-3766
+      # TODO: tel(後回し)
+    Location:
+      Country: JP
+      ZipCode: 939-1977
+      Address:
+        ja: 富山県南砺市西赤尾町1767
+      Geometry:
+        Point:
+          Lng: 136.862570
+          Lat: 36.375624
+    Groups:
+    - Toyama
+
   HakusanIchirinoOnsen:
     Name:
       ja: 白山一里野温泉スキー場
       en: Hakusan Ichirino Onsen Ski Resort
     Website:
+      # HTTPS無し
       ja: http://sam-hakusan.com/ichirino/
+      en: http://www.sam-hakusan-en.com/ichirino.html
     Tel:
       Info: 076-256-7412
-      # TODO: tel
+      # 2021/12/02 メールで問い合わせ 白山セイモアスキー場と同時
+      # TODO: wait
     Location:
       Country: JP
       ZipCode: 920-2333
@@ -6163,6 +6235,73 @@ Resorts:
         Point:
           Lng: 136.71502
           Lat: 36.268292
+    Groups:
+    - Ishikawa
+
+  HakusanSeymour:
+    Name:
+      ja: 白山セイモアスキー場
+      en: Hakusan Seymour
+    Website:
+      # HTTPS無し
+      ja: http://sam-hakusan.com/seymour/
+      en: http://www.sam-hakusan-en.com/seymour.html
+    Tel:
+      Info: 076-273-0331
+      # 白山一里野温泉スキー場と同時にメールで問い合わせ
+      # TODO: wait
+    Location:
+      Country: JP
+      ZipCode: 920-2318
+      Address:
+        ja: 石川県白山市河内町内尾
+      Geometry:
+        Point:
+          Lng: 136.677753
+          Lat: 36.347072
+    Groups:
+    - Ishikawa
+
+  OkuradakeKogen:
+    Name:
+      ja: 大倉岳高原スキー場
+      en: Okuradake Kogen
+    # 公式サイト、URLがよくわからないのでとりあえずリンク無し
+    # https://komatsu-ccf.com/navi/ の下の方
+    Tel:
+      Info: 0761-67-1426
+      # TODO: tel(後回し)
+    Location:
+      Country: JP
+      ZipCode: 923-0172
+      Address:
+        ja: 石川県小松市尾小屋町レ41番地
+      Geometry:
+        Point:
+          Lng: 136.538033
+          Lat: 36.283732
+    Groups:
+    - Ishikawa
+
+  KanazawaIouzen:
+    Name:
+      ja: 金沢市営医王山スキー場
+      en: Kanazawa Iouzen
+    Website:
+      ja: https://www.kanazawa-kankoukyoukai.or.jp/spot/detail_10007.html
+    Tel:
+      Info: 076-229-1947
+      # 12/02 メールで問い合わせ
+      # TODO: wait
+    Location:
+      Country: JP
+      ZipCode: 920-1108
+      Address:
+        ja: 石川県金沢市俵町テ甲21
+      Geometry:
+        Point:
+          Lng: 136.753615
+          Lat: 36.527118
     Groups:
     - Ishikawa
 
