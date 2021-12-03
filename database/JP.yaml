@@ -6177,8 +6177,8 @@ Resorts:
     Tel:
       # 牛岳温泉スキー場 スキーセンター
       Info: 076-457-2044
-      # 2021/12/02 フォームで問い合わせ
-      # TODO: wait
+      # 2021/12/02 フォームで問い合わせ, 回答あり
+      Emergency: 076-457-2044
     Location:
       Country: JP
       ZipCode: 930-2116
@@ -6224,8 +6224,8 @@ Resorts:
       en: http://www.sam-hakusan-en.com/ichirino.html
     Tel:
       Info: 076-256-7412
-      # 2021/12/02 メールで問い合わせ 白山セイモアスキー場と同時
-      # TODO: wait
+      # 2021/12/02 メールで問い合わせ 白山セイモアスキー場と同時, 回答あり
+      Emergency: 076-256-7412
     Location:
       Country: JP
       ZipCode: 920-2333
@@ -6248,8 +6248,8 @@ Resorts:
       en: http://www.sam-hakusan-en.com/seymour.html
     Tel:
       Info: 076-273-0331
-      # 白山一里野温泉スキー場と同時にメールで問い合わせ
-      # TODO: wait
+      # 白山一里野温泉スキー場と同時にメールで問い合わせ, 回答あり
+      Emergency: 076-273-0331
     Location:
       Country: JP
       ZipCode: 920-2318

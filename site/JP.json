@@ -7793,7 +7793,8 @@
         "ja": "https://ushidake.com/ski/"
       },
       "Tel": {
-        "Info": "076-457-2044"
+        "Info": "076-457-2044",
+        "Emergency": "076-457-2044"
       },
       "Location": {
         "Country": "JP",
@@ -7850,7 +7851,8 @@
         "en": "http://www.sam-hakusan-en.com/ichirino.html"
       },
       "Tel": {
-        "Info": "076-256-7412"
+        "Info": "076-256-7412",
+        "Emergency": "076-256-7412"
       },
       "Location": {
         "Country": "JP",
@@ -7879,7 +7881,8 @@
         "en": "http://www.sam-hakusan-en.com/seymour.html"
       },
       "Tel": {
-        "Info": "076-273-0331"
+        "Info": "076-273-0331",
+        "Emergency": "076-273-0331"
       },
       "Location": {
         "Country": "JP",
