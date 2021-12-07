@@ -5910,8 +5910,8 @@ Resorts:
       ja: https://www.yukidaruma-kogen.com/winter.html
     Tel:
       Info: 025-593-2041
-      # 2021/11/30 フォームで問い合わせ
-      # TODO: wait
+      # 2021/11/30 フォームで問い合わせ, 回答あり
+      Emergency: 025-593-2041
     Location:
       Country: JP
       ZipCode: 942-0534
