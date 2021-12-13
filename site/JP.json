@@ -840,7 +840,8 @@
         "en": "https://www.sapporo-kokusai.jp/en/"
       },
       "Tel": {
-        "Info": "011-598-4511"
+        "Info": "011-598-4511",
+        "Emergency": "011-598-4511"
       },
       "Location": {
         "Country": "JP",
@@ -1686,7 +1687,8 @@
         "ja": "https://www.getokogen.com/winter/"
       },
       "Tel": {
-        "Info": "0197-65-9000"
+        "Info": "0197-65-9000",
+        "Emergency": "0197-72-8848"
       },
       "Location": {
         "Country": "JP",
@@ -8710,6 +8712,31 @@
           "Point": {
             "Lng": 132.768207,
             "Lat": 35.054868
+          }
+        }
+      },
+      "Groups": [
+        "Shimane"
+      ]
+    },
+    "MizuhoHighland": {
+      "Name": {
+        "ja": "瑞穂ハイランド",
+        "en": "Mizuho Highland"
+      },
+      "Website": {
+        "ja": "https://www.mizuhohighland.com/"
+      },
+      "Location": {
+        "Country": "JP",
+        "ZipCode": "697-0631",
+        "Address": {
+          "ja": "島根県邑智郡邑南町市木6242-19"
+        },
+        "Geometry": {
+          "Point": {
+            "Lng": 132.400618,
+            "Lat": 34.815527
           }
         }
       },
