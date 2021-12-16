@@ -723,7 +723,8 @@
         "en": "https://sapporo-teine.com/snow/lang/en/"
       },
       "Tel": {
-        "Info": "011-682-6000"
+        "Info": "011-682-6000",
+        "Emergency": "011-682-6000"
       },
       "Location": {
         "Country": "JP",
