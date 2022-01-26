@@ -279,8 +279,8 @@ Resorts:
       ja: https://mountracey-resort.com/skiarea/
       en: https://mountracey-resort.com/en/
     Tel:
-      # サイトに記載があった
-      Info: 0123-52-5151
+      # サイトの記載に従い更新した
+      Info: 0123-57-7766
       # TODO: tel
     Location:
       Country: JP
@@ -4774,15 +4774,14 @@ Resorts:
 
   Ontake2240:
     Name:
-      ja: おんたけ 2240
-      en: Ontake 2240
+      ja: 御嶽スキー場
+      en: Ontake
     Website:
-      # メンテナンス中
-      # やる会社が決まった、という話だった (2021/10/10)
-      ja: https://ontake2240.jp/
+      ja: https://ontakeskijo.com/
     Tel:
+      # 運営会社の電話番号、前と変わっていない？
       Info: 0264-48-2240
-      # TODO: サイトできるの待ち
+      # TODO: サイトできるの待ち→サイトに無いので問い合わせ
     Location:
       Country: JP
       ZipCode: 397-0201
@@ -7039,8 +7038,8 @@ Resorts:
       ja: https://www.osorakan.co.jp/winter/
     Tel:
       Info: 0826-28-7007
-      # 2021/11/06 メールで問い合わせ
-      # TODO: 待ち
+      # 2021/11/06 メールで問い合わせ, 回答無かったが2022/01/26 Twitterで教えて頂いた
+      Emergency: 0826-28-7007
     Location:
       Country: JP
       ZipCode: 731-3801

@@ -325,7 +325,7 @@
         "en": "https://mountracey-resort.com/en/"
       },
       "Tel": {
-        "Info": "0123-52-5151"
+        "Info": "0123-57-7766"
       },
       "Location": {
         "Country": "JP",
@@ -6025,11 +6025,11 @@
     },
     "Ontake2240": {
       "Name": {
-        "ja": "おんたけ 2240",
-        "en": "Ontake 2240"
+        "ja": "御嶽スキー場",
+        "en": "Ontake"
       },
       "Website": {
-        "ja": "https://ontake2240.jp/"
+        "ja": "https://ontakeskijo.com/"
       },
       "Tel": {
         "Info": "0264-48-2240"
@@ -8837,7 +8837,8 @@
         "ja": "https://www.osorakan.co.jp/winter/"
       },
       "Tel": {
-        "Info": "0826-28-7007"
+        "Info": "0826-28-7007",
+        "Emergency": "0826-28-7007"
       },
       "Location": {
         "Country": "JP",
