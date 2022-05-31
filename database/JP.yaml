@@ -2049,8 +2049,8 @@ Resorts:
     Tel:
       # 月山ペアリフト
       Info: 0237-75-2025
-      # ↑でいいと思うけど、月山シーズンが始まったら確認する
-      # TODO: tel（春に）
+      # クレバスの事故の際にWeb上で掲示されていた
+      Emergency: 0237-75-2025
     Location:
       Country: JP
       ZipCode:
@@ -3359,7 +3359,8 @@ Resorts:
       en: http://en.okushiga.jp/skiresort/
     Tel:
       Info: 0269-34-2225
-      # TODO: tel
+      # エキスパートコース下部の看板にあった
+      Emergency: 0269-34-2225
     Location:
       Country: JP
       ZipCode:

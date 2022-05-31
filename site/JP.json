@@ -2585,7 +2585,8 @@
         "ja": "https://gassankk.co.jp/gassan-ski/"
       },
       "Tel": {
-        "Info": "0237-75-2025"
+        "Info": "0237-75-2025",
+        "Emergency": "0237-75-2025"
       },
       "Location": {
         "Country": "JP",
@@ -4224,7 +4225,8 @@
         "en": "http://en.okushiga.jp/skiresort/"
       },
       "Tel": {
-        "Info": "0269-34-2225"
+        "Info": "0269-34-2225",
+        "Emergency": "0269-34-2225"
       },
       "Location": {
         "Country": "JP",
