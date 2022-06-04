@@ -48,17 +48,45 @@ SkiPatrolEmergencyNumber.Messages = {
     },
 };
 
+SkiPatrolEmergencyNumber.getPreferredLanguageFromCookie = function() {
+    for(let kv of document.cookie.split(';')) {
+        const [key, value] = kv.split('=');
+        if (key === "lang") {
+            return value;
+        }
+    }
+    return "";
+};
+
+SkiPatrolEmergencyNumber.setPreferredLanguageToCookie = function(language) {
+    const oneWeek = 60*60*24*7;
+    document.cookie = `lang=${language};max-age=${oneWeek};path=/`;
+};
+
+SkiPatrolEmergencyNumber.cleanUpCookie = function() {
+    document.cookie = 'lang=en;max-age=0;path=/';
+};
+
+SkiPatrolEmergencyNumber.getBrowserLanguage = function() {
+    const language =
+        (window.navigator.languages && window.navigator.languages[0]) ||
+        window.navigator.language ||
+        window.navigator.userLanguage ||
+        window.navigator.browserLanguage;
+    return language === 'ja' ? 'ja' : 'en';
+};
+
+SkiPatrolEmergencyNumber.getCurrentPageLanguage = function() {
+    return location.pathname.startsWith("/ja") ? 'ja' : 'en';
+};
+
+SkiPatrolEmergencyNumber.getPageUrlForLanguage = function(language) {
+    return `${location.protocol}//${location.host}/` + (language === 'ja' ? 'ja/' : '');
+};
+
 SkiPatrolEmergencyNumber.I18n = class I18n {
     constructor() {
-        this.language = this.getBrowserLanguage();
-    }
-
-    getBrowserLanguage() {
-        const language = (window.navigator.languages && window.navigator.languages[0]) ||
-            window.navigator.language ||
-            window.navigator.userLanguage ||
-            window.navigator.browserLanguage;
-        return language === 'ja' ? 'ja' : 'en';
+        this.language = SkiPatrolEmergencyNumber.getBrowserLanguage();
     }
 
     setLanguage(language) {
@@ -81,4 +109,14 @@ SkiPatrolEmergencyNumber.I18n = class I18n {
         }
         return '';
     }
+}
+
+//SkiPatrolEmergencyNumber.cleanUpCookie();
+let userLanguage = SkiPatrolEmergencyNumber.getPreferredLanguageFromCookie();
+if(!userLanguage) {
+    userLanguage = SkiPatrolEmergencyNumber.getBrowserLanguage();
+}
+const currentPageLanguage = SkiPatrolEmergencyNumber.getCurrentPageLanguage();
+if(userLanguage !== currentPageLanguage) {
+    location.href = SkiPatrolEmergencyNumber.getPageUrlForLanguage(userLanguage);
 }

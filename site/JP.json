@@ -387,7 +387,7 @@
         "Country": "JP",
         "ZipCode": "071-1405",
         "Address": {
-          "ja": "北海道上川郡東川町西５号北44番地"
+          "ja": "北海道上川郡東川町西5号北44番地"
         },
         "Geometry": {
           "Point": {
@@ -3092,7 +3092,7 @@
     },
     "FamilySnowParkBandai": {
       "Name": {
-        "ja": "ファミリースノーパーク ばんだい×2",
+        "ja": "ファミリースノーパーク ばんだいx2",
         "en": "Family Snow Park Bandai Bandai"
       },
       "Website": {
@@ -4130,7 +4130,7 @@
     "Yeti": {
       "Name": {
         "ja": "フジヤマ スノーリゾート イエティ",
-        "en": "FUJIYAMA SNOW RESORT YETI"
+        "en": "Fujiyama Snow Resort Yeti"
       },
       "Website": {
         "ja": "https://www.yeti-resort.com/",
@@ -5656,7 +5656,7 @@
     },
     "Norikura": {
       "Name": {
-        "ja": "Mt．乗鞍スノーリゾート",
+        "ja": "Mt. 乗鞍スノーリゾート",
         "en": "Mt. Norikura Snow Resort"
       },
       "Website": {

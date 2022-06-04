@@ -329,7 +329,7 @@ Resorts:
       Country: JP
       ZipCode: 071-1405
       Address:
-        ja: 北海道上川郡東川町西５号北44番地
+        ja: 北海道上川郡東川町西5号北44番地
       Geometry:
         Point:
           Lng: 142.538856
@@ -2471,7 +2471,7 @@ Resorts:
   FamilySnowParkBandai:
     Name:
       # 2020-2021は休止
-      ja: ファミリースノーパーク ばんだい×2
+      ja: ファミリースノーパーク ばんだいx2
       en: Family Snow Park Bandai Bandai
     Website:
       # HTTPS無し
@@ -3280,7 +3280,7 @@ Resorts:
   Yeti:
     Name:
       ja: フジヤマ スノーリゾート イエティ
-      en: FUJIYAMA SNOW RESORT YETI
+      en: Fujiyama Snow Resort Yeti
     Website:
       ja: https://www.yeti-resort.com/
       en: https://www.yeti-resort.com/en/
@@ -4482,7 +4482,7 @@ Resorts:
 
   Norikura:
     Name:
-      ja: Mt．乗鞍スノーリゾート
+      ja: Mt. 乗鞍スノーリゾート
       en: Mt. Norikura Snow Resort
     Website:
       ja: https://www.brnorikura.jp/

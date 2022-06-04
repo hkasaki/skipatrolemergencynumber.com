@@ -25,6 +25,7 @@ $(async ()=>{
     const version = 8;
 
     const i18n = new SkiPatrolEmergencyNumber.I18n();
+    i18n.setLanguage(SkiPatrolEmergencyNumber.getCurrentPageLanguage());
     const dataSource = new SkiPatrolEmergencyNumber.DataSource(true); // debug
     const location = await dataSource.prmGetCurrentLocation(version);
     const registry = new SkiPatrolEmergencyNumber.Registry(dataSource);

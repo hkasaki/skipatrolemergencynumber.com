@@ -42,10 +42,10 @@ header {
 }
 
 .header-title {
-    margin-top: 0.8em;
+    margin-top: 1em;
     margin-left: 0.8em;
     margin-right: auto;
-    font-size: 1em;
+    font-size: 0.9em;
     /*
     margin-top: 0.6em;
     margin-left: 0.4em;
@@ -208,6 +208,18 @@ select {
     overflow-y: auto;
 }
 
-.configview-link {
+#configview-description-content {
+    padding-left: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+#readview {
+    height: calc(100vh - 3em);
+    overflow-y: auto;
+}
+
+.text-link {
     text-decoration: underline;
 }
+

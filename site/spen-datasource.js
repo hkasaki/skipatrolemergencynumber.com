@@ -71,7 +71,7 @@ SkiPatrolEmergencyNumber.DataSource = class DataSource {
                 }
             }
         };
-        const ret = await (await fetch(`./JP.json?v={version}`)).json();
+        const ret = await (await fetch(`/JP.json?v={version}`)).json();
         if(this.isDebug) {
             Object.assign(ret, testData);
         }

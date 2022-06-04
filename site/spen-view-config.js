@@ -11,22 +11,12 @@ SkiPatrolEmergencyNumber.ViewConfig = class ViewConfig {
         const self = this;
         $("#configview-language-select").change(function() {
             const lang = $(this).val();
-            if (lang !== '#none') {
-                i18n.setLanguage(lang);
-                self.render();
-            }
+            SkiPatrolEmergencyNumber.setPreferredLanguageToCookie(lang);
+            location.href = SkiPatrolEmergencyNumber.getPageUrlForLanguage(lang);
         });
     }
 
     render() {
-        if (this.i18n.getLanguage() === 'ja') {
-            $("#configview-description-ja").show();
-            $("#configview-description-en").hide();
-        }
-        else {
-            $("#configview-description-ja").hide();
-            $("#configview-description-en").show();
-        }
     }
 
     show() {

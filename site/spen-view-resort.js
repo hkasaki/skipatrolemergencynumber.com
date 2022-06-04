@@ -57,10 +57,10 @@ SkiPatrolEmergencyNumber.ViewResort = class ViewResort {
             );
         };
         if (resort.Tel && resort.Tel.Emergency) {
-            appendPhone("image/icoon-mono-00105-plus-D0D0D0.svg", this.message('CallEmergency'), resort.Tel.Emergency);
+            appendPhone("/image/icoon-mono-00105-plus-D0D0D0.svg", this.message('CallEmergency'), resort.Tel.Emergency);
         }
         if (resort.Tel && resort.Tel.Info) {
-            appendPhone("image/icoon-mono-00022-info-D0D0D0.svg", this.message('CallInformation'), resort.Tel.Info);
+            appendPhone("/image/icoon-mono-00022-info-D0D0D0.svg", this.message('CallInformation'), resort.Tel.Info);
         }
         $("#resortview-tel-not-found-message").text(this.message('TelNotFound'));
         this.displayListOrMessage($("#resortview-tel-list"), $("#resortview-tel-not-found"));
@@ -79,16 +79,16 @@ SkiPatrolEmergencyNumber.ViewResort = class ViewResort {
             );
         };
         if (resort.Website && resort.Website.ja) {
-            appendLink("image/icoon-mono-14258-snowman-D0D0D0.svg", this.message('OfficialSiteJa'), resort.Website.ja);
+            appendLink("/image/icoon-mono-14258-snowman-D0D0D0.svg", this.message('OfficialSiteJa'), resort.Website.ja);
         }
         if (resort.Website && resort.Website.en) {
-            appendLink("image/icoon-mono-14258-snowman-D0D0D0.svg", this.message('OfficialSiteEn'), resort.Website.en);
+            appendLink("/image/icoon-mono-14258-snowman-D0D0D0.svg", this.message('OfficialSiteEn'), resort.Website.en);
         }
         if (resort.Website && resort.Website.common) {
-            appendLink("image/icoon-mono-14258-snowman-D0D0D0.svg", this.message('OfficialSiteCommon'), resort.Website.common);
+            appendLink("/image/icoon-mono-14258-snowman-D0D0D0.svg", this.message('OfficialSiteCommon'), resort.Website.common);
         }
         if (resort.ExtWebsite && resort.ExtWebsite.en) {
-            appendLink("image/icoon-mono-14258-snowman-D0D0D0.svg", this.message('ExternalSite'), resort.ExtWebsite.en);
+            appendLink("/image/icoon-mono-14258-snowman-D0D0D0.svg", this.message('ExternalSite'), resort.ExtWebsite.en);
         }
         $("#resortview-link-not-found-message").text(this.message('LinkNotFound'));
         this.displayListOrMessage($("#resortview-link-list"), $("#resortview-link-not-found"));
@@ -154,4 +154,3 @@ SkiPatrolEmergencyNumber.ViewResort = class ViewResort {
         $("#resortview").hide();
     }
 }
-
