@@ -1424,34 +1424,6 @@
         "Aomori"
       ]
     },
-    "NohejiMakadoOnsen": {
-      "Name": {
-        "ja": "野辺地まかど温泉スキー場",
-        "en": "Noheji Makado Onsen"
-      },
-      "Website": {
-        "ja": "http://www.toutetsu.co.jp/ski.html"
-      },
-      "Tel": {
-        "Info": "0175-64-3138"
-      },
-      "Location": {
-        "Country": "JP",
-        "ZipCode": "039-3175",
-        "Address": {
-          "ja": "青森県上北郡野辺地町地続山1-1"
-        },
-        "Geometry": {
-          "Point": {
-            "Lng": 141.070759,
-            "Lat": 40.875297
-          }
-        }
-      },
-      "Groups": [
-        "Aomori"
-      ]
-    },
     "AomoriSpring": {
       "Name": {
         "ja": "青森スプリング・スキーリゾート",
@@ -1888,34 +1860,6 @@
           "Point": {
             "Lng": 141.190463,
             "Lat": 40.083368
-          }
-        }
-      },
-      "Groups": [
-        "Iwate"
-      ]
-    },
-    "Himekayu": {
-      "Name": {
-        "ja": "ひめかゆスキー場",
-        "en": "Himekayu"
-      },
-      "Website": {
-        "ja": "https://www.city.oshu.iwate.jp/site/kanko/39973.html"
-      },
-      "Tel": {
-        "Info": "0197-49-2106"
-      },
-      "Location": {
-        "Country": "JP",
-        "ZipCode": "023-0403",
-        "Address": {
-          "ja": "岩手県奥州市胆沢若柳字天沢17時番地"
-        },
-        "Geometry": {
-          "Point": {
-            "Lng": 140.9375,
-            "Lat": 39.118056
           }
         }
       },
@@ -4624,6 +4568,32 @@
         "Nagano"
       ]
     },
+    "Sanosaka": {
+      "Parent": "HakubaValley",
+      "Name": {
+        "ja": "白馬さのさか",
+        "en": "Sanosaka"
+      },
+      "Website": {
+        "ja": "https://sanosaka.jp/"
+      },
+      "Location": {
+        "Country": "JP",
+        "ZipCode": "399-9211",
+        "Address": {
+          "ja": "長野県北安曇郡白馬村神城458"
+        },
+        "Geometry": {
+          "Point": {
+            "Lng": 137.841677,
+            "Lat": 36.629392
+          }
+        }
+      },
+      "Groups": [
+        "Nagano"
+      ]
+    },
     "Kashimayari": {
       "Parent": "HakubaValley",
       "Name": {
@@ -4689,8 +4659,8 @@
     },
     "Asama2000": {
       "Name": {
-        "ja": "アサマ2000パーク",
-        "en": "Asama 2000 Park"
+        "ja": "高峰マウンテンパーク",
+        "en": "Takamine Mountain Park"
       },
       "Website": {
         "ja": "https://asama2000.com/"
@@ -5229,8 +5199,8 @@
     },
     "KoumiReex": {
       "Name": {
-        "ja": "小海リエックス・スキーバレー",
-        "en": "Koumi RE-EX Ski Valley"
+        "ja": "シャトレーゼスキーバレー小海",
+        "en": "Chateraise Ski Valley Koumi"
       },
       "Website": {
         "ja": "https://koumireex-skivalley.com/"
@@ -5288,8 +5258,8 @@
     },
     "YatsugatakeGoshodaira": {
       "Name": {
-        "ja": "シャトレーゼスキーリゾート八ケ岳",
-        "en": "Chateraise Ski Resort Yatsugatake"
+        "ja": "シャトレーゼスキーバレー野辺山",
+        "en": "Chateraise Ski Valley Nobeyama"
       },
       "Website": {
         "ja": "https://chateraise-skiresort.com/"
@@ -7985,6 +7955,34 @@
           "Point": {
             "Lng": 136.555717,
             "Lat": 36.072672
+          }
+        }
+      },
+      "Groups": [
+        "Fukui"
+      ]
+    },
+    "Imajo365": {
+      "Name": {
+        "ja": "今庄365スキー場",
+        "en": "Imajo 365"
+      },
+      "Website": {
+        "ja": "http://imajyo365.jp/"
+      },
+      "Tel": {
+        "Info": "0778-45-1115"
+      },
+      "Location": {
+        "Country": "JP",
+        "ZipCode": "919-0128",
+        "Address": {
+          "ja": "福井県南条郡南越前町板取85-36"
+        },
+        "Geometry": {
+          "Point": {
+            "Lng": 136.148318,
+            "Lat": 35.723223
           }
         }
       },

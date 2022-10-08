@@ -1136,6 +1136,8 @@ Resorts:
     Name:
       ja: 野辺地まかど温泉スキー場
       en: Noheji Makado Onsen
+    # 第二リフトの支柱が豪雨で倒れたため2022-2023シーズンは休業
+    Status: Disabled
     Website:
       ja: http://www.toutetsu.co.jp/ski.html
     Tel:
@@ -1510,8 +1512,10 @@ Resorts:
     Name:
       ja: ひめかゆスキー場
       en: Himekayu
+    # 2023シーズンは休業
+    Status: Disabled
     Website:
-      ja: https://www.city.oshu.iwate.jp/site/kanko/39973.html
+      ja: http://www17.plala.or.jp/himekayu/index.html
     Tel:
       # https://www.city.oshu.iwate.jp/site/kanko/39973.html
       # 11/26更新で電話番号が変わった？ 2105→2106
@@ -3680,6 +3684,29 @@ Resorts:
     Groups:
     - Nagano
 
+  Sanosaka:
+    Parent: HakubaValley
+    Name:
+      ja: 白馬さのさか
+      en: Sanosaka
+    Website:
+      ja: https://sanosaka.jp/
+    # 準備中
+    #Tel:
+    #  Info: 
+    #  Emergency:
+    Location:
+      Country: JP
+      ZipCode: 399-9211
+      Address:
+        ja: 長野県北安曇郡白馬村神城458
+      Geometry:
+        Point:
+          Lng: 137.841677
+          Lat: 36.629392
+    Groups:
+    - Nagano
+
   Kashimayari:
     Parent: HakubaValley
     Name:
@@ -3730,8 +3757,8 @@ Resorts:
 
   Asama2000:
     Name:
-      ja: アサマ2000パーク
-      en: Asama 2000 Park
+      ja: 高峰マウンテンパーク
+      en: Takamine Mountain Park
     Website:
       ja: https://asama2000.com/
     Tel:
@@ -4147,8 +4174,8 @@ Resorts:
 
   KoumiReex:
     Name:
-      ja: 小海リエックス・スキーバレー
-      en: Koumi RE-EX Ski Valley
+      ja: シャトレーゼスキーバレー小海
+      en: Chateraise Ski Valley Koumi
     Website:
       ja: https://koumireex-skivalley.com/
     Tel:
@@ -4193,8 +4220,8 @@ Resorts:
 
   YatsugatakeGoshodaira:
     Name:
-      ja: シャトレーゼスキーリゾート八ケ岳
-      en: Chateraise Ski Resort Yatsugatake
+      ja: シャトレーゼスキーバレー野辺山
+      en: Chateraise Ski Valley Nobeyama
     Website:
       ja: https://chateraise-skiresort.com/
     Tel:
@@ -6335,8 +6362,8 @@ Resorts:
     - Fukui
 
   Imajo365:
-    # 2021シーズンは営業しない、とのこと
-    Status: Disabled
+    # 2021シーズンは営業しなかった。2022から復活
+    # Status: Disabled
     Name:
       ja: 今庄365スキー場
       en: Imajo 365
