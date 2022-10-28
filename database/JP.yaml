@@ -792,6 +792,28 @@ Resorts:
     Groups:
     - Hokkaido
 
+  Kamoidake:
+    Name:
+      ja: かもい岳国際スキー場
+      en: Mt. Kamoi Kokusai Ski Resort
+    Website:
+      ja: https://www.kamoidake.co.jp/
+    Tel:
+      Info: 0125-74-5900
+      # TwitterのDMで確認
+      Emergency: 0125-74-5900
+    Location:
+      Country: JP
+      ZipCode: 073-0404
+      Address:
+        ja: 北海道歌志内市歌神95
+      Geometry:
+        Point:
+          Lng: 142.019199
+          Lat: 43.520558
+    Groups:
+    - Hokkaido
+
   SantaPresentPark:
     Name:
       ja: サンタプレゼントパーク マロースゲレンデ

@@ -1,5 +1,15 @@
 # Changelog
 
+## 2022-10-29
+- 1 ski resort and emergency phone number added
+
+## 2022-10-08
+- update for 2022-2023 season: ski resorts name change
+- 1 ski resort added
+
+## 2022-06-04
+- site renewal: ja/en separated
+
 ## 2022-05-31
 - 2 emergency phone numbers added
 
