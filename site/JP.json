@@ -161,12 +161,6 @@
         "ja": "大分県のスキー場",
         "en": "Ski Resorts in Oita"
       }
-    },
-    "Miyazaki": {
-      "Name": {
-        "ja": "宮崎県のスキー場",
-        "en": "Ski Resorts in Miyazaki"
-      }
     }
   },
   "Resorts": {
@@ -206,7 +200,8 @@
         "en": "Nakayama Touge"
       },
       "Website": {
-        "ja": "https://nakayama-ski.com/"
+        "ja": "https://nakayama-ski.com/",
+        "en": "https://nakayama-ski.com/?lang=en"
       },
       "Tel": {
         "Info": "0136-33-3373",
@@ -492,7 +487,7 @@
         "en": "Minami Furano"
       },
       "Website": {
-        "ja": "https://www.town.minamifurano.hokkaido.jp/all-facility/%E5%9B%BD%E8%A8%AD%E5%8D%97%E3%81%B5%E3%82%89%E3%81%AE%E3%82%B9%E3%82%AD%E3%83%BC%E5%A0%B4/"
+        "ja": "https://www.town.minamifurano.hokkaido.jp/all-facility/minamifuranoski/"
       },
       "Tel": {
         "Info": "0167-52-2143"
@@ -1657,9 +1652,6 @@
         "ja": "八幡平田山スキー場",
         "en": "Hachimantai Tayama"
       },
-      "Website": {
-        "ja": "https://www.city.hachimantai.lg.jp/soshiki/shisho-a/2021.html"
-      },
       "Tel": {
         "Info": "0195-73-2650"
       },
@@ -1826,9 +1818,6 @@
         "ja": "パノラマスキー場",
         "en": "Panorama"
       },
-      "Website": {
-        "ja": "https://www.hachimantai.co.jp/panorama/course/"
-      },
       "Tel": {
         "Info": "0195-78-2577",
         "Emergency": "0195-78-2577"
@@ -1848,9 +1837,6 @@
       "Name": {
         "ja": "下倉スキー場",
         "en": "Shimokura"
-      },
-      "Website": {
-        "ja": "https://www.hachimantai.co.jp/shimokura/shimokura-powder-station/"
       },
       "Tel": {
         "Info": "0195-78-3456",
@@ -1900,9 +1886,6 @@
       "Name": {
         "ja": "国見平スキー場",
         "en": "Kunimidaira"
-      },
-      "Website": {
-        "ja": "https://www.city.oshu.iwate.jp/soshiki/195/"
       },
       "Tel": {
         "Info": "0197-52-6611"
@@ -2158,7 +2141,7 @@
         "en": "Hanawa"
       },
       "Website": {
-        "ja": "http://www.alpas.jp/facility/ski/"
+        "ja": "https://www.alpas.jp/facility/ski/"
       },
       "Tel": {
         "Info": "0186-23-8000"
@@ -2270,7 +2253,7 @@
         "en": "Miyagi Zao Shichikashuku"
       },
       "Website": {
-        "ja": "https://ski-shichikashuku.com/winter.html"
+        "ja": "https://ski-shichikashuku.com/"
       },
       "Tel": {
         "Info": "0224-37-3111"
@@ -2442,7 +2425,7 @@
         "en": "Zao Onsen"
       },
       "Website": {
-        "ja": "http://www.zao-ski.or.jp/"
+        "ja": "https://www.zao-ski.or.jp/"
       },
       "Tel": {
         "Info": "023-694-9617",
@@ -2555,7 +2538,7 @@
         "en": "Gassan"
       },
       "Website": {
-        "ja": "https://gassankk.co.jp/gassan-ski/"
+        "ja": "https://gassankk.co.jp/gassan/information/"
       },
       "Tel": {
         "Info": "0237-75-2025",
@@ -3013,7 +2996,7 @@
         "en": "Grandee Hatoriko Ski Resort"
       },
       "Website": {
-        "ja": "http://hatoriko.com/"
+        "ja": "https://hatoriko.com/"
       },
       "Tel": {
         "Info": "0248-85-2024"
@@ -3056,34 +3039,6 @@
           "Point": {
             "Lng": 140.094658,
             "Lat": 37.575267
-          }
-        }
-      },
-      "Groups": [
-        "Fukushima"
-      ]
-    },
-    "FamilySnowParkBandai": {
-      "Name": {
-        "ja": "ファミリースノーパーク ばんだいx2",
-        "en": "Family Snow Park Bandai Bandai"
-      },
-      "Website": {
-        "ja": "http://www.bandai-bandai.jp/"
-      },
-      "Tel": {
-        "Info": "0242-93-8530"
-      },
-      "Location": {
-        "Country": "JP",
-        "ZipCode": "969-3101",
-        "Address": {
-          "ja": "福島県耶麻郡猪苗代町ぐみ沢原7092-8"
-        },
-        "Geometry": {
-          "Point": {
-            "Lng": 140.118832,
-            "Lat": 37.592723
           }
         }
       },
@@ -3266,9 +3221,6 @@
         "ja": "喜多方市三ノ倉スキー場",
         "en": "Kitakata Sannokura"
       },
-      "Website": {
-        "ja": "https://www.city.kitakata.fukushima.jp/soshiki/sangyo-a/22906.html"
-      },
       "Tel": {
         "Info": "0241-36-2071"
       },
@@ -3407,34 +3359,6 @@
         "Tochigi"
       ]
     },
-    "NasuOnsenFamily": {
-      "Name": {
-        "ja": "那須温泉ファミリースキー場",
-        "en": "Nasu Onsen Family Ski Resort"
-      },
-      "Website": {
-        "ja": "https://familyskiresort-nasu.com/"
-      },
-      "Tel": {
-        "Info": "0287-76-2567"
-      },
-      "Location": {
-        "Country": "JP",
-        "ZipCode": "325-0301",
-        "Address": {
-          "ja": "那須郡那須町大字湯本字那須岳国有林内"
-        },
-        "Geometry": {
-          "Point": {
-            "Lng": 139.982881,
-            "Lat": 37.118794
-          }
-        }
-      },
-      "Groups": [
-        "Tochigi"
-      ]
-    },
     "NikkoYumoto": {
       "Name": {
         "ja": "日光湯元温泉スキー場",
@@ -3469,8 +3393,8 @@
         "en": "White World Oze Iwakura"
       },
       "Website": {
-        "ja": "http://www.oze-iwakura.co.jp/ski/",
-        "en": "http://www.oze-iwakura.co.jp/ski/language/en/"
+        "ja": "https://www.oze-iwakura.co.jp/ski/",
+        "en": "https://www.oze-iwakura.co.jp/ski/language/en/"
       },
       "Tel": {
         "Info": "0278-58-7777",
@@ -4136,8 +4060,8 @@
         "en": "Shigakogen Mountain Resort"
       },
       "Website": {
-        "ja": "https://www.shigakogen-ski.com/",
-        "en": "https://www.shigakogen-ski.com/en/"
+        "ja": "https://shigakogen-ski.or.jp/",
+        "en": "https://www.shigakogen-ski.or.jp/english/"
       },
       "Tel": {
         "Info": null
@@ -4167,8 +4091,8 @@
         "en": "Shiga Kogen Central Area"
       },
       "Website": {
-        "ja": "https://www.shigakogen-ski.com/",
-        "en": "https://www.shigakogen-ski.com/en/"
+        "ja": "https://shigakogen-ski.or.jp/",
+        "en": "https://www.shigakogen-ski.or.jp/english/"
       },
       "Tel": {
         "Info": "0269-34-2301"
@@ -4546,7 +4470,7 @@
         "en": "https://www.hakunori.com/en/"
       },
       "Tel": {
-        "Info": "0261-82-2811",
+        "Info": "0261-82-2821",
         "Emergency": "0261-82-3923"
       },
       "Location": {
@@ -4631,9 +4555,6 @@
       },
       "Website": {
         "ja": "https://www.kashimayari.net/snow/"
-      },
-      "ExtWebsite": {
-        "en": "https://japan-skiguide.com/guide/htm/r0196ens.htm"
       },
       "Tel": {
         "Info": "0261-23-1231",
@@ -5148,7 +5069,7 @@
         "en": "Kurumayama Kogen Ski Resort"
       },
       "Website": {
-        "ja": "https://www.kurumayama.co.jp/winter/",
+        "ja": "https://winter.kurumayama-skypark.com/",
         "en": "https://www.kurumayama.com/english/winter.html"
       },
       "Tel": {
@@ -5569,7 +5490,7 @@
         "en": "Sakae Club"
       },
       "Website": {
-        "ja": "http://www.sakaeclub.jp/"
+        "ja": "http://sakaeclub.jp/"
       },
       "Tel": {
         "Info": "0269-87-3355",
@@ -6143,7 +6064,8 @@
         "en": "Meiho Resort"
       },
       "Website": {
-        "ja": "https://www.meihoski.co.jp/winter/"
+        "ja": "https://www.meihoski.co.jp/winter/",
+        "en": "https://www.meihoski.co.jp/winter/en/"
       },
       "Tel": {
         "Info": "0575-87-2811"
@@ -6344,7 +6266,7 @@
         "en": "Snow Wave Park Shiratori Kogen"
       },
       "Website": {
-        "ja": "http://www.siratori-k.jp/swp/"
+        "ja": "https://siratori-k.jp/swp/"
       },
       "Tel": {
         "Info": "0575-86-3111",
@@ -6464,7 +6386,7 @@
         "en": "Hida Hounokidaira Winter Resort"
       },
       "Website": {
-        "ja": "http://www.hounoki-daira.or.jp/"
+        "ja": "https://hounoki-daira.com/"
       },
       "Tel": {
         "Info": "0577-79-2244"
@@ -6778,7 +6700,8 @@
         "en": "Lotte Arai Resort"
       },
       "Website": {
-        "ja": "https://www.lottehotel.com/arai-resort/ja/ski-webzine.html"
+        "ja": "https://www.lottehotel.com/arai-resort/ja/ski-webzine.html",
+        "en": "https://www.lottehotel.com/arai-resort/en/ski-webzine.html"
       },
       "Tel": {
         "Info": "0255-75-1177",
@@ -7089,7 +7012,9 @@
         "en": "Akakura Kanko Resort"
       },
       "Website": {
-        "ja": "https://akr-ski.com/",
+        "ja": "https://akr-ski.com/"
+      },
+      "ExtWebsite": {
         "en": "https://www.snowjapan.com/japan-ski-resorts/akakura-kanko-resort"
       },
       "Tel": {
@@ -7118,7 +7043,8 @@
         "en": "Akakura Onsen Ski Area"
       },
       "Website": {
-        "ja": "https://akakura-ski.com/"
+        "ja": "https://akakura-ski.com/",
+        "en": "https://akakura-ski.com/english/"
       },
       "Tel": {
         "Info": "0255-87-2125"
@@ -7457,6 +7383,9 @@
       "Website": {
         "ja": "https://www.yukidaruma-kogen.com/winter.html"
       },
+      "ExtWebsite": {
+        "en": "https://www.snowjapan.com/japan-ski-resorts/cupid-valley"
+      },
       "Tel": {
         "Info": "025-593-2041",
         "Emergency": "025-593-2041"
@@ -7739,7 +7668,7 @@
         "en": "Tateyama Sanroku"
       },
       "Website": {
-        "ja": "http://www.tateyama36.co.jp/ski/"
+        "ja": "https://www.tateyama36.co.jp/"
       },
       "Tel": {
         "Info": "076-482-1311",
@@ -7882,7 +7811,7 @@
         "en": "Hakusan Seymour"
       },
       "Website": {
-        "ja": "http://sam-hakusan.com/seymour/",
+        "ja": "https://sam-hakusan.com/seymour/",
         "en": "http://www.sam-hakusan-en.com/seymour.html"
       },
       "Tel": {
@@ -7991,34 +7920,6 @@
         "Fukui"
       ]
     },
-    "Imajo365": {
-      "Name": {
-        "ja": "今庄365スキー場",
-        "en": "Imajo 365"
-      },
-      "Website": {
-        "ja": "http://imajyo365.jp/"
-      },
-      "Tel": {
-        "Info": "0778-45-1115"
-      },
-      "Location": {
-        "Country": "JP",
-        "ZipCode": "919-0128",
-        "Address": {
-          "ja": "福井県南条郡南越前町板取85-36"
-        },
-        "Geometry": {
-          "Point": {
-            "Lng": 136.148318,
-            "Lat": 35.723223
-          }
-        }
-      },
-      "Groups": [
-        "Fukui"
-      ]
-    },
     "FukuiIzumi": {
       "Name": {
         "ja": "福井和泉スキー場",
@@ -8028,7 +7929,7 @@
         "ja": "https://fukuiizumi.com/"
       },
       "Tel": {
-        "Info": "0779-78-2711"
+        "Info": "0779-78-2211"
       },
       "Location": {
         "Country": "JP",
@@ -8780,7 +8681,7 @@
         "en": "Hiruzen Bear Valley"
       },
       "Website": {
-        "ja": "http://ww51.tiki.ne.jp/~bear-ski/"
+        "ja": "https://bear-ski.amebaownd.com/"
       },
       "Tel": {
         "Info": "0867-66-5333"
@@ -8919,16 +8820,13 @@
         "ja": "道後山高原スキー場",
         "en": "Dogoyama Kogen"
       },
-      "Website": {
-        "ja": "http://www.dogoyamakogen.server-shared.com/"
-      },
       "Tel": {
         "Info": "0824-84-2105"
       },
       "Location": {
         "Country": "JP",
         "Address": {
-          "ja": "広島県庄原市西城町三坂　　TEL"
+          "ja": "広島県庄原市西城町三坂73"
         },
         "Geometry": {
           "Point": {
@@ -9168,34 +9066,6 @@
       },
       "Groups": [
         "Oita"
-      ]
-    },
-    "Gokase": {
-      "Name": {
-        "ja": "五ヶ瀬ハイランドスキー場",
-        "en": "Gokase Highland"
-      },
-      "Website": {
-        "ja": "http://www.gokase.co.jp/ski/"
-      },
-      "Tel": {
-        "Info": "0982-83-2144"
-      },
-      "Location": {
-        "Country": "JP",
-        "ZipCode": "882-1201",
-        "Address": {
-          "ja": "宮崎県西臼杵郡五ケ瀬町大字鞍岡4647-171"
-        },
-        "Geometry": {
-          "Point": {
-            "Lng": 131.117745,
-            "Lat": 32.579031
-          }
-        }
-      },
-      "Groups": [
-        "Miyazaki"
       ]
     }
   }
