@@ -1,5 +1,9 @@
 # Changelog
 
+## 2023-06-17
+- 1 ski resort added
+- Stylesheet improved
+
 ## 2022-10-29
 - 1 ski resort and emergency phone number added
 

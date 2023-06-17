@@ -3417,6 +3417,34 @@
         "Gunma"
       ]
     },
+    "OgnaHotaka": {
+      "Name": {
+        "ja": "オグナほたかスキー場",
+        "en": "Ogna Hotaka Snow Resort"
+      },
+      "Website": {
+        "ja": "https://k-hotaka.jp/ogna/"
+      },
+      "Tel": {
+        "Info": "0278-58-2133"
+      },
+      "Location": {
+        "Country": "JP",
+        "ZipCode": "378-0408",
+        "Address": {
+          "ja": "群馬県利根郡片品村花咲字武尊山"
+        },
+        "Geometry": {
+          "Point": {
+            "Lng": 139.172584,
+            "Lat": 36.776817
+          }
+        }
+      },
+      "Groups": [
+        "Gunma"
+      ]
+    },
     "Marunuma": {
       "Name": {
         "ja": "丸沼高原",

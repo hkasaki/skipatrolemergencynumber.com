@@ -2,6 +2,7 @@
 body {
     height: 100vh;
     height: calc(var(--vh, 1vh) * 100);
+    height: 100dvh;
     display: grid;
     grid-template-rows: auto 1fr auto;
     overflow: hidden;
@@ -75,6 +76,7 @@ header {
 
 #mapview-list {
     height: calc(50vh - 3em - 10px);
+    height: calc(50dvh - 3em - 10px);
     width: calc(100vw - 10px);
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
@@ -91,6 +93,7 @@ header {
 
 #mapview-map {
     height: calc(50vh);
+    height: calc(50dvh);
     width: 100vw;
 }
 
@@ -101,6 +104,7 @@ header {
 
 #resortview {
     height: calc(100vh - 3em);
+    height: calc(100dvh - 3em);
     overflow-y: auto;
 }
 
@@ -193,6 +197,7 @@ ul {
 
 .listview {
     height: calc(100vh - 3em);
+    height: calc(100dvh - 3em);
     overflow-y: auto;
 }
 
@@ -205,6 +210,7 @@ select {
 
 #configview {
     height: calc(100vh - 3em);
+    height: calc(100dvh - 3em);
     overflow-y: auto;
 }
 
@@ -216,6 +222,7 @@ select {
 
 #readview {
     height: calc(100vh - 3em);
+    height: calc(100dvh - 3em);
     overflow-y: auto;
 }
 
