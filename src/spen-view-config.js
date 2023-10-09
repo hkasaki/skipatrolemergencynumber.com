@@ -1,18 +1,16 @@
 
-/* jshint esversion: 8 */
-
 // Copyright (c) Hirotaka KASAKI
 
 import { setPreferredLanguageToCookie, getPageUrlForLanguage } from "./spen-i18n.js";
-import $ from "jquery";
 
 export default class ViewConfig {
     constructor(i18n, registry) {
         this.i18n = i18n;
         this.registry = registry;
 
-        $("#configview-language-select").change(function() {
-            const lang = $(this).val();
+        const languageSelect = document.getElementById("configview-language-select");
+        languageSelect.addEventListener("change", (e) => {
+            const lang = e.target.value;
             setPreferredLanguageToCookie(lang);
             location.href = getPageUrlForLanguage(lang);
         });
@@ -22,10 +20,10 @@ export default class ViewConfig {
     }
 
     show() {
-        $("#configview").show();
+        document.getElementById("configview").style.display = "block";
     }
 
     hide() {
-        $("#configview").hide();
+        document.getElementById("configview").style.display = "none";
     }
 }

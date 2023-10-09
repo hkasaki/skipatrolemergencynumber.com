@@ -1,10 +1,7 @@
 
-/* jshint esversion: 8 */
-
 // Copyright (c) Hirotaka KASAKI
 
 import { Messages } from "./spen-i18n.js";
-import $ from "jquery";
 
 export default class ViewList {
     constructor(i18n, registry, viewResort) {
@@ -12,20 +9,39 @@ export default class ViewList {
         this.registry = registry;
         this.viewResort = viewResort;
 
-        const self = this;
-        $("#listview-group-select").change(function() {
-            const groupId = $(this).val();
-            if (groupId !== "#none") {
-                const resorts = registry.getGroupChildren(groupId);
-                self.resetGroupMember(resorts);
-            }
-        });
+        this.initializeGroupSelectElement();
+        this.initializeGroupMemberSelectElement();
+    }
 
-        $("#listview-group-member-select").change(function() {
-            const resortId = $(this).val();
+    getGroupSelectElement() {
+        return document.getElementById("listview-group-select");
+    }
+
+    getGroupMemberSelectElement() {
+        return document.getElementById("listview-group-member-select");
+    }
+
+    initializeGroupSelectElement() {
+        const groupSelectElem = this.getGroupSelectElement();
+        groupSelectElem.addEventListener("change", (e) => {
+            const groupId = e.target.value;
+            if (groupId === "#none") {
+                this.resetGroupMember([]);
+            }
+            else {
+                const resorts = this.registry.getGroupChildren(groupId);
+                this.resetGroupMember(resorts);
+            }
+        })
+    }
+
+    initializeGroupMemberSelectElement() {
+        const groupMemberSelectElem = this.getGroupMemberSelectElement();
+        groupMemberSelectElem.addEventListener("change", (e) => {
+            const resortId = e.target.value;
             if (resortId !== "#none") {
-                const resort = registry.getFromKey(resortId);
-                viewResort.resortSelected(resort);
+                const resort = this.registry.getFromKey(resortId);
+                this.viewResort.resortSelected(resort);
             }
         });
     }
@@ -34,32 +50,40 @@ export default class ViewList {
         return this.i18n.t(Messages[key]);
     }
 
+    createOptionNode(value, text) {
+        const optionElem = document.createElement("option");
+        optionElem.setAttribute("value", value);
+        optionElem.textContent = text;
+        return optionElem;
+    }
+
     render() {
-        $("#listview-group-select").children().remove();
-        $("#listview-group-select").append(`<option value="#none">${this.message("SelectGroup")}</option>`);
+        const groupSelectElem = this.getGroupSelectElement();
+        groupSelectElem.innerHTML = "";
+
+        groupSelectElem.appendChild(this.createOptionNode("#none", this.message("SelectGroup")));
         for (const group of this.registry.getGroupList()) {
-            $("#listview-group-select").append(
-                `<option value="${group.Id}">${this.i18n.t(group.Name)}</option>`
-            );
+            groupSelectElem.appendChild(this.createOptionNode(group.Id, this.i18n.t(group.Name)));
         }
+
         this.resetGroupMember([]);
     }
 
     resetGroupMember(resorts) {
-        $("#listview-group-member-select").children().remove();
-        $("#listview-group-member-select").append(`<option value="#none">${this.message("SelectSkiResort")}</option>`);
+        const groupMemberSelectElem = this.getGroupMemberSelectElement();
+        groupMemberSelectElem.innerHTML = "";
+
+        groupMemberSelectElem.appendChild(this.createOptionNode("#none", this.message("SelectSkiResort")));
         for (const resort of resorts) {
-            $("#listview-group-member-select").append(
-                `<option value="${resort.Id}">${this.i18n.t(resort.Name)}</option>`
-            );
+            groupMemberSelectElem.appendChild(this.createOptionNode(resort.Id, this.i18n.t(resort.Name)));
         }
     }
 
     show() {
-        $("#listview").show();
+        document.getElementById("listview").style.display = "block";
     }
 
     hide() {
-        $("#listview").hide();
+        document.getElementById("listview").style.display = "none";
     }
 }

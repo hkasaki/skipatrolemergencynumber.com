@@ -1,10 +1,7 @@
 
-/* jshint esversion: 8 */
-
 // Copyright (c) Hirotaka KASAKI
 
 import Map from "./spen-map.js";
-import $ from "jquery";
 
 export default class ViewMap {
     constructor(i18n, registry, resortView) {
@@ -28,19 +25,28 @@ export default class ViewMap {
 
     render() {
         const nearestResorts = this.registry.getNearestResorts(5);
-        $("#mapview-list").children().remove();
+        const listElem = document.getElementById("mapview-list");
+        listElem.innerHTML = "";
+        const reservedProc = [];
+
         for (const resortInfo of nearestResorts) {
             const resort = resortInfo.resort;
             const id = `resort-mapview-${resort.Id}`;
             const name = this.i18n.t(resort.Name);
-            $("#mapview-list").append(
-                `<div class="mapview-list-element" id="${id}">` +
-                  `<div class="mapview-list-element-resort-name">${name}</div>` +
-                "</div>"
-            );
-            $(`#${id}`).on("click", ()=>{
-                this.resortView.resortSelected(resort);
+            const newElem = document.createElement("div");
+            newElem.id = id;
+            newElem.className = "mapview-list-element";
+            newElem.innerHTML = `<div class="mapview-list-element-resort-name">${name}</div>`;
+            listElem.appendChild(newElem);
+            reservedProc.push( () => {
+                const elem = document.getElementById(id);
+                elem.addEventListener("click", () => {
+                    this.resortView.resortSelected(resort);
+                });
             });
+        }
+        for (const proc of reservedProc) {
+            proc();
         }
     }
 
@@ -61,10 +67,10 @@ export default class ViewMap {
     }
 
     show() {
-        $("#mapview").show();
+        document.getElementById("mapview").style.display = "grid";
     }
 
     hide() {
-        $("#mapview").hide();
+        document.getElementById("mapview").style.display = "none";
     }
 }

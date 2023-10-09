@@ -9,6 +9,8 @@ module.exports = {
   devServer: {
     static: {
         directory: path.join(__dirname, "./site")
-    }
+    },
+    hot: true,
+    watchFiles: ["src/**/*.js"]
   }
 };

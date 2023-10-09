@@ -8,7 +8,6 @@ import ViewResort from "./spen-view-resort.js";
 import ViewMap from "./spen-view-map.js";
 import ViewList from "./spen-view-list.js";
 import ViewConfig from "./spen-view-config.js";
-import $ from "jquery";
 
 // viewport fix
 (() => {
@@ -20,8 +19,7 @@ import $ from "jquery";
     window.addEventListener("resize", setVh);
 })();
 
-$(async() => {
-
+document.addEventListener("DOMContentLoaded", async() => {
     //function safeHtml(s) {
     //    return s.replace(/&/g, '&amp;')
     //        .replace(/</g, '&lt;')
@@ -80,9 +78,10 @@ $(async() => {
 
     viewResort.setOnSelected(() => { displayPage("resort"); });
 
-    $("#menu-map").on("click", () => { displayPage("map"); });
-    $("#menu-list").on("click", () => { displayPage("list"); });
-    $("#menu-config").on("click", () => { displayPage("config"); });
+    for (const key of ["map", "list", "config"]) {
+        const elem = document.getElementById(`menu-${key}`);
+        elem.addEventListener("click", () => { displayPage(key); });
+    }
 
     displayPage("map"); // default
 });

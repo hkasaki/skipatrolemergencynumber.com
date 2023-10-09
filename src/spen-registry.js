@@ -38,7 +38,6 @@ export default class Registry {
             this.resorts[resortKey] = resort;
 
             // set group
-            // TODO: NOT TESTED YET
             for (const groupKey of (resort.Groups || [])) {
                 this.groupIdToResortKeyList[groupKey].push(resortKey);
             }
@@ -56,8 +55,6 @@ export default class Registry {
                 }
             }
         }
-
-        // set groups
     }
 
     parse(zoomLevel, listener) {

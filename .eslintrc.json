@@ -1,7 +1,6 @@
 {
     "extends": [
-        "eslint:recommended",
-        "jquery"
+        "eslint:recommended"
     ],
     "plugins": [],
     "parserOptions": {
@@ -14,7 +13,6 @@
     },
     "ignorePatterns": ["site/ol/ol.js"],
     "globals": {
-        "$": true,
         "ol": true,
         "geolib": true
     },
@@ -27,6 +25,7 @@
         "lines-around-comment": ["off"],
         "comma-dangle": ["off"],
         "array-bracket-spacing": ["off"],
-        "object-curly-spacing": ["off"]
+        "object-curly-spacing": ["off"],
+        "no-unused-vars": ["error", {"argsIgnorePattern": "^_"}]
     }
 }
