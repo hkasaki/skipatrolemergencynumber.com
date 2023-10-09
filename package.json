@@ -4,12 +4,14 @@
   "description": "site skipatrolemergencynumber.com development",
   "main": "index.js",
   "scripts": {
-    "lint": "./node_modules/eslint/bin/eslint.js site/",
-    "lint:fix": "./node_modules/eslint/bin/eslint.js site/ --fix",
-    "build": "python ./build.py",
-    "deploy:staging": "aws s3 sync site/ s3://test.skipatrolemergencynumber.com/",
+    "lint": "./node_modules/.bin/eslint src/",
+    "lint:fix": "./node_modules/.bin/eslint src/ --fix",
+    "build:data": "python ./build.py",
+    "build:site:development": "./node_modules/.bin/webpack --mode development",
+    "build:site:production": "./node_modules/.bin/webpack --mode production",
+    "deploy:development": "aws s3 sync site/ s3://test.skipatrolemergencynumber.com/",
     "deploy:production": "aws s3 sync site/ s3://skipatrolemergencynumber.com/",
-    "local-server": "./node_modules/http-server/bin/http-server site -c-1 -p 3000"
+    "local-server": "./node_modules/.bin/http-server site -c-1 -p 3000"
   },
   "repository": {
     "type": "git",
@@ -22,8 +24,15 @@
   },
   "homepage": "https://github.com/hkasaki/skipatrolemergencynumber.com#readme",
   "devDependencies": {
-    "http-server": "14.1.1",
-    "eslint": "8.51.0",
-    "eslint-config-jquery": "3.0.1"
+    "eslint": "^8.51.0",
+    "eslint-config-jquery": "^3.0.1",
+    "http-server": "^14.1.1",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "geolib": "^3.3.4",
+    "jquery": "^3.7.1",
+    "ol": "^8.1.0"
   }
 }
