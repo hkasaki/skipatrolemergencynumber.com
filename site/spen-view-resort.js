@@ -3,7 +3,9 @@
 
 // Copyright (c) Hirotaka KASAKI 
 
-SkiPatrolEmergencyNumber.ViewResort = class ViewResort {
+import { Messages } from "./spen-i18n.js";
+
+export default class ViewResort {
     constructor(i18n, registry) {
         this.i18n = i18n;
         this.registry = registry;
@@ -15,7 +17,7 @@ SkiPatrolEmergencyNumber.ViewResort = class ViewResort {
     }
 
     message(key) {
-        return this.i18n.t(SkiPatrolEmergencyNumber.Messages[key]);
+        return this.i18n.t(Messages[key]);
     }
 
     displayListOrMessage(jqList, jqNotFound) {

@@ -3,7 +3,9 @@
 
 // Copyright (c) Hirotaka KASAKI 
 
-SkiPatrolEmergencyNumber.ViewConfig = class ViewConfig {
+import { setPreferredLanguageToCookie, getPageUrlForLanguage } from "./spen-i18n.js";
+
+export default class ViewConfig {
     constructor(i18n, registry) {
         this.i18n = i18n;
         this.registry = registry;
@@ -11,8 +13,8 @@ SkiPatrolEmergencyNumber.ViewConfig = class ViewConfig {
         const self = this;
         $("#configview-language-select").change(function() {
             const lang = $(this).val();
-            SkiPatrolEmergencyNumber.setPreferredLanguageToCookie(lang);
-            location.href = SkiPatrolEmergencyNumber.getPageUrlForLanguage(lang);
+            setPreferredLanguageToCookie(lang);
+            location.href = getPageUrlForLanguage(lang);
         });
     }
 

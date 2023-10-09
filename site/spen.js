@@ -1,7 +1,13 @@
 
-/* jshint esversion: 8 */
-
 // Copyright (c) Hirotaka KASAKI 
+
+import { I18n, getCurrentPageLanguage } from "./spen-i18n.js";
+import DataSource from "./spen-datasource.js";
+import Registry from "./spen-registry.js";
+import ViewResort from "./spen-view-resort.js";
+import ViewMap from "./spen-view-map.js";
+import ViewList from "./spen-view-list.js";
+import ViewConfig from "./spen-view-config.js";
 
 // viewport fix
 (() => {
@@ -13,7 +19,7 @@
     window.addEventListener('resize', setVh);
 })();
 
-$(async ()=>{
+$(async() => {
 
     function safeHtml(s) {
         return s.replace(/&/g, '&amp;')
@@ -24,17 +30,17 @@ $(async ()=>{
     }
     const version = 8;
 
-    const i18n = new SkiPatrolEmergencyNumber.I18n();
-    i18n.setLanguage(SkiPatrolEmergencyNumber.getCurrentPageLanguage());
-    const dataSource = new SkiPatrolEmergencyNumber.DataSource(true); // debug
+    const i18n = new I18n();
+    i18n.setLanguage(getCurrentPageLanguage());
+    const dataSource = new DataSource(true); // debug
     const location = await dataSource.prmGetCurrentLocation(version);
-    const registry = new SkiPatrolEmergencyNumber.Registry(dataSource);
+    const registry = new Registry(dataSource);
 
-    const viewResort = new SkiPatrolEmergencyNumber.ViewResort(i18n, registry);
-    const viewMap = new SkiPatrolEmergencyNumber.ViewMap(i18n, registry, viewResort);
+    const viewResort = new ViewResort(i18n, registry);
+    const viewMap = new ViewMap(i18n, registry, viewResort);
     await viewMap.prmInitialize(location);
-    const viewList = new SkiPatrolEmergencyNumber.ViewList(i18n, registry, viewResort);
-    const viewConfig = new SkiPatrolEmergencyNumber.ViewConfig(i18n, registry);
+    const viewList = new ViewList(i18n, registry, viewResort);
+    const viewConfig = new ViewConfig(i18n, registry);
 
     const views = {
         list: viewList,

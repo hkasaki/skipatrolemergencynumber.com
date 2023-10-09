@@ -1,11 +1,7 @@
 
-/* jshint esversion: 8 */
-
 // Copyright (c) Hirotaka KASAKI 
 
-var SkiPatrolEmergencyNumber = SkiPatrolEmergencyNumber || {};
-
-SkiPatrolEmergencyNumber.DataSource = class DataSource {
+export default class DataSource {
     constructor(isDebug) {
         this.isDebug = isDebug;
     }

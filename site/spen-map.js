@@ -1,11 +1,7 @@
 
-/* jshint esversion: 8 */
-
 // Copyright (c) Hirotaka KASAKI 
 
-var SkiPatrolEmergencyNumber = SkiPatrolEmergencyNumber || {};
-
-SkiPatrolEmergencyNumber.Map = class Map {
+export default class Map {
     constructor(id) {
         this.id = id;
         this.map = null;

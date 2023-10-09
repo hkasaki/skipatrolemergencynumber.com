@@ -3,12 +3,14 @@
 
 // Copyright (c) Hirotaka KASAKI 
 
-SkiPatrolEmergencyNumber.ViewMap = class ViewMap {
+import Map from "./spen-map.js";
+
+export default class ViewMap {
     constructor(i18n, registry, resortView) {
         this.i18n = i18n;
         this.registry = registry;
         this.resortView = resortView;
-        this.map = new SkiPatrolEmergencyNumber.Map('mapview-map');
+        this.map = new Map('mapview-map');
     }
 
     async prmInitialize(location) {

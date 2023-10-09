@@ -1,11 +1,7 @@
 
-/* jshint esversion: 8 */
-
 // Copyright (c) Hirotaka KASAKI 
 
-var SkiPatrolEmergencyNumber = SkiPatrolEmergencyNumber || {};
-
-SkiPatrolEmergencyNumber.Registry = class Registry {
+export default class Registry {
     constructor(dataSource) {
         this.resorts = {};
 

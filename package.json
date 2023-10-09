@@ -1,0 +1,28 @@
+{
+  "name": "skipatrolemergencynumber",
+  "version": "1.0.0",
+  "description": "site skipatrolemergencynumber.com development",
+  "main": "index.js",
+  "scripts": {
+    "lint": "./node_modules/eslint/bin/eslint.js",
+    "build": "python ./build.py",
+    "deploy:staging": "aws s3 sync site/ s3://test.skipatrolemergencynumber.com/",
+    "deploy:production": "aws s3 sync site/ s3://skipatrolemergencynumber.com/",
+    "local-server": "./node_modules/http-server/bin/http-server site -c-1 -p 3000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hkasaki/skipatrolemergencynumber.com.git"
+  },
+  "author": "hkasaki",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/hkasaki/skipatrolemergencynumber.com/issues"
+  },
+  "homepage": "https://github.com/hkasaki/skipatrolemergencynumber.com#readme",
+  "devDependencies": {
+    "http-server": "14.1.1",
+    "eslint": "8.51.0",
+    "eslint-config-jquery": "3.0.1"
+  }
+}

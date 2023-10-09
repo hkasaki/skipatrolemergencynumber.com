@@ -1,11 +1,7 @@
 
-/* jshint esversion: 8 */
-
 // Copyright (c) Hirotaka KASAKI 
 
-var SkiPatrolEmergencyNumber = SkiPatrolEmergencyNumber || {};
-
-SkiPatrolEmergencyNumber.Messages = {
+export const Messages = {
     TelNotFound: {
         ja: '電話番号が見つかりません',
         en: 'Phone Number Not Found',
@@ -48,7 +44,7 @@ SkiPatrolEmergencyNumber.Messages = {
     },
 };
 
-SkiPatrolEmergencyNumber.getPreferredLanguageFromCookie = function() {
+const getPreferredLanguageFromCookie = function() {
     for(let kv of document.cookie.split(';')) {
         const [key, value] = kv.split('=');
         if (key === "lang") {
@@ -58,16 +54,16 @@ SkiPatrolEmergencyNumber.getPreferredLanguageFromCookie = function() {
     return "";
 };
 
-SkiPatrolEmergencyNumber.setPreferredLanguageToCookie = function(language) {
+export const setPreferredLanguageToCookie = function(language) {
     const oneWeek = 60*60*24*7;
     document.cookie = `lang=${language};max-age=${oneWeek};path=/`;
 };
 
-SkiPatrolEmergencyNumber.cleanUpCookie = function() {
+const cleanUpCookie = function() {
     document.cookie = 'lang=en;max-age=0;path=/';
 };
 
-SkiPatrolEmergencyNumber.getBrowserLanguage = function() {
+const getBrowserLanguage = function() {
     const language =
         (window.navigator.languages && window.navigator.languages[0]) ||
         window.navigator.language ||
@@ -76,17 +72,17 @@ SkiPatrolEmergencyNumber.getBrowserLanguage = function() {
     return language === 'ja' ? 'ja' : 'en';
 };
 
-SkiPatrolEmergencyNumber.getCurrentPageLanguage = function() {
+export const getCurrentPageLanguage = function() {
     return location.pathname.startsWith("/ja") ? 'ja' : 'en';
 };
 
-SkiPatrolEmergencyNumber.getPageUrlForLanguage = function(language) {
+export const getPageUrlForLanguage = function(language) {
     return `${location.protocol}//${location.host}/` + (language === 'ja' ? 'ja/' : '');
 };
 
-SkiPatrolEmergencyNumber.I18n = class I18n {
+export const I18n = class I18n {
     constructor() {
-        this.language = SkiPatrolEmergencyNumber.getBrowserLanguage();
+        this.language = getBrowserLanguage();
     }
 
     setLanguage(language) {
@@ -112,11 +108,11 @@ SkiPatrolEmergencyNumber.I18n = class I18n {
 }
 
 //SkiPatrolEmergencyNumber.cleanUpCookie();
-let userLanguage = SkiPatrolEmergencyNumber.getPreferredLanguageFromCookie();
+let userLanguage = getPreferredLanguageFromCookie();
 if(!userLanguage) {
-    userLanguage = SkiPatrolEmergencyNumber.getBrowserLanguage();
+    userLanguage = getBrowserLanguage();
 }
-const currentPageLanguage = SkiPatrolEmergencyNumber.getCurrentPageLanguage();
+const currentPageLanguage = getCurrentPageLanguage();
 if(userLanguage !== currentPageLanguage) {
-    location.href = SkiPatrolEmergencyNumber.getPageUrlForLanguage(userLanguage);
+    location.href = getPageUrlForLanguage(userLanguage);
 }
