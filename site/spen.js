@@ -1,5 +1,5 @@
 
-// Copyright (c) Hirotaka KASAKI 
+// Copyright (c) Hirotaka KASAKI
 
 import { I18n, getCurrentPageLanguage } from "./spen-i18n.js";
 import DataSource from "./spen-datasource.js";
@@ -13,21 +13,21 @@ import ViewConfig from "./spen-view-config.js";
 (() => {
     const setVh = () => {
         let vh = window.innerHeight * 0.01;
-        document.documentElement.style.setProperty('--vh', `${vh}px`);
+        document.documentElement.style.setProperty("--vh", `${vh}px`);
     };
     setVh();
-    window.addEventListener('resize', setVh);
+    window.addEventListener("resize", setVh);
 })();
 
 $(async() => {
 
-    function safeHtml(s) {
-        return s.replace(/&/g, '&amp;')
-            .replace(/</g, '&lt;')
-            .replace(/>/g, '&gt;')
-            .replace(/"/g, '&quot;')
-            .replace(/'/g, '&#39;');
-    }
+    //function safeHtml(s) {
+    //    return s.replace(/&/g, '&amp;')
+    //        .replace(/</g, '&lt;')
+    //        .replace(/>/g, '&gt;')
+    //        .replace(/"/g, '&quot;')
+    //        .replace(/'/g, '&#39;');
+    //}
     const version = 8;
 
     const i18n = new I18n();
@@ -52,7 +52,7 @@ $(async() => {
     let prevPage = "";
     let currentPage = "";
 
-    window.addEventListener('popstate', () => {
+    window.addEventListener("popstate", () => {
         if (prevPage) {
             displayPage(prevPage, true);
         }
@@ -60,13 +60,13 @@ $(async() => {
 
     function displayPage(nextPage, disablePush) {
         history.pushState(null, null, null);
-        for(const view of Object.values(views)) {
+        for (const view of Object.values(views)) {
             view.hide();
         }
 
         views[nextPage].render();
         views[nextPage].show();
-        
+
         if (disablePush) {
             prevPage = "";
             currentPage = nextPage;

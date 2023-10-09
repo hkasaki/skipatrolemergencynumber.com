@@ -1,5 +1,5 @@
 
-// Copyright (c) Hirotaka KASAKI 
+// Copyright (c) Hirotaka KASAKI
 
 export default class Registry {
     constructor(dataSource) {
@@ -37,7 +37,7 @@ export default class Registry {
 
             // set group
             // TODO: NOT TESTED YET
-            for(const groupKey of (resort.Groups || [])) {
+            for (const groupKey of (resort.Groups || [])) {
                 this.groupIdToResortKeyList[groupKey].push(resortKey);
             }
         }
@@ -46,7 +46,7 @@ export default class Registry {
             const resort = this.resorts[resortKey];
             if (resort.Parent) {
                 const parent = this.resorts[resort.Parent];
-                if (! parent.Children) {
+                if (!parent.Children) {
                     parent.Children = [resortKey];
                 }
                 else {
@@ -76,7 +76,7 @@ export default class Registry {
             const resort = this.resorts[resortKey];
 
             const coord = this._getResortCoord(resort);
-            if( typeof coord !== 'undefined') {
+            if ( typeof coord !== "undefined") {
                 const distance = geolib.getDistance(this.location, coord);
                 const isToDisplay = isDisplayForZoomLevel(resort, zoomLevel);
                 const isDisplayed = this.displayedKeySet.has(resortKey);
@@ -87,11 +87,11 @@ export default class Registry {
                     });
                 }
 
-                if (isToDisplay && ! isDisplayed) {
+                if (isToDisplay && !isDisplayed) {
                     listener.onDisplayResortFound(resort, coord);
                     this.displayedKeySet.add(resortKey);
                 }
-                else if(!isToDisplay && isDisplayed){
+                else if (!isToDisplay && isDisplayed) {
                     listener.onRemoveResortFound(resort, coord);
                     this.displayedKeySet.delete(resortKey);
                 }
@@ -112,7 +112,7 @@ export default class Registry {
     getNearestResorts(number) {
         for (const resort of this.nearestResorts) {
             const coord = this._getResortCoord(resort.resort);
-            if( typeof coord !== 'undefined') {
+            if ( typeof coord !== "undefined") {
                 resort.distance = geolib.getDistance(this.location, coord);
             }
         }
@@ -135,4 +135,4 @@ export default class Registry {
     setLocation(location) {
         this.location = location;
     }
-};
+}

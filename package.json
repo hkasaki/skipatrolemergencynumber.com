@@ -4,7 +4,8 @@
   "description": "site skipatrolemergencynumber.com development",
   "main": "index.js",
   "scripts": {
-    "lint": "./node_modules/eslint/bin/eslint.js",
+    "lint": "./node_modules/eslint/bin/eslint.js site/",
+    "lint:fix": "./node_modules/eslint/bin/eslint.js site/ --fix",
     "build": "python ./build.py",
     "deploy:staging": "aws s3 sync site/ s3://test.skipatrolemergencynumber.com/",
     "deploy:production": "aws s3 sync site/ s3://skipatrolemergencynumber.com/",

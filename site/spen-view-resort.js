@@ -1,7 +1,7 @@
 
 /* jshint esversion: 8 */
 
-// Copyright (c) Hirotaka KASAKI 
+// Copyright (c) Hirotaka KASAKI
 
 import { Messages } from "./spen-i18n.js";
 
@@ -29,7 +29,7 @@ export default class ViewResort {
             jqList.hide();
             jqNotFound.show();
         }
-    };
+    }
 
     resortSelected(resort) {
         this.resortSelectedSetTitle(resort);
@@ -49,22 +49,22 @@ export default class ViewResort {
         $("#resortview-tel-list").children().remove();
         const appendPhone = (img, phoneTitle, phoneNumber) => {
             $("#resortview-tel-list").append(
-                '<div class="resortview-tel-list-element">' +
+                "<div class=\"resortview-tel-list-element\">" +
                   `<a href="tel:${phoneNumber}">` +
                     `<img class="phone-image" src="${img}">` +
                     `<div class="phone-title">${phoneTitle}</div>` +
                     `<div class="phone-number">${phoneNumber}</div>` +
-                  '</a>' +
-                '</div>'
+                  "</a>" +
+                "</div>"
             );
         };
         if (resort.Tel && resort.Tel.Emergency) {
-            appendPhone("/image/icoon-mono-00105-plus-D0D0D0.svg", this.message('CallEmergency'), resort.Tel.Emergency);
+            appendPhone("/image/icoon-mono-00105-plus-D0D0D0.svg", this.message("CallEmergency"), resort.Tel.Emergency);
         }
         if (resort.Tel && resort.Tel.Info) {
-            appendPhone("/image/icoon-mono-00022-info-D0D0D0.svg", this.message('CallInformation'), resort.Tel.Info);
+            appendPhone("/image/icoon-mono-00022-info-D0D0D0.svg", this.message("CallInformation"), resort.Tel.Info);
         }
-        $("#resortview-tel-not-found-message").text(this.message('TelNotFound'));
+        $("#resortview-tel-not-found-message").text(this.message("TelNotFound"));
         this.displayListOrMessage($("#resortview-tel-list"), $("#resortview-tel-not-found"));
     }
 
@@ -72,34 +72,34 @@ export default class ViewResort {
         $("#resortview-link-list").children().remove();
         const appendLink = (img, linkTitle, url) => {
             $("#resortview-link-list").append(
-                '<div class="resortview-link-list-element">' +
-                  `<a href="${url}">` + 
+                "<div class=\"resortview-link-list-element\">" +
+                  `<a href="${url}">` +
                     `<img class="link-image" src="${img}">` +
                     `<div class="link-title">${linkTitle}</div>` +
-                  '</a>' +
-                '</div>'
+                  "</a>" +
+                "</div>"
             );
         };
         if (resort.Website && resort.Website.ja) {
-            appendLink("/image/icoon-mono-14258-snowman-D0D0D0.svg", this.message('OfficialSiteJa'), resort.Website.ja);
+            appendLink("/image/icoon-mono-14258-snowman-D0D0D0.svg", this.message("OfficialSiteJa"), resort.Website.ja);
         }
         if (resort.Website && resort.Website.en) {
-            appendLink("/image/icoon-mono-14258-snowman-D0D0D0.svg", this.message('OfficialSiteEn'), resort.Website.en);
+            appendLink("/image/icoon-mono-14258-snowman-D0D0D0.svg", this.message("OfficialSiteEn"), resort.Website.en);
         }
         if (resort.Website && resort.Website.common) {
-            appendLink("/image/icoon-mono-14258-snowman-D0D0D0.svg", this.message('OfficialSiteCommon'), resort.Website.common);
+            appendLink("/image/icoon-mono-14258-snowman-D0D0D0.svg", this.message("OfficialSiteCommon"), resort.Website.common);
         }
         if (resort.ExtWebsite && resort.ExtWebsite.en) {
-            appendLink("/image/icoon-mono-14258-snowman-D0D0D0.svg", this.message('ExternalSite'), resort.ExtWebsite.en);
+            appendLink("/image/icoon-mono-14258-snowman-D0D0D0.svg", this.message("ExternalSite"), resort.ExtWebsite.en);
         }
-        $("#resortview-link-not-found-message").text(this.message('LinkNotFound'));
+        $("#resortview-link-not-found-message").text(this.message("LinkNotFound"));
         this.displayListOrMessage($("#resortview-link-list"), $("#resortview-link-not-found"));
     }
 
     resortSelectedSetTree(resort) {
         const t = (obj) => {
             return this.i18n.t(obj);
-        }
+        };
         $("#resortview-tree-content").children().remove();
         let hasFamily = false;
         let html = "";
@@ -110,26 +110,26 @@ export default class ViewResort {
             const id = `resort-resortview-tree-${parentResort.Id}`;
             html += `<ul><li><div id="${id}" class="resortview-tree-link">${t(parentResort.Name)}</div>`;
             reservedProc.push( () => {
-                $("#"+id).on('click', () => { this.resortSelected(parentResort); });
+                $(`#${id}`).on("click", () => { this.resortSelected(parentResort); });
             });
         }
         html += `<ul><li>${t(resort.Name)}`;
         if (resort.Children) {
             hasFamily = true;
-            html += '<ul>';
+            html += "<ul>";
             for (const childKey of resort.Children) {
                 const childResort = this.registry.getFromKey(childKey);
                 const id = `resort-resortview-tree-${childResort.Id}`;
                 html += `<li><div id="${id}" class="resortview-tree-link">${t(childResort.Name)}</div></li>`;
                 reservedProc.push( () => {
-                    $("#"+id).on('click', () => { this.resortSelected(childResort); });
+                    $(`#${id}`).on("click", () => { this.resortSelected(childResort); });
                 });
             }
-            html += '</ul>';
+            html += "</ul>";
         }
-        html += '</li></ul>';
+        html += "</li></ul>";
         if (resort.Parent) {
-            html += '</li></ul>';
+            html += "</li></ul>";
         }
 
         if (hasFamily) {

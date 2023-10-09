@@ -1,5 +1,5 @@
 
-// Copyright (c) Hirotaka KASAKI 
+// Copyright (c) Hirotaka KASAKI
 
 export default class DataSource {
     constructor(isDebug) {
@@ -67,10 +67,10 @@ export default class DataSource {
                 }
             }
         };
-        const ret = await (await fetch(`/JP.json?v={version}`)).json();
-        if(this.isDebug) {
+        const ret = await(await fetch(`/JP.json?v=${version}`)).json();
+        if (this.isDebug) {
             Object.assign(ret, testData);
         }
         return ret;
     }
-};
+}

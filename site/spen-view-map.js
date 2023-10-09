@@ -1,7 +1,7 @@
 
 /* jshint esversion: 8 */
 
-// Copyright (c) Hirotaka KASAKI 
+// Copyright (c) Hirotaka KASAKI
 
 import Map from "./spen-map.js";
 
@@ -10,7 +10,7 @@ export default class ViewMap {
         this.i18n = i18n;
         this.registry = registry;
         this.resortView = resortView;
-        this.map = new Map('mapview-map');
+        this.map = new Map("mapview-map");
     }
 
     async prmInitialize(location) {
@@ -28,16 +28,16 @@ export default class ViewMap {
     render() {
         const nearestResorts = this.registry.getNearestResorts(5);
         $("#mapview-list").children().remove();
-        for(const resortInfo of nearestResorts) {
+        for (const resortInfo of nearestResorts) {
             const resort = resortInfo.resort;
             const id = `resort-mapview-${resort.Id}`;
             const name = this.i18n.t(resort.Name);
             $("#mapview-list").append(
                 `<div class="mapview-list-element" id="${id}">` +
                   `<div class="mapview-list-element-resort-name">${name}</div>` +
-                `</div>`
+                "</div>"
             );
-            $("#"+id).on('click', ()=>{
+            $(`#${id}`).on("click", ()=>{
                 this.resortView.resortSelected(resort);
             });
         }
@@ -49,7 +49,7 @@ export default class ViewMap {
             onDisplayResortFound(resort, pos) {
                 self.map.addResortMarker(pos, resort.Id);
             }
-            onRemoveResortFound(resort, pos) {
+            onRemoveResortFound(resort, _pos) {
                 self.map.removeMarker(resort.Id);
             }
         }

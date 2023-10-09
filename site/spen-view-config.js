@@ -1,7 +1,7 @@
 
 /* jshint esversion: 8 */
 
-// Copyright (c) Hirotaka KASAKI 
+// Copyright (c) Hirotaka KASAKI
 
 import { setPreferredLanguageToCookie, getPageUrlForLanguage } from "./spen-i18n.js";
 
@@ -10,7 +10,6 @@ export default class ViewConfig {
         this.i18n = i18n;
         this.registry = registry;
 
-        const self = this;
         $("#configview-language-select").change(function() {
             const lang = $(this).val();
             setPreferredLanguageToCookie(lang);

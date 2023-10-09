@@ -1,5 +1,5 @@
 
-// Copyright (c) Hirotaka KASAKI 
+// Copyright (c) Hirotaka KASAKI
 
 export default class Map {
     constructor(id) {
@@ -7,10 +7,10 @@ export default class Map {
         this.map = null;
         this.markerLayer = null;
 
-        this.blackStroke = new ol.style.Stroke({color: 'black', width: 2});
+        this.blackStroke = new ol.style.Stroke({color: "black", width: 2});
         this.selfStyle = new ol.style.Style({
             image: new ol.style.Circle({
-                fill: new ol.style.Fill({color: 'lightgreen'}),
+                fill: new ol.style.Fill({color: "lightgreen"}),
                 stroke: this.blackStroke,
                 radius: 10,
             })
@@ -18,7 +18,7 @@ export default class Map {
 
         this.resortStyle = new ol.style.Style({
             image: new ol.style.RegularShape({
-                fill: new ol.style.Fill({color: 'red'}),
+                fill: new ol.style.Fill({color: "red"}),
                 stroke: this.blackStroke,
                 points: 3,
                 radius: 10,
@@ -34,8 +34,8 @@ export default class Map {
                 radius2: 0,
                 angle: 0,
             })
-        })
-        this.onMoveEnd = (center, zoomLevel) => {};
+        });
+        this.onMoveEnd = (_center, _zoomLevel) => {};
         this.keyFeatureMap = {};
         this.centerFeature = null; // working
     }
@@ -54,7 +54,7 @@ export default class Map {
                 })
             ],
             view: new ol.View({
-                projection: 'EPSG:4326',
+                projection: "EPSG:4326",
                 center: pos,
                 zoom: zoomLevel,
                 maxZoom: 15
@@ -64,13 +64,13 @@ export default class Map {
             source: new ol.source.Vector()
         });
         this.map.addLayer(this.markerLayer);
-        this.map.on('moveend', () => {
+        this.map.on("moveend", () => {
             const center = this.map.getView().getCenter();
             this.onMoveEnd(center, this.map.getView().getZoom());
         });
         this.map.getView().on("change:center", () => {
             const center = this.map.getView().getCenter();
-            if (! this.centerFeature) {
+            if (!this.centerFeature) {
                 this.centerFeature = new ol.Feature();
                 this.centerFeature.setStyle(this.centerStyle);
                 this.markerLayer.getSource().addFeature(this.centerFeature);
@@ -105,4 +105,4 @@ export default class Map {
     setOnMoveEnd(f) {
         this.onMoveEnd = f;
     }
-};
+}

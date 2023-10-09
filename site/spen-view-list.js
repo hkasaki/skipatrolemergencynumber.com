@@ -1,7 +1,7 @@
 
 /* jshint esversion: 8 */
 
-// Copyright (c) Hirotaka KASAKI 
+// Copyright (c) Hirotaka KASAKI
 
 import { Messages } from "./spen-i18n.js";
 
@@ -14,15 +14,15 @@ export default class ViewList {
         const self = this;
         $("#listview-group-select").change(function() {
             const groupId = $(this).val();
-            if (groupId !== '#none') {
+            if (groupId !== "#none") {
                 const resorts = registry.getGroupChildren(groupId);
                 self.resetGroupMember(resorts);
             }
         });
-    
+
         $("#listview-group-member-select").change(function() {
             const resortId = $(this).val();
-            if (resortId !== '#none') {
+            if (resortId !== "#none") {
                 const resort = registry.getFromKey(resortId);
                 viewResort.resortSelected(resort);
             }
@@ -35,8 +35,8 @@ export default class ViewList {
 
     render() {
         $("#listview-group-select").children().remove();
-        $("#listview-group-select").append(`<option value="#none">${this.message('SelectGroup')}</option>`);
-        for(const group of this.registry.getGroupList()) {
+        $("#listview-group-select").append(`<option value="#none">${this.message("SelectGroup")}</option>`);
+        for (const group of this.registry.getGroupList()) {
             $("#listview-group-select").append(
                 `<option value="${group.Id}">${this.i18n.t(group.Name)}</option>`
             );
@@ -46,7 +46,7 @@ export default class ViewList {
 
     resetGroupMember(resorts) {
         $("#listview-group-member-select").children().remove();
-        $("#listview-group-member-select").append(`<option value="#none">${this.message('SelectSkiResort')}</option>`);
+        $("#listview-group-member-select").append(`<option value="#none">${this.message("SelectSkiResort")}</option>`);
         for (const resort of resorts) {
             $("#listview-group-member-select").append(
                 `<option value="${resort.Id}">${this.i18n.t(resort.Name)}</option>`
