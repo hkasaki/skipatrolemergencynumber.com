@@ -33,8 +33,8 @@ $(async() => {
 
     const i18n = new I18n();
     i18n.setLanguage(getCurrentPageLanguage());
-    const dataSource = new DataSource(true); // debug
-    const location = await dataSource.prmGetCurrentLocation(version);
+    const dataSource = new DataSource(false, version); // debug: false
+    const location = await dataSource.prmGetCurrentLocation();
     const registry = new Registry(dataSource);
 
     const viewResort = new ViewResort(i18n, registry);

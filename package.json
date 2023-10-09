@@ -9,7 +9,7 @@
     "build:data": "python ./build.py",
     "build:site:development": "./node_modules/.bin/webpack --mode development",
     "build:site:production": "./node_modules/.bin/webpack --mode production",
-    "deploy:development": "aws s3 sync site/ s3://test.skipatrolemergencynumber.com/",
+    "deploy:staging": "aws s3 sync site/ s3://test.skipatrolemergencynumber.com/",
     "deploy:production": "aws s3 sync site/ s3://skipatrolemergencynumber.com/",
     "local-server": "./node_modules/.bin/http-server site -c-1 -p 3000"
   },

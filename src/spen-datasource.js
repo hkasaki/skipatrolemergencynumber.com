@@ -2,8 +2,9 @@
 // Copyright (c) Hirotaka KASAKI
 
 export default class DataSource {
-    constructor(isDebug) {
+    constructor(isDebug, version) {
         this.isDebug = isDebug;
+        this.version = version;
     }
 
     async prmGetCurrentLocation() {
@@ -16,7 +17,7 @@ export default class DataSource {
         });
     }
 
-    async prmGetResortDatabase(version) {
+    async prmGetResortDatabase() {
         const testData = {
             "Ochanomizu": {
                 "Name": {
@@ -67,9 +68,9 @@ export default class DataSource {
                 }
             }
         };
-        const ret = await(await fetch(`/JP.json?v=${version}`)).json();
+        const ret = await(await fetch(`/JP.json?v=${this.version}`)).json();
         if (this.isDebug) {
-            Object.assign(ret, testData);
+            Object.assign(ret.Resorts, testData);
         }
         return ret;
     }
