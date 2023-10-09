@@ -7,8 +7,8 @@ import Feature from "ol/Feature";
 import {Stroke, Style, Circle, Fill, RegularShape} from "ol/style";
 import {Tile, Vector as layerVector} from "ol/layer";
 import {defaults} from "ol/interaction";
-import {Point} from "ol/geom"
-import {OSM, Vector as sourceVector} from "ol/source"
+import {Point} from "ol/geom";
+import {OSM, Vector as sourceVector} from "ol/source";
 
 const ol = {
     Map: olMap,

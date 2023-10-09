@@ -65,8 +65,10 @@ header {
     width: 2.6em;
 }
 
+/*
 #main-content {
 }
+*/
 
 #mapview {
     display: grid;
