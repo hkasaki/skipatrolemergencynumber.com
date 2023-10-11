@@ -12,6 +12,8 @@
     "build:site:production": "./node_modules/.bin/webpack --mode production",
     "deploy:staging": "aws s3 sync site/ s3://test.skipatrolemergencynumber.com/ --delete",
     "deploy:production": "aws s3 sync site/ s3://skipatrolemergencynumber.com/ --delete",
+    "invalidate:staging": "aws cloudfront create-invalidation --distribution-id E3DQ3WGASIK1X7 --paths \"/*\"",
+    "invalidate:production": "aws cloudfront create-invalidation --distribution-id E1DTWKFV979OO8 --paths \"/*\"",
     "local-server": "./node_modules/.bin/http-server site -c-1 -p 3000",
     "dev-server": "./node_modules/.bin/webpack-dev-server --mode=development --port 3000"
   },

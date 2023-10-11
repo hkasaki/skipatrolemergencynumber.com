@@ -288,7 +288,7 @@
         "en": "Dynasty Resort"
       },
       "Website": {
-        "ja": "http://www.dynasty-resort.jp/"
+        "ja": "https://www.dynasty-resort.jp/"
       },
       "Tel": {
         "Info": "011-376-2611"
@@ -688,7 +688,7 @@
         "en": "https://niseko-moiwa.jp/"
       },
       "Tel": {
-        "Info": "0136−59−2511",
+        "Info": "0136-59-2511",
         "Emergency": "0136-59-2511"
       },
       "Location": {
@@ -1091,7 +1091,7 @@
         "en": "Pippu"
       },
       "Website": {
-        "ja": "http://www.town.pippu.hokkaido.jp/ski/top.html"
+        "ja": "https://www.town.pippu.hokkaido.jp/ski/top.html"
       },
       "Tel": {
         "Info": "0166-85-3056"
@@ -1147,7 +1147,7 @@
         "en": "Shibetsu Hinata"
       },
       "Website": {
-        "ja": "https://www.city.shibetsu.lg.jp/www/contents/1225177419765/"
+        "ja": "https://www.city.shibetsu.lg.jp/soshikikarasagasu/gasshukunosato_supotsusuishinka/shiminsupotsukakari/1351.html"
       },
       "Tel": {
         "Info": "0165-26-2577"
@@ -1371,7 +1371,7 @@
         "en": "Memuro Sky Park"
       },
       "Website": {
-        "ja": "http://shin-arashiyama.jp/ski/"
+        "ja": "https://shin-arashiyama.jp/ski/"
       },
       "Tel": {
         "Info": "0155-65-2121",
@@ -1400,7 +1400,7 @@
         "en": "Monbetsu Oyama"
       },
       "Website": {
-        "ja": "https://mombetsu.jp/sisetu/sports/monbetu_2.html"
+        "ja": "https://www.montaikyo.com/ski/"
       },
       "Tel": {
         "Info": "0158-24-7099"
@@ -1625,7 +1625,7 @@
         "en": "Appi"
       },
       "Website": {
-        "ja": "https://www.appi.co.jp/ski/"
+        "ja": "https://www.appi.co.jp/snow-mountain-resort/"
       },
       "Tel": {
         "Info": "0195-73-5111"
@@ -1887,8 +1887,8 @@
         "ja": "国見平スキー場",
         "en": "Kunimidaira"
       },
-      "Tel": {
-        "Info": "0197-52-6611"
+      "Website": {
+        "ja": "https://kunimidaira.com/"
       },
       "Location": {
         "Country": "JP",
@@ -1913,7 +1913,7 @@
         "en": "Hiraniwa Kogen"
       },
       "Website": {
-        "ja": "http://hiraniwa.com/resort/ski/"
+        "ja": "https://hiraniwa.com/resort/ski/"
       },
       "Tel": {
         "Info": "0194-72-2944"
@@ -2435,7 +2435,7 @@
         "Country": "JP",
         "ZipCode": "990-2301",
         "Address": {
-          "ja": "山形市蔵王温泉土合709−1"
+          "ja": "山形市蔵王温泉土合709-1"
         },
         "Geometry": {
           "Point": {
@@ -2538,7 +2538,7 @@
         "en": "Gassan"
       },
       "Website": {
-        "ja": "https://gassankk.co.jp/gassan/information/"
+        "ja": "https://gassankk.co.jp/gassanski/"
       },
       "Tel": {
         "Info": "0237-75-2025",
@@ -3943,7 +3943,7 @@
         "en": "Tenjindaira Ski Resort"
       },
       "Website": {
-        "ja": "http://www.tanigawadake-rw.com/gelande/"
+        "ja": "https://www.tanigawadake-rw.com/tenjindaira/"
       },
       "Tel": {
         "Info": "0278-72-3575"
@@ -4558,6 +4558,9 @@
       "Website": {
         "ja": "https://sanosaka.jp/"
       },
+      "Tel": {
+        "Info": "0261-75-2452"
+      },
       "Location": {
         "Country": "JP",
         "ZipCode": "399-9211",
@@ -5134,7 +5137,7 @@
       "Location": {
         "Country": "JP",
         "Address": {
-          "ja": "上田市武石上本入2386-1"
+          "ja": "長野県上田市武石上本入2386-1"
         },
         "Geometry": {
           "Point": {
@@ -5268,7 +5271,7 @@
         "en": "Mt. KOSHA"
       },
       "Website": {
-        "ja": "http://x-jam.jp/"
+        "ja": "https://x-jam.jp/"
       },
       "Location": {
         "ZoomLevelThreshold": 11,
@@ -5288,7 +5291,7 @@
         "en": "Yomase Onsen"
       },
       "Website": {
-        "ja": "http://x-jam.jp/"
+        "ja": "https://x-jam.jp/"
       },
       "Tel": {
         "Info": "0269-33-2377",
@@ -5318,7 +5321,7 @@
         "en": "X-JAM Takaifuji"
       },
       "Website": {
-        "ja": "http://x-jam.jp/"
+        "ja": "https://x-jam.jp/"
       },
       "Tel": {
         "Info": "0269-33-6252",
@@ -5577,10 +5580,7 @@
         "en": "Kaidakogen MIA Ski Resort"
       },
       "Website": {
-        "ja": "https://asumo-g.co.jp/mia-ski/"
-      },
-      "ExtWebsite": {
-        "en": "https://japan-skiguide.com/guide/htm/r0849ens.htm"
+        "ja": "https://miaski-resort.com/"
       },
       "Tel": {
         "Info": "0264-44-1111"
@@ -5780,7 +5780,7 @@
         "en": "Shirakaba 2in1"
       },
       "Website": {
-        "ja": "http://www.2in1.jp/"
+        "ja": "https://whitebirch.co.jp/shirakaba2in1/"
       },
       "Tel": {
         "Info": "0267-55-6868",
@@ -5809,7 +5809,7 @@
         "en": "Shirakaba Kogen Kokusai"
       },
       "Website": {
-        "ja": "https://shirakaba-ski.jp/"
+        "ja": "https://whitebirch.co.jp/kokusai/"
       },
       "Tel": {
         "Info": "0267-55-6000",
@@ -6377,37 +6377,6 @@
         "Gifu"
       ]
     },
-    "HidaFunayama": {
-      "Name": {
-        "ja": "ひだ舟山スノーリゾート アルコピア",
-        "en": "Hida Funayama Snow Resort Arkopia"
-      },
-      "Website": {
-        "ja": "http://arkopia.jp/"
-      },
-      "ExtWebsite": {
-        "en": "https://japan-skiguide.com/guide/htm/r0875ens.htm"
-      },
-      "Tel": {
-        "Info": "0577-52-2219"
-      },
-      "Location": {
-        "Country": "JP",
-        "ZipCode": "509-3214",
-        "Address": {
-          "ja": "岐阜県高山市久々野町無数河4141"
-        },
-        "Geometry": {
-          "Point": {
-            "Lng": 137.261255,
-            "Lat": 36.03924
-          }
-        }
-      },
-      "Groups": [
-        "Gifu"
-      ]
-    },
     "HidaHounokiDaira": {
       "Name": {
         "ja": "飛騨ほおのき平スキー場",
@@ -6497,7 +6466,7 @@
         "en": "Shokawa Kogen"
       },
       "Website": {
-        "ja": "http://www.hidatakayama.ne.jp/shokawa/sukijo.html"
+        "ja": "https://shokawakogen.com/sukijo.html"
       },
       "Tel": {
         "Info": "05769-2-2222"
@@ -6525,7 +6494,7 @@
         "en": "Chausuyama Kogen"
       },
       "Website": {
-        "ja": "http://www.chausuyama.jp/"
+        "ja": "https://www.chausuyama.jp/"
       },
       "Tel": {
         "Info": "0536-87-2345"
@@ -7270,7 +7239,7 @@
         "en": "Chateau Shiozawa"
       },
       "Website": {
-        "ja": "http://www.chateau-shiozawa.jp/"
+        "ja": "https://www.chateau-shiozawa.jp/"
       },
       "Tel": {
         "Info": "025-782-1191"
@@ -7639,7 +7608,7 @@
         "en": "Taira Snow Park"
       },
       "Website": {
-        "ja": "http://www1.tst.ne.jp/skitaira/"
+        "ja": "https://gokayama-taira.com/"
       },
       "Tel": {
         "Info": "0763-66-2911",
@@ -7781,7 +7750,7 @@
         "en": "Takanbo"
       },
       "Website": {
-        "ja": "http://www.gokayama-kankou.com/contents2.html"
+        "ja": "http://www.gokayama-kankou.com/contents2/"
       },
       "Tel": {
         "Info": "0763-67-3766"
@@ -7867,6 +7836,9 @@
       "Name": {
         "ja": "大倉岳高原スキー場",
         "en": "Okuradake Kogen"
+      },
+      "Website": {
+        "ja": "https://komatsu-ccf.com/sports/ookuradake_kogen_ski_resort/"
       },
       "Tel": {
         "Info": "0761-67-1426"
@@ -8180,8 +8152,8 @@
         "en": "Up Kannabe"
       },
       "Website": {
-        "ja": "http://www.kannabe.co.jp/",
-        "en": "http://www.kannabe.co.jp/en/"
+        "ja": "https://www.kannabe.co.jp/",
+        "en": "https://www.kannabe.co.jp/en/"
       },
       "Tel": {
         "Info": "0796-45-1545",
@@ -8815,38 +8787,13 @@
         "Hiroshima"
       ]
     },
-    "Nekoyama": {
-      "Name": {
-        "ja": "スノーリゾート猫山",
-        "en": "Snow Resort Nekoyama"
-      },
-      "Website": {
-        "ja": "http://nekoyama.net/win/"
-      },
-      "Tel": {
-        "Info": "0824-84-2311"
-      },
-      "Location": {
-        "Country": "JP",
-        "ZipCode": "729-5611",
-        "Address": {
-          "ja": "広島県庄原市西城町三坂5190-50"
-        },
-        "Geometry": {
-          "Point": {
-            "Lng": 133.199289,
-            "Lat": 35.04081
-          }
-        }
-      },
-      "Groups": [
-        "Hiroshima"
-      ]
-    },
     "DogoyamaKogen": {
       "Name": {
         "ja": "道後山高原スキー場",
         "en": "Dogoyama Kogen"
+      },
+      "Website": {
+        "ja": "https://www.dogoyamakogen.com/"
       },
       "Tel": {
         "Info": "0824-84-2105"
@@ -9016,8 +8963,8 @@
         "en": "Kuma"
       },
       "Website": {
-        "ja": "http://www.kumax.co.jp/",
-        "en": "http://www.kumax.co.jp/en/"
+        "ja": "https://kumax.co.jp/",
+        "en": "https://kumax.co.jp/page/en.html"
       },
       "Tel": {
         "Info": "0892-21-0100"

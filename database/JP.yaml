@@ -254,8 +254,7 @@ Resorts:
       ja: ダイナスティスキーリゾート
       en: Dynasty Resort
     Website:
-      # HTTPS無し
-      ja: http://www.dynasty-resort.jp/
+      ja: https://www.dynasty-resort.jp/
     Tel:
       Info: 011-376-2611
       # 2021/11/10 フォームで問い合わせ
@@ -570,7 +569,7 @@ Resorts:
       en: https://niseko-moiwa.jp/
     Tel:
       # モイワリゾーツオペレーション合同会社
-      Info: 0136−59−2511
+      Info: 0136-59-2511
       # https://www.niseko.ne.jp/ja/niseko-rules/
       Emergency: 0136-59-2511
     Location:
@@ -885,8 +884,7 @@ Resorts:
       ja: ぴっぷスキー場
       en: Pippu
     Website:
-      # HTTPS無し
-      ja: http://www.town.pippu.hokkaido.jp/ski/top.html
+      ja: https://www.town.pippu.hokkaido.jp/ski/top.html
     Tel:
       Info: 0166-85-3056
       # TODO: SNS, tel
@@ -929,7 +927,7 @@ Resorts:
       ja: 士別市 日向スキー場
       en: Shibetsu Hinata
     Website:
-      ja: https://www.city.shibetsu.lg.jp/www/contents/1225177419765/
+      ja: https://www.city.shibetsu.lg.jp/soshikikarasagasu/gasshukunosato_supotsusuishinka/shiminsupotsukakari/1351.html
     Tel:
       Info: 0165-26-2577
       # TODO: tel(後回し)
@@ -1098,7 +1096,7 @@ Resorts:
       ja: メムロスキー場
       en: Memuro Sky Park
     Website:
-      ja: http://shin-arashiyama.jp/ski/
+      ja: https://shin-arashiyama.jp/ski/
     Tel:
       Info: 0155-65-2121
       # http://shin-arashiyama.jp/ski/about/
@@ -1120,7 +1118,7 @@ Resorts:
       ja: 紋別市大山スキー場
       en: Monbetsu Oyama
     Website:
-      ja: https://mombetsu.jp/sisetu/sports/monbetu_2.html
+      ja: https://www.montaikyo.com/ski/
     Tel:
       Info: 0158-24-7099
       # TODO: tel(後回し)
@@ -1140,6 +1138,7 @@ Resorts:
       ja: むつ市釜臥山スキー場
       en: Mutsu Kamafuseyama
     Website:
+      # HTTPS無し
       ja: http://mutsu-taikyo.jp/ski.html
     Tel:
       Info: 0175-24-1881
@@ -1251,6 +1250,7 @@ Resorts:
       ja: 八甲田国際スキー場
       en: Hakkouda Kokusai Ski Area
     Website:
+      # HTTPS無し
       ja: http://www.hakkouda-p.com/cn21/pg110.html
     Tel:
       # 2021/11/14 八甲田ロープウェーにメールで問い合わせ, 八甲田パークのほうが運営会社とのことで11/15 問い合わせ, 回答あり
@@ -1323,7 +1323,7 @@ Resorts:
       ja: 安比高原スキー場
       en: Appi
     Website:
-      ja: https://www.appi.co.jp/ski/
+      ja: https://www.appi.co.jp/snow-mountain-resort/
     Tel:
       Info: 0195-73-5111
       # 2021/10/21 フォームで問い合わせ, 教えてくれなかったが直通ダイヤルはあるっぽい
@@ -1565,13 +1565,13 @@ Resorts:
     Name:
       ja: 国見平スキー場
       en: Kunimidaira
-    #Website:
-      # ほぼ情報は無いが...
-      # クロスプロジェクトの北日本リゾートが指定管理者に。新サイト不明
-      #ja: https://www.city.oshu.iwate.jp/soshiki/195/
-    Tel:
+    Website:
+      ja: https://kunimidaira.com/
+      # クロスプロジェクトの北日本リゾートが指定管理者に
+    #Tel:
+      # 2021の投稿では 0197-52-6611 ということだったが、新サイトには記載が無い
       # https://twitter.com/KunimidairaSki/status/1463788585883037697
-      Info: 0197-52-6611
+      # Info: 0197-52-6611
     Location:
       Country: JP
       ZipCode: 029-4300
@@ -1590,7 +1590,7 @@ Resorts:
       en: Hiraniwa Kogen
     Website:
       # HTTPS無し
-      ja: http://hiraniwa.com/resort/ski/
+      ja: https://hiraniwa.com/resort/ski/
     Tel:
       # TODO: tel(後回し)
       Info: 0194-72-2944
@@ -1785,6 +1785,7 @@ Resorts:
       ja: ジュネス栗駒スキー場
       en: Jeunesse Kurikoma
     Website:
+      # HTTPS無し
       ja: http://www.jeunesse-ski.com/
     Tel:
       Info: 0182-47-3101
@@ -1872,6 +1873,7 @@ Resorts:
       ja: みやぎ蔵王白石スキー場
       en: Miyagi Zao Shiroishi
     Website:
+      # HTTPS無し
       ja: http://nposki.com/
     # NPO法人 不忘アザレア
     Tel:
@@ -1896,6 +1898,7 @@ Resorts:
       ja: すみかわスノーパーク
       en: Miyagi Zao Sumikawa
     Website:
+      # HTTPS無し
       ja: http://www.zao-sumikawa.jp/winter/
     Tel:
       Info: 0224-87-2610
@@ -1985,7 +1988,6 @@ Resorts:
       ja: 蔵王温泉スキー場
       en: Zao Onsen
     Website:
-      # HTTPSのサイト無し
       ja: https://www.zao-ski.or.jp/
     Tel:
       # 蔵王索道協会
@@ -1996,7 +1998,7 @@ Resorts:
       Country: JP
       ZipCode: 990-2301
       Address:
-        ja: 山形市蔵王温泉土合709−1
+        ja: 山形市蔵王温泉土合709-1
       Geometry:
         # ロープウェイ乗り場あたり
         Point:
@@ -2035,6 +2037,7 @@ Resorts:
       ja: 蔵王ライザワールド
       en: Zao Liza
     Website:
+      # HTTPS無し
       # どこが妥当？
       ja: http://www.zaoliza.co.jp/wntr/slope/
     Tel:
@@ -2079,7 +2082,7 @@ Resorts:
       ja: 月山スキー場
       en: Gassan
     Website:
-      ja: https://gassankk.co.jp/gassan/information/
+      ja: https://gassankk.co.jp/gassanski/
     Tel:
       # 月山ペアリフト
       Info: 0237-75-2025
@@ -2192,6 +2195,7 @@ Resorts:
       ja: Asahi自然観スノーパーク
       en: Asahi Shizenkan Snow Park
     Website:
+      # HTTPS無し
       ja: http://www.shizenkan.jp/snowpark.php
     Tel:
       Info: 0237-83-7111
@@ -2307,6 +2311,7 @@ Resorts:
       ja: 星野リゾート アルツ磐梯
       en: Hoshino Resorts Alts Bandai
     Website:
+      # nekoma.co.jp にリダイレクトされる
       ja: https://www.alts.co.jp/
       en: https://www.alts.co.jp/en/
     Tel:
@@ -2419,6 +2424,7 @@ Resorts:
       ja: 二本松塩沢スキー場
       en: Nihonmatsu Shiozawa
     Website:
+      # HTTPS無し
       ja: http://tohoku-safaripark.co.jp/ski/
     Tel:
       Info: 0243-24-2845
@@ -3246,9 +3252,9 @@ Resorts:
       ja: 谷川岳天神平スキー場
       en: Tenjindaira Ski Resort
     Website:
-      ja: http://www.tanigawadake-rw.com/gelande/
+      ja: https://www.tanigawadake-rw.com/tenjindaira/
     Tel:
-      # 谷川岳ロープウエー株式会社
+      # 谷川岳ロープウエー株式会社 星野運営になっても番号は変わらないようだ
       Info: 0278-72-3575
       # 2021/10/25 メールで問い合わせ
       # TODO: 待ち
@@ -3408,8 +3414,9 @@ Resorts:
       ja: 奥志賀高原スキー場
       en: Okushiga Kogen Ski Area
     Website:
-      # HTTPSのサイト無し
+      # HTTPSのサイトは存在するがトップからのリンクがHTTPになっている
       ja: http://www.okushiga.jp/skiresort/
+      # こちらはHTTPSのサイト無し
       en: http://en.okushiga.jp/skiresort/
     Tel:
       Info: 0269-34-2225
@@ -3743,10 +3750,8 @@ Resorts:
       en: Sanosaka
     Website:
       ja: https://sanosaka.jp/
-    # 準備中
-    #Tel:
-    #  Info: 
-    #  Emergency:
+    Tel:
+      Info: 0261-75-2452
     Location:
       Country: JP
       ZipCode: 399-9211
@@ -4193,7 +4198,7 @@ Resorts:
     Location:
       Country: JP
       Address:
-        ja: 上田市武石上本入2386-1
+        ja: 長野県上田市武石上本入2386-1
       Geometry:
         Point:
           Lng: 138.112450
@@ -4295,7 +4300,7 @@ Resorts:
       ja: Mt. KOSHA
       en: Mt. KOSHA
     Website:
-      ja: http://x-jam.jp/
+      ja: https://x-jam.jp/
     Location:
       ZoomLevelThreshold: 11
       Country: JP
@@ -4311,7 +4316,7 @@ Resorts:
       ja: よませ温泉スキー場
       en: Yomase Onsen
     Website:
-      ja: http://x-jam.jp/
+      ja: https://x-jam.jp/
     Tel:
       Info: 0269-33-2377
       # 2021/10/28 フォームから問い合わせ。X-JAM高井富士も同時, 同じとの回答あり
@@ -4334,7 +4339,7 @@ Resorts:
       ja: X-JAM 高井富士
       en: X-JAM Takaifuji
     Website:
-      ja: http://x-jam.jp/
+      ja: https://x-jam.jp/
     Tel:
       Info: 0269-33-6252
       # よませ温泉に相乗りして質問, 回答あり
@@ -4492,6 +4497,7 @@ Resorts:
       en: Sakae Club
     Website:
       # HTTPS無し
+      # 2023/10/10 ★接続できない
       ja: http://sakaeclub.jp/
     Tel:
       Info: 0269-87-3355
@@ -4537,18 +4543,15 @@ Resorts:
       ja: 開田高原マイアスキー場
       en: Kaidakogen MIA Ski Resort
     Website:
-      ja: https://asumo-g.co.jp/mia-ski/
-    ExtWebsite:
-      en: https://japan-skiguide.com/guide/htm/r0849ens.htm
+      ja: https://miaski-resort.com/
     Tel:
       Info: 0264-44-1111
       # 2021/10/28 フォームから問い合わせ
-      # TODO: 待ち
+      # TODO: 待ち （運営変わった）
     Location:
       Country: JP
       ZipCode: 397-0302
       Address:
-        # アスモグループ株式会社
         ja: 長野県木曽郡木曽町開田高原西野5346-1
       Geometry:
         Point:
@@ -4698,8 +4701,7 @@ Resorts:
       ja: しらかば2in1スキー場
       en: Shirakaba 2in1
     Website:
-      # HTTPSのサイト無し
-      ja: http://www.2in1.jp/
+      ja: https://whitebirch.co.jp/shirakaba2in1/
     Tel:
       Info: 0267-55-6868
       # 2021/10/29 フォームで問い合わせ, 回答あり
@@ -4721,7 +4723,7 @@ Resorts:
       ja: 白樺高原国際スキー場
       en: Shirakaba Kogen Kokusai
     Website:
-      ja: https://shirakaba-ski.jp/
+      ja: https://whitebirch.co.jp/kokusai/
     Tel:
       Info: 0267-55-6000
       # https://townpage.goo.ne.jp/shopdetail.php?matomeid=208616888000000899
@@ -4922,6 +4924,7 @@ Resorts:
       en: Kurohime Kogen
     Website:
       # HTTPS無し
+      # トップからのリンクがHTTPになっているようだ
       ja: http://kurohime-kogen.co.jp/snow/
     Tel:
       Info: 026-255-3171
@@ -5177,6 +5180,8 @@ Resorts:
     Name:
       ja: ひだ舟山スノーリゾート アルコピア
       en: Hida Funayama Snow Resort Arkopia
+    # 2023/3で廃止
+    Status: Disabled
     Website:
       # HTTPS無し
       ja: http://arkopia.jp/
@@ -5264,8 +5269,7 @@ Resorts:
       ja: 荘川高原スキー場
       en: Shokawa Kogen
     Website:
-      # HTTPS無し
-      ja: http://www.hidatakayama.ne.jp/shokawa/sukijo.html
+      ja: https://shokawakogen.com/sukijo.html
     Tel:
       Info: 05769-2-2222
       # TODO: tel(後回し)
@@ -5286,8 +5290,7 @@ Resorts:
       ja: 茶臼山高原スキー場
       en: Chausuyama Kogen
     Website:
-      # HTTPS 無し
-      ja: http://www.chausuyama.jp/
+      ja: https://www.chausuyama.jp/
     Tel:
       # 一般財団法人茶臼山高原協会
       Info: 0536-87-2345
@@ -5875,8 +5878,7 @@ Resorts:
       ja: シャトー塩沢
       en: Chateau Shiozawa
     Website:
-      # HTTPS無し
-      ja: http://www.chateau-shiozawa.jp/
+      ja: https://www.chateau-shiozawa.jp/
     Tel:
       # 雲海ホテルシャトーテル塩沢
       Info: 025-782-1191
@@ -6167,8 +6169,7 @@ Resorts:
       ja: たいらスキー場
       en: Taira Snow Park
     Website:
-      # HTTPS無し, レンタルサーバっぽい
-      ja: http://www1.tst.ne.jp/skitaira/
+      ja: https://gokayama-taira.com/
     Tel:
       Info: 0763-66-2911
       # 2021/11/03 メールで問い合わせ, 回答あり
@@ -6212,7 +6213,6 @@ Resorts:
       ja: 立山山麓スキー場
       en: Tateyama Sanroku
     Website:
-      # HTTPS無し
       ja: https://www.tateyama36.co.jp/
     Tel:
       # 大山観光開発株式会社, 立山山麓スキーセンター
@@ -6283,7 +6283,7 @@ Resorts:
     Website:
       # HTTPS無し
       # あってる？
-      ja: http://www.gokayama-kankou.com/contents2.html
+      ja: http://www.gokayama-kankou.com/contents2/
     Tel:
       Info: 0763-67-3766
       # TODO: tel(後回し)
@@ -6351,8 +6351,9 @@ Resorts:
     Name:
       ja: 大倉岳高原スキー場
       en: Okuradake Kogen
-    # 公式サイト、URLがよくわからないのでとりあえずリンク無し
-    # https://komatsu-ccf.com/navi/ の下の方
+    Website:
+      #  (公財)小松市まちづくり市民財団
+      ja: https://komatsu-ccf.com/sports/ookuradake_kogen_ski_resort/
     Tel:
       Info: 0761-67-1426
       # TODO: tel(後回し)
@@ -6417,8 +6418,9 @@ Resorts:
     - Fukui
 
   Imajo365:
-    # 2021シーズンは営業しなかった。2022から復活
+    # 2021シーズンは営業しなかった。
     # 2022シーズンも豪雨被害により営業しない、とのこと
+    # 2023シーズンで営業再開アナウンスあり
     Status: Disabled
     Name:
       ja: 今庄365スキー場
@@ -6626,8 +6628,8 @@ Resorts:
       ja: アップかんなべ
       en: Up Kannabe
     Website:
-      ja: http://www.kannabe.co.jp/
-      en: http://www.kannabe.co.jp/en/
+      ja: https://www.kannabe.co.jp/
+      en: https://www.kannabe.co.jp/en/
     Tel:
       # 中央ゲレンデ事務所
       Info: 0796-45-1545
@@ -7139,6 +7141,8 @@ Resorts:
     Name:
       ja: スノーリゾート猫山
       en: Snow Resort Nekoyama
+    # 2023/9/1 営業休止のアナウンス
+    Status: Disabled
     Website:
       # HTTPS無し
       ja: http://nekoyama.net/win/
@@ -7163,8 +7167,8 @@ Resorts:
     Name:
       ja: 道後山高原スキー場
       en: Dogoyama Kogen
-    #Website:
-      # HTTPS無し
+    Website:
+      ja: https://www.dogoyamakogen.com/
       # i-modeサイトがあるのだが、必要な情報しかないので意外といいかもしれない(?)
       #ja: http://www.dogoyamakogen.server-shared.com/
       # 2022/11 リンク切れのため除外
@@ -7298,11 +7302,8 @@ Resorts:
       ja: 久万スキーランド
       en: Kuma
     Website:
-      # HTTPS無し
-      ja: http://www.kumax.co.jp/
-      # 英語サイトはあるのだがアップデートされていないようだ
-      # 連絡先等のために載せておく
-      en: http://www.kumax.co.jp/en/
+      ja: https://kumax.co.jp/
+      en: https://kumax.co.jp/page/en.html
     Tel:
       Info: 0892-21-0100
       # 2021/11/06 メールで問い合わせ
@@ -7368,6 +7369,7 @@ Resorts:
       ja: 五ヶ瀬ハイランドスキー場
       en: Gokase Highland
     # 台風の影響でアクセス道に被害があり2022-2023シーズンは営業しない
+    # 同上、2023-2024は営業しない
     Status: Disabled
     Website:
       # HTTPS無し
@@ -7387,4 +7389,3 @@ Resorts:
           Lat: 32.579031
     Groups:
     - Miyazaki
-
