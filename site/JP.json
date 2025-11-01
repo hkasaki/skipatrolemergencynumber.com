@@ -2877,35 +2877,6 @@
         "Fukushima"
       ]
     },
-    "Minowa": {
-      "Name": {
-        "ja": "箕輪スキー場",
-        "en": "Blue Resort Minowa"
-      },
-      "Website": {
-        "ja": "https://www.ski-minowa.jp/"
-      },
-      "Tel": {
-        "Info": "0242-64-3377",
-        "Emergency": "0242-64-3377"
-      },
-      "Location": {
-        "Country": "JP",
-        "ZipCode": "969-2751",
-        "Address": {
-          "ja": "福島県耶麻郡猪苗代町若宮 字吾妻山"
-        },
-        "Geometry": {
-          "Point": {
-            "Lng": 140.253073,
-            "Lat": 37.652446
-          }
-        }
-      },
-      "Groups": [
-        "Fukushima"
-      ]
-    },
     "Numajiri": {
       "Name": {
         "ja": "沼尻スキー場",

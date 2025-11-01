@@ -2357,6 +2357,8 @@ Resorts:
     Name:
       ja: 箕輪スキー場
       en: Blue Resort Minowa
+    Status: Disabled
+    # このドメインはアダルトサイトに買われてしまったようだ
     Website:
       ja: https://www.ski-minowa.jp/
     Tel:
