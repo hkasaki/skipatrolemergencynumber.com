@@ -4738,7 +4738,8 @@
         "en": "https://japan-skiguide.com/guide/htm/r0297ens.htm"
       },
       "Tel": {
-        "Info": "0266-62-5666"
+        "Info": "0266-62-5666",
+        "Emergency": "090-2499-3446"
       },
       "Location": {
         "Country": "JP",
@@ -7069,7 +7070,7 @@
         "en": "Seki Onsen"
       },
       "Website": {
-        "ja": "http://www.sekionsen.com/"
+        "ja": "http://www.sekionsen.jp/"
       },
       "Tel": {
         "Info": "0255-82-2316"
