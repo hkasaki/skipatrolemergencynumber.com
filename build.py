@@ -62,6 +62,7 @@ with open(db_target_path, mode='w', encoding='utf-8') as out_json:
 
         # verify resorts
         for resort_key, resort in data_in['Resorts'].items():
+            #print(f"verifying {resort_key}...")
             verifyResort(resort_key, resort)
             if 'Status' in resort and resort['Status'] == 'Disabled':
                 continue
